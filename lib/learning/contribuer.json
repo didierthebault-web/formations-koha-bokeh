@@ -1,10 +1,361 @@
 {
   "courseId": "contribuer",
   "title": "Contribuer au portail BIBDOC",
-  "description": "Les données pédagogiques détaillées ne sont pas incluses dans cette exportation publique.",
-  "status": "Corpus non inclus",
-  "duration": "",
+  "description": "Préparer une actualité ou une sélection documentaire, la mettre en forme dans BOKEH et la soumettre à la validation du portail.",
+  "status": "Parcours proposé — à valider",
+  "revision": "2026-10-28.1",
+  "duration": "À définir",
   "software": "BOKEH",
-  "requiredResources": [],
-  "modules": []
+  "symbol": "B",
+  "tagline": "CONTRIBUER AU PORTAIL DOCUMENTAIRE",
+  "primarySource": "charte",
+  "requiredResources": [
+    "charte",
+    "admin-bokeh",
+    "guide-bokeh"
+  ],
+  "sourceVersions": {
+    "charte": "initial-charte",
+    "admin-bokeh": "initial-admin-bokeh",
+    "guide-bokeh": "initial-guide-bokeh"
+  },
+  "modules": [
+    {
+      "id": "preparer-contribution",
+      "title": "Préparer sa contribution",
+      "description": "Choisir la rubrique et préparer un contenu fiable, utile et adapté au lectorat.",
+      "part": "Ligne éditoriale locale",
+      "scope": "Ligne éditoriale locale",
+      "lessons": [
+        {
+          "id": "choisir-contribution",
+          "title": "Choisir entre actualité, nouveauté et sélection",
+          "objective": "Identifier la fonction du contenu avant de commencer à rédiger.",
+          "paragraphs": [
+            "La charte distingue les actualités, les nouveautés, les sélections dans les collections et les sélections thématiques. Une actualité présente une information récente et vérifiée ; une sélection construit un ensemble documentaire cohérent.",
+            "Les sélections dans les collections partent des fonds disponibles dans une ou plusieurs bibliothèques. Les sélections thématiques proposent un éclairage transversal sur un sujet. La nouveauté renvoie à une acquisition récente ou à un document nouvellement catalogué dans les termes du document fourni."
+          ],
+          "steps": [
+            "Définir ce que le public doit découvrir ou comprendre.",
+            "Identifier s’il s’agit d’une information récente ou d’une valorisation de documents.",
+            "Choisir la rubrique prévue par l’organisation éditoriale.",
+            "Vérifier la complémentarité avec les contenus déjà proposés dans le réseau."
+          ],
+          "takeaway": "Choisir une rubrique, c’est choisir la fonction du contenu pour le lecteur.",
+          "sources": [
+            {
+              "resourceId": "charte",
+              "page": 1
+            },
+            {
+              "resourceId": "charte",
+              "page": 2
+            },
+            {
+              "resourceId": "charte",
+              "page": 3
+            },
+            {
+              "resourceId": "charte",
+              "page": 4
+            }
+          ],
+          "scope": "Contribution éditoriale",
+          "warning": "La charte décrit une durée de nouveauté gérée dans Koha ; ce cours n’en confirme pas l’activation actuelle et ne transforme pas ce paramétrage en consigne de rédaction.",
+          "figure": null,
+          "table": {
+            "headers": [
+              "Type de contenu",
+              "Point de départ"
+            ],
+            "rows": [
+              [
+                "Actualité",
+                "Information récente et vérifiée"
+              ],
+              [
+                "Nouveauté",
+                "Acquisition récente ou document nouvellement catalogué"
+              ],
+              [
+                "Sélection dans les collections",
+                "Ressources possédées dans les fonds du réseau"
+              ],
+              [
+                "Sélection thématique",
+                "Sujet ou problématique documentaire transversale"
+              ]
+            ]
+          },
+          "exercise": null
+        },
+        {
+          "id": "rediger-actualite",
+          "title": "Préparer un titre et un texte concis",
+          "objective": "Rédiger une actualité claire avant de travailler sa mise en forme.",
+          "paragraphs": [
+            "La charte recommande un titre qui identifie le sujet, un texte concis et une information vérifiée. Elle donne un repère de 300 à 500 mots pour une actualité ; il s’agit d’une recommandation du document, pas d’un compteur bloquant ni d’une durée de formation.",
+            "Le ton attendu est neutre, clair et professionnel. Le jargon doit être expliqué, les sources citées et la structure contributrice identifiée. Toute publication est datée et comporte le nom de la structure selon la charte."
+          ],
+          "steps": [
+            "Définir le message principal et son intérêt pour le lectorat.",
+            "Choisir un titre explicite contenant les mots utiles au sujet.",
+            "Rédiger un texte structuré et supprimer les informations secondaires inutiles.",
+            "Vérifier dates, noms, faits et sources.",
+            "Identifier la structure contributrice et prévoir les crédits des illustrations."
+          ],
+          "takeaway": "La qualité de l’information et la clarté du message précèdent les choix visuels.",
+          "sources": [
+            {
+              "resourceId": "charte",
+              "page": 1
+            },
+            {
+              "resourceId": "charte",
+              "page": 5
+            }
+          ],
+          "scope": "Rédaction locale",
+          "warning": "Le repère de longueur vient de la charte fournie. L’exercice BOKEH propose un titre et deux paragraphes : cette consigne d’atelier ne constitue pas une règle de longueur pour toutes les publications.",
+          "figure": null,
+          "table": null,
+          "exercise": null
+        },
+        {
+          "id": "coordonner-contribution",
+          "title": "Vérifier les sources et coordonner la contribution",
+          "objective": "Préparer un contenu fiable dans un environnement partagé.",
+          "paragraphs": [
+            "Une contribution engage l’image du réseau documentaire. La charte demande de respecter la ligne éditoriale, de vérifier les informations et de coordonner les publications pour éviter doublons ou chevauchements.",
+            "La vérification porte aussi sur les éléments que l’on peut diffuser et sur les droits associés aux contenus. En cas de doute, la charte prévoit de consulter l’administrateur du portail. Cette leçon renvoie aux fonctions et au circuit de validation, sans reprendre les noms du document comme un annuaire actualisé."
+          ],
+          "steps": [
+            "Identifier les sources qui étayent l’information à publier.",
+            "Relire les faits et distinguer ce qui reste à confirmer.",
+            "Vérifier que le contenu peut être diffusé dans le portail.",
+            "Coordonner avec les contributeurs ou le référent concernés.",
+            "Transmettre au bon interlocuteur les points à vérifier avant publication."
+          ],
+          "takeaway": "Un contenu prêt à rédiger doit aussi être fiable, diffusable et coordonné.",
+          "sources": [
+            {
+              "resourceId": "charte",
+              "page": 1
+            },
+            {
+              "resourceId": "charte",
+              "page": 5
+            },
+            {
+              "resourceId": "charte",
+              "page": 6
+            }
+          ],
+          "scope": "Coordination éditoriale",
+          "warning": "La fréquence du comité éditorial n’est pas arrêtée dans la charte. Aucun calendrier ni délai de validation n’est ajouté ici.",
+          "figure": null,
+          "table": null,
+          "exercise": null
+        }
+      ]
+    },
+    {
+      "id": "creer-actualite",
+      "title": "Créer et mettre en forme un article",
+      "description": "Choisir l’emplacement, renseigner les propriétés et structurer le texte.",
+      "part": "Procédures BOKEH communes",
+      "scope": "Procédures BOKEH communes",
+      "lessons": [
+        {
+          "id": "localiser-article",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "localiser-article"
+          }
+        },
+        {
+          "id": "proprietes-article",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "proprietes-article"
+          }
+        },
+        {
+          "id": "editeur-texte",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "editeur-texte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "illustrer-contribution",
+      "title": "Ajouter des images et des liens accessibles",
+      "description": "Choisir les visuels, renseigner les alternatives et contrôler les destinations.",
+      "part": "Accessibilité et crédits",
+      "scope": "Accessibilité et crédits",
+      "lessons": [
+        {
+          "id": "images-accessibles",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "images-accessibles"
+          }
+        },
+        {
+          "id": "liens",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "liens"
+          }
+        }
+      ]
+    },
+    {
+      "id": "selection-documentaire",
+      "title": "Présenter une sélection documentaire",
+      "description": "Construire un ensemble de documents et l’accompagner d’un texte utile.",
+      "part": "Valorisation des collections",
+      "scope": "Valorisation des collections",
+      "lessons": [
+        {
+          "id": "introduire-selection",
+          "title": "Donner un fil conducteur à la sélection",
+          "objective": "Expliquer au lecteur le sens de l’ensemble documentaire.",
+          "paragraphs": [
+            "La charte propose des sélections cohérentes, accompagnées d’un texte introductif. Pour les sélections dans les collections, elle donne des repères de 5 à 20 documents et de 100 à 150 mots pour l’introduction. Ces repères sont ceux du document de travail et ne sont pas des limites techniques de BOKEH.",
+            "Une sélection thématique vise un sujet ou une actualité en croisant les ressources du réseau. La charte demande d’examiner la transversalité ou la complémentarité avec les autres bibliothèques, plutôt que de juxtaposer des références sans explication."
+          ],
+          "steps": [
+            "Définir le sujet et le public visé.",
+            "Choisir des documents qui répondent à un même fil conducteur.",
+            "Vérifier leur cohérence et leur complémentarité dans le réseau.",
+            "Rédiger une introduction qui explique le choix de l’ensemble.",
+            "Préparer l’insertion des notices dans le contenu éditorial."
+          ],
+          "takeaway": "L’introduction donne du sens aux notices réunies dans la sélection.",
+          "sources": [
+            {
+              "resourceId": "charte",
+              "page": 2
+            },
+            {
+              "resourceId": "charte",
+              "page": 3
+            },
+            {
+              "resourceId": "charte",
+              "page": 4
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 35
+            }
+          ],
+          "scope": "Choix éditorial local",
+          "warning": "",
+          "figure": null,
+          "table": null,
+          "exercise": null
+        },
+        {
+          "id": "constituer-panier",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "constituer-panier"
+          }
+        },
+        {
+          "id": "inserer-kiosque",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "inserer-kiosque"
+          }
+        }
+      ]
+    },
+    {
+      "id": "relire-soumettre",
+      "title": "Relire et demander la validation",
+      "description": "Vérifier le contenu et suivre le circuit local avant la publication.",
+      "part": "Relecture avant publication",
+      "scope": "Relecture avant publication",
+      "lessons": [
+        {
+          "id": "previsualiser-valider",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "previsualiser-valider"
+          }
+        },
+        {
+          "id": "maintenir-contenus",
+          "sharedFrom": {
+            "courseId": "administrer-bokeh",
+            "lessonId": "maintenir-contenus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "atelier-contribution",
+      "title": "Réaliser une contribution complète",
+      "description": "Réinvestir les étapes du parcours dans l’atelier décrit par le support.",
+      "part": "Exercice proposé à valider",
+      "scope": "Exercice proposé à valider",
+      "lessons": [
+        {
+          "id": "atelier-contributeur",
+          "title": "Préparer une actualité puis la soumettre à relecture",
+          "objective": "Mettre en pratique la rédaction, l’illustration et la demande de validation.",
+          "paragraphs": [
+            "L’atelier de la diapositive 27 du support BOKEH propose de créer une actualité : un article dans la bonne catégorie, un titre, deux paragraphes, des styles, une image et un lien, puis une prévisualisation et une demande de validation.",
+            "Pour ce parcours complémentaire proposé, cet atelier est repris comme situation de mise en pratique. Il ne constitue pas la preuve qu’une formation spécifique aux contributeurs a déjà été dispensée ou approuvée. Le travail s’effectue dans l’environnement de formation prévu et sous le contrôle du formateur."
+          ],
+          "steps": [
+            "Préparer le sujet, les sources et le rattachement éditorial.",
+            "Créer l’article dans l’emplacement prévu et rédiger le titre et deux paragraphes.",
+            "Structurer le texte avec les styles disponibles.",
+            "Insérer une image dont les droits, crédits et alternative sont vérifiés.",
+            "Ajouter un lien explicite et tester sa destination.",
+            "Prévisualiser, relire puis demander la validation selon le circuit local."
+          ],
+          "takeaway": "La contribution se termine par une vérification et une demande de validation, pas par une publication improvisée.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 27
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 20
+            },
+            {
+              "resourceId": "charte",
+              "page": 5
+            },
+            {
+              "resourceId": "charte",
+              "page": 7
+            }
+          ],
+          "scope": "Environnement de formation",
+          "warning": "",
+          "figure": null,
+          "table": null,
+          "exercise": {
+            "label": "Atelier repris du support BOKEH — adaptation proposée",
+            "task": "Préparer une actualité avec un titre, deux paragraphes, une image et un lien ; appliquer les styles, prévisualiser et demander la validation.",
+            "source": {
+              "resourceId": "admin-bokeh",
+              "page": 27
+            },
+            "check": "Le formateur vérifie la cohérence, les sources, le rattachement, les crédits, les alternatives et les liens. La plateforme ne crée ni ne publie cet article dans BIBDOC."
+          }
+        }
+      ]
+    }
+  ],
+  "complements": "Parcours complémentaire proposé à partir de la charte et des séquences pertinentes de BOKEH. Sa durée et sa validation restent à définir. Les procédures communes sont partagées avec le parcours Administrer BOKEH ; les documents originaux sont conservés."
 }

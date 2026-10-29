@@ -1,10 +1,946 @@
 {
   "courseId": "administrer-koha",
   "title": "Administrer KOHA",
-  "description": "Les données pédagogiques détaillées ne sont pas incluses dans cette exportation publique.",
-  "status": "Corpus non inclus",
-  "duration": "",
-  "software": "KOHA",
-  "requiredResources": [],
-  "modules": []
+  "description": "Accompagner les agents, exploiter les données et préparer les interventions dans un SIGB mutualisé. Un parcours pour agir au bon niveau et dans le bon périmètre.",
+  "status": "Adaptation pédagogique — à valider",
+  "revision": "2026-10-28.1",
+  "duration": "1 jour",
+  "symbol": "K",
+  "tagline": "LE SIGB MUTUALISÉ",
+  "requiredResources": [
+    "admin-koha"
+  ],
+  "sourceVersions": {
+    "admin-koha": "initial-admin-koha"
+  },
+  "modules": [
+    {
+      "id": "role-referent",
+      "title": "Comprendre son rôle de référent",
+      "description": "Accompagner sa structure et identifier les décisions qui engagent le catalogue mutualisé.",
+      "part": "Local · coordination · central",
+      "scope": "Local · coordination · central",
+      "lessons": [
+        {
+          "id": "referent-fonctionnel",
+          "title": "Accompagner les utilisateurs de sa structure",
+          "objective": "Distinguer le rôle fonctionnel local de l’administration technique du serveur.",
+          "paragraphs": [
+            "L’administrateur DRAC est le référent fonctionnel de Koha pour sa structure. Il aide les agents, accompagne leurs pratiques et transmet les besoins à l’administration centrale. Son périmètre porte sur l’environnement documentaire local, dans le cadre des règles communes.",
+            "Le support distingue les catalogueurs, le référent DRAC et l’administrateur central. Ce dernier traite notamment les demandes de paramétrage et les relations avec le fournisseur et le SNUM. Être référent local ne signifie pas administrer techniquement le serveur."
+          ],
+          "steps": [
+            "Recueillir le besoin ou la difficulté rencontrée par un utilisateur.",
+            "Vérifier si la réponse relève des pratiques et des données de la structure.",
+            "Accompagner la résolution dans son périmètre.",
+            "Transmettre les demandes qui nécessitent une décision centrale."
+          ],
+          "takeaway": "Accompagner, contrôler, diagnostiquer et coordonner sont les fonctions centrales du référent local.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 2
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 3
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 5
+            }
+          ],
+          "scope": "Autonomie locale",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "niveaux-intervention",
+          "title": "Choisir le bon niveau d’intervention",
+          "objective": "Situer une action entre autonomie locale, coordination et administration centrale.",
+          "paragraphs": [
+            "Dans un catalogue mutualisé, le fait de voir une fonction dans Koha ne suffit pas à autoriser son utilisation. Il faut identifier la portée de la modification et les structures qu’elle pourrait affecter.",
+            "Le support distingue la gestion courante et les contrôles locaux, les demandes d’évolution à coordonner et les paramètres structurants administrés au niveau central. Une demande de localisation ou de valeur commune se transmet au responsable SIGB ; elle ne crée pas une autonomie locale de paramétrage."
+          ],
+          "steps": [
+            "Décrire précisément la modification envisagée.",
+            "Identifier les données et les structures concernées.",
+            "Comparer l’action au périmètre d’habilitation et aux règles du réseau.",
+            "Si la portée est commune ou incertaine, demander coordination ou décision centrale."
+          ],
+          "takeaway": "Une habilitation technique et une autorisation fonctionnelle sont deux conditions distinctes.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 5
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 6
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 7
+            }
+          ],
+          "scope": "Local · coordination · central",
+          "warning": "",
+          "exercise": null,
+          "figure": "gouvernance",
+          "table": {
+            "headers": [
+              "Niveau",
+              "Exemples du support"
+            ],
+            "rows": [
+              [
+                "Autonomie locale",
+                "Accompagnement, contrôles et exploitation des rapports autorisés"
+              ],
+              [
+                "Coordination",
+                "Demande de localisation, de valeur autorisée ou d’évolution du référentiel"
+              ],
+              [
+                "Administration centrale",
+                "Grilles MARC communes, préférences globales et paramètres structurants"
+              ]
+            ]
+          },
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": "parametres",
+      "title": "Comprendre les paramètres communs",
+      "description": "Lire les référentiels et formuler une demande d’évolution sans modifier les règles partagées.",
+      "part": "Administration centrale",
+      "scope": "Administration centrale",
+      "lessons": [
+        {
+          "id": "parametres-grilles",
+          "title": "Paramètres de base et grilles MARC",
+          "objective": "Comprendre comment le paramétrage structure le travail des catalogueurs.",
+          "paragraphs": [
+            "Les paramètres définissent les règles et les données avec lesquelles Koha fonctionne. Les grilles MARC précisent notamment les champs, sous-champs, répétabilités et liens avec les autorités ; elles organisent aussi l’interface de saisie.",
+            "Le support réserve la création et la modification des paramètres communs et des grilles au responsable SIGB. Le référent local peut consulter le référentiel, relever une difficulté et proposer une évolution à étudier au niveau central."
+          ],
+          "steps": [
+            "Identifier le paramètre ou la grille concernée par le besoin.",
+            "Décrire la difficulté avec un exemple de notice ou de saisie.",
+            "Repérer si plusieurs structures sont susceptibles d’être concernées.",
+            "Transmettre une proposition au responsable SIGB avant toute modification commune."
+          ],
+          "takeaway": "Comprendre une grille permet de formuler un besoin ; cela n’autorise pas à la modifier localement.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 6
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 7
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 8
+            }
+          ],
+          "scope": "Administration centrale",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "bibliotheques-types",
+          "title": "Bibliothèques et types de documents",
+          "objective": "Comprendre les rattachements et les catégories utilisés dans l’installation.",
+          "paragraphs": [
+            "Une bibliothèque représente un établissement, un site ou une unité documentaire. Les exemplaires, les utilisateurs et certaines règles sont rattachés à ce niveau d’organisation. Les notices bibliographiques restent partagées.",
+            "Dans l’installation décrite, les types de documents servent principalement aux conditions de mise à disposition des exemplaires. Le support place la création ou la modification des types communs sous la responsabilité du responsable SIGB. La diapositive de création de bibliothèque illustre les informations attendues ; elle ne constitue pas une délégation de création au référent local."
+          ],
+          "steps": [
+            "Vérifier les bibliothèques et types déjà définis.",
+            "Identifier le rattachement ou la condition de mise à disposition recherchée.",
+            "Éviter de proposer un doublon d’une catégorie commune existante.",
+            "Décrire le besoin et le transmettre au responsable SIGB."
+          ],
+          "takeaway": "Les codes et catégories du référentiel ne sont pas propres à une seule DRAC.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 7
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 9
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 10
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 11
+            }
+          ],
+          "scope": "Coordination nécessaire",
+          "warning": "Les indications de code de bibliothèque de la diapositive 10 sont celles du support fourni. Elles ne sont pas présentées ici comme une vérification de toutes les versions de Koha.",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "valeurs-autorisees",
+          "title": "Reconnaître une valeur autorisée manquante",
+          "objective": "Qualifier une demande de localisation ou de valeur sans créer une variante improvisée.",
+          "paragraphs": [
+            "Une valeur autorisée propose une liste prédéfinie plutôt qu’une saisie libre. Le support cite notamment les langues, les pays et les codes internes. Dans le réseau, ces listes participent à l’harmonisation des notices et exemplaires.",
+            "Lorsqu’une localisation manque, le référent commence par identifier la liste et le contexte de saisie. La création ou la modification d’une valeur commune est une demande de coordination, conformément aux règles de paramétrage exposées dans le support."
+          ],
+          "steps": [
+            "Reproduire la situation et repérer le champ ou sous-champ concerné.",
+            "Contrôler les valeurs disponibles et la bonne grille de saisie.",
+            "Décrire la valeur souhaitée et son usage local.",
+            "Demander la création ou l’évolution selon le circuit du réseau."
+          ],
+          "takeaway": "Une valeur absente se qualifie et se demande ; elle ne se remplace pas par une pratique locale non harmonisée.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 5
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 7
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 12
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 38
+            }
+          ],
+          "scope": "Coordination nécessaire",
+          "warning": "",
+          "exercise": {
+            "label": "Exercice du support",
+            "task": "Une localisation de la DRAC n’apparaît pas à la création d’un exemplaire. Identifier la valeur autorisée concernée et déterminer qui doit intervenir.",
+            "source": {
+              "resourceId": "admin-koha",
+              "page": 38
+            },
+            "check": "Faire vérifier les choix par le formateur. Cet exercice se réalise dans une base de test ; aucun accès à Koha n’est exécuté depuis la plateforme."
+          },
+          "figure": null,
+          "table": null,
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": "rapports",
+      "title": "Produire des rapports guidés et SQL",
+      "description": "Passer d’un besoin de contrôle à une liste de résultats compréhensible.",
+      "part": "Selon habilitation",
+      "scope": "Selon habilitation",
+      "lessons": [
+        {
+          "id": "besoin-rapport",
+          "title": "Définir le besoin avant de créer un rapport",
+          "objective": "Préciser les données, les critères et le périmètre du résultat.",
+          "paragraphs": [
+            "Les rapports interrogent les données enregistrées dans Koha pour produire des listes, des contrôles et des statistiques. Ils peuvent concerner les collections, les exemplaires, les adhérents, les prêts ou la qualité des notices.",
+            "Le support distingue les rapports assistés et ceux construits en SQL. Avant de choisir l’outil, il faut préciser ce que représente une ligne, les colonnes nécessaires et la bibliothèque concernée. Cette clarification est une préparation pédagogique du besoin, pas une nouvelle règle de paramétrage."
+          ],
+          "steps": [
+            "Formuler la question à laquelle le résultat doit répondre.",
+            "Identifier les données et les colonnes attendues.",
+            "Définir les critères et le périmètre de bibliothèque.",
+            "Choisir un rapport existant, l’assistant ou le SQL selon le besoin et les droits."
+          ],
+          "takeaway": "Un rapport utile commence par une question et un périmètre explicites.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 13
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 17
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 20
+            }
+          ],
+          "scope": "Rapports autorisés",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "assistant-rapports",
+          "title": "Utiliser l’assistant de rapports guidés",
+          "objective": "Se repérer dans la création d’un rapport assisté.",
+          "paragraphs": [
+            "Les diapositives 14 à 16 présentent les écrans de l’assistant de rapports guidés. Leur lecture doit être rapprochée des menus et des autorisations de l’installation utilisée pour la formation.",
+            "L’assistant accompagne la construction d’un rapport à partir des choix proposés dans l’interface. Les captures sont conservées comme illustrations ; cette leçon n’invente pas les options qui ne sont pas décrites textuellement dans le support."
+          ],
+          "steps": [
+            "Ouvrir la fonctionnalité Rapports autorisée dans votre environnement.",
+            "Choisir l’assistant de rapports guidés présenté dans le support.",
+            "Renseigner les choix proposés en fonction du besoin défini.",
+            "Examiner les colonnes et les résultats avant de conserver ou réutiliser le rapport."
+          ],
+          "takeaway": "Les résultats d’un assistant se contrôlent avec la même attention que ceux d’une requête SQL.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 13
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 14
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 15
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 16
+            }
+          ],
+          "scope": "Selon habilitation",
+          "warning": "",
+          "exercise": null,
+          "figure": "rapport-guide",
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "rapport-sql",
+          "title": "Créer un rapport SQL paramétré",
+          "objective": "Comprendre l’exemple du support et les limites de sa réutilisation.",
+          "paragraphs": [
+            "Le support décrit l’attribution d’un nom explicite au rapport, son classement éventuel et la saisie d’une requête. Un paramètre peut demander à l’utilisateur de sélectionner sa bibliothèque au moment de l’exécution.",
+            "L’exemple de la diapositive 18 recherche des notices comportant un champ 606 et joint leurs exemplaires et bibliothèques. Avec ces jointures, le résultat porte sur les notices qui ont des exemplaires rattachés au site choisi : il ne décrit pas automatiquement toutes les notices sans exemplaire. Cette précision est une lecture de la requête fournie.",
+            "La mention de l’IA dans le support ne garantit pas la validité d’une requête produite. La plateforme ne génère ni n’exécute de SQL dans Koha ; l’exemple ci-dessous est reproduit à des fins d’analyse et doit être vérifié dans l’environnement de test."
+          ],
+          "steps": [
+            "Définir un nom et un besoin explicites.",
+            "Faire vérifier les tables, jointures, critères et paramètres de la requête.",
+            "Tester dans l’environnement prévu avec des données dont le résultat est connu.",
+            "Contrôler le périmètre par bibliothèque et le sens des colonnes.",
+            "Conserver le rapport selon les habilitations et règles du réseau."
+          ],
+          "takeaway": "Une requête obtenue par copie ou avec une IA doit être comprise et testée avant réutilisation.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 17
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 18
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 19
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 39
+            }
+          ],
+          "scope": "Selon habilitation",
+          "warning": "Exemple source, non certifié pour votre version installée. Le filtre sur les métadonnées MARC et la présence des exemplaires peuvent limiter le résultat. Aucun résultat fictif ni exécution réelle n’est fourni.",
+          "exercise": {
+            "label": "Exercice du support",
+            "task": "Préparer un rapport sur les notices comportant 856$u avec une colonne de site de rattachement ; expliquer le résultat et son export.",
+            "source": {
+              "resourceId": "admin-koha",
+              "page": 39
+            },
+            "check": "Faire vérifier les choix par le formateur. Cet exercice se réalise dans une base de test ; aucun accès à Koha n’est exécuté depuis la plateforme."
+          },
+          "figure": null,
+          "table": null,
+          "code": "SELECT DISTINCT\n    b.biblionumber AS \"Numéro de notice\",\n    b.title AS \"Titre\",\n    br.branchname AS \"Site de rattachement\"\n\nFROM biblio b\n\nJOIN biblio_metadata bm\n    ON bm.biblionumber = b.biblionumber\n\nJOIN items i\n    ON i.biblionumber = b.biblionumber\n\nJOIN branches br\n    ON br.branchcode = i.homebranch\n\nWHERE\n    bm.metadata REGEXP '<datafield[^>]*tag=\"606\"'\n\n    AND i.homebranch = <<Bibliothèque|branches>>\n\nORDER BY\n    b.title;"
+        }
+      ]
+    },
+    {
+      "id": "statistiques",
+      "title": "Exploiter les statistiques",
+      "description": "Choisir les critères d’analyse et interpréter les résultats.",
+      "part": "Rapports autorisés",
+      "scope": "Rapports autorisés",
+      "lessons": [
+        {
+          "id": "assistant-statistiques",
+          "title": "Construire une analyse avec l’assistant statistiques",
+          "objective": "Choisir une période et des axes d’analyse cohérents.",
+          "paragraphs": [
+            "L’assistant statistiques propose des formulaires pour sélectionner les données, les critères de regroupement et la période. Selon les modules de l’installation, le support évoque circulation, adhérents, collections, acquisitions et catalogue.",
+            "L’utilisateur choisit les critères des lignes et colonnes. Le résultat doit ensuite être interprété selon le périmètre retenu : une activité par bibliothèque, une répartition de collections ou une période de prêts ne répondent pas à la même question."
+          ],
+          "steps": [
+            "Choisir l’objet de l’analyse et la période utile.",
+            "Sélectionner les critères et les regroupements proposés.",
+            "Examiner les lignes, colonnes et filtres retenus.",
+            "Contrôler le résultat avant de le communiquer ou de le comparer."
+          ],
+          "takeaway": "Un chiffre doit toujours être accompagné de son périmètre et de sa période.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 20
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 21
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 22
+            }
+          ],
+          "scope": "Rapports autorisés",
+          "warning": "",
+          "exercise": null,
+          "figure": "statistiques",
+          "table": null,
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": "doublons",
+      "title": "Dédoublonner les notices",
+      "description": "Comparer les descriptions et les exemplaires avant une fusion habilitée.",
+      "part": "Selon procédure du réseau",
+      "scope": "Selon procédure du réseau",
+      "lessons": [
+        {
+          "id": "comparer-doublons",
+          "title": "Identifier et comparer un doublon",
+          "objective": "Distinguer un doublon d’une édition ou d’un support différent.",
+          "paragraphs": [
+            "Plusieurs structures peuvent posséder le même document sans nécessiter plusieurs notices bibliographiques. Le contrôle des doublons vise à conserver une description commune et des exemplaires rattachés aux bonnes structures.",
+            "Le support recommande de comparer les notices et les exemplaires avant toute fusion ou suppression. Une ressemblance de titre ne suffit pas pour décider ; les identifiants et les caractéristiques du document doivent être examinés."
+          ],
+          "steps": [
+            "Rechercher les notices susceptibles de décrire le même document.",
+            "Comparer titre, auteurs et identifiants disponibles.",
+            "Vérifier les éditions et supports représentés.",
+            "Examiner les exemplaires et les structures rattachés.",
+            "Déterminer la suite avec la procédure du catalogue mutualisé."
+          ],
+          "takeaway": "Ne pas supprimer immédiatement une notice repérée comme doublon.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 23
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 24
+            }
+          ],
+          "scope": "Contrôle local · coordination",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "fusionner-notices",
+          "title": "Préparer et contrôler une fusion",
+          "objective": "Suivre les étapes illustrées sans dépasser son habilitation.",
+          "paragraphs": [
+            "Le support illustre la sélection des notices en doublon, le choix de la notice de référence et la fusion. Il demande que l’opération suive la procédure du réseau.",
+            "Choisir la référence implique d’examiner la qualité des descriptions et les informations à conserver. Les données d’exemplaire et leur rattachement sont à contrôler après l’opération ; la présence du bouton de fusion ne détermine pas, à elle seule, le droit de l’utiliser."
+          ],
+          "steps": [
+            "Confirmer que les notices décrivent le même document.",
+            "Vérifier l’autorisation d’effectuer la fusion.",
+            "Sélectionner les notices et choisir la référence selon la procédure prévue.",
+            "Examiner les informations à conserver avant de valider.",
+            "Contrôler la notice finale et les exemplaires rattachés."
+          ],
+          "takeaway": "La fusion se prépare et se contrôle ; elle ne se réduit pas au choix d’un bouton.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 23
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 24
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 25
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 26
+            }
+          ],
+          "scope": "Selon habilitation et procédure",
+          "warning": "",
+          "exercise": null,
+          "figure": "fusion",
+          "table": null,
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": "lots",
+      "title": "Traiter les données par lots",
+      "description": "Constituer un ensemble précis et tester la transformation avant la production.",
+      "part": "Test et coordination",
+      "scope": "Test et coordination",
+      "lessons": [
+        {
+          "id": "constituer-lot",
+          "title": "Constituer et contrôler le lot",
+          "objective": "S’assurer que seules les notices attendues seront concernées.",
+          "paragraphs": [
+            "Le traitement par lot applique une même modification à plusieurs notices. Sa fiabilité dépend d’abord de la sélection des données à traiter.",
+            "Le support présente trois moyens de fournir les numéros de notices : un fichier d’identifiants, une liste existante dans Koha ou une saisie de numéros. Une erreur de sélection peut étendre une modification à des notices qui ne devaient pas être concernées."
+          ],
+          "steps": [
+            "Définir le critère de sélection et le résultat attendu.",
+            "Préparer les identifiants via le fichier, la liste ou la saisie disponible.",
+            "Contrôler le nombre de notices et examiner le lot.",
+            "Vérifier que le type de notices correspond à l’outil et au modèle choisis."
+          ],
+          "takeaway": "La première protection d’un traitement par lot est une sélection exacte.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 27
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 28
+            }
+          ],
+          "scope": "Selon habilitation",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "modele-marc",
+          "title": "Préparer un modèle de transformation MARC",
+          "objective": "Relier une modification attendue au modèle qui doit l’effectuer.",
+          "paragraphs": [
+            "Le support explique que les traitements de notices bibliographiques et d’autorités utilisent des modèles de modification MARC. Un modèle doit être créé avant son application au lot.",
+            "L’exemple illustré ajoute une mention de provenance en 300$a à des notices sélectionnées. Il présente la récupération des numéros de notices depuis un rapport SQL puis les écrans de transformation. La mention est celle de l’exemple source, pas une consigne à appliquer à tout le catalogue."
+          ],
+          "steps": [
+            "Décrire le champ, le sous-champ et la modification attendue.",
+            "Préparer ou sélectionner le modèle correspondant.",
+            "Contrôler les notices auxquelles le modèle sera appliqué.",
+            "Tester la transformation dans la base de test et comparer les données avant/après."
+          ],
+          "takeaway": "Un modèle agit sur un ensemble de notices : vérifier ensemble la règle et la sélection.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 29
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 30
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 31
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 32
+            }
+          ],
+          "scope": "Test et coordination",
+          "warning": "",
+          "exercise": null,
+          "figure": "transformation",
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "securiser-lot",
+          "title": "Valider un traitement avant la production",
+          "objective": "Préparer la vérification et faire préciser les ambiguïtés de l’exercice.",
+          "paragraphs": [
+            "Le support impose un test préalable pour un import ou une modification en masse. L’accord nécessaire en production dépend notamment du périmètre autorisé et de la volumétrie ; aucun seuil chiffré universel n’est fourni.",
+            "L’exercice 3 mentionne successivement des notices exemplaires, des notices et une modification en 995$8. Cette ambiguïté, déjà relevée dans le contrôle documentaire, doit être levée avant de choisir l’outil. Elle n’est pas corrigée silencieusement dans la leçon."
+          ],
+          "steps": [
+            "Préciser le type exact de données concernées par l’exercice.",
+            "Préparer le lot et le modèle dans la base de test.",
+            "Contrôler le résultat et la portée réelle de la modification.",
+            "Obtenir l’autorisation nécessaire si le traitement dépasse le périmètre local.",
+            "Après intervention autorisée, vérifier de nouveau les données."
+          ],
+          "takeaway": "Tester, contrôler et faire autoriser selon le périmètre précèdent l’intervention en production.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 27
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 33
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 34
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 38
+            }
+          ],
+          "scope": "Test · validation selon périmètre",
+          "warning": "À clarifier : l’exercice 3 ne permet pas d’assimiler sans vérification une modification de notices bibliographiques à une modification d’exemplaires. Le champ 995$8 et l’outil attendu doivent être confirmés.",
+          "exercise": {
+            "label": "Exercice du support",
+            "task": "Préparer le traitement des 30 notices indiqué dans l’exercice 3 et identifier d’abord le type de données et l’outil attendus.",
+            "source": {
+              "resourceId": "admin-koha",
+              "page": 38
+            },
+            "check": "Faire vérifier les choix par le formateur. Cet exercice se réalise dans une base de test ; aucun accès à Koha n’est exécuté depuis la plateforme."
+          },
+          "figure": null,
+          "table": null,
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": "imports",
+      "title": "Importer des données",
+      "description": "Préparer une intégration extérieure et contrôler son résultat.",
+      "part": "Test et validation",
+      "scope": "Test et validation",
+      "lessons": [
+        {
+          "id": "preparer-import",
+          "title": "Préparer l’import de notices",
+          "objective": "Comprendre ce qui sera intégré et dans quel environnement.",
+          "paragraphs": [
+            "La fonctionnalité d’import intègre des notices issues d’une source extérieure. Le support cite notamment un autre catalogue, une ancienne base ou une opération de migration.",
+            "La préparation doit permettre de comprendre les données concernées et le résultat attendu avant le test. Le support ne fournit pas ici une procédure exhaustive de réglage de toutes les options d’import : leurs choix doivent être examinés avec les responsables de l’installation."
+          ],
+          "steps": [
+            "Identifier la source et la nature des notices à importer.",
+            "Définir le périmètre et le résultat attendu.",
+            "Préparer le test dans l’environnement prévu.",
+            "Déterminer les contrôles et l’autorisation nécessaires avant toute production."
+          ],
+          "takeaway": "Un import se prépare à partir des données et de leurs effets attendus, pas uniquement du fichier à charger.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 33
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 34
+            }
+          ],
+          "scope": "Test et coordination",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "controler-import-admin",
+          "title": "Contrôler puis faire valider l’import",
+          "objective": "Appliquer la chaîne de validation décrite dans le support.",
+          "paragraphs": [
+            "Le principe donné est : tester, contrôler, demander l’autorisation si nécessaire, intervenir en production puis vérifier le résultat. Plus la volumétrie augmente, plus le risque doit être évalué.",
+            "L’administrateur local sollicite le responsable SIGB lorsque le traitement dépasse son périmètre. Le cours ne transforme pas cette règle en un seuil de notices inventé ; il rappelle la nécessité de vérifier les responsabilités avant l’intervention."
+          ],
+          "steps": [
+            "Exécuter le test et comparer les résultats à ce qui était attendu.",
+            "Relever les anomalies et préciser les corrections nécessaires.",
+            "Demander l’accord compétent lorsque le périmètre l’exige.",
+            "Après l’import autorisé, refaire les contrôles prévus et documenter le changement."
+          ],
+          "takeaway": "Une réussite technique de l’import ne vaut pas validation documentaire de son résultat.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 6
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 33
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 34
+            }
+          ],
+          "scope": "Selon périmètre · validation centrale si nécessaire",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": "diagnostic",
+      "title": "Diagnostiquer et transmettre une anomalie",
+      "description": "Préparer une demande d’assistance exploitable et résoudre ce qui relève du local.",
+      "part": "Premier niveau local",
+      "scope": "Premier niveau local",
+      "lessons": [
+        {
+          "id": "qualifier-anomalie",
+          "title": "Qualifier une anomalie",
+          "objective": "Distinguer les données, les droits et le paramétrage.",
+          "paragraphs": [
+            "Le référent local assure le premier niveau d’assistance. Son rôle consiste à comprendre la difficulté, reproduire la situation lorsque cela est possible et vérifier les éléments accessibles.",
+            "Le support propose d’examiner quatre origines : données, droits de l’utilisateur, paramétrage de Koha ou problème nécessitant l’intervention du responsable SIGB. L’objectif n’est pas de résoudre seul tous les problèmes."
+          ],
+          "steps": [
+            "Décrire l’action effectuée et le résultat obtenu.",
+            "Reproduire le problème dans le périmètre autorisé.",
+            "Contrôler les données puis les droits et paramètres accessibles.",
+            "Résoudre uniquement ce qui relève de votre compétence et de votre autorisation.",
+            "Transmettre ce qui dépasse le premier niveau local."
+          ],
+          "takeaway": "Un diagnostic utile réduit l’incertitude avant de transmettre le problème.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 35
+            }
+          ],
+          "scope": "Autonomie locale",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "transmettre-anomalie",
+          "title": "Transmettre une demande déjà qualifiée",
+          "objective": "Rassembler les informations utiles à l’administration centrale.",
+          "paragraphs": [
+            "Le support demande d’indiquer l’utilisateur concerné, la notice ou l’exemplaire, l’action effectuée, le résultat obtenu et le résultat attendu. Ces éléments permettent au responsable SIGB de reprendre le diagnostic sans recommencer toute la description.",
+            "Les exemples distinguent une impossibilité de cataloguer, un prêt impossible, une valeur absente, un mauvais rattachement de site ou un affichage inattendu. Les vérifications proposées dépendent du cas et des droits du référent."
+          ],
+          "steps": [
+            "Identifier l’utilisateur et l’objet concernés sans collecter d’informations inutiles.",
+            "Décrire les étapes permettant d’observer le problème.",
+            "Comparer le résultat obtenu au résultat attendu.",
+            "Préciser les contrôles déjà réalisés.",
+            "Transmettre au responsable compétent selon le circuit du réseau."
+          ],
+          "takeaway": "Une demande d’assistance exploitable décrit un fait, un contexte et les contrôles déjà effectués.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 3
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 35
+            }
+          ],
+          "scope": "Local puis coordination",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": {
+            "headers": [
+              "Situation du support",
+              "Premier contrôle proposé"
+            ],
+            "rows": [
+              [
+                "Impossible de cataloguer",
+                "Compte et permissions"
+              ],
+              [
+                "Prêt impossible",
+                "Exemplaire, adhérent et règles de circulation"
+              ],
+              [
+                "Valeur absente",
+                "Liste de valeurs autorisées"
+              ],
+              [
+                "Mauvais site ou affichage inattendu",
+                "Données d’exemplaire ou données bibliographiques"
+              ]
+            ]
+          },
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": "preferences",
+      "title": "Comprendre les préférences système",
+      "description": "Identifier la portée des paramètres globaux avant d’en demander l’évolution.",
+      "part": "Administration centrale",
+      "scope": "Administration centrale",
+      "lessons": [
+        {
+          "id": "preferences-globales",
+          "title": "Identifier une préférence et sa portée",
+          "objective": "Comprendre un paramètre global sans le modifier hors habilitation.",
+          "paragraphs": [
+            "Les préférences système définissent le comportement général de Koha : le support cite circulation, catalogage, adhérents, recherche, interfaces, acquisitions et autorités. Certaines modifications peuvent affecter l’ensemble des utilisateurs.",
+            "La diapositive 5 réserve les préférences globales à l’administration centrale. Le référent doit savoir rechercher une préférence, comprendre son effet et formuler un besoin, sans considérer la capacité technique de modification comme une autorisation."
+          ],
+          "steps": [
+            "Décrire le comportement à comprendre ou à faire évoluer.",
+            "Identifier la préférence concernée et sa portée.",
+            "Évaluer les structures ou fonctions susceptibles d’être affectées.",
+            "Transmettre la demande au responsable SIGB et prévoir le test approprié."
+          ],
+          "takeaway": "Les préférences globales relèvent de l’administration centrale dans l’organisation décrite.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 5
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 6
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 36
+            }
+          ],
+          "scope": "Administration centrale",
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        }
+      ]
+    },
+    {
+      "id": "utilisateurs",
+      "title": "Gérer les utilisateurs et les permissions",
+      "description": "Associer le compte à la bonne structure et limiter les droits aux missions effectives.",
+      "part": "Selon habilitation",
+      "scope": "Selon habilitation",
+      "lessons": [
+        {
+          "id": "compte-professionnel",
+          "title": "Préparer le compte d’un agent",
+          "objective": "Distinguer l’identité du compte de ses habilitations.",
+          "paragraphs": [
+            "L’exercice du support demande de créer le compte d’un nouvel agent, de le rattacher à la bonne bibliothèque et de déterminer les permissions nécessaires pour cataloguer.",
+            "La création du compte et l’attribution des permissions sont deux opérations liées mais distinctes. Cette leçon décrit la préparation et les contrôles de l’exercice ; elle ne simule pas un formulaire Koha ni une invitation envoyée à un agent."
+          ],
+          "steps": [
+            "Identifier les missions de l’agent et sa bibliothèque de rattachement.",
+            "Renseigner les informations du compte dans l’environnement de formation.",
+            "Déterminer séparément les permissions nécessaires.",
+            "Contrôler l’accès obtenu avec le périmètre prévu."
+          ],
+          "takeaway": "Un compte professionnel doit être rattaché à la bonne structure et aux bonnes missions.",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 37
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 38
+            }
+          ],
+          "scope": "Selon habilitation",
+          "warning": "",
+          "exercise": {
+            "label": "Exercice du support",
+            "task": "Un nouvel agent rejoint une DRAC pour cataloguer : créer son compte dans la base de test, choisir le rattachement et justifier les permissions.",
+            "source": {
+              "resourceId": "admin-koha",
+              "page": 38
+            },
+            "check": "Faire vérifier les choix par le formateur. Cet exercice se réalise dans une base de test ; aucun accès à Koha n’est exécuté depuis la plateforme."
+          },
+          "figure": null,
+          "table": null,
+          "code": null
+        },
+        {
+          "id": "permissions-minimales",
+          "title": "Attribuer les permissions nécessaires",
+          "objective": "Appliquer le principe des droits minimums rappelé dans le support.",
+          "paragraphs": [
+            "Les permissions déterminent les fonctions accessibles à l’agent dans l’interface professionnelle. Le support cite notamment catalogage, circulation, rapports, outils et certaines fonctions d’administration.",
+            "Les droits doivent correspondre aux missions et aux profils habilités. Les fonctions qui engagent l’ensemble du Koha mutualisé restent réservées aux personnes autorisées ; le cours ne propose donc pas de profil universel à cocher pour tous les agents."
+          ],
+          "steps": [
+            "Lister les tâches réellement confiées à l’agent.",
+            "Choisir les permissions correspondant à ces tâches selon les profils du réseau.",
+            "Éviter les droits attribués uniquement par précaution ou commodité.",
+            "Vérifier que les opérations nécessaires sont possibles et les autres restent réservées."
+          ],
+          "takeaway": "On n’attribue pas des droits « au cas où ».",
+          "sources": [
+            {
+              "resourceId": "admin-koha",
+              "page": 5
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 37
+            },
+            {
+              "resourceId": "admin-koha",
+              "page": 38
+            }
+          ],
+          "scope": "Selon habilitation",
+          "warning": "Être administrateur ou formateur sur cette plateforme de formation ne donne aucun droit supplémentaire dans Koha.",
+          "exercise": null,
+          "figure": null,
+          "table": null,
+          "code": null
+        }
+      ]
+    }
+  ],
+  "complements": "Les exercices sont ceux du support fourni, avec renvois aux diapositives 38–39. Aucun compte, rapport SQL, import, fusion ou traitement par lot n’est exécuté dans Koha par cette plateforme."
 }

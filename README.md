@@ -1,30 +1,32 @@
-# Formations KOHA & BOKEH — code source
+# Formations KOHA & BOKEH
 
-Ce dépôt contient une exportation publique expurgée du code source et une édition statique du portail de formation, déployée avec GitHub Pages. Il ne contient ni les documents de formation, ni leurs aperçus ou textes extraits, ni les leçons détaillées, ni les données et journaux de la plateforme. Les fichiers JSON de démonstration concernés sont des structures vides.
+Plateforme de formation du réseau documentaire du ministère de la Culture, restaurée depuis les sources complètes de Sites (révision `13bcaa1ab4c1898542fd4976d4f3e254d3090339`).
 
-## Architecture
+La version GitHub Pages conserve les composants React, les styles, les icônes, le logo KOHA et le kiwi d’origine. Elle donne accès aux 4 parcours, 34 modules, 77 leçons, 9 documents avec leurs aperçus PDF, illustrations, recherche documentaire et glossaire de 41 termes. Les quatre liens de documentation officielle complètent la bibliothèque.
 
-Application React/TypeScript basée sur Vinext, avec routes serveur, base D1 compatible SQLite et stockage de fichiers R2. L’authentification et les liaisons de stockage utilisées par l’instance Sites ne sont pas exportées. Les données actives restent gérées par l’instance hébergée ; elles ne sont pas dans ce dépôt.
+Les documents et les contenus auparavant retirés de l’export sont rétablis avec l’autorisation explicite du propriétaire le 29 octobre 2026. Les originaux sont conservés sans modification ; leurs empreintes SHA-256 sont vérifiées à la compilation.
 
-La version complète de l’application requiert un environnement serveur compatible Workers/D1/R2 et une authentification configurée. GitHub Pages ne peut pas exécuter ces fonctions serveur ; le site statique publié depuis `docs/` fournit une interface publique de consultation avec parcours synthétiques, liens ouverts et glossaire interactif.
-
-## Édition GitHub Pages
-
-Le workflow `.github/workflows/pages.yml` publie le dossier `docs/` à chaque mise à jour de `main`. Dans les paramètres du dépôt, la source GitHub Pages doit être définie sur **GitHub Actions**.
-
-## Installation locale
-
-Prérequis : Node.js 22.13 ou supérieur et pnpm.
+## Construire la version GitHub Pages
 
 ```sh
-pnpm install --frozen-lockfile
-pnpm run build
+npm ci --prefix pages
+npm run build --prefix pages
 ```
 
-Ces commandes vérifient la compilation du code ; elles ne recréent pas le corpus ni la base de production. Pour héberger une instance, il faut provisionner les services serveur, configurer les variables secrètes hors du dépôt, puis intégrer un corpus pour lequel les droits de diffusion ont été vérifiés.
+`pages/build.mjs` réutilise les composants `app/platform.tsx`, `app/cataloguer.tsx`, `app/glossary.tsx` et la feuille `app/globals.css`. L’adaptateur `pages/public-api.ts` fournit les données de consultation dans le navigateur et relie les documents et illustrations aux fichiers statiques. Aucun compte fictif ni droit d’administration n’est créé.
 
-## Sécurité et diffusion
+Les sorties de compilation se trouvent dans `docs/`. Le workflow `.github/workflows/pages.yml` publie ce dossier à chaque mise à jour de `main`.
 
-Ne jamais committer de secrets, variables d’environnement réelles, données d’utilisateurs, documents internes ou fichiers de production. Les configurations sensibles sont ignorées par `.gitignore`.
+## Vérification
 
-Aucune licence de réutilisation n’est déclarée dans ce dépôt.
+`pages/test-browser.cjs` contrôle les 77 leçons, les 9 originaux téléchargeables, les aperçus PDF, les illustrations des leçons, le logo et le kiwi, la recherche, le glossaire et le menu mobile. Il utilise Playwright installé séparément ; `PLAYWRIGHT_MODULE` et `PLAYWRIGHT_EXECUTABLE` permettent d’indiquer les chemins du runtime et du navigateur.
+
+```sh
+node pages/test-browser.cjs http://127.0.0.1:8776/
+```
+
+## Application avec serveur
+
+Le code de l’application d’origine reste dans `app/`, `lib/`, `db/` et `worker/`. Les fonctions d’administration partagée, la gestion des comptes et des inscriptions nécessitent un serveur Workers/D1/R2 et une authentification configurée. GitHub Pages publie les contenus en consultation libre. Aucun compte, journal d’utilisateurs, secret ou jeton Sites n’est publié.
+
+Les documents et les marques conservent leurs droits respectifs.

@@ -1,7 +1,5 @@
-# Édition GitHub Pages
+# Version complète sur GitHub Pages
 
-Le fichier `index.html` est une édition statique autonome de consultation. Le glossaire est chargé depuis `glossaire.json`. La recherche, les filtres et la navigation fonctionnent dans le navigateur, sans compte ni serveur applicatif.
+Ce dossier contient la compilation statique de l’interface d’origine et l’ensemble du corpus autorisé à la publication. Pour le régénérer : `npm run build --prefix pages` depuis la racine du dépôt.
 
-Les supports internes, le corpus détaillé, les comptes, l’administration et les opérations d’écriture ne sont pas publiés. Cette édition ne remplace donc pas l’instance complète hébergée sur Sites.
-
-L’interface reprend les styles de app/globals.css dans platform.css, les icônes, le menu latéral et le logo KOHA de l’application d’origine. Les chemins des fichiers restent relatifs pour GitHub Pages.
+Les documents originaux et les aperçus PDF sont dans `files/`, les illustrations pédagogiques dans `figures/`. `content-manifest.json` indique la révision source et les nombres de contenus restaurés. Les chemins sont relatifs pour le déploiement sous le nom du dépôt.

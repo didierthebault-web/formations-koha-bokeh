@@ -44,3 +44,6 @@ yarn-error.log*
 # OS metadata
 .DS_Store
 !.env.example
+
+/pages/node_modules/
+/pages/snapshot.json

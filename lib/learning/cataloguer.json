@@ -1,10 +1,1036 @@
 {
   "courseId": "cataloguer",
   "title": "Cataloguer avec KOHA",
-  "description": "Les données pédagogiques détaillées ne sont pas incluses dans cette exportation publique.",
-  "status": "Corpus non inclus",
-  "duration": "",
-  "software": "KOHA",
-  "requiredResources": [],
-  "modules": []
+  "description": "Du catalogue partagé au contrôle final : des leçons à lire et des procédures à retrouver directement dans votre espace de formation.",
+  "status": "Adaptation pédagogique — à valider",
+  "revision": "2026-10-28.1",
+  "requiredResources": [
+    "catalogueurs",
+    "guide-publications",
+    "guide-unimarc"
+  ],
+  "sourceVersions": {
+    "catalogueurs": "initial-catalogueurs",
+    "guide-publications": "initial-guide-publications",
+    "guide-unimarc": "initial-guide-unimarc"
+  },
+  "modules": [
+    {
+      "id": "mutualisation",
+      "title": "Comprendre le catalogue mutualisé",
+      "description": "Identifier les données communes et les informations qui appartiennent à votre structure.",
+      "part": "Prendre ses repères",
+      "lessons": [
+        {
+          "id": "catalogue-partage",
+          "title": "Un catalogue, plusieurs structures",
+          "objective": "Comprendre pourquoi une notice peut être utilisée par plusieurs bibliothèques.",
+          "paragraphs": [
+            "Dans le catalogue mutualisé, plusieurs structures peuvent posséder le même document. Elles partagent sa description bibliographique : le titre, les responsabilités, la publication, les notes et les points d’accès. Une notice n’appartient donc pas à une DRAC au seul motif qu’elle l’a créée.",
+            "Chaque structure décrit séparément les exemplaires qu’elle détient. Cette organisation permet d’éviter les descriptions en double tout en conservant les informations propres à chaque bibliothèque. Une modification bibliographique doit tenir compte de tous les établissements qui utilisent la notice."
+          ],
+          "steps": [
+            "Identifier si votre action concerne la description du document ou un exemplaire local.",
+            "Avant toute création, rechercher une notice déjà présente.",
+            "Avant de modifier une notice partagée, vérifier l’effet attendu pour les autres structures."
+          ],
+          "takeaway": "Une autre structure possède déjà le document : cela ne justifie pas de créer une deuxième notice.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 6
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 44
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "id": "notice-exemplaire",
+          "title": "Notice bibliographique ou exemplaire ?",
+          "objective": "Savoir où saisir une information.",
+          "paragraphs": [
+            "La notice bibliographique décrit le document. L’exemplaire décrit le document possédé localement et ses conditions de mise à disposition. Confondre ces deux niveaux conduit à modifier des données partagées pour répondre à un besoin local.",
+            "Une même notice bibliographique peut porter un ou plusieurs exemplaires. Le site, la localisation, la cote ou le code-barres sont à examiner au niveau de l’exemplaire."
+          ],
+          "steps": [
+            "Classer l’information à saisir dans le bon niveau de description.",
+            "Conserver les données bibliographiques communes dans la notice.",
+            "Renseigner les données propres à votre structure dans l’exemplaire."
+          ],
+          "takeaway": "Décrire le document une fois ; décrire chaque exemplaire localement.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 7
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 8
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 31
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": {
+            "headers": [
+              "Notice bibliographique",
+              "Exemplaire"
+            ],
+            "rows": [
+              [
+                "Titre et responsabilités",
+                "Site propriétaire et site dépositaire"
+              ],
+              [
+                "Publication, description matérielle, notes",
+                "Localisation, cote et code-barres"
+              ],
+              [
+                "Sujets et autorités",
+                "Statut et type de prêt"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "unimarc",
+      "title": "Se repérer dans l’UNIMARC",
+      "description": "Lire une grille sans confondre champ, sous-champ et données codées.",
+      "part": "Prendre ses repères",
+      "lessons": [
+        {
+          "id": "champs-sous-champs",
+          "title": "Lire un champ et ses sous-champs",
+          "objective": "Comprendre une notation telle que 200$a.",
+          "paragraphs": [
+            "Un champ regroupe une catégorie d’information et porte un numéro de trois chiffres. Un sous-champ précise l’information à l’intérieur de ce champ ; il est noté avec un signe dollar suivi d’une lettre ou d’un chiffre.",
+            "Dans l’exemple du support, 200$a correspond au titre propre, 200$e au complément du titre, 200$f à la première mention de responsabilité et 200$g à la mention suivante. La grille Koha transforme cette structure en zones de saisie."
+          ],
+          "steps": [
+            "Repérer le numéro du champ dans la grille.",
+            "Lire le libellé de chaque sous-champ avant de saisir.",
+            "Utiliser l’éditeur de champ lorsque la grille en propose un."
+          ],
+          "takeaway": "Le numéro identifie le champ ; le code qui suit le dollar identifie une information dans ce champ.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 9
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 11
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": {
+            "headers": [
+              "Bloc",
+              "Fonction décrite dans le support"
+            ],
+            "rows": [
+              [
+                "0XX / 1XX",
+                "Identification et informations codées"
+              ],
+              [
+                "2XX / 3XX",
+                "Description bibliographique et notes"
+              ],
+              [
+                "4XX / 5XX",
+                "Liens bibliographiques et titres associés"
+              ],
+              [
+                "6XX / 7XX",
+                "Indexation et responsabilités"
+              ],
+              [
+                "8XX / 9XX",
+                "Accès et données internationales, nationales ou locales selon les zones"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "donnees-codees",
+          "title": "Données codées et valeurs autorisées",
+          "objective": "Comprendre les contrôles qui accompagnent la saisie.",
+          "paragraphs": [
+            "Le label 000 et le champ 100 contiennent des informations codées utiles au traitement de la notice. Le support recommande de passer par les éditeurs de champs pour les renseigner et les contrôler.",
+            "Les valeurs autorisées proposent une liste de choix plutôt qu’une saisie libre. Elles harmonisent les données entre les sites. Une valeur absente ne doit pas être remplacée par une variante improvisée : le besoin doit être transmis selon l’organisation du réseau."
+          ],
+          "steps": [
+            "Ouvrir l’éditeur proposé pour les données codées.",
+            "Contrôler la cohérence avec le document et sa date.",
+            "Choisir les valeurs prévues dans les listes de la grille.",
+            "Signaler une valeur manquante au référent compétent."
+          ],
+          "takeaway": "La cohérence des données codées et des listes participe à la qualité du catalogue partagé.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 28
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 29
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "rechercher",
+      "title": "Rechercher avant de créer",
+      "description": "Décider s’il faut rattacher un exemplaire, dériver ou créer une notice.",
+      "part": "Produire une notice fiable",
+      "lessons": [
+        {
+          "id": "recherche-prealable",
+          "title": "Vérifier la présence du document",
+          "objective": "Éviter un doublon avant toute création.",
+          "paragraphs": [
+            "Le premier contrôle qualité intervient avant le catalogage. Une recherche dans Koha doit établir si le document possède déjà une notice utilisable.",
+            "Le support privilégie les identifiants normalisés, puis une recherche complémentaire par titre et auteur. L’absence de résultat avec une seule requête ne suffit pas à conclure que le document est absent."
+          ],
+          "steps": [
+            "Rechercher l’ISBN, l’EAN, l’ISSN ou un autre identifiant disponible.",
+            "Compléter par le titre et l’auteur lorsque nécessaire.",
+            "Comparer les notices trouvées au document que vous avez en main.",
+            "Si une notice correspond, prévoir le rattachement d’un exemplaire."
+          ],
+          "takeaway": "Chercher avant de créer est une étape du catalogage, pas une opération facultative.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 12
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 13
+            }
+          ],
+          "warning": "",
+          "exercise": {
+            "label": "Exercice du support — atelier du premier jour",
+            "task": "Rechercher trois documents et décider, pour chacun, entre notice existante et nouvelle dérivation.",
+            "source": {
+              "resourceId": "catalogueurs",
+              "page": 33
+            },
+            "check": "Justifier le choix à partir de la notice trouvée et du document. Aucun corrigé automatique fourni."
+          },
+          "figure": null,
+          "table": null
+        },
+        {
+          "id": "choisir-workflow",
+          "title": "Choisir la suite du traitement",
+          "objective": "Relier le résultat de la recherche à l’action appropriée.",
+          "paragraphs": [
+            "Le support propose une chaîne commune : rechercher, dériver lorsque cela est possible, contrôler, exemplariser et vérifier le résultat. La création manuelle intervient lorsque la dérivation ne fournit pas de notice adaptée.",
+            "Le choix porte sur une correspondance exacte avec le document, pas seulement sur un titre ressemblant. Les différences d’édition, de date, de support ou de version doivent être examinées."
+          ],
+          "steps": [
+            "Notice correspondante déjà présente : la contrôler avant d’ajouter votre exemplaire.",
+            "Notice absente : rechercher dans les réservoirs externes.",
+            "Aucune notice adaptée : préparer une création manuelle à partir du document.",
+            "Dans tous les cas, terminer par le contrôle de la notice et de l’exemplaire."
+          ],
+          "takeaway": "Une notice ressemblante n’est pas nécessairement la bonne notice.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 13
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 16
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 36
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "derivation",
+      "title": "Cataloguer par dérivation",
+      "description": "Récupérer une notice pertinente et en contrôler les données.",
+      "part": "Produire une notice fiable",
+      "lessons": [
+        {
+          "id": "interroger-reservoirs",
+          "title": "Interroger les réservoirs Z39.50 / SRU",
+          "objective": "Rechercher une notice externe depuis Koha.",
+          "paragraphs": [
+            "La dérivation permet de récupérer une notice depuis un réservoir disponible dans Koha. Le support cite la BnF et le SUDOC dans le rappel du processus de catalogage. Les cibles accessibles dépendent du paramétrage de votre installation.",
+            "La récupération fait gagner du temps, mais elle ne remplace pas la comparaison avec le document ni l’application des règles communes du réseau."
+          ],
+          "steps": [
+            "Ouvrir la recherche Z39.50 / SRU disponible dans Koha.",
+            "Saisir de préférence un identifiant normalisé.",
+            "Comparer les résultats proposés par les réservoirs.",
+            "Retenir la notice adaptée et l’importer dans la grille."
+          ],
+          "takeaway": "Une notice importée doit toujours être contrôlée.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 14
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 15
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 32
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": "derivation",
+          "table": null
+        },
+        {
+          "id": "controler-import",
+          "title": "Contrôler la notice récupérée",
+          "objective": "Repérer ce qu’il faut vérifier après une importation.",
+          "paragraphs": [
+            "Le contrôle comporte deux volets. Le contrôle bibliographique compare la description au document. Le contrôle technique examine les identifiants, les informations codées, les accès et les données nécessaires à l’installation locale.",
+            "Commencer par vérifier que la notice correspond exactement au document. Une erreur de support ou d’édition ne se résout pas par l’ajout d’un exemplaire."
+          ],
+          "steps": [
+            "Comparer identifiant, titre, auteur, édition et date.",
+            "Examiner la publication, la description matérielle, les collections et les notes.",
+            "Contrôler les données codées, l’indexation et les responsabilités.",
+            "Compléter les données locales nécessaires avant l’exemplarisation."
+          ],
+          "takeaway": "Importer, contrôler, compléter : ces opérations forment une même procédure.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 16
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 17
+            }
+          ],
+          "warning": "",
+          "exercise": {
+            "label": "Exercices du support — dérivation et contrôle",
+            "task": "Dériver une notice puis identifier les informations à contrôler et à compléter avant de créer un exemplaire.",
+            "source": {
+              "resourceId": "catalogueurs",
+              "page": 33
+            },
+            "check": "Effectuer l’exercice dans l’environnement de formation et confronter le résultat au document."
+          },
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "decrire",
+      "title": "Décrire le document",
+      "description": "Renseigner les éléments descriptifs en distinguant règles locales et points à arbitrer.",
+      "part": "Produire une notice fiable",
+      "lessons": [
+        {
+          "id": "titre-responsabilites",
+          "title": "Titre et mentions de responsabilité — 200",
+          "objective": "Identifier les éléments à transcrire dans la zone 200.",
+          "paragraphs": [
+            "Les sources présentent le titre propre, le complément du titre et les mentions de responsabilité comme des éléments distincts. La transcription doit partir des sources d’information indiquées dans le guide local, notamment la page de titre et les parties liminaires.",
+            "La mention transcrite dans la description ne remplace pas le point d’accès lié à une autorité. Le texte descriptif et les liens de responsabilité ont des fonctions complémentaires."
+          ],
+          "steps": [
+            "Repérer le titre propre et un éventuel complément.",
+            "Identifier les mentions de responsabilité et leur ordre sur la source.",
+            "Distinguer première mention et mentions suivantes.",
+            "Examiner les cas particuliers avec le référent avant de retenir une règle contestée."
+          ],
+          "takeaway": "La source d’information et la règle applicable doivent rester identifiables.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 18
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 3
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 8
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 10
+            },
+            {
+              "resourceId": "guide-unimarc",
+              "page": 1
+            }
+          ],
+          "warning": "À arbitrer : les sources divergent sur le nombre d’auteurs à transcrire au-delà de trois. La formulation du support sur le « titre uniforme » en zone 200 est également signalée dans le contrôle documentaire. Cette leçon n’établit aucune règle correctrice.",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "id": "publication",
+          "title": "Lieu, éditeur et date — 214",
+          "objective": "Contrôler les informations de publication.",
+          "paragraphs": [
+            "Le support distingue 214$a pour le lieu, 214$c pour l’éditeur et 214$d pour la date. Le guide des publications apporte des usages locaux propres à certaines publications du ministère.",
+            "Le guide local précise que les ouvrages du commerce doivent être décrits d’après leurs sources : la mention du ministère ne doit pas être ajoutée lorsqu’elle n’est pas justifiée par le document. Il détaille également des cas DEPS et IGAC, à conserver comme règles locales identifiées."
+          ],
+          "steps": [
+            "Identifier les mentions de publication sur le document.",
+            "Comparer ces mentions aux données de la notice dérivée.",
+            "Vérifier si une consigne locale propre au type de publication s’applique.",
+            "Conserver les particularités documentées, sans les généraliser à tous les ouvrages."
+          ],
+          "takeaway": "Une règle pour une publication ministérielle ne devient pas automatiquement une règle générale.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 19
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 3
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 11
+            },
+            {
+              "resourceId": "guide-unimarc",
+              "page": 2
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "id": "description-materielle",
+          "title": "Décrire la matérialité — 215",
+          "objective": "Reconnaître les informations à relever et les divergences à vérifier.",
+          "paragraphs": [
+            "La description matérielle renseigne notamment l’importance du document et, selon le cas, ses illustrations, ses dimensions et le matériel qui l’accompagne. Le guide local recommande de s’appuyer sur la dernière page numérotée pour la pagination.",
+            "Pour une publication composée d’un rapport, d’une synthèse et d’annexes, le guide local propose de distinguer les parties dans la mention de pagination. Le nombre affiché par un lecteur PDF peut différer de la pagination du document."
+          ],
+          "steps": [
+            "Relever les informations matérielles à partir du document.",
+            "Distinguer pagination imprimée et nombre de pages du fichier.",
+            "Identifier les différentes parties lorsqu’elles doivent être décrites.",
+            "Faire confirmer le choix des sous-champs avant de reprendre un exemple divergent."
+          ],
+          "takeaway": "Le relevé de l’information et son codage dans les sous-champs sont deux contrôles distincts.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 10
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 19
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 40
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 9
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 12
+            },
+            {
+              "resourceId": "guide-unimarc",
+              "page": 2
+            },
+            {
+              "resourceId": "guide-unimarc",
+              "page": 3
+            },
+            {
+              "resourceId": "guide-unimarc",
+              "page": 4
+            }
+          ],
+          "warning": "À arbitrer : les correspondances des sous-champs 215 ne concordent pas entre le PowerPoint, le guide local et le guide UNIMARC. Aucun tableau de saisie unifié n’est publié dans cette leçon.",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "id": "notes-identifiants",
+          "title": "Notes, résumé et identifiants",
+          "objective": "Compléter les informations utiles à l’identification et à la compréhension.",
+          "paragraphs": [
+            "Le support distingue la note générale (300), la note de bibliographie ou d’index (320) et le résumé (330). Le guide local décrit aussi l’usage d’une note 314 dans le traitement des responsabilités multiples.",
+            "Les identifiants facilitent la recherche et le dédoublonnage. Le support mentionne l’ISBN, l’ISSN et l’EAN. Il indique également une pratique locale de conservation de l’ARK BnF en 003 lorsque la notice en comporte un."
+          ],
+          "steps": [
+            "Vérifier les identifiants présents sur le document et dans la notice.",
+            "Compléter les notes utiles sans confondre leurs fonctions.",
+            "Appliquer la politique locale de résumé lorsqu’elle est définie.",
+            "Vérifier les informations héritées de la dérivation."
+          ],
+          "takeaway": "Les notes complètent la description ; les identifiants contribuent à reconnaître le document.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 21
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 22
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 12
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 13
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "autorites",
+      "title": "Indexer et gérer les responsabilités",
+      "description": "Utiliser les autorités pour structurer les accès aux documents.",
+      "part": "Enrichir le catalogage",
+      "lessons": [
+        {
+          "id": "matiere-responsabilite",
+          "title": "Distinguer sujet et responsabilité",
+          "objective": "Éviter de confondre indexation et contribution au document.",
+          "paragraphs": [
+            "Dans le support catalogueurs, les zones 6XX décrivent les sujets et les zones 7XX les personnes ou collectivités qui ont contribué au document. Une même entité peut avoir des fonctions différentes selon la relation qu’elle entretient avec le document.",
+            "La démarche pédagogique distingue donc la question « de quoi parle le document ? » de la question « qui a participé à sa production intellectuelle ? ». Cette distinction ne permet pas de reprendre sans contrôle tous les exemples des guides."
+          ],
+          "steps": [
+            "Identifier la relation entre l’entité et le document.",
+            "Choisir le type de point d’accès correspondant à cette relation.",
+            "Rechercher une autorité existante plutôt que multiplier les formes libres."
+          ],
+          "takeaway": "Un sujet et un responsable intellectuel ne remplissent pas la même fonction dans une notice.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 23
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 26
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 35
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 18
+            },
+            {
+              "resourceId": "guide-unimarc",
+              "page": 3
+            }
+          ],
+          "warning": "Le guide UNIMARC présente 600 comme une collectivité auteur, en divergence avec les autres sources du corpus. Cet exemple reste signalé à vérifier ; il n’est pas repris comme modèle de saisie.",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "id": "rechercher-autorite",
+          "title": "Rechercher et lier une autorité",
+          "objective": "Utiliser une autorité pertinente avant d’en créer une nouvelle.",
+          "paragraphs": [
+            "Le guide local décrit l’accès à la recherche d’autorités depuis l’éditeur de champ. La première étape consiste à vérifier si l’autorité est déjà présente dans la base.",
+            "Le choix doit tenir compte du sujet ou de la responsabilité à représenter. Pour les personnes, la prévisualisation MARC peut apporter des éléments pour lever une homonymie. Le rattachement doit être vérifié après sélection."
+          ],
+          "steps": [
+            "Ouvrir l’éditeur de champ et la recherche d’autorités.",
+            "Rechercher l’entité dans la base ; le guide local suggère la recherche dans toutes les vedettes.",
+            "Comparer les formes et les informations d’identification.",
+            "Sélectionner l’autorité pertinente puis contrôler le point d’accès obtenu."
+          ],
+          "takeaway": "Une forme proche ne suffit pas : vérifier qu’il s’agit bien de la personne, de la collectivité ou du sujet recherché.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 24
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 25
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 26
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 13
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 14
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 18
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 20
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": "autorites",
+          "table": null
+        },
+        {
+          "id": "importer-autorite",
+          "title": "Importer une autorité et examiner les subdivisions",
+          "objective": "Compléter les accès sans multiplier inutilement les autorités.",
+          "paragraphs": [
+            "Lorsque la recherche locale ne fournit pas l’autorité nécessaire, le guide local décrit une recherche Z39.50 dans le répertoire de la BnF, suivie d’un import. La création manuelle est envisagée si cette recherche n’aboutit pas.",
+            "Le guide explique aussi que les subdivisions matière doivent être employées selon leurs conditions d’utilisation. Il recommande de vérifier les informations de la notice d’autorité et d’éviter l’ajout mécanique d’un terme générique à un terme plus spécifique."
+          ],
+          "steps": [
+            "Vérifier l’absence de l’autorité dans la base locale.",
+            "Rechercher dans le réservoir d’autorités disponible.",
+            "Examiner puis importer l’autorité adaptée.",
+            "Vérifier les subdivisions et, pour les responsabilités, le code de fonction prévu.",
+            "Si une création est nécessaire, suivre le référentiel et le circuit du réseau."
+          ],
+          "takeaway": "L’import d’une autorité et son emploi dans une notice doivent tous deux être contrôlés.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 35
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 15
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 16
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 17
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 19
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 20
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 21
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 22
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 23
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "numerique",
+      "title": "Donner accès aux ressources numériques",
+      "description": "Relier la notice à une ressource en ligne et contrôler l’accès.",
+      "part": "Enrichir le catalogage",
+      "lessons": [
+        {
+          "id": "acces-en-ligne",
+          "title": "Renseigner et vérifier l’accès en ligne — 856",
+          "objective": "Fournir un lien exploitable vers le document.",
+          "paragraphs": [
+            "Le support indique que 856$u contient l’adresse de la ressource. Il décrit un réservoir de fichiers associé à l’installation Koha du réseau. Le guide local illustre le choix du fichier et l’intégration de son adresse dans la notice.",
+            "Le guide local distingue l’indication du format en $q et la note publique en $z. La note publique doit aider l’usager à comprendre le lien. La présence d’une adresse dans la notice ne garantit pas qu’elle soit accessible au public visé."
+          ],
+          "steps": [
+            "Identifier l’adresse stable de la ressource ou utiliser le réservoir prévu dans l’installation.",
+            "Renseigner l’URI dans le sous-champ prévu par la grille.",
+            "Compléter les informations de format et de note publique selon le guide local.",
+            "Tester la destination et son affichage avec les droits du public concerné."
+          ],
+          "takeaway": "Un lien doit fonctionner et donner accès au bon document.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 27
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 23
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 24
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": "fichier-numerique",
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "exemplaires",
+      "title": "Créer les exemplaires",
+      "description": "Ajouter les données locales sans dupliquer la notice partagée.",
+      "part": "Mettre à disposition",
+      "lessons": [
+        {
+          "id": "donnees-exemplaire",
+          "title": "Renseigner les données de son exemplaire",
+          "objective": "Associer correctement l’exemplaire à sa structure.",
+          "paragraphs": [
+            "Après l’enregistrement de la notice, la création d’exemplaire permet de décrire le document possédé par votre structure. Le support présente les sites propriétaire et dépositaire, la localisation, la cote, le code-barres, le statut et le type de prêt.",
+            "Certaines valeurs peuvent être proposées automatiquement selon le site de connexion et le paramétrage. Une valeur préremplie doit néanmoins être contrôlée. Les libellés et les listes de la grille restent la référence de saisie de l’installation."
+          ],
+          "steps": [
+            "Vérifier que la notice bibliographique correspond au document.",
+            "Contrôler les sites propriétaire et dépositaire.",
+            "Choisir la localisation prévue et saisir cote et code-barres selon les règles locales.",
+            "Vérifier statut et type de prêt.",
+            "Ajouter l’exemplaire puis contrôler son rattachement."
+          ],
+          "takeaway": "Une valeur proposée automatiquement n’est pas dispensée de vérification.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 30
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 31
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 45
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 46
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": "exemplaire",
+          "table": null
+        },
+        {
+          "id": "verifier-exemplaire",
+          "title": "Vérifier le résultat dans Koha et le portail",
+          "objective": "Contrôler la mise à disposition après la saisie.",
+          "paragraphs": [
+            "Le contrôle final porte sur la notice mais aussi sur la manière dont le document et ses exemplaires s’affichent. La vérification doit confirmer la structure, la localisation et les informations de disponibilité attendues.",
+            "Le guide des publications contient également une procédure illustrée d’ajout d’image à l’exemplaire. Elle reste un complément au traitement bibliographique et ne remplace aucun contrôle de notice."
+          ],
+          "steps": [
+            "Rouvrir la notice enregistrée.",
+            "Vérifier le nombre d’exemplaires et leur rattachement.",
+            "Contrôler les informations de localisation et de mise à disposition.",
+            "Vérifier la présentation publique et les liens lorsqu’ils existent."
+          ],
+          "takeaway": "La saisie n’est terminée qu’après le contrôle du résultat.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 32
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 33
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 43
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 46
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 47
+            }
+          ],
+          "warning": "",
+          "exercise": {
+            "label": "Exercices du support — exemplaire et affichage",
+            "task": "Créer l’exemplaire de sa DRAC puis vérifier le résultat dans Koha.",
+            "source": {
+              "resourceId": "catalogueurs",
+              "page": 33
+            },
+            "check": "Comparer les données enregistrées à celles attendues pour votre structure."
+          },
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "cas-particuliers",
+      "title": "Créer sans dérivation et traiter les cas particuliers",
+      "description": "Construire une notice à partir du document et reconnaître les traitements spécifiques.",
+      "part": "Approfondir",
+      "lessons": [
+        {
+          "id": "creation-manuelle",
+          "title": "Construire une notice sans dérivation",
+          "objective": "Suivre un ordre de travail pour une création originale.",
+          "paragraphs": [
+            "La création manuelle part du document et de la grille correspondant à son type. Le support la présente comme une solution maîtrisée lorsque la dérivation ne fournit pas de notice adaptée.",
+            "L’ordre proposé consiste à identifier, décrire, compléter les informations utiles, établir les accès puis créer l’exemplaire. Les listes de champs du support sont des repères de formation ; les points de divergence doivent rester identifiés."
+          ],
+          "steps": [
+            "Choisir la grille de catalogage adaptée.",
+            "Renseigner les identifiants et les données codées nécessaires.",
+            "Décrire le titre, les responsabilités, la publication et la matérialité.",
+            "Compléter notes et points d’accès ; créer l’exemplaire local.",
+            "Contrôler le résultat avant de terminer."
+          ],
+          "takeaway": "Créer manuellement suppose de partir du document et du référentiel commun.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 36
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 37
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 38
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 39
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 40
+            }
+          ],
+          "warning": "La liste du support reprend les sous-champs 215 contestés. L’illustration mentionne aussi une règle sur le nombre d’auteurs, à arbitrer. Ces indications ne sont pas validées par leur reproduction ici.",
+          "exercise": null,
+          "figure": "creation-manuelle",
+          "table": null
+        },
+        {
+          "id": "collections-continues",
+          "title": "Collections, volumes et ressources continues",
+          "objective": "Reconnaître les cas qui demandent un traitement particulier.",
+          "paragraphs": [
+            "Une collection et une monographie en plusieurs volumes demandent de distinguer le document décrit, l’ensemble auquel il appartient et les liens entre notices. Le support cite les zones 225 et 4XX et invite à ne pas reproduire mécaniquement une structure importée.",
+            "Les ressources continues comprennent notamment revues, bulletins, annuaires et publications à mise à jour. Le support n’en donne qu’une introduction : leur gestion complète relève d’un module dédié. Le guide local signale par ailleurs des cas de périodiques traités comme monographies, ce qui demande de préciser le périmètre de la consigne locale."
+          ],
+          "steps": [
+            "Identifier la nature de la ressource avant de choisir le traitement.",
+            "Distinguer titre du document, titre de collection et titre d’ensemble.",
+            "Vérifier les liens et la volumaison selon le référentiel.",
+            "Pour une ressource continue ou un cas local particulier, faire confirmer la procédure applicable."
+          ],
+          "takeaway": "Un cas particulier doit être reconnu avant d’appliquer le modèle d’une monographie ordinaire.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 41
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 42
+            },
+            {
+              "resourceId": "guide-publications",
+              "page": 7
+            }
+          ],
+          "warning": "Le support déconseille le traitement mécanique des fascicules comme monographies ; le guide local prévoit certains cas spécifiques. Ne pas généraliser l’une ou l’autre consigne sans préciser leur périmètre.",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "qualite",
+      "title": "Contrôler et pratiquer",
+      "description": "Relire le résultat et mettre en œuvre le parcours complet.",
+      "part": "Consolider ses pratiques",
+      "lessons": [
+        {
+          "id": "controle-final",
+          "title": "La vérification finale du catalogueur",
+          "objective": "Passer en revue les contrôles essentiels avant de terminer.",
+          "paragraphs": [
+            "Le contrôle qualité porte sur l’existence d’un éventuel doublon, la correspondance du document et de la notice, les zones essentielles, les autorités, les données locales et les liens.",
+            "La fiche réflexe du support rappelle la recherche préalable, la dérivation, le contrôle de l’import, le respect du référentiel, les liens d’autorités, la distinction notice/exemplaire et la vérification de l’affichage."
+          ],
+          "steps": [
+            "Vérifier l’absence de doublon et la bonne correspondance du document.",
+            "Relire les zones essentielles et les liens d’autorités.",
+            "Contrôler les données d’exemplaire de votre structure.",
+            "Tester le lien 856 lorsqu’il existe.",
+            "Examiner l’affichage final et signaler les incertitudes non résolues."
+          ],
+          "takeaway": "La qualité repose sur la cohérence de toute la chaîne, pas sur la seule présence de champs.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 43
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 44
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 45
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "id": "paniers-listes",
+          "title": "Utiliser paniers et listes pour préparer un contrôle",
+          "objective": "Regrouper les notices utiles au travail documentaire.",
+          "paragraphs": [
+            "Le support distingue les paniers, utiles pour rassembler rapidement une sélection au fil des recherches, et les listes, qui permettent de conserver plus durablement un ensemble de notices.",
+            "Ces ensembles peuvent servir au contrôle qualité, à une bibliographie ou à la préparation d’un traitement. Constituer un ensemble ne donne pas pour autant l’autorisation d’exécuter une modification en masse."
+          ],
+          "steps": [
+            "Définir l’objectif de la sélection.",
+            "Rassembler les notices pertinentes.",
+            "Choisir panier ou liste selon le besoin décrit dans le support.",
+            "Contrôler les notices retenues avant toute opération ultérieure."
+          ],
+          "takeaway": "Sélectionner des notices et les modifier sont deux opérations distinctes.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 47
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 48
+            }
+          ],
+          "warning": "",
+          "exercise": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "id": "atelier-final",
+          "title": "Réaliser le parcours complet",
+          "objective": "Mobiliser les étapes étudiées sur deux situations du support.",
+          "paragraphs": [
+            "Les exercices finaux proposent une notice originale pour une brochure locale et une importation Z39.50 pour un roman, avec complément du résumé et création d’exemplaire.",
+            "Ces situations réinvestissent la recherche préalable, le choix de la méthode, le contrôle de la description, les accès et les données locales. Elles sont à réaliser dans l’environnement de formation, sans modifier une base de production pour s’entraîner."
+          ],
+          "steps": [
+            "Pour la brochure, rechercher une notice existante avant d’envisager la création originale.",
+            "Pour le roman, examiner les résultats de la dérivation et compléter les données nécessaires.",
+            "Dans chaque cas, créer l’exemplaire et vérifier le résultat.",
+            "Faire relire les choix et relever les points restés incertains."
+          ],
+          "takeaway": "Le résultat attendu est une notice cohérente, un exemplaire correct et des choix explicables.",
+          "sources": [
+            {
+              "resourceId": "catalogueurs",
+              "page": 49
+            },
+            {
+              "resourceId": "catalogueurs",
+              "page": 33
+            }
+          ],
+          "warning": "",
+          "exercise": {
+            "label": "Exercices finaux du support",
+            "task": "Créer une notice originale pour une brochure locale ; importer un roman via Z39.50 puis compléter résumé et exemplaire.",
+            "source": {
+              "resourceId": "catalogueurs",
+              "page": 49
+            },
+            "check": "La plateforme ne simule pas Koha et ne fournit pas de correction automatique. Faire vérifier le travail par le formateur."
+          },
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ],
+  "complements": "Les séquences sur la création d’adhérents et le prêt/retour (diapositives 50–52) restent consultables dans le support original. Elles ne sont pas intégrées au cœur du parcours de catalogage."
 }

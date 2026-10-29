@@ -1,0 +1,1966 @@
+{
+  "resources": [
+    {
+      "id": "catalogueurs",
+      "title": "Cataloguer dans le catalogue mutualisé",
+      "description": "Support sur deux jours : produire une notice fiable, puis enrichir et maîtriser le catalogage.",
+      "software": "KOHA",
+      "categories": [
+        "Supports de formation"
+      ],
+      "author": "THEBAULT Didier",
+      "producer": null,
+      "sourceCreated": null,
+      "sourceModified": "2026-09-24 13:12:17",
+      "metadataNote": "Les dates techniques du fichier ne valent pas date de publication. Auteur non confirmé quand la propriété indique un logiciel.",
+      "version": "Import initial — version source non renseignée",
+      "language": "fr",
+      "keywords": [
+        "000",
+        "003",
+        "010",
+        "011",
+        "073",
+        "099",
+        "100",
+        "101",
+        "200",
+        "205",
+        "210",
+        "214",
+        "215",
+        "220",
+        "225",
+        "245",
+        "300",
+        "320",
+        "330",
+        "410",
+        "454",
+        "461",
+        "700",
+        "856",
+        "920",
+        "978"
+      ],
+      "courses": [
+        "cataloguer"
+      ],
+      "audience": "Catalogueurs",
+      "publication": "published",
+      "validation": "review",
+      "access": "members",
+      "download": true,
+      "allowHistory": false,
+      "classification": null,
+      "filename": "Formation_KOHA_Catalogueurs_DRAC_2_jours(1).pptx",
+      "format": "PPTX",
+      "size": 5029577,
+      "sha256": "839f1bb7e17f007ff73f7b8e1ea1b84799c90761b201d1ef26b3e8cf87126698",
+      "previewFile": "corpus/previews/Formation_KOHA_Catalogueurs_DRAC_2_jours(1).pdf",
+      "pages": [
+        {
+          "number": 1,
+          "label": "diapositive",
+          "content": "\nFORMATION\nCataloguer dans le catalogue mutualisé"
+        },
+        {
+          "number": 2,
+          "label": "diapositive",
+          "content": "\nComprendre la logique du catalogue mutualisé et distinguer notice bibliographique et exemplaire.\nRechercher un document avant toute création afin d’éviter les doublons.\nCataloguer prioritairement par dérivation depuis les réservoirs disponibles.\nContrôler et compléter une notice UNIMARC dans Koha.\nUtiliser les autorités et les points d’accès 6XX / 7XX.\nCréer et contrôler les données d’exemplaire propres à sa DRAC.\nVérifier le résultat dans l’interface professionnelle et dans le portail.\n\nObjectifs \u000bde la formation"
+        },
+        {
+          "number": 3,
+          "label": "diapositive",
+          "content": "\nJour 1 — Produire une notice fiable\nCatalogue mutualisé et principes communs\nUNIMARC utile au quotidien\nRecherche et dédoublonnage\nCatalogage par dérivation\nContrôle de la notice\nCréation de l’exemplaire\nJour 2 — Enrichir et maîtriser\nAutorités et indexation\nCatalogage sans dérivation\nCollections et cas particuliers\nRessources en ligne\nContrôle qualité\nAtelier final\n\nLe parcours \u000bdes 2 jours"
+        },
+        {
+          "number": 4,
+          "label": "diapositive",
+          "content": "\nProduire une notice fiable\u000b\u000bDu document en main \u000bà l’exemplaire dans Koha"
+        },
+        {
+          "number": 5,
+          "label": "diapositive",
+          "content": "\nProduire une notice fiable\u000b\u000bL’interface de KOHA"
+        },
+        {
+          "number": 6,
+          "label": "diapositive",
+          "content": "\nUne notice bibliographique peut être partagée par plusieurs structures.\u000bChaque structure conserve ses données d’exemplaire : site, localisation, cote, code-barres, statut, type de prêt.\u000bLa mutualisation suppose des règles communes de description et de qualité.\u000bPrincipe : ne pas dupliquer une notice bibliographique simplement parce que l’exemplaire appartient à une autre DRAC.\n\nLe catalogue mutualisé\u000b\u000bCe qui est commun, \u000bce qui reste local\nKOHA — Catalogueurs DRAC"
+        },
+        {
+          "number": 7,
+          "label": "diapositive",
+          "content": "\nNotice bibliographique ≠ exemplaire\nNotice bibliographique\n• Décrit le document (intellectuellement)\n• Titre et responsabilités\n• Publication\n• Description matérielle\n• Notes\n• Sujets et autorités\n\nNotice bibliographique et notice exemplaire\nKOHA — Catalogueurs DRAC"
+        },
+        {
+          "number": 8,
+          "label": "diapositive",
+          "content": "\nNotice bibliographique ≠ exemplaire\nNotice exemplaire\n• Décrit le document possédé localement\n• DRAC / site\n• Localisation\n• Cote\n• Code-barres\n• Statut et type de prêt\n\nNotice bibliographique et notice exemplaire\nKOHA — Catalogueurs DRAC"
+        },
+        {
+          "number": 9,
+          "label": "diapositive",
+          "content": "\n\nLire l’UNIMARC sans en faire un cours théorique\n\nSavoir où chercher et où intervenir dans la grille Koha.\n0XX \u000bBloc de l’identification\n1XX \u000bBloc des informations codées\n2XX \u000bBloc des informations descriptives\n3XX \u000bBloc des notes\n4XX \u000bBloc des liens avec d’autres notices bibliographiques\n5XX \u000bBloc des titres associés\n6XX \u000bBloc de l’indexation matière et de l’histoire bibliographique\n7XX \u000bBloc des responsabilités\n8XX \u000bBloc des données internationales\n9XX \u000bBloc des données nationales et locales\nKOHA — Catalogueurs DRAC"
+        },
+        {
+          "number": 10,
+          "label": "diapositive",
+          "content": "\n\nLes zones \u000bà connaître \u000ben priorité\nKOHA — Catalogueurs DRAC\nZone | Sous-zone principale | Ce qu'elle décrit | Exemple\n010 | $a | ISBN | 978-2-…\n073 | $a | EAN | 978…\n100 | $a | Données générales de traitement | dates, type de date…\n101 | $a | Langue du document | fre\n200 | $a | Titre propre | Le patrimoine en France\n200 | $e | Complément du titre | histoire et enjeux\n200 | $f | Première mention de responsabilité | Jean Dupont\n200 | $g | Autre mention de responsabilité | préface de…\n205 | $a | Mention d'édition | 2e éd.\n214 | $a | Lieu de publication | Paris\n214 | $c | Éditeur | Gallimard\n214 | $d | Date de publication | 2026\n215 | $a | Importance matérielle | 245 p.\n215 | $c | Illustration | ill. en coul.\n215 | $d | Format | 24 cm\n225 | $a | Collection | Patrimoines\n300 | $a | Note générale | Texte remanié de…\n320 | $a | Note bibliographie / index | Bibliogr. p. 210-220\n330 | $a | Résumé | …\n6XX | — | Sujets / indexation | Patrimoine culturel\n7XX | — | Responsabilités | auteurs, collectivités…\n856 | $u | Adresse d'une ressource en ligne | lien vers le document"
+        },
+        {
+          "number": 11,
+          "label": "diapositive",
+          "content": "\n\nLes zones \u000bà connaître \u000ben priorité\n\nChamps et sous-champs\nKOHA — Catalogueurs DRAC\nLe champ = une catégorie d'information\u000bChaque information est rangée dans un champ identifié par 3 chiffres.\n\nLe sous-champ = une information précise à l'intérieur du champ\u000bUn champ peut contenir plusieurs informations. On les distingue avec une lettre précédée de $.\n\nExemple\u000b\nchamp 200 — Titre et mention de responsabilité : 200\n$a = titre propre\n$e = complément du titre\n$f = première mention de responsabilité\n$g = autre mention de responsabilité\u000b\nCela peut donner :\n200 $a Le patrimoine en France $e histoire et enjeux $f Jean Dupont\n\nLe numéro du champ indique de quelle grande information on parle ; la lettre du sous-champ indique précisément quelle information on saisit.\n"
+        },
+        {
+          "number": 12,
+          "label": "diapositive",
+          "content": "\n• Toujours vérifier si le document existe déjà dans Koha.\n• Privilégier un identifiant normalisé : ISBN, EAN, ISSN ou autre identifiant disponible.\n• Compléter par une recherche titre / auteur lorsque nécessaire.\n• Si la notice existe : rattacher un exemplaire plutôt que recréer une notice.\n• Si elle n’existe pas : rechercher une notice dans les réservoirs externes (dérivation)\n\nAvant de cataloguer : rechercher\n\nLe premier contrôle qualité est le dédoublonnage"
+        },
+        {
+          "number": 13,
+          "label": "diapositive",
+          "content": "1\nRechercher\nVérifier l’existence dans Koha\nDériver\nInterroger BnF / SUDOC ou autres cibles\nContrôler\nVérifier et compléter l’UNIMARC\nExemplariser\nCréer les données locales\nVérifier\nContrôler l’affichage final\n\nLe workflow commun de catalogage\n2\n3\n4\n5"
+        },
+        {
+          "number": 14,
+          "label": "diapositive",
+          "content": "\n• Lancer la recherche Z39.50 / SRU depuis Koha.\n• Utiliser de préférence l’ISBN ou un autre identifiant normalisé.\n• Comparer les résultats proposés par les réservoirs.\n• Choisir la notice la plus adaptée selon la convention commune.\n• Importer la notice dans la grille Koha.\n• Ne jamais considérer une notice importée comme automatiquement correcte.\n\nCataloguer \u000bpar dérivation"
+        },
+        {
+          "number": 15,
+          "label": "diapositive",
+          "content": "\n\nCataloguer \u000bpar dérivation"
+        },
+        {
+          "number": 16,
+          "label": "diapositive",
+          "content": "\n• Vérifier que l’identifiant correspond exactement au document.\n• Comparer le titre, l’auteur, l’édition et la date.\n• Repérer les différences de support ou de version.\n• Privilégier le réservoir défini dans les règles communes de catalogage.\n• En cas de doute : ne pas importer trop vite ; revenir au document.\n\nCataloguer \u000bpar dérivation \n\nChoisir la bonne notice \u000bà dériver"
+        },
+        {
+          "number": 17,
+          "label": "diapositive",
+          "content": "\nContrôles bibliographiques\n• 200 — titre / responsabilité\n• 214 — lieu / éditeur / date\n• 215 — importance matérielle\n• 225 / 4XX — collection\n• 300 / 320 / 330 — notes et résumé\nContrôles techniques\n• 010 / 073 — identifiants\n• 100 / 101 — données codées\n• 6XX — indexation\n• 7XX — responsabilités\n• Zones locales nécessaires\n\nCataloguer \u000bpar dérivation \n\nContrôler la notice importée"
+        },
+        {
+          "number": 18,
+          "label": "diapositive",
+          "content": "\n• 200$a : titre propre\n• 200$e : complément du titre\n• 200$f : première mention de responsabilité\n• 200$g : mention de responsabilité suivante\n• Identifier les titres parallèles, titres dépendants ou volumaisons lorsque le document l’exige.\n• Transcrire les informations à partir de la source appropriée.\n\nCataloguer \u000b\nTitre et mention de responsabilité — 200\nTranscription textuelle : On transcrit la mention de responsabilité telle qu'elle apparaît sur la page de titre.\nS'il y a plus de 3 auteurs : Selon les usages traditionnels de l'ISBD, on peut abréger la mention en ne citant que le premier auteur suivi de la mention abrégée (ex: [et al.] ou et alii), bien que les règles modernes (RDA-FR) tendent à limiter ou modifier l'emploi des abréviations. La zone 200 retranscrit ce qui est estimé pertinent ou présent sur le document\nDans le format UNIMARC moderne, la zone 200 reste obligatoire mais elle est souvent réservée au titre uniforme (pour les œuvres) ou à la forme textuelle retenue, tandis que l'identité de la personne est basculée en 700."
+        },
+        {
+          "number": 19,
+          "label": "diapositive",
+          "content": "\n• 214$a : lieu de publication\n• 214$c : nom de l’éditeur\n• 214$d : date de publication\n• 215$a : importance matérielle\n• Compléter, lorsque nécessaire, les mentions d’illustration et le format.\n• Contrôler la cohérence entre le document et la notice dérivée.\n\nCataloguer \n\nPublication et description matérielle — 214 / 215"
+        },
+        {
+          "number": 20,
+          "label": "diapositive",
+          "content": "\n\nCataloguer \n\nDescription matérielle — Liste alphabétique \u000bpar mot abrégé\nMot | Abréviation\ncentimètres | cm\nid est (= c’est-à-dire) | i. e.\ncolonne(s) | col.\ndépliant(s)* | dépl.\nexemplaire* | ex.\nfascicule | fasc.\nfeuillet(s)* | f.\nillustration(s) | ill.\nmanuscrit(s) | ms\nmillimètres | mm\nnuméro | n°\npage(s) | p.\nplanche(s)* | pl.\nrecto | r (à utiliser seulement en complément d’une signature : f. A5r)\nsignature* | sig.\nverso | v (à utiliser seulement en complément d’une signature : f. A5v)\nvolume(s) | vol."
+        },
+        {
+          "number": 21,
+          "label": "diapositive",
+          "content": "\n• 300 : note générale lorsque l’information est utile à l’identification ou à la compréhension.\n• 320 : présence de bibliographie ou d’index.\n• 330 : résumé lorsque la politique documentaire le prévoit.\n• 225 : mention de collection.\n• 4XX : liens bibliographiques associés à la collection ou à d’autres notices.\n\nCataloguer \n\nNotes, résumé et collection — 300 / 320 / 330 "
+        },
+        {
+          "number": 22,
+          "label": "diapositive",
+          "content": "\nCes champs permettent d’identifier précisément le document grâce à des numéros normalisés, notamment l’ISBN (010), l’ISSN (011) et l’EAN (073). Ils facilitent la recherche, la récupération et le dédoublonnage des notices.\n\nÀ noter — ARK BnF : lorsqu’une notice provient de la Bibliothèque nationale de France, elle peut comporter un identifiant ARK, identifiant pérenne attribué par la BnF à la notice. Dans notre catalogue, il est conservé en 003 et permet notamment de maintenir un lien fiable avec la notice source de la BnF.\n\nCataloguer \n\nIdentifiants — 010 / 073 "
+        },
+        {
+          "number": 23,
+          "label": "diapositive",
+          "content": "\nLes champs 6XX décrivent le contenu intellectuel du document à l’aide de sujets et de points d’accès matière. Ils permettent notamment l'utilisation d'autorités comme RAMEAU.\n\nCataloguer \n\n6XX — Indexation"
+        },
+        {
+          "number": 24,
+          "label": "diapositive",
+          "content": "\nLes champs 6XX décrivent le contenu intellectuel du document à l’aide de sujets et de points d’accès matière. Ils permettent notamment l'utilisation d'autorités comme RAMEAU.\n\nUtiliser l’éditeur de champ\n\nCataloguer \n\n6XX — Indexation"
+        },
+        {
+          "number": 25,
+          "label": "diapositive",
+          "content": "\nLes champs 6XX décrivent le contenu intellectuel du document à l’aide de sujets et de points d’accès matière. Ils permettent notamment l'utilisation d'autorités comme RAMEAU.\n\n\nCataloguer \n\n6XX — Indexation"
+        },
+        {
+          "number": 26,
+          "label": "diapositive",
+          "content": "\nLes champs 7XX identifient les personnes ou collectivités ayant contribué au document : auteur, directeur de publication, préfacier, illustrateur, etc. Le rôle de chacun peut être précisé par un code de fonction.\n\nUtiliser l’éditeur de champ\n\nCataloguer \n\n7XX — Responsabilités"
+        },
+        {
+          "number": 27,
+          "label": "diapositive",
+          "content": "\nLe champ 856 permet d’indiquer l’adresse électronique permettant d’accéder à un document ou à une ressource associée. La sous-zone 856$u contient l’URL. Elle peut par exemple donner accès au texte intégral d’un rapport, à une publication numérique ou à un document disponible sur un site institutionnel.\nÀ retenir : le lien doit être vérifié et pointer, autant que possible, vers une adresse stable et pérenne.\nNoter que notre installation de KOHA est associée à un réservoir de fichiers pour uploader des fichiers .pdf et ainsi construire l’URL en 856$u\nIndiquer la nature du fichier dans le sous-champ 856$z Note publique\n\nCataloguer \n\n856 — Accès à une ressource en ligne"
+        },
+        {
+          "number": 28,
+          "label": "diapositive",
+          "content": "\nDans Koha, certains sous-champs utilisent des valeurs autorisées : au lieu de saisir librement une information, le catalogueur la sélectionne dans une liste prédéfinie. \nCe système permet d’harmoniser les pratiques entre les différents sites et d’éviter les variantes, erreurs de saisie ou valeurs non conformes.\nÀ retenir : dans le catalogue mutualisé, les valeurs autorisées contribuent directement à la cohérence et à la qualité des données entre les DRAC.\n\nCataloguer \n\nSous-champs sur valeurs autorisées"
+        },
+        {
+          "number": 29,
+          "label": "diapositive",
+          "content": "\nLes champs 000 et 100 contiennent des informations codées nécessaires à l’identification et au traitement de la notice. \nLe champ 000 (Label) précise notamment les caractéristiques générales de la notice, tandis que le 100 contient les données générales de traitement, notamment celles relatives aux dates de publication.\u000bDans Koha, ces informations sont renseignées à l’aide d’un éditeur de champs, qui facilite la saisie des différentes positions codées.\u000bÀ retenir : ces champs sont peu lisibles directement, mais ils sont importants pour le traitement, la recherche et l’exploitation des notices.\n\nCataloguer \n\nChamps 000 et 100"
+        },
+        {
+          "number": 30,
+          "label": "diapositive",
+          "content": "\n• Une notice bibliographique peut porter un ou plusieurs exemplaires.\n• Renseigner le site propriétaire et le site dépositaire.\n• Choisir la localisation prévue dans le référentiel commun.\n• Saisir la cote et le code-barres selon les règles locales.\n• Renseigner le statut et le type de prêt.\n• Contrôler que l’exemplaire est rattaché à la bonne notice.\n\nCréer l’exemplaire\nSi vous êtes connecté sur votre site d’origine, les informations de la notice d’exemplaire se remplissent automatiquement : \n\nb - Site Propriétaire / c - Site Dépositaire / o - Statut / r - Type de prêt\nCliquer sur « Ajouter un exemplaire »"
+        },
+        {
+          "number": 31,
+          "label": "diapositive",
+          "content": "\n\nCréer l’exemplaire\n1 notice bibliographique\n1  ou plusieurs notices d’exemplaires"
+        },
+        {
+          "number": 32,
+          "label": "diapositive",
+          "content": "\n\nRappel\nNous avons créé une nouvelle notice dans KOHA en respectant les étapes suivantes : \n\nVérifier la présence du document dans KOHA\nDériver la notice depuis les cibles de recherche (BNF et SUDOC) en utilisant l’ISBN.\u000bOu cataloguer la notice livre en main\nVérifier les champs de la notice importée ou créée\nRenseigner les champs obligatoires\nEnregistrer pour créer une notice d’exemplaire\nEnregistrement final"
+        },
+        {
+          "number": 33,
+          "label": "diapositive",
+          "content": "\n• Exercice 1 — Rechercher trois documents et décider : notice existante ou nouvelle dérivation ?\n• Exercice 2 — Dériver une notice depuis un réservoir externe.\n• Exercice 3 — Identifier et corriger les informations à contrôler dans la notice importée.\n• Exercice 4 — Créer l’exemplaire de sa DRAC.\n• Exercice 5 — Vérifier le résultat dans Koha.\n\nAtelier"
+        },
+        {
+          "number": 34,
+          "label": "diapositive",
+          "content": "\nEnrichir et maîtriser le catalogage"
+        },
+        {
+          "number": 35,
+          "label": "diapositive",
+          "content": "\n• Les accès ne sont pas de simples textes : ils structurent la recherche et les rebonds dans le catalogue.\n• 6XX : sujets et indexation matière.\n• 7XX : personnes et collectivités responsables.\n• Rechercher une autorité existante avant d’en créer une nouvelle.\n• Lier la notice bibliographique à l’autorité pertinente.\n• Utiliser le code de fonction approprié pour préciser le rôle.\n\nAutorités et points d’accès"
+        },
+        {
+          "number": 36,
+          "label": "diapositive",
+          "content": "\n• La création manuelle doit rester une solution maîtrisée, pas le réflexe par défaut.\n• Choisir la grille de catalogage adaptée au type de document.\n• Construire la notice à partir du document.\n• Renseigner les données codées nécessaires.\n• Créer ou lier les points d’accès.\n• Créer ensuite l’exemplaire local.\n\nCataloguer sans dérivation"
+        },
+        {
+          "number": 37,
+          "label": "diapositive",
+          "content": "\n\nCataloguer sans dérivation"
+        },
+        {
+          "number": 38,
+          "label": "diapositive",
+          "content": "\n\nCataloguer sans dérivation"
+        },
+        {
+          "number": 39,
+          "label": "diapositive",
+          "content": "\nOrdre conseillé pour une création manuelle\n1\nIdentifier\n010 / 073 / données codées\n2\nDécrire\n200 / 205 / 214 / 215\n3\nCompléter\n200 / 205 / 214 / 215\n4\nDonner accès\n6XX / 7XX / 856\n5\nExemplariser\nDonnées locales"
+        },
+        {
+          "number": 40,
+          "label": "diapositive",
+          "content": "\nChamps minimum pour cataloguer une ressource\nChamp | Information | Sous-champs principaux\n000 | Label de la notice | Données codées\n100 | Données générales de traitement | $a\n101 | Langue de la ressource | $a\n200 | Titre et mention de responsabilité | $a titre, $e complément, $f responsabilité\n214 | Publication | $a lieu, $c éditeur, $d date\n215 | Description matérielle | $a importance matérielle, $c illustrations, $d dimensions\n6XX | Indexation / sujets | selon le type d'autorité\n7XX | Responsabilités | auteurs, collectivités + code de fonction\nÀ cela s'ajoutent lorsqu'ils existent ou sont nécessaires : 010 pour l'ISBN, 073 pour l'EAN, 003 pour l'identifiant ARK BnF dans votre pratique, 225/410 pour la collection, 300/320/330 pour les notes et le résumé, et 856$u pour l'accès à une ressource en ligne."
+        },
+        {
+          "number": 41,
+          "label": "diapositive",
+          "content": "\n• Identifier si le document appartient à une collection ou à une sous-collection.\n• Distinguer titre de collection et titre du document.\n• Utiliser les zones 225 et les liens 4XX conformément au référentiel.\n• Traiter la volumaison lorsqu’elle est nécessaire.\n• Éviter de reproduire mécaniquement une structure importée sans la comprendre.\n\nCollections et monographies en plusieurs volumes\nLorsqu’un document appartient à une collection ou fait partie d’une monographie en plusieurs volumes, il est important de restituer les liens entre les différents niveaux de description. Le champ 225 permet de mentionner la collection, tandis que les champs 4XX permettent d’établir des liens avec les notices associées.\nÀ retenir : il faut bien distinguer le titre du document, le titre de la collection et, pour une publication en plusieurs volumes, le titre d’ensemble et le titre ou numéro du volume."
+        },
+        {
+          "number": 42,
+          "label": "diapositive",
+          "content": "\n• Identifier la nature de la ressource : revue, bulletin, journal, annuaire, bilan, etc.\n• Repérer les informations propres à une publication continue.\n• Ne pas appliquer mécaniquement le traitement d’une monographie.\n• Cette séquence introduit les cas rencontrés ; la gestion complète des périodiques relève d’un module dédié.\n\nIntroduction \u000baux ressources continues\nLes ressources continues sont des publications dont la parution se poursuit dans le temps, généralement sans fin prédéterminée. Elles comprennent notamment les revues, bulletins, magazines, journaux, annuaires ou certaines publications à mise à jour.\n\nContrairement à une monographie, leur description doit tenir compte de leur continuité, de leur périodicité et des éventuelles évolutions de la publication au fil du temps. Il est donc essentiel de bien identifier le type de ressource avant de commencer le catalogage.\n\nÀ retenir : une ressource continue ne se traite pas comme une succession de monographies indépendantes : on décrit la publication dans son ensemble, puis on gère les différents numéros ou fascicules qui la composent."
+        },
+        {
+          "number": 43,
+          "label": "diapositive",
+          "content": "\n• Le document est-il déjà présent dans le catalogue ?\n• La notice correspond-elle exactement au document ?\n• Les zones essentielles sont-elles présentes et cohérentes ?\n• Les autorités sont-elles liées correctement ?\n• Les données locales correspondent-elles à la DRAC et à la localisation ?\n• Le lien 856 fonctionne-t-il lorsqu’il existe ?\n• L’affichage public est-il compréhensible ?\n\nContrôle qualité avant validation"
+        },
+        {
+          "number": 44,
+          "label": "diapositive",
+          "content": "\n• Créer une deuxième notice parce que la première appartient à une autre DRAC.\n• Importer une notice sans la contrôler.\n• Saisir un auteur ou un sujet en texte libre alors qu’une autorité existe.\n• Confondre données bibliographiques communes et données d’exemplaire locales.\n• Modifier une notice partagée sans mesurer l’impact pour les autres structures.\n• Multiplier les pratiques locales lorsque le référentiel commun prévoit déjà une règle.\n\nLes erreurs à éviter dans un catalogue mutualisé"
+        },
+        {
+          "number": 45,
+          "label": "diapositive",
+          "content": "\n• 1. Je cherche avant de créer.\n• 2. Je privilégie la dérivation.\n• 3. Je contrôle toujours la notice importée.\n• 4. Je respecte le référentiel commun.\n• 5. Je lie les autorités plutôt que de multiplier les formes libres.\n• 6. Je distingue la notice commune de mon exemplaire local.\n• 7. Je vérifie l’affichage final.\n\nLa fiche réflexe \u000bdu catalogueur"
+        },
+        {
+          "number": 46,
+          "label": "diapositive",
+          "content": "\nBloc 2XX\n200$a : Titre propre \n200$e : Complément du titre\n200$f : 1ere mention de responsabilité (auteur principal)\n200$g : mention de responsabilité suivante (auteur(s) secondaire(s))\n \n214$a : Lieu de publication \n214$c : Nom de l’éditeur \n214$d : Date de publication (format AAAA ou MM/AAAA)\n \n215$a : Importance matérielle (nombre de pages : format XXX p.)\n \nBloc 3XX\n300$a : Note générale\n330$a : Résumé\n \nBloc 4XX\n454$t : Traduit de (titre original)\n \nBloc 9XX\n920$5 : Identification de l’établissement et de l’exemplaire = Administration centrale\n920$c : Précisions sur la Propriété du document = Administration centrale\n \nBloc 0XX\n000 Label (utiliser l’éditeur de champs pour créer les données codées)\n099$t : Catégorie de document\n \nBloc 1XX\n100$a : Données générales de traitement (utiliser l’éditeur de champs pour créer les données codées)\n101$a : Langue du document (choix de la langue dans une liste déroulante)\n\nNotice bibliographique\n Pour les champs 6XX et 7XX, nous discuterons de l’opportunité d’utiliser des autorités \n \n \nPlus rarement, suivant les cas de figure, on ajoutera les champs : \n \n200$v : Volumaison \n225$a : Titre de la collection\n410$t : Titre de la collection\n461$t : Titre de la série\n \n \nNotice exemplaire \n \nSite Propriétaire\nSite Dépositaire\nLocalisation (si document en réserve)\nCode barre\nCote\nType de prêt"
+        },
+        {
+          "number": 47,
+          "label": "diapositive",
+          "content": "\n\nPaniers et listes\nLes paniers et les listes permettent de regrouper temporairement ou durablement des notices afin de faciliter leur consultation et certaines opérations de gestion. \nIls sont particulièrement utiles pour constituer des ensembles de documents correspondant à un besoin précis : contrôle qualité, préparation d’un traitement par lot, sélection thématique ou suivi d’un fonds.\nLes paniers sont principalement conçus pour constituer rapidement une sélection de notices au cours d’une recherche. Ils permettent de rassembler des résultats provenant de plusieurs recherches avant de les consulter, les imprimer, les envoyer ou les exporter.\nLes listes permettent de conserver une sélection de notices de manière plus durable. Elles peuvent servir, par exemple, à constituer une bibliographie, préparer une sélection documentaire ou conserver un ensemble de notices à contrôler. Selon leur paramétrage, elles peuvent être privées ou partagées.\n\n\nÀ retenir : le panier sert surtout à travailler sur une sélection ponctuelle ; la liste permet de conserver et d’organiser une sélection dans le temps. Dans les deux cas, ils facilitent le travail sur des ensembles de notices sans modifier directement leur contenu."
+        },
+        {
+          "number": 48,
+          "label": "diapositive",
+          "content": "\n\nPaniers et listes"
+        },
+        {
+          "number": 49,
+          "label": "diapositive",
+          "content": "\nExercice 1 – Créer une notice originale pour une brochure locale.  \n\n\u000bExercice 2 – Importer via Z39.50 un roman connu et compléter résumé + exemplaire. \n\nExercices pratiques"
+        },
+        {
+          "number": 50,
+          "label": "diapositive",
+          "content": "\n\nCréer un adhérent\nDans Koha, les adhérents regroupent aussi bien les usagers de la bibliothèque que les agents disposant d’un compte professionnel. \u000bChaque adhérent est rattaché à une bibliothèque et à une catégorie d’adhérent, qui déterminent une partie de ses caractéristiques et de ses droits d’utilisation.\u000bLa création d’un adhérent consiste à renseigner les informations nécessaires à son identification : nom, prénom, bibliothèque de rattachement, catégorie, identifiant ou numéro de carte, ainsi que les coordonnées utiles selon les besoins du service."
+        },
+        {
+          "number": 51,
+          "label": "diapositive",
+          "content": "\n\nCréer un adhérent\nÀ retenir : créer un adhérent revient à créer son identité dans Koha ; lui attribuer des permissions détermine ensuite ce qu’il est autorisé à faire dans l’interface professionnelle"
+        },
+        {
+          "number": 52,
+          "label": "diapositive",
+          "content": "\n\nPrêt et retour\nLe module Circulation permet de gérer les mouvements des documents entre la bibliothèque et ses adhérents : prêts, retours, renouvellements et réservations. \u000bSon fonctionnement repose sur les informations enregistrées dans les fiches des adhérents et des exemplaires, ainsi que sur les règles définies par les administrateurs.\u000bLes règles de circulation et de prêt déterminent les conditions applicables en croisant notamment trois éléments : la bibliothèque, la catégorie d’adhérent et le type de document. Elles permettent ensuite de définir des paramètres comme la durée du prêt, les renouvellements, les réservations ou les éventuelles pénalités."
+        }
+      ]
+    },
+    {
+      "id": "admin-koha",
+      "title": "Administrer le SIGB KOHA",
+      "description": "Support sur le rôle du référent local, les paramètres partagés, les rapports et les traitements par lot.",
+      "software": "KOHA",
+      "categories": [
+        "Supports de formation"
+      ],
+      "author": "THEBAULT Didier",
+      "producer": null,
+      "sourceCreated": null,
+      "sourceModified": "2026-10-01 11:50:09",
+      "metadataNote": "Les dates techniques du fichier ne valent pas date de publication. Auteur non confirmé quand la propriété indique un logiciel.",
+      "version": "Import initial — version source non renseignée",
+      "language": "fr",
+      "keywords": [
+        "300",
+        "606",
+        "856",
+        "995"
+      ],
+      "courses": [
+        "administrer-koha"
+      ],
+      "audience": "Administrateurs fonctionnels locaux",
+      "publication": "published",
+      "validation": "review",
+      "access": "members",
+      "download": true,
+      "allowHistory": false,
+      "classification": null,
+      "filename": "Formation_KOHA_Administrateurs_DRAC_1_jours(1).pptx",
+      "format": "PPTX",
+      "size": 2496082,
+      "sha256": "20a20a6315b489b2b028c232d5c61b7eee1308efef2e5a3cf4f15742546664f0",
+      "previewFile": "corpus/previews/Formation_KOHA_Administrateurs_DRAC_1_jours(1).pdf",
+      "pages": [
+        {
+          "number": 1,
+          "label": "diapositive",
+          "content": "\nFORMATION\nAdministrer le SIGB"
+        },
+        {
+          "number": 2,
+          "label": "diapositive",
+          "content": "\nÀ l'issue de la journée, le référent doit pouvoir :\ncomprendre l'organisation d'une instance Koha mutualisée ;\ndistinguer ce qui relève de l'administration centrale et de l'administration locale ;\ngérer les paramètres fonctionnels de son site ;\ncréer et gérer les utilisateurs professionnels et leurs droits ;\ncomprendre le paramétrage des notices et des exemplaires ;\nutiliser les principaux outils de traitement par lot ;\nproduire et exploiter des rapports ;\nidentifier une anomalie et savoir quand la faire remonter à l'administrateur central.\n\nObjectifs \u000bde la formation"
+        },
+        {
+          "number": 3,
+          "label": "diapositive",
+          "content": "\nL’administrateur DRAC est le référent fonctionnel de Koha pour sa structure. \u000bIl accompagne les utilisateurs, veille à la bonne utilisation du SIGB et assure le lien entre les besoins de sa DRAC et l’administration centrale du catalogue mutualisé.\nSon rôle n’est pas d’administrer techniquement le serveur Koha, mais de garantir le bon fonctionnement de son environnement documentaire local, dans le respect des règles communes.\n\nLe rôle de l'administrateur DRAC : \n\nUn référent local \u000bdans un environnement mutualisé\nCatalogueurs de la DRAC\nAccompagnement, droits, pratiques, difficultés rencontrées\nAdministrateur DRAC\nRespect du référentiel commun \u000bet qualité des données – Traitement ou remontée des anomalies ou des demandes\nAdministrateur AC\nTraitement des anomalies, liens avec le fournisseur et le SNUM, traitement des demandes de paramétrage et évolutions."
+        },
+        {
+          "number": 4,
+          "label": "diapositive",
+          "content": "\n\nLe rôle de l'administrateur fonctionnel : \n\nUn référent local \u000bdans un environnement mutualisé\nAdministrateur système\u000bDidier Thebault - MPDOC"
+        },
+        {
+          "number": 5,
+          "label": "diapositive",
+          "content": "\nTrois niveaux d’intervention\n🟢 Autonomie DRAC\u000bGestion courante de son environnement, accompagnement des utilisateurs, contrôles et exploitation des rapports autorisés.\n🟠 Coordination nécessaire\u000bDemande d’une nouvelle localisation, d’une valeur autorisée ou d’une évolution susceptible d’intégrer le référentiel commun.\n🔴 Administration centrale\u000bParamètres structurants de Koha, grilles MARC communes, préférences système globales et modifications susceptibles d’affecter l’ensemble des DRAC.\n\nLe rôle de l'administrateur DRAC : \n\nUn référent local \u000bdans un environnement mutualisé\nL’administrateur DRAC doit principalement accompagner, contrôler, diagnostiquer et coordonner. Il veille à la qualité des données de sa structure, aide les utilisateurs dans leurs pratiques, détecte les anomalies et transmet à l’administration centrale les demandes qui dépassent son périmètre.\u000b\nÀ retenir :\nL’administrateur DRAC n’est pas un administrateur technique de Koha : c’est le référent fonctionnel local du SIGB mutualisé."
+        },
+        {
+          "number": 6,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration\nLe module Administration permet de définir les règles qui déterminent \u000ble fonctionnement de Koha. \u000bIl ne sert pas à effectuer les opérations quotidiennes comme cataloguer ou prêter un document, mais à configurer l’environnement dans lequel ces opérations sont réalisées.\u000bL’administrateur fonctionnel intervient donc sur les paramètres qui structurent le travail des utilisateurs : bibliothèques et sites, catégories d’adhérents, types de documents, valeurs autorisées, règles de circulation, paramètres bibliographiques ou encore préférences système.\n\nDeux niveaux : \nPréférences système = comment Koha fonctionne\nParamètres = avec quelles règles et quelles données Koha fonctionne\n\n\nDans un catalogue mutualisé, avant de modifier un paramètre, toujours déterminer sa portée : locale ou globale.\n\nAdministrer Koha, ce n’est pas seulement savoir où se trouve un paramètre. C’est comprendre ce qu’il contrôle, mesurer les conséquences de sa modification, tester le résultat et documenter le changement"
+        },
+        {
+          "number": 7,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nLes paramètres \u000bde base \nDans le cadre du catalogue Koha mutualisé, les paramètres de base sont communs à l’ensemble des structures participantes. \nLeur création et leur modification seront donc assurées par le responsable du SIGB, afin de garantir la cohérence du catalogue et d’éviter la multiplication de paramètres locaux non harmonisés.\n\nCela concerne notamment la définition des bibliothèques et groupes de bibliothèques, des types de document et des valeurs autorisées communes.\n\nL’administrateur fonctionnel d’une DRAC pourra consulter et utiliser ces paramètres, identifier un besoin d’évolution et le transmettre au responsable du SIGB. La modification sera réalisée au niveau central après vérification de son impact sur le catalogue mutualisé.\n\nÀ retenir : dans un SIGB mutualisé, un paramètre de base n’appartient pas à une seule DRAC. Toute création ou modification susceptible d’avoir un impact collectif est administrée au niveau central par le responsable du SIGB."
+        },
+        {
+          "number": 8,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nGrilles des notices bibliographiques MARC\nDans le cadre du catalogue Koha mutualisé, les grilles de notices bibliographiques MARC définissent la structure utilisée pour le catalogage : champs, sous-champs, répétabilité et liens avec les autorités. \nElles déterminent également l’interface de saisie proposée aux catalogueurs.\n\nAfin de garantir des pratiques de catalogage homogènes entre les DRAC, la création et la modification de ces grilles seront assurées par le responsable du SIGB.\n\nL’administrateur fonctionnel d’une DRAC pourra signaler un besoin d’évolution ou proposer une modification, mais celle-ci devra être étudiée au niveau central avant son intégration dans les grilles communes.\n\nÀ retenir : les grilles MARC constituent un élément structurant du référentiel documentaire commun. Leur administration centralisée garantit la cohérence des notices produites dans le catalogue mutualisé."
+        },
+        {
+          "number": 9,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nBibliothèques\nDans Koha, une bibliothèque représente un établissement, un site ou une unité documentaire du réseau. Elle constitue un élément structurant du SIGB : les adhérents, les exemplaires, les règles de circulation et de nombreux paramètres peuvent être rattachés à une bibliothèque.\n\nÀ retenir : la bibliothèque est l’un des principaux niveaux d’organisation du Koha mutualisé. Les notices bibliographiques sont partagées, tandis que les exemplaires et les utilisateurs peuvent être rattachés aux différentes structures du réseau."
+        },
+        {
+          "number": 10,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nBibliothèques\nAjout d’une nouvelle bibliothèque : \u000b\u000bCode de la bibliothèque (obligatoire) : le code ne devrait contenir ni espace ni trait d’union et devrait avoir 10 caractères ou moins. Ce code sera utilisé comme un identifiant unique dans la base de données.\nNom (obligatoire) : le nom sera visible à l’OPAC et dans l’interface professionnelle partout où le nom de la bibliothèque s’affiche. Celui-ci devrait être un nom qui a un sens pour vos utilisateurs et votre personnel."
+        },
+        {
+          "number": 11,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nTypes de document\nDans notre Koha, les types de documents sont principalement utilisés pour déterminer les conditions de mise à disposition des exemplaires. Ils permettent notamment de distinguer les documents disponibles au prêt de ceux qui sont exclus du prêt.\n\nDans le Koha mutualisé, les types de documents doivent être définis de manière cohérente pour l’ensemble des DRAC. Il faut donc éviter de créer plusieurs types différents pour désigner une même catégorie de ressources. La création, la modification ou la suppression des types de documents sera assurée par le responsable du SIGB. L’administrateur fonctionnel DRAC pourra identifier un besoin particulier et demander une évolution du référentiel commun."
+        },
+        {
+          "number": 12,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nValeurs autorisées\nDans Koha, les valeurs autorisées permettent de proposer aux utilisateurs une liste prédéfinie de valeurs plutôt qu’une saisie libre. Elles sont notamment utilisées dans certains champs ou sous-champs des notices et des exemplaires. Le support de référence cite par exemple les langues, les pays et les codes internes"
+        },
+        {
+          "number": 13,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nRapports \nLa fonctionnalité Rapports permet d’interroger les données enregistrées dans Koha afin de produire des listes, des contrôles et des statistiques. Les rapports peuvent notamment porter sur les collections, les exemplaires, les adhérents, les prêts ou encore la qualité des données bibliographiques. Le support de référence distingue les rapports assistés et les rapports construits à partir de requêtes SQL."
+        },
+        {
+          "number": 14,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nCréer un nouveau rapport avec l’Assistant de rapports guidés\n\u000b"
+        },
+        {
+          "number": 15,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nCréer un nouveau rapport avec l’Assistant de rapports guidés\n\u000b"
+        },
+        {
+          "number": 16,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nCréer un nouveau rapport avec l’Assistant de rapports guidés\n\u000b"
+        },
+        {
+          "number": 17,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nCréer un nouveau rapport à partir de SQL avec une IA\u000b\nLa fonction « Créer à partir de SQL » permet de construire directement un rapport en interrogeant les données enregistrées dans Koha. \nElle offre davantage de possibilités que l’assistant de création de rapports et permet de répondre à des besoins précis de contrôle, d’extraction ou de suivi des données. \n\nLes rapports SQL font partie des outils de suivi et de supervision prévus dans Koha. \u000bLa création d’un rapport consiste à lui attribuer un nom explicite, éventuellement à le classer dans un groupe, puis à saisir la requête SQL correspondant au besoin. \u000bUne fois enregistré, le rapport peut être exécuté à nouveau sans avoir à réécrire la requête.\u000bLes rapports peuvent également comporter des paramètres à renseigner au moment de leur exécution. Dans notre catalogue mutualisé, cela permet par exemple de proposer à l’utilisateur de sélectionner sa bibliothèque ou son site de rattachement avant d’afficher les résultats."
+        },
+        {
+          "number": 18,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nCréer un nouveau rapport à partir de SQL avec une IA\u000b\nExemple de demande :\n\n«Crée un rapport SQL Koha permettant de trouver toutes les notices comportant un champ UNIMARC 606. Affiche le numéro de notice, le titre et le site de rattachement. Comme notre Koha est mutualisé entre plusieurs DRAC, ajoute un paramètre permettant à l'utilisateur de sélectionner sa bibliothèque avant de lancer le rapport.»\nSELECT DISTINCT\n    b.biblionumber AS \"Numéro de notice\",\n    b.title AS \"Titre\",\n    br.branchname AS \"Site de rattachement\"\n\nFROM biblio b\n\nJOIN biblio_metadata bm\n    ON bm.biblionumber = b.biblionumber\n\nJOIN items i\n    ON i.biblionumber = b.biblionumber\n\nJOIN branches br\n    ON br.branchcode = i.homebranch\n\nWHERE\n    bm.metadata REGEXP '<datafield[^>]*tag=\"606\"'\n\n    AND i.homebranch = <<Bibliothèque|branches>>\n\nORDER BY\n    b.title;"
+        },
+        {
+          "number": 19,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nCréer un nouveau rapport à partir de SQL avec une IA\u000b\nExemple de demande :"
+        },
+        {
+          "number": 20,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nAssistant statistiques\nL’Assistant statistiques permet de produire des statistiques à partir des données enregistrées dans Koha sans avoir à écrire directement une requête SQL. \nIl propose différents formulaires permettant de sélectionner les données à analyser, les critères de regroupement et la période concernée.\n\nSelon les modules disponibles dans Koha, il permet notamment d’exploiter des données concernant la circulation, les adhérents, les collections, les acquisitions ou le catalogue. L’utilisateur choisit les critères qui constitueront les lignes et les colonnes du tableau statistique, puis Koha calcule automatiquement les résultats.\n\nL’Assistant statistiques est particulièrement adapté aux besoins courants de pilotage : connaître le nombre de prêts sur une période, analyser l’activité par bibliothèque, observer la répartition des collections ou comparer différentes catégories de données.\n\u000bIl complète les rapports SQL : l’Assistant statistiques est plus simple à utiliser pour des analyses courantes, tandis qu’un rapport SQL permet de construire des interrogations plus précises ou des contrôles personnalisés. Le support de référence distingue d’ailleurs les rapports « SQL ou assistés » parmi les outils de suivi de Koha. \n\nÀ retenir : Assistant statistiques = analyser les données sans écrire de SQL. Pour une interrogation plus complexe, un contrôle qualité ou une extraction très spécifique, on privilégiera la création d’un rapport SQL."
+        },
+        {
+          "number": 21,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nAssistant statistiques\nL’Assistant statistiques"
+        },
+        {
+          "number": 22,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nAssistant statistiques\nL’Assistant statistiques"
+        },
+        {
+          "number": 23,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nDédoublonnage \u000bdes notices\nLe dédoublonnage consiste à identifier les notices bibliographiques qui décrivent un même document afin d’éviter la présence de plusieurs notices pour une même ressource dans le catalogue.\nDans un catalogue mutualisé, ce contrôle est particulièrement important : plusieurs DRAC peuvent posséder le même document, mais celui-ci doit autant que possible être décrit par une notice bibliographique commune à laquelle sont rattachés les exemplaires des différentes structures.\n\nAvant de créer une nouvelle notice, le catalogueur doit donc rechercher systématiquement si le document est déjà présent dans Koha. L’identification peut notamment s’appuyer sur le titre, l’auteur et les identifiants disponibles, comme l’ISBN ou l’EAN.\nLorsqu’un doublon est détecté, il ne faut pas supprimer immédiatement l’une des notices. Il convient d’abord de comparer les notices, vérifier les exemplaires qui leur sont rattachés et déterminer quelle notice doit être conservée. La fusion ou la suppression doit être réalisée selon les procédures définies pour le catalogue mutualisé.\n\nLe contrôle des doublons fait partie des opérations de qualité des données prévues dans le suivi et la supervision de Koha.\n\nÀ retenir : plusieurs DRAC peuvent posséder le même document, mais cela ne signifie pas qu’il faut plusieurs notices. Dans le catalogue mutualisé, on privilégie une notice bibliographique commune et plusieurs exemplaires rattachés à cette notice."
+        },
+        {
+          "number": 24,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nDédoublonnage \u000bdes notices\nPour fusionner des notices bibliographiques :\nEffectuez une recherche dans le catalogue afin de trouver les notices qui doivent être fusionnées.\nCochez les cases situées à côté des notices en doublon afin de les sélectionner."
+        },
+        {
+          "number": 25,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nDédoublonnage \u000bdes notices\nChoisir la notice de référence à conserver"
+        },
+        {
+          "number": 26,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nDédoublonnage \u000bdes notices\nFusionner"
+        },
+        {
+          "number": 27,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nModification de notices par lot\nLa fonctionnalité Modification de notices par lot permet d’appliquer une même modification à plusieurs notices bibliographiques simultanément, sans avoir à ouvrir et corriger chaque notice individuellement. Elle fait partie des outils de traitements par lot de Koha.\n\nElle peut être utilisée, par exemple, pour ajouter, supprimer ou modifier une information MARC sur un ensemble de notices préalablement identifié. Les notices concernées doivent donc être sélectionnées avec précision, puis la règle de modification à appliquer doit être définie avant le lancement du traitement.\n\nCette fonctionnalité est particulièrement efficace pour les opérations de normalisation et de correction de données, mais elle nécessite une grande vigilance : une erreur dans la sélection ou dans la règle appliquée peut être répercutée sur un grand nombre de notices."
+        },
+        {
+          "number": 28,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nModification de notices par lot\n\nSélectionner les notices à traiter\nAvant d’appliquer un modèle de modification MARC, Koha doit connaître précisément l’ensemble des notices sur lesquelles le traitement sera effectué. \n\nPlusieurs méthodes permettent de constituer ce lot.\n\nTélécharger un fichier permet de fournir à Koha un fichier contenant les identifiants des notices à modifier. Cette méthode est particulièrement adaptée lorsqu’une sélection a été préparée ou extraite préalablement.\nSélectionner une liste de notices permet d’utiliser directement une liste déjà constituée dans Koha. Cette solution est pratique lorsque les notices ont été repérées et regroupées en amont à partir du catalogue.\nEntrer une liste de numéros de notices permet de saisir ou de copier directement les numéros des notices bibliographiques concernées. Cette méthode convient particulièrement à un ensemble limité et précisément identifié.\n\nUne fois le lot constitué, Koha permet d’appliquer le modèle de transformation MARC choisi à l’ensemble des notices sélectionnées.\n\nÀ retenir : quelle que soit la méthode utilisée, la première étape consiste toujours à contrôler précisément la sélection des notices. Une erreur de sélection peut entraîner l'application de la modification MARC à des notices qui ne devaient pas être concernées."
+        },
+        {
+          "number": 29,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nModification de notices par lot\u000b\u000bModèles de transformation MARC\nCet outil permet de modifier par lot des notices bibliographiques et des notices d’autorité à l’aide de modèles de modification MARC.\n\nAvant d’utiliser cet outil, il est nécessaire d’avoir créé au moins un modèle de modification MARC"
+        },
+        {
+          "number": 30,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nModification de notices par lot\u000b\u000bModèles de transformation MARC\nDans cet exemple, on va ajouter la mention « Provient de la DRAC Normandie » dans le champ 300$a dans les notices sélectionnées \nTélécharger lot de notices depuis un rapport SQL. Dans Excel, récupérer les numéros de notices"
+        },
+        {
+          "number": 31,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nModification de notices par lot\u000b\u000bModèles de transformation MARC\nDans cet exemple, on va ajouter la mention « Provient de la DRAC Normandie » dans le champ 300$a dans les notices sélectionnées "
+        },
+        {
+          "number": 32,
+          "label": "diapositive",
+          "content": "\n\nDans cet exemple, on va ajouter la mention « Provient de la DRAC Normandie » dans le champ 300$a dans les notices sélectionnées "
+        },
+        {
+          "number": 33,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nImports de données \nLa fonctionnalité Imports de données permet d’intégrer dans Koha des notices bibliographiques provenant d’une source extérieure. Il peut s’agir, par exemple, de notices récupérées auprès d’un autre catalogue, issues d’une ancienne base documentaire ou préparées dans le cadre d’une opération de migration.\u000b\u000bTester avant d’intervenir en production\u000bToute opération d’import ou de modification en masse doit être testée au préalable dans la base de test. Cette étape permet de vérifier le résultat, de détecter d’éventuelles anomalies et de sécuriser l’opération avant son application au catalogue réel.\n\nPour un traitement en base de production, le niveau de validation dépendra notamment de la volumétrie concernée : plus le nombre de notices ou d’exemplaires impactés est important, plus le risque doit être évalué. Au-delà du périmètre autorisé à l’administrateur DRAC, l’accord du responsable SIGB devra être demandé avant toute intervention.\u000b"
+        },
+        {
+          "number": 34,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nImports de données \nPrincipe : tester → contrôler → demander l’autorisation si nécessaire → intervenir en production → vérifier le résultat"
+        },
+        {
+          "number": 35,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nDiagnostic de premier niveau\nL’administrateur fonctionnel constitue le premier niveau d’assistance pour les utilisateurs de sa structure. Face à un problème dans Koha, son rôle est d’abord de qualifier l’anomalie : comprendre ce qui se passe, vérifier les éléments accessibles et déterminer si le problème peut être résolu localement ou doit être transmis au responsable SIGB. Cette fonction d’accompagnement des utilisateurs fait partie du rôle de l’administrateur fonctionnel.\n\nLors du diagnostic, quatre origines principales peuvent être recherchées : les données (notice, exemplaire, adhérent…), les droits de l’utilisateur, le paramétrage de Koha, ou un problème nécessitant l’intervention du responsable SIGB\n\nQuelques réflexes permettent d'orienter rapidement le diagnostic : si un utilisateur ne peut plus cataloguer, vérifier son compte et ses permissions ; si un document ne peut pas être prêté, contrôler l’exemplaire, l’adhérent et les règles de circulation ; si une valeur n’apparaît plus, vérifier les valeurs autorisées ; si un exemplaire est rattaché au mauvais site, contrôler ses informations de bibliothèque et de localisation ; si une notice ne s’affiche pas comme prévu, commencer par examiner ses données bibliographiques.\u000bL’objectif n’est pas nécessairement de résoudre seul tous les problèmes, mais de transmettre au responsable SIGB une anomalie déjà qualifiée : utilisateur concerné, notice ou exemplaire, action effectuée, résultat obtenu et résultat attendu.\n\nÀ retenir : Observer → reproduire → contrôler les données → vérifier les droits et le paramétrage → corriger si cela relève de son périmètre → transmettre au responsable SIGB si nécessaire."
+        },
+        {
+          "number": 36,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nPréférences système\nLes Préférences système permettent de définir le comportement général de Koha. Elles servent à activer, désactiver ou personnaliser de nombreuses fonctionnalités du SIGB : circulation, catalogage, adhérents, recherche, interface professionnelle, OPAC, acquisitions, autorités, etc. Elles constituent ainsi le cœur du paramétrage global de Koha\n\nChaque préférence correspond à un paramètre précis. Avant toute modification, il est important de comprendre sa fonction et d'en mesurer les conséquences, car certaines préférences peuvent modifier le fonctionnement de Koha pour l'ensemble des utilisateurs.\n\nIl n'est pas nécessaire de connaître toutes les préférences système par cœur. Il faut savoir les rechercher, comprendre leur effet et identifier leur portée avant toute modification."
+        },
+        {
+          "number": 37,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nDéfinir les permissions\nDans Koha, les permissions déterminent les fonctionnalités auxquelles un agent peut accéder dans l’interface professionnelle. Après la création de son compte, il convient donc de lui attribuer uniquement les droits correspondant à ses missions : catalogage, circulation, rapports, outils ou certaines fonctions d’administration. Le support de référence recommande d’attribuer les droits selon les profils et d’appliquer le principe des droits minimum nécessaires.\n\nÀ retenir : on n’attribue pas des droits « au cas où ». Chaque utilisateur doit disposer des permissions nécessaires à ses missions, et uniquement de celles-ci. Les fonctions ayant un impact sur l’ensemble du Koha mutualisé restent réservées aux profils habilités."
+        },
+        {
+          "number": 38,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nExercices\n1. Créer un compte professionnel\t\n\nUn nouvel agent rejoint une DRAC et doit cataloguer\n\nCréer l’adhérent, le rattacher à la bonne bibliothèque et déterminer les permissions nécessaires sans lui attribuer de droits inutiles.\n\n2. Utiliser les valeurs autorisées\t\n\nUne localisation utilisée par la DRAC n'apparaît pas dans la liste proposée lors de la création d'un exemplaire.\n\nIdentifier la valeur autorisée concernée puis déterminer s’il faut la modifier soi-même ou demander sa création au responsable SIGB.\n\n3. Modifier des notices exemplaires par lot\t\n\n30 notices comportent une donnée MARC qui doit être corrigée.\t\n\nConstituer le lot, choisir / préparer le modèle de modification MARC, effectuer le traitement en base de test puis contrôler le résultat. Les traitements par lot et leurs précautions font partie du périmètre prévu par le support.\n\nAjouter une mention « Fond de formation » dans le champ 995$8"
+        },
+        {
+          "number": 39,
+          "label": "diapositive",
+          "content": "\n\nLe module Administration : \n\nExercices\n4. Créer et Exécuter un rapport SQL\n\nLe responsable souhaite connaître les notices d'une DRAC répondant à un critère donné : chercher toutes les notices du catalogue comportant un champ 856$u avec une colonne « site de rattachement »\n\nCréer le rapport adapté, exécuter le rapport, comprendre les colonnes obtenues et exporter les résultats."
+        }
+      ]
+    },
+    {
+      "id": "admin-bokeh",
+      "title": "Administrer le portail BIBDOC",
+      "description": "Support sur les articles, les domaines, les paniers et la gouvernance éditoriale du portail.",
+      "software": "BOKEH",
+      "categories": [
+        "Supports de formation"
+      ],
+      "author": "THEBAULT Didier",
+      "producer": null,
+      "sourceCreated": null,
+      "sourceModified": "2026-10-09 13:48:50",
+      "metadataNote": "Les dates techniques du fichier ne valent pas date de publication. Auteur non confirmé quand la propriété indique un logiciel.",
+      "version": "Import initial — version source non renseignée",
+      "language": "fr",
+      "keywords": [
+        "article",
+        "actualité",
+        "domaine",
+        "panier",
+        "carrousel",
+        "publication"
+      ],
+      "courses": [
+        "administrer-bokeh"
+      ],
+      "audience": "Référents BIBDOC et administrateurs locaux",
+      "publication": "published",
+      "validation": "review",
+      "access": "members",
+      "download": true,
+      "allowHistory": false,
+      "classification": null,
+      "filename": "Formation_BOKEH_Administrateurs_DRAC_2_jours(1).pptx",
+      "format": "PPTX",
+      "size": 6687313,
+      "sha256": "2f5f3d8ecdd63cd96baa64ab46cd2bc309ce86414de50ee6ce03b5cb8a47603e",
+      "previewFile": "corpus/previews/Formation_BOKEH_Administrateurs_DRAC_2_jours(1).pdf",
+      "pages": [
+        {
+          "number": 1,
+          "label": "diapositive",
+          "content": "\nFORMATION\nAdministrer le portail"
+        },
+        {
+          "number": 2,
+          "label": "diapositive",
+          "content": "\nÀ l’issue de la formation, le référent BIBDOC doit être capable de comprendre l’organisation du portail Bokeh, administrer les principaux éléments de son périmètre et contribuer à l’animation éditoriale du portail. \u000bIl devra notamment pouvoir naviguer entre le portail public et l’administration, créer et organiser des contenus, rédiger et mettre en forme des articles, insérer des images, des liens et des sélections de notices, puis visualiser, faire valider et publier les contenus.\nLe référent devra également savoir valoriser les collections en utilisant les domaines, paniers et boîtes de notices, afin de construire des sélections documentaires et de les intégrer aux contenus du portail.\n\nEnfin, il devra être capable de travailler dans un environnement mutualisé, en distinguant les actions qu’il peut réaliser de manière autonome de celles qui nécessitent une validation ou l’intervention de l’administrateur du portail.\n\nObjectif : devenir le référent local BIBDOC de sa structure, capable de contribuer, valoriser les collections, accompagner les contributeurs et participer à la qualité éditoriale du portail mutualisé.\n\nObjectifs \u000bde la formation"
+        },
+        {
+          "number": 3,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh"
+        },
+        {
+          "number": 4,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nLa barre de recherche \nTri par type de document\nTri par bibliothèque\nMot clé"
+        },
+        {
+          "number": 5,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nLe menu "
+        },
+        {
+          "number": 6,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nActualités"
+        },
+        {
+          "number": 7,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nNouveautés"
+        },
+        {
+          "number": 8,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nFocus"
+        },
+        {
+          "number": 9,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nSélections thématiques"
+        },
+        {
+          "number": 10,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nPied de page (footer)"
+        },
+        {
+          "number": 11,
+          "label": "diapositive",
+          "content": "\nAccès en administration du portail : https://bibdoc.culture.gouv.fr/admin\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh"
+        },
+        {
+          "number": 12,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nPage d’administration\u000bdu portail "
+        },
+        {
+          "number": 13,
+          "label": "diapositive",
+          "content": "\n\nObjectifs \u000bde la formation\n\nComprendre BIBDOC \u000bet Bokeh\n\nModules d’administration"
+        },
+        {
+          "number": 14,
+          "label": "diapositive",
+          "content": "\nDans Bokeh, un article est un contenu rédactionnel destiné à être affiché sur le portail : actualité, information pratique, présentation d’un service, événement ou contenu de valorisation documentaire.\nLa création s’effectue depuis le gestionnaire d’articles. Avant de créer l’article, il faut se placer dans le dossier dans lequel celui-ci doit être rangé. Une fois l’article créé, Bokeh permet notamment de renseigner son titre et, si nécessaire, de le déplacer vers un autre dossier.\n\nLa localisation de l’article\nLa localisation indique l’endroit où l’article est enregistré dans l’arborescence des contenus du portail. Le choix du bon dossier est donc important : il permet d’organiser les articles, de les retrouver facilement dans l’administration et de les associer à l’espace éditorial approprié.\nDans BIBDOC, il faudra donc respecter l’organisation éditoriale définie pour le portail et choisir la localisation correspondant au type de contenu et à la structure concernée.\n\nCréer un article\n\nChoisir sa localisation"
+        },
+        {
+          "number": 15,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\n\nChoisir sa localisation"
+        },
+        {
+          "number": 16,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\n\nChoisir sa localisation"
+        },
+        {
+          "number": 17,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\nModifier \nSupprimer\nAjouter un article \nAjouter une sous-catégorie"
+        },
+        {
+          "number": 18,
+          "label": "diapositive",
+          "content": "\n\nCréer un article"
+        },
+        {
+          "number": 19,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\nTitre\nBibliothèque"
+        },
+        {
+          "number": 20,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\nArticle"
+        },
+        {
+          "number": 21,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\nChapô\nImage dans article"
+        },
+        {
+          "number": 22,
+          "label": "diapositive",
+          "content": "\n\nCréer un article"
+        },
+        {
+          "number": 23,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\n\nLes onglets \nParamétrer le titre, la catégorie, les dates et le statut de publication.\nRédiger et mettre en forme le contenu principal.\nRédiger une version courte destinée aux boîtes affichant des articles\nAssocier des informations d'indexation à l’article\nRenseigner des informations complémentaires définies dans Bokeh"
+        },
+        {
+          "number": 24,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\n\nLes icones\nAperçu du document\nInsérer un modèle de contenu\nInsérer une ligne horizontale\nInsérer un lien\nAgrandir l’éditeur en plein écran\nInsérer une image\nInsérer \u000bun tableau\nInsérer \u000bun média\nInsérer \u000bun carrousel\nInsérer \u000bun caractère spécial\nInsérer \u000bun kiosque \u000bde notices\nInsérer une boite Bibliothèque\nInsérer une boite Domaine\nFormulaire\u000bCase à cocher\u000bBouton radio \u000bChamp texte\u000bZone de texte \u000bListe déroulante\u000bBouton\u000bBouton avec image\u000bChamp invisible\nCouleur du texte\u000bCouleur arrière-plan\u000bGras \u000bItalique\u000bSouligné \u000bBarré\u000bCitation\u000bIndice \u000bExposant\u000bSupprimer la mise en forme\u000bCopier la mise en forme \nAligner à gauche\u000bCentrer \u000bAligner à droite \u000bJustifier\nListe numérotée\u000bListe à puces"
+        },
+        {
+          "number": 25,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\n\nLes icones\nStyles\nTaille \u000bde caractères\nPolices de caractères\nHauteur de ligne\nIl est recommandé de saisir le texte sans mise en forme préalable, puis d’appliquer les styles de l’éditeur. Il recommande également de supprimer le formatage lors d’un copier-coller depuis Word"
+        },
+        {
+          "number": 26,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\n\nL’éditeur de texte\nL’éditeur Bokeh permet de produire des contenus rédactionnels sans avoir à maîtriser le langage HTML. Il propose une barre d’outils pour mettre en forme le texte, insérer des illustrations, créer des liens et intégrer des contenus documentaires.\nLes principales fonctionnalités à maîtriser\nStructurer le texte\nUtiliser les styles de titres, les paragraphes, le gras et les listes pour organiser les informations. Privilégier les styles prédéfinis plutôt que les modifications manuelles de taille et de police.\nInsérer des liens\nCréer des liens vers une page de BIBDOC, une ressource extérieure ou un document PDF. Utiliser un intitulé explicite et vérifier la destination du lien.\nAjouter des images\nSélectionner ou téléverser une image depuis l’explorateur de fichiers, adapter ses dimensions, renseigner un texte alternatif pertinent et contrôler son affichage.\nInsérer un tableau\nPrésenter des informations réellement tabulaires. Éviter d’utiliser les tableaux uniquement pour construire la mise en page.\nIntégrer un kiosque de notices\nSélectionner un panier ou un domaine documentaire, puis choisir la présentation des notices : mur, carrousel, nombre de documents et informations affichées."
+        },
+        {
+          "number": 27,
+          "label": "diapositive",
+          "content": "\n\nCréer un article\n\nExercice pratique : \u000bCréer une actualité BIBDOC\nPublier une actualité documentaire \u000b20 minutes\nCréer un article dans la bonne catégorie\nRédiger un titre et deux paragraphes\nAppliquer les styles de titres et de texte\nInsérer une image et un lien\nPrévisualiser et demander la validation"
+        },
+        {
+          "number": 28,
+          "label": "diapositive",
+          "content": "\n\nComprendre \u000bles contenus bibliographiques : \n\nLes domaines\nDans Bokeh, un domaine permet de constituer une sélection de notices bibliographiques à partir de critères de recherche définis à l’avance. \u000b\u000bIl sert à organiser et à valoriser les ressources du catalogue sur le portail BIBDOC, sans avoir à sélectionner manuellement chaque document.\u000b\u000bUn domaine peut être construit à partir de plusieurs critères : type de document, indexation, autorités, bibliothèque ou localisation. Il peut également être configuré pour présenter uniquement des nouveautés. \u000b\u000bLes critères disponibles dépendent des données et du paramétrage du portail."
+        },
+        {
+          "number": 29,
+          "label": "diapositive",
+          "content": "\n\nComprendre \u000bles contenus bibliographiques : \n\nLes domaines"
+        },
+        {
+          "number": 30,
+          "label": "diapositive",
+          "content": "\n\n\nComprendre \u000bles contenus bibliographiques : \n\nLes domaines\nIndexer les notices du domaine\nModifier les notices du domaine\nDupliquer \u000ble domaine\nAjouter un sous domaine\nPanier du domaine\nSupprimer un domaine\nVisualiser \u000ble domaine\nVoir la notice du lien permanent du domaine"
+        },
+        {
+          "number": 31,
+          "label": "diapositive",
+          "content": "\n\nCréer domaine\n\nL’éditeur de domaines\n\nPour l’exemple, on va créer un domaine « Fonction publique » créé sur un critère « Mot matière » \n\nExemplaires de la MPDOC\nTitre ou libellé du domaine\nDomaine parent = Sélections thématiques"
+        },
+        {
+          "number": 32,
+          "label": "diapositive",
+          "content": "\n\nCréer domaine\n\nL’éditeur de domaines\n\nPour l’exemple, on va créer un domaine « Fonction publique » créé sur un critère « Mot matière » \nChoix de l’autorité matière"
+        },
+        {
+          "number": 33,
+          "label": "diapositive",
+          "content": "\n\nCréer domaine\n\nL’éditeur de domaines\n\nPour l’exemple, on va créer un domaine « Fonction publique » créé sur un critère « Mot matière » "
+        },
+        {
+          "number": 34,
+          "label": "diapositive",
+          "content": "\n\nCréer domaine\n\nL’éditeur de domaines\n\nCritères, Autorités et Localisations.\nCritères de création d’un domaine\nCritères bibliographiques\t\nTitre, auteur, sujet, type de document, langue, date de publication\nAutorités\t\nAuteurs, collectivités, sujets ou autres autorités disponibles\nLocalisations\nBibliothèque, site, localisation des exemplaires\nNouveautés\nIndexation\t\nDescripteurs et sujets issus de l'indexation bibliographique\nCollections\t\nCollections éditoriales ou ensembles documentaires\n\n\nUn domaine peut combiner plusieurs critères pour créer une sélection documentaire ciblée. La pertinence des résultats dépend directement de la qualité du catalogage, de l’indexation et des données de localisation."
+        },
+        {
+          "number": 35,
+          "label": "diapositive",
+          "content": "\n\nCréer un panier\nCréer un panier de notices\nDans Bokeh, un panier permet de constituer une sélection de notices bibliographiques choisies individuellement dans le catalogue. \u000bContrairement à un domaine, qui repose sur des critères de recherche prédéfinis, le panier permet de sélectionner précisément les documents que l’on souhaite valoriser.\nIl est particulièrement adapté à la création de sélections documentaires thématiques, de bibliographies ou de présentations de documents choisis par les documentalistes.\n\nCréer une boîte de notices\nLa boîte de notices est un composant de Bokeh permettant d'afficher une sélection de documents sur le portail. Elle peut être alimentée par un panier de notices ou par un domaine bibliographique.\nLors de sa configuration, le contributeur sélectionne la source des notices, puis personnalise leur présentation : titre de la boîte, informations affichées (couverture, titre, auteur…), disposition en mur ou en carrousel et nombre de documents visibles.\nIl est également possible d'ajouter un lien permettant aux visiteurs de consulter l'ensemble des documents de la sélection."
+        },
+        {
+          "number": 36,
+          "label": "diapositive",
+          "content": "\n\nCréer un panier"
+        },
+        {
+          "number": 37,
+          "label": "diapositive",
+          "content": "\n\nCréer un panier\nFaire une recherche dans BOKEH\u000bCliquer sur « Plus d’actions »\u000bCliquer sur «Ajouter »\nAjouter un document dans un nouveau panier "
+        },
+        {
+          "number": 38,
+          "label": "diapositive",
+          "content": "\n\nCréer un panier\nAjouter un titre au panier et sélectionner la position du panier\nSélectionner un emplacement"
+        },
+        {
+          "number": 39,
+          "label": "diapositive",
+          "content": "\n\nCréer un panier\nAccéder au panier "
+        },
+        {
+          "number": 40,
+          "label": "diapositive",
+          "content": "\n\nCréer une boite \u000bde notices\nDans un article, insérer un kiosque de notices \nChoisir le panier"
+        },
+        {
+          "number": 41,
+          "label": "diapositive",
+          "content": "\n\nCréer une boite \u000bde notices"
+        },
+        {
+          "number": 42,
+          "label": "diapositive",
+          "content": "\n\nCréer une boite \u000bde notices\n\nModifier l’affichage du kiosque de notices"
+        },
+        {
+          "number": 43,
+          "label": "diapositive",
+          "content": "\n\nCréer une boite \u000bde notices\nCarrousel à 5 colonnes\u000bC’est l’affichage choisi dans Bibdoc \nAccordéon"
+        },
+        {
+          "number": 44,
+          "label": "diapositive",
+          "content": "\n\nCréer une boite \u000bde notices\nTableau\nListe verticale avec interactions"
+        },
+        {
+          "number": 45,
+          "label": "diapositive",
+          "content": "\n\nGouvernance éditoriale du portail mutualisé BIBDOC\nGouvernance éditoriale du portail mutualisé BIBDOC\n\u000bLe portail BIBDOC est un espace documentaire mutualisé qui rassemble et valorise les collections de plusieurs structures du ministère de la Culture. Son fonctionnement repose sur un principe essentiel : permettre à chaque structure de contribuer à la richesse du portail tout en garantissant la cohérence de l'ensemble.\nLa gouvernance éditoriale définit les responsabilités, les règles de publication et les modalités de coordination entre les contributeurs locaux et l'administration centrale du portail.\n\nUne organisation fondée sur des responsabilités partagées\nLes contributeurs locaux (DRAC et autres structures) rédigent les actualités, créent des sélections documentaires, valorisent leurs collections et veillent à l'exactitude des informations publiées.\nLes référents locaux accompagnent les contributeurs, coordonnent les publications de leur structure, vérifient leur qualité éditoriale et assurent le lien avec l'équipe centrale.\nL'administration centrale du portail garantit la cohérence générale de BIBDOC, définit les règles communes, administre les fonctionnalités partagées et coordonne les évolutions du portail.\nLa gouvernance éditoriale de BIBDOC repose sur un équilibre entre autonomie des structures, responsabilités partagées et cohérence collective. Chaque contributeur participe à la qualité et à la visibilité du portail mutualisé."
+        },
+        {
+          "number": 46,
+          "label": "diapositive",
+          "content": "\n\nCréer une boite \u000bde notices"
+        }
+      ]
+    },
+    {
+      "id": "guide-publications",
+      "title": "Guide de catalogage des publications du ministère",
+      "description": "Guide local illustré pour décrire les publications du ministère et utiliser les autorités dans Koha.",
+      "software": "KOHA",
+      "categories": [
+        "Guides de catalogage"
+      ],
+      "author": "DAUBER Clara",
+      "producer": null,
+      "sourceCreated": null,
+      "sourceModified": null,
+      "metadataNote": "Les dates techniques du fichier ne valent pas date de publication. Auteur non confirmé quand la propriété indique un logiciel.",
+      "version": "Import initial — version source non renseignée",
+      "language": "fr",
+      "keywords": [
+        "099",
+        "200",
+        "210",
+        "214",
+        "250",
+        "300",
+        "314",
+        "330",
+        "340",
+        "600",
+        "601",
+        "606",
+        "607",
+        "608",
+        "700",
+        "701",
+        "710",
+        "711",
+        "856"
+      ],
+      "courses": [
+        "cataloguer"
+      ],
+      "audience": "Catalogueurs",
+      "publication": "published",
+      "validation": "review",
+      "access": "members",
+      "download": true,
+      "allowHistory": false,
+      "classification": null,
+      "filename": "Guide de catalogage des publications du ministère(1).pdf",
+      "format": "PDF",
+      "size": 5254251,
+      "sha256": "a6752db34e09d714c2944cb236e87ca725710beb97b62eb0dde1899337060adc",
+      "previewFile": null,
+      "pages": [
+        {
+          "number": 1,
+          "label": "page",
+          "content": " \n \n \n \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 2,
+          "label": "page",
+          "content": "2 \n \n \n ........................................................................................................................................ 3 \n .............................................................................................................................................. 3 \n \n .................................................... 6 \n .................................................................................................................................... 6 \n ............................................................................................................. 7 \n .............................................................................................................. 7 \n ........................................................................................................... 7 \n ...................................................................................... 7 \n .................................................................................... 8 \n ...................................................................................................... 8 \n ........................................................................................................ 9 \n .................................................................................................... 9 \n .................................................... 9 \n ............................................................................................................... 9 \n ................................................................................................................. 9 \n ............................................................................................................. 9 \n ..................................................... 9 \n \n .............................................................................................................. 10 \n▪ \n .............................................................................................................. 10 \n▪ \n ....................................................................................................... 10 \n▪ \n .................................................................. 11 \n▪ \n ................................................................................. 12 \n▪ \n ......................................................................................................... 12 \n▪ \n .................................................................................................... 13 \n▪ \n ............................................................................................. 18 \n▪ \n .................................................................... 23 \n \n ............................................................................................................................. 25 \n .............................................................................................................................. 45 \n ...................................................................................................................... 46 \n \n \n"
+        },
+        {
+          "number": 3,
+          "label": "page",
+          "content": "3 \n \nGuide méthodologique du Sudoc – Données bibliographiques (détail des différentes zones) \nhttps://documentation.abes.fr/sudoc/formats/unmb/index.htm#TOP \n \nTable des codes de fonction (pour les autorités auteurs) \nhttps://documentation.abes.fr/sudoc/formats/unmb/DonneesCodees/CodesFonctions.htm \n \nCatalogue de la BnF – Recherche dans les notices d’autorité \nhttps://catalogue.bnf.fr/recherche-autorite.do?pageRech=rat \n \nLes informations sont à prendre sur les sources principales d’information : page de titre ou son substitut, \nautres parties liminaires (verso de la page de titre et toute page précédant la page de titre ainsi que leur \nverso), achevé d’imprimer. Les informations qui ne sont pas prises sur l’une des sources principales \nd’information mais sur une autre partie du document ou sur une source extérieure sont généralement à \nindiquer entre crochets. \n \nLes publications qui sont dans le commerce sont à cataloguer de manière plus « classique » que ce qui \nest indiqué dans ce guide. En particulier, on n’indiquera pas « Ministère de la Culture » en zone 200 ni \nen zone 214 si ce qui est indiqué sur le document ne le justifie pas. \n \nPour créer une nouvelle notice, on se rend sur le module « Catalogage ». \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 4,
+          "label": "page",
+          "content": "4 \n \nPuis on choisit le type de document à cataloguer dans la liste déroulante. Pour les publications du \nministère, il s’agit le plus souvent de Rapports ou de Monographies. \nAstuce : afin d’être sûr que toutes les zones dont on aura besoin s’afficheront, il est préférable de choisir \n« Grille de catalogage par défaut » puis de remplir la zone 099 $t (cf. p. 7). \n \n \nL’« éditeur de champ » dont il sera question dans la suite de ce guide correspond à l’icône encadrée en \nrouge sur l’image ci-dessous : \n \n \nLes icônes qui permettent de dupliquer une zone ou un sous-champ sont les suivantes : \n \n \n \n"
+        },
+        {
+          "number": 5,
+          "label": "page",
+          "content": "5 \n \nLes icônes qui permettent du supprimer une zone ou un sous-champ sont les suivantes : \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 6,
+          "label": "page",
+          "content": "6 \n \n \n \n \n Automatique en utilisant l’éditeur de champ \n \nCliquer sur l’éditeur de champ. \n \n \nCliquer sur « Enregistrer ». \n \n \nRésultat final : \n \n \n \n \n \n"
+        },
+        {
+          "number": 7,
+          "label": "page",
+          "content": "7 \n \n \n$a – ISBN \n \n$b – Qualificatif (si nécessaire, si le document porte plusieurs ISBN et qu’il faut préciser à quoi \ncorrespond chaque ISBN par exemple) \n \n \n Zone à ne pas oublier dans le cas des périodiques que l’on traite comme monographies \n(exemple : revue Culture et Recherche) \n \n \n$t – Catégorie de document (choisir dans la liste déroulante. Pour tout autre document qu’un \nrapport, on choisit généralement « Monographies ». La catégorie « Dossiers et recueils \ndocumentaires » peut également être utile. La catégorie « Autres » est à utiliser en dernier \nrecours) \n \n$u – Typologie (la typologie « Document numérique » concerne les documents qui existent \nuniquement en version numérique) \n \n \n Automatique en utilisant l’éditeur de champ \n \nCliquer sur l’éditeur de champ. \n \n \n \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 8,
+          "label": "page",
+          "content": "8 \n \nCliquer sur « Enregistrer ». \n \n \nRésultat final : \n \n \n$a – Titre propre \n \n$f – 1ère mention de responsabilité (le terme « mention de responsabilité » renvoie à l’auteur) \n \n$g – Mention de responsabilité suivante (si nécessaire et autant de fois que nécessaire) \n \n$e – Complément du titre (si nécessaire et autant de fois que nécessaire) \n \n \n$a – Lieu de publication (autant de fois que nécessaire) \n \n$c – Nom de l’éditeur (autant de fois que nécessaire) \n \n$d – Date de publication \n \n \n"
+        },
+        {
+          "number": 9,
+          "label": "page",
+          "content": "9 \n \n \n$a – Importance matérielle (nombre de pages) \n \n$a – Autres caractéristiques matérielles (si nécessaire, pour les documents physiques qui \ncomportent des illustrations par exemple) \n \n$d – Format (le format correspond aux dimensions du document. Uniquement pour les \ndocuments physiques) \n \n \n$a – Titre de la collection \n \n \n$a – Texte de la note \n \n \n$a – Texte de la note \n \n \n Utiliser l’éditeur de champ (cf. p. 13 et suivantes) \n \n \n Utiliser l’éditeur de champ (cf. p. 18 et suivantes) \n \n \n$u – URI (télécharger le lien du document correspondant) \n \n$q – Type de format électronique (pdf) \n \n$z – Note publique (note visible par le public) \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 10,
+          "label": "page",
+          "content": "10 \n \n \n▪ \n \nOn met une majuscule seulement à la première lettre du titre propre et aux noms propres (jamais au \ncomplément du titre même s’il comporte une majuscule sur le document). \n \nLorsqu’un document porte un titre et un sous-titre, on saisit le titre en $a (titre propre). On saisit \ngénéralement le sous-titre en $e (complément du titre) sauf si on estime, en fonction de la typographie, \nqu’il peut également être saisi en $a et simplement séparé du titre propre par une virgule. \n \n▪ \n \nUn auteur peut être une personne ou une collectivité. \n \nOn met une majuscule seulement aux noms propres, jamais aux mots qui introduisent les auteurs. \n \nS’il y a plusieurs mentions de responsabilité, on les cite selon leur importance typographique ou selon \nleur ordre de succession sur la source principale d’information. \n \nPour chaque mention de responsabilité, on indique trois auteurs maximum suivis de « … [et al.] ». Le \nreste des auteurs est à indiquer en zone 314. \n \nOn retranscrit telles quelles les informations situées avant le nom des auteurs mais les informations \nsituées après le nom sont remplacées par « ,… ». \n \nExemple : \n \n \n \nLe terme « Ministère de la Culture » (ou « Ministère de la Culture et de la Communication » pour un \ndocument publié entre 1997 et 2017) apparaît généralement en 1ère mention de responsabilité, suivi \néventuellement d’une ou plusieurs autres entités (l’une des directions du ministère par exemple). \n \nEn ce qui concerne les noms d’éventuels auteurs personnes (et non collectivités), on les indique en \nmention(s) de responsabilité suivante(s). \nOn rassemble généralement dans une même mention de responsabilité les auteurs qui exercent la même \nfonction dans le document traité. \n"
+        },
+        {
+          "number": 11,
+          "label": "page",
+          "content": "11 \n \nOn peut ajouter entre crochets des expressions telles que [établi par], [préparé par], [rédigé par] avant \nd’indiquer les noms des auteurs personnes. \n \n▪ \n \nOn indique généralement « Paris » en tant que lieu de publication (214 $a) et « Ministère de la Culture » \nen tant qu’éditeur (214 $c). On peut ajouter un ou plusieurs lieux de publication et un ou plusieurs \néditeurs si cela est nécessaire. \nLa date de publication (214 $d) correspond à l’année de publication. \n \nSi le document traité est un ouvrage du commerce, on indique en éditeur et date de publication ce qui \napparaît sur la page de titre ou les autres sources principales d’information. \n \nCas particuliers \n \nPour les publications du DEPS (en particulier les collections Culture Etudes et Culture Chiffres), on \nindique, sur le modèle de la BnF, « [Paris] » en lieu de publication, « DEPS » en éditeur et le mois et \nl’année de publication en date de publication. \n \nExemple : \n \n \nRésultat dans la notice finale : \n \n \nPour les rapports de l’IGAC, on indique le mois en toutes lettres, suivi de l’année de publication en date \nde publication. \n \nExemple : \n \n \nRésultat dans la notice finale : \n \n \n \n \n"
+        },
+        {
+          "number": 12,
+          "label": "page",
+          "content": "12 \n \n▪ \n \nSi la publication traitée comporte plusieurs documents (un rapport, une synthèse et des annexes par \nexemple), on indique le nombre de pages de chaque document en ajoutant précédemment à quel \ndocument correspond chaque nombre de pages (exemple : « Rapport (67 p.), synthèse (9 p.) »). \n \nPour la pagination, on s’appuie sur la dernière page numérotée. \nIl en va de même pour un document numérique : si la pagination est différente du nombre de pages \nindiqué dans l’encadré qui se trouve en tête du document, on s’appuie sur la dernière page numérotée et \nnon sur l’encadré. Dans l’exemple ci-dessous, on indiquera 68 pages et non 72. \n \n \nEn ce qui concerne le format du document, on arrondit toujours à la valeur supérieure. Par exemple, si \nun document mesure 20,5 cm, on indique 21 cm. \nSi un document est d’un format particulier, on peut par exemple indiquer 20 x 20 cm (pour un document \nde format carré) ou 20 x 25 cm (pour un document de format paysage). \n \n▪ \n \nNote 314 (note sur la responsabilité) \n \nCette note permet de mentionner les auteurs qui ne peuvent pas apparaître en zone 200 en raison d’un \nexcès d’auteurs (plus de trois auteurs). \n \nElle peut se présenter sous les deux formes suivantes : « Autres auteurs (ou une autre fonction) : nom, \nnom, nom etc. » ou « Autres contributions : nom, nom, nom etc. (auteurs (ou une autre fonction)) » \n \nOn crée plusieurs zones 314 si plusieurs mentions de responsabilités présentent un excès d’auteurs. \n \n \n"
+        },
+        {
+          "number": 13,
+          "label": "page",
+          "content": "13 \n \nNote 330 (résumé ou extrait) \n \nOn trouve généralement un résumé du document que l’on peut copier-coller en zone 330 depuis la page \nde la publication sur le site du ministère. Dans le cas contraire, on essaye de trouver dans le document \nquelques phrases qui permettent de présenter la publication. \n \n▪ \n \nLes zones 600 contiennent des termes (« autorités » ou « vedettes ») qui correspondent au sujet du \ndocument traité.  \n \nL’éditeur de champ permet d’accéder à la fenêtre de recherche d’autorités. \n \n \nOn cherche d’abord si l’autorité existe dans la base. Astuce : effectuer la recherche dans « Rechercher \ntoutes les vedettes ». \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 14,
+          "label": "page",
+          "content": "14 \n \nSi c’est le cas, on choisit l’autorité qui correspond au sujet du document traité et qui a été le plus souvent \nutilisée. Sur l’image ci-dessous, « EP » signifie « employé pour ». \n \n \nSi l’autorité n’existe pas dans la base, il faut l’importer ou la créer. On clique sur « Créer une nouvelle \nautorité ». \n \n \nLa fenêtre d’ajout d’une autorité s’ouvre. On peut alors soit importer une autorité depuis le répertoire \nd’autorités RAMEAU de la BnF, soit la créer.  \n"
+        },
+        {
+          "number": 15,
+          "label": "page",
+          "content": "15 \n \nOn utilise d’abord la recherche Z39.50 (norme qui permet l’interrogation et la récupération \nd’informations dans des bases de données en ligne) pour vérifier si l’autorité existe dans le répertoire \nd’autorités RAMEAU de la BnF. \n \n \nLa fenêtre de recherche d’autorités Z39.50 s’ouvre. On saisit l’autorité que l’on cherche. \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 16,
+          "label": "page",
+          "content": "16 \n \nSi l’autorité existe, on l’importe. \n \n \nUne fois la notice importée, on clique sur « Enregistrer ». \n \n"
+        },
+        {
+          "number": 17,
+          "label": "page",
+          "content": "17 \n \nSi la recherche Z39.50 ne donne aucun résultat, on crée une autorité en utilisant la zone 250 de la notice. \n \n \nIl est rare d’avoir besoin de créer une autorité pour l’élément d’entrée $a. L’autorité existe généralement \ndans la base ou dans le répertoire RAMEAU. \n \nEn ce qui concerne les subdivisions, si on utilise ou importe une vedette construite (exemple : \nÉquipements culturels -- Publics), la subdivision (en l’occurrence, le terme « Publics ») s’intègre \nautomatiquement. \nSi on utilise ou importe une vedette « simple » et que l’on souhaite y ajouter une subdivision, on saisit le \nterme que l’on souhaite dans le sous-champ correspondant à la subdivision qui nous intéresse \n(subdivision de sujet, géographique ou chronologique). On peut prendre pour modèle les autorités \nRAMEAU. Par exemple, on utilise en zone 606 $a la vedette « Médias audiovisuels publics » et on y ajoute \nen $x la subdivision de sujet « Finances » pour un document traitant du financement des médias \naudiovisuels publics. \nCertaines autorités ne peuvent pas s’employer en subdivision. On trouve l’information « S’emploie en \ntête de vedette », « S’emploie en subdivision » ou « S’emploie en tête de vedette et en subdivision » sur la \nnotice de chaque autorité dans le répertoire d’autorités du catalogue de la BnF (lien au début de ce \ndocument). \n \nSi on utilise un terme spécifique pour décrire un document, on n’ajoute pas de terme générique. \nExemple : si on indexe un document avec la vedette « Médias audiovisuels publics », il n’est pas \nnécessaire d’ajouter la vedette générique « Médias audiovisuels ». Autre exemple, si on indexe un \ndocument avec la vedette « Logement social », on n’ajoute pas la vedette générique « Politique du \nlogement ». Il est en revanche possible d’utiliser des termes associés. \nLa liste des termes génériques, associés et spécifiques se trouve sur la notice de chaque autorité dans le \nrépertoire d’autorités du catalogue de la BnF. \n \n"
+        },
+        {
+          "number": 18,
+          "label": "page",
+          "content": "18 \n \nLa zone la plus fréquemment utilisée pour l’indexation des publications du ministère est la zone 606 \n(nom commun). Les zones 600 (nom de personne), 601 (collectivité), 607 (nom géographique ou 608 \n(forme, genre ou caractéristiques physiques) peuvent également être utiles. \n \n▪ \n \nLa création des zones 700 se fonde sur le même principe que celui de la création des zones 600. On utilise \nl’éditeur de champ pour accéder à la fenêtre de recherche d’autorités puis on suit les étapes suivantes : \n \nOn cherche d’abord si l’autorité (personne ou collectivité) existe dans la base. Astuce : effectuer la \nrecherche dans « Rechercher toutes les vedettes » (saisir le prénom et le nom pour une personne). \n \n \nSi c’est le cas, on choisit l’autorité correspondante. Si plusieurs autorités renvoient à la même entité ou \nà la même personne (doublons), on privilégie généralement l’autorité qui a été le plus souvent utilisée. \n \n \n"
+        },
+        {
+          "number": 19,
+          "label": "page",
+          "content": "19 \n \nSi l’autorité n’existe pas dans la base, il faut l’importer ou la créer. On clique sur « Créer une nouvelle \nautorité ». \n \n \nLa fenêtre d’ajout d’une autorité s’ouvre. On peut alors soit importer une autorité depuis le répertoire \nd’autorités de la BnF, soit la créer. \n \nOn utilise d’abord la recherche Z39.50 pour vérifier si l’autorité existe dans le répertoire d’autorités de \nla BnF. \n \n \n"
+        },
+        {
+          "number": 20,
+          "label": "page",
+          "content": "20 \n \nLa fenêtre de recherche d’autorités Z39.50 s’ouvre. On saisit l’autorité que l’on cherche. \n \n \nSi l’autorité existe, on l’importe. \n \n \nPour une personne, il est souvent utile de cliquer sur « Prévisualisation MARC » avant d’importer \nl’autorité. Cela permet d’accéder à des informations complémentaires éventuellement précisées dans la \nnotice et de s’assurer qu’il s’agit bien de l’autorité correspondante, en particulier en cas d’homonymes. \n \n \n"
+        },
+        {
+          "number": 21,
+          "label": "page",
+          "content": "21 \n \nUne fois la notice importée, on clique sur « Enregistrer ». \n \n \nSi la recherche Z39.50 ne donne aucun résultat, on crée l’autorité. \n \nSi l’autorité créée est une collectivité, on remplit la zone 210. \nOn peut aussi remplir la zone 300 (note d’information) pour préciser des informations sur cette \ncollectivité.  \nA savoir : pour « déplier » une zone, on clique sur le titre de cette zone (dans l’exemple ci-dessous : il faut \ncliquer sur « Vedette » et « Note d’information » pour ouvrir les zones correspondantes). \n \n \n \n \n"
+        },
+        {
+          "number": 22,
+          "label": "page",
+          "content": "22 \n \nSi l’autorité créée est une personne, on remplit la zone 200. \nLes vedettes personne se présentent sous la forme Nom, Prénom. Le sous-champ $a (élément d’entrée) \ncorrespond donc au nom de famille. Le prénom est à indiquer dans le sous-champ $b (prénom). \nOn peut également remplir la zone 340 (note sur la biographie et l’activité) pour préciser des \ninformations sur cette personne. Cela permet notamment de mieux identifier l’auteur en cas \nd’homonymes. \n \n \nTous les auteurs qui apparaissent en zones 200 et 314 (mentions de responsabilité) doivent apparaître en \nzones 700 (liens auteurs). \n \nOn indique généralement « Ministère de la Culture » (ou « Ministère de la Culture et de la \nCommunication » pour les documents publiés entre 1997 et 2017) en auteur principal (zone 710). \n \nL’autorité que l’on utilise généralement pour « ministère de la Culture » est la suivante : \n \n \nL’autorité que l’on utilise généralement pour « ministère de la Culture et de la Communication » est la \nsuivante : \n \n \nLa ou les autres éventuelles entités sont à indiquer en collectivité coauteur (zone 711). \n \nLes éventuels auteurs personnes sont à indiquer en coauteur (zone 701). \n \nOn choisit le code de fonction à attribuer à chaque auteur dans la liste déroulante du sous-champ $4.  \n"
+        },
+        {
+          "number": 23,
+          "label": "page",
+          "content": "23 \n \nPour les publications du ministère, les codes de fonction le plus souvent utilisés sont les suivants : \nAuteur, Collectivité éditrice, Commanditaire, Directeur de la publication, Rédacteur. \n \n▪ \n \nPour télécharger l’URI du document dans le sous-champ $u, on suit les étapes suivantes : \n \nCliquer sur « Télécharger ». \n \n \nLa fenêtre des téléchargements s’ouvre. Cliquer sur « Sélect. fichiers ». \n \n \nSélectionner le fichier à télécharger, préalablement enregistré sur le réseau (M_Littérature grise > \nPublication MC_LG > direction ou entité correspondante), puis cliquer sur « Ouvrir ». \n \n"
+        },
+        {
+          "number": 24,
+          "label": "page",
+          "content": "24 \n \nUne fois le fichier sélectionné, cliquer sur « Télécharger ». \n \n \nUne fois le fichier téléchargé dans la base, cliquer sur « Choisir ». \n \n \nPour finir, on remplit les sous-champs $q pour indiquer le type de format électronique (généralement \npdf) et $z (note publique) pour nommer le lien qui renvoie vers le document. On essaye de trouver le \nterme qui correspond le mieux au document (exemple : Rapport, Etude, Lexique, etc.). \n \n \nOn crée autant de zones 856 que de documents à télécharger. \n \n"
+        },
+        {
+          "number": 25,
+          "label": "page",
+          "content": "25 \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 26,
+          "label": "page",
+          "content": "26 \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 27,
+          "label": "page",
+          "content": "27 \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 28,
+          "label": "page",
+          "content": "28 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 29,
+          "label": "page",
+          "content": "29 \n \n \n \n \n \n"
+        },
+        {
+          "number": 30,
+          "label": "page",
+          "content": "30 \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 31,
+          "label": "page",
+          "content": "31 \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 32,
+          "label": "page",
+          "content": "32 \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 33,
+          "label": "page",
+          "content": "33 \n \n \n \n \n \n"
+        },
+        {
+          "number": 34,
+          "label": "page",
+          "content": "34 \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 35,
+          "label": "page",
+          "content": "35 \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 36,
+          "label": "page",
+          "content": "36 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 37,
+          "label": "page",
+          "content": "37 \n \n \n \n \n \n"
+        },
+        {
+          "number": 38,
+          "label": "page",
+          "content": "38 \n \n \n \n \n"
+        },
+        {
+          "number": 39,
+          "label": "page",
+          "content": "39 \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 40,
+          "label": "page",
+          "content": "40 \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 41,
+          "label": "page",
+          "content": "41 \n \n"
+        },
+        {
+          "number": 42,
+          "label": "page",
+          "content": "42 \n \n"
+        },
+        {
+          "number": 43,
+          "label": "page",
+          "content": "43 \n \n"
+        },
+        {
+          "number": 44,
+          "label": "page",
+          "content": "44 \n \n \n \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 45,
+          "label": "page",
+          "content": "45 \n \n \nLorsque la notice est terminée, cliquer sur « Enregistrer ». \n \n \nLa fenêtre d’ajout d’exemplaire s’ouvre. \n \n \n \n \n \n \n \n"
+        },
+        {
+          "number": 46,
+          "label": "page",
+          "content": "46 \n \nRemplir les zones nécessaires puis cliquer sur « Ajouter un exemplaire ». \n \n \n \nDans la zone d’exemplaire, cliquer sur l’onglet « Images ». \n \n \nCliquer sur « Télécharger » puis sur « Glisser les fichiers ici ou cliquez pour sélectionner un fichier » \n \n \n \n"
+        },
+        {
+          "number": 47,
+          "label": "page",
+          "content": "47 \n \nSélectionner l’image que l’on souhaite importer puis cliquer sur « Ouvrir ». \n \nCliquer sur « Traitement des images ». \n \n \n \n \n \n \n \n"
+        }
+      ]
+    },
+    {
+      "id": "guide-unimarc",
+      "title": "Guide des bonnes pratiques de catalogage — UNIMARC",
+      "description": "Version de travail pour diffusion interréseaux. Plusieurs prescriptions divergentes sont signalées dans le contrôle documentaire.",
+      "software": "KOHA",
+      "categories": [
+        "Bonnes pratiques UNIMARC",
+        "Guides de catalogage"
+      ],
+      "author": null,
+      "producer": null,
+      "sourceCreated": null,
+      "sourceModified": "2025-10-13 09:52:00+00:00",
+      "metadataNote": "Les dates techniques du fichier ne valent pas date de publication. Auteur non confirmé quand la propriété indique un logiciel.",
+      "version": "Import initial — version source non renseignée",
+      "language": "fr",
+      "keywords": [
+        "050",
+        "070",
+        "072",
+        "120",
+        "200",
+        "214",
+        "215",
+        "280",
+        "312",
+        "600",
+        "700"
+      ],
+      "courses": [
+        "cataloguer"
+      ],
+      "audience": "Catalogueurs",
+      "publication": "published",
+      "validation": "review",
+      "access": "members",
+      "download": true,
+      "allowHistory": false,
+      "classification": null,
+      "filename": "Guide_bonnes_pratiques_UNIMARC(1).docx",
+      "format": "DOCX",
+      "size": 30888,
+      "sha256": "e1ee5d3226fbb336b3ec20a21bce711abb925b90487c779ad363b54f444d1632",
+      "previewFile": "corpus/previews/Guide_bonnes_pratiques_UNIMARC(1).pdf",
+      "pages": [
+        {
+          "number": 1,
+          "label": "page",
+          "content": "Guide des bonnes pratiques \nde catalogage – UNIMARC\nVersion de travail pour diffusion interréseaux. Conformité UNIMARC / ISBD, usages \nbibliographiques et pratiques recommandées.\n1. Zone 200 – Titre et mention de responsabilité\nObjectif : Identifier précisément le document par son titre propre, son complément de titre \net ses mentions de responsabilité.\nSous-zones principales :\nSous-zone\nIndicateur\nContenu\nRègles d’usage\n$a\n—\nTitre propre\nReproduire \nfidèlement la page \nde titre. Sans \nponctuation finale.\n$d\n—\nTitre parallèle\nSi présent sur la \nsource. Utiliser = \navant $d \n(ponctuation ISBD).\n$e\n—\nComplément du \ntitre\nIntroduire par « : » \n(sans espace avant).\n$f\n—\nPremière mention \nde responsabilité\nIntroduire par « / ». \nJusqu’à trois auteurs \nmaximum.\n$g\n—\nMentions de \nresponsabilité \nsupplémentaires\nIntroduire par « ; ».\n"
+        },
+        {
+          "number": 2,
+          "label": "page",
+          "content": "Bonnes pratiques : privilégier la page de titre ; respecter la ponctuation ISBD (Titre : \ncomplément / mention principale ; autres mentions) ; si plus de trois auteurs, ne \nmentionner que le premier suivi de [et al.].\n2. Zone 214 – Mention de publication, production, distribution\nObjectif : Identifier le lieu, l’éditeur et la date de publication.\nSous-zone\nContenu\nExemple\nCommentaire\n$a\nLieu de publication\n$aParis\nSaisir tel qu’il \nfigure ; normaliser \nsi nécessaire.\n$c\nNom de l’éditeur\n$cGallimard\nReproduire \nfidèlement ; si \nplusieurs, séparer \npar « ; ».\n$d\nDate de publication\n$d2025\nTranscrire l’année ; \nincertitude : \n[2025?].\n$e\nLieu de fabrication \n(facultatif)\n$eImprimé en \nFrance\nMentions \nd’imprimeur si \npertinentes.\nOrdre recommandé : $a (lieu) $c (éditeur) $d (date). Si absence d’info : encadrer de crochets \nles éléments déduits (ex. 214 ##$a[Paris] :$c[Gallimard],$d[vers 1980]).\n3. Zone 215 – Description matérielle\nObjectif : Décrire l’aspect physique du document (nombre de pages, dimensions, matériel \nd’accompagnement).\nSous-zone\nContenu\nExemple\nCommentaire\n$a\nImportance \nmatérielle\n$a320 p.\nNombre total de \npages (ou nombre \nde volumes).\n$b\nAutres \ncaractéristiques \nmatérielles\n$bill. en coul.\nIllustrations, cartes, \nportraits, etc.\n$c\nDimensions\n$c24 cm\nHauteur en cm, \n"
+        },
+        {
+          "number": 3,
+          "label": "page",
+          "content": "arrondie au \nsupérieur.\n$d\nMatériel \nd’accompagnement\n$d+ 1 DVD\nSupport annexe (CD, \nDVD, dépliant…).\nRègles sur la pagination (215 $a) :\n- Pagination simple : 215 ##$a320 p.\n- Liminaires + texte : 215 ##$aXII-280 p.\n- Non paginé : 215 ##$a[n.p.]\n- Estimation : 215 ##$a[120] p.\n- Multivolume : 215 ##$a3 vol.\n- Ressource en ligne : 215 ##$a1 ressource en ligne (PDF)\n- Avec matériel annexe : 215 ##$a320 p. ;$c24 cm +$d1 CD-ROM\n4. Zones 600 et 700 – Points d’accès auteurs\nObjectif : Distinguer les responsabilités de collectivités et de personnes physiques.\nZone 600 – Collectivité auteur : utiliser lorsque la responsabilité est institutionnelle \n(rapports officiels, actes administratifs, plans, etc.).\nExemple : 600 #0$aFrance.$bMinistère de la Culture.$tRapport d’activité\nZone 700 – Auteur physique : utiliser pour toute personne individuelle responsable \nintellectuellement du contenu.\nExemple : 700 #1$aDuby,$bGeorges,$f1919-1996$4070\nDifférence : 600 = collectivité (institution, organisme, congrès) ; 700 = auteur physique \n(personne réelle). Pensez aux codes de fonction $4 (ex. 070 = auteur, 072 = éditeur \nscientifique, 050 = illustrateur).\n5. Combien d’auteurs en 200$f ?\n- 1 à 3 auteurs : tous nommés, séparés par « ; ».\n- Plus de 3 auteurs : premier auteur + [et al.].\n- Œuvre collective : collectivité seule en $f.\n- Direction/coordination : mention explicite (« sous la direction de… »).\n6. Comment indiquer le nombre de pages (215$a) ?\nRappels pratiques : relever la dernière page numérotée ; ne pas compter les pages de \ngarde ; utiliser les crochets pour les informations déduites ; distinguer p. (pages) et f. \n(feuillets).\n"
+        },
+        {
+          "number": 4,
+          "label": "page",
+          "content": "Modèles types :\nMonographie : 215 ##$a245 p. ;$c24 cm\nThèse : 215 ##$aXIV-312 p. :$bill. ;$c30 cm\nCatalogue d’exposition : 215 ##$a[200] p. :$bill. en coul. ;$c28 cm\nRevue (un fascicule) : 215 ##$a1 vol. (96 p.) ;$c30 cm\nRessource numérique : 215 ##$a1 ressource en ligne (PDF)\n"
+        }
+      ]
+    },
+    {
+      "id": "guide-bokeh",
+      "title": "Bokeh — Guide de prise en main rapide",
+      "description": "Guide AFI illustré : articles, domaines, kiosques de notices, modération et compte lecteur.",
+      "software": "BOKEH",
+      "categories": [
+        "Guides BOKEH"
+      ],
+      "author": null,
+      "producer": "AFI",
+      "sourceCreated": null,
+      "sourceModified": null,
+      "metadataNote": "Les dates techniques du fichier ne valent pas date de publication. Auteur non confirmé quand la propriété indique un logiciel.",
+      "version": "Import initial — version source non renseignée",
+      "language": "fr",
+      "keywords": [
+        "article",
+        "actualité",
+        "domaine",
+        "panier",
+        "carrousel",
+        "publication"
+      ],
+      "courses": [
+        "administrer-bokeh",
+        "contribuer"
+      ],
+      "audience": "Contributeurs et administrateurs",
+      "publication": "published",
+      "validation": "review",
+      "access": "members",
+      "download": true,
+      "allowHistory": false,
+      "classification": null,
+      "filename": "Bokeh_Guide_de_prise_en_main_rapide(1).pdf",
+      "format": "PDF",
+      "size": 5111317,
+      "sha256": "b709f48f4d079206612d2c7879d78fce8f31d0ad38ef9423e3a82dda832776e2",
+      "previewFile": null,
+      "pages": [
+        {
+          "number": 1,
+          "label": "page",
+          "content": "GUIDE DE PRISE EN MAIN RAPIDE\nAFI – 35 rue de la Maison Rouge – 77185 Lognes – Tél : 01 60 17 12 34\nSiège Social : 4, rue de la couture, 77260 Sammeron – S.A. au capital de 698 000 € - Siret 322 750 191 00031 – NAF 6202A\n"
+        },
+        {
+          "number": 2,
+          "label": "page",
+          "content": "Table des matières\nConnexion / déconnexion et gestion du compte\n4\nSe connecter\n4\nSe déconnecter\n4\nModifier son mot de passe\n5\nEnregistrer ou modifier son adresse mail\n5\nNaviguer dans le portail\n6\nVolet d’administration\n6\nAccéder aux articles\n7\nAccéder aux domaines\n7\nAccéder à l’administration (Back Office)\n8\nRevenir au portail public (Front Office)\n8\nAfficher les icônes d’administration\n8\nRédiger un article\n9\nCréer un article\n9\nSaisir du texte et le mettre en forme\n11\nAfficher l’article en pleine page\n12\nInsérer une image\n13\nCréer un lien\n16\nInsérer un kiosque de notices\n17\nInsérer une vidéo\n18\nInsérer un iframe (vidéo, GoogleMap, player)\n19\nSélectionner les champs personnalisés\n19\nVisualiser l’article\n20\nModération : demander la validation de l’article\n20\nDupliquer un article\n21\nDomaines\n21\nCréer un domaine\n21\nParamétrer une boîte de notices\n22\nChoisir un domaine ou un panier\n22\nModifier l’affichage\n23\nAvis (critiques / coups de coeur)\n24\nRédaction\n24\nModération\n25\n2\n"
+        },
+        {
+          "number": 3,
+          "label": "page",
+          "content": "Lettres d’information\n25\nMettre à jour le contenu d’une lettre d’information\n25\nTester la lettre d’information\n26\nEnvoyer la lettre d’information\n27\nEt du côté d’un lecteur ?\n27\nSe connecter\n27\nRechercher un document\n27\nRéserver un document\n28\nConsulter son compte\n28\nFaire une suggestion d’achat\n28\n3\n"
+        },
+        {
+          "number": 4,
+          "label": "page",
+          "content": "1.\nConnexion / déconnexion et gestion du compte\n1.1.\nSe connecter\nDans la zone dédiée au compte lecteur, saisir l’identifiant professionnel dans le champ\n“Identifiant” et le mot de passe dans la zone “Mot de passe” :\n1.2.\nSe déconnecter\nCliquer sur le bouton de déconnexion dans la zone dédiée au compte lecteur :\n4\n"
+        },
+        {
+          "number": 5,
+          "label": "page",
+          "content": "1.3.\nModifier son mot de passe\nUne fois connecté, cliquer sur le bouton “Mon compte” dans la zone dédiée du compte\nlecteur :\nSur la page suivante, dans le paragraphe “Mes informations”, cliquer sur le lien “Changer\nmon mot de passe” :\n1.4.\nEnregistrer ou modifier son adresse mail\nUne fois connecté, cliquer sur le bouton “Mon compte” dans la zone dédiée du compte\nlecteur (voir ci-dessus). Sur la page suivante, dans le paragraphe “Mes informations”, cliquer\nsur le lien “Modifier mes informations” :\n5\n"
+        },
+        {
+          "number": 6,
+          "label": "page",
+          "content": "2.\nNaviguer dans le portail\n2.1.\nVolet d’administration\nUne fois connecté avec un compte professionnel, un bouton “Administration” apparaît à\ngauche de l’écran (en haut ou en bas) :\nCliquer sur le bouton, le volet d’administration apparaît :\nA noter : les entrées du menu peuvent changer en fonction des paramétrages propres aux\ndifférents utilisateurs. Ainsi les contributeurs ne verront pas forcément les liens vers les\nmodules d’administration qui ne les concernent pas directement.\n6\n"
+        },
+        {
+          "number": 7,
+          "label": "page",
+          "content": "2.2.\nAccéder aux articles\nDans le volet d’administration, cliquer sur “Articles”. Sur la page suivante, sélectionner un\ndossier en cliquant sur son nom :\nNaviguer de dossier en dossier puis sélectionner un article en cliquant sur le crayon :\n2.3.\nAccéder aux domaines\nDans le volet d’administration, cliquer sur “Domaines”. Sur la page suivante, sélectionner un\ndomaine en cliquant sur le crayon ou créer un domaine en cliquant sur le bouton “Ajouter un\ndomaine” :\n7\n"
+        },
+        {
+          "number": 8,
+          "label": "page",
+          "content": "2.4.\nAccéder à l’administration (Back Office)\nDans le volet d’administration, cliquer sur “Accès pro.”.\n2.5.\nRevenir au portail public (Front Office)\nDepuis l’administration (Back office), cliquer sur le libellé “Retour au site” situé dans le menu\nhorizontal tout en haut de l’écran :\n2.6.\nAfficher les icônes d’administration\nDans le volet d’administration, cliquer sur “Afficher les icônes d’administration”.\n8\n"
+        },
+        {
+          "number": 9,
+          "label": "page",
+          "content": "3.\nRédiger un article\n3.1.\nCréer un article\nDans le gestionnaire d’articles, naviguer jusqu’au dossier où devra être rangé l’article.\nCliquer sur la seconde icône :\nUn nouvel article est ajouté au dossier :\nEtape 1 : saisir le titre de l’article.\nEtape 2 : si ce titre ne doit pas apparaître dans l’article, cocher la case.\nEtape 3 : si l’article doit être déplacé dans un autre dossier, sélectionner le nouveau dossier\ndans la liste déroulante.\nEtape 4 (non obligatoire) : si l’article doit disparaître automatiquement de l’affichage public à\nune certaine date, noter la date dans le champ de droite.\n9\n"
+        },
+        {
+          "number": 10,
+          "label": "page",
+          "content": "Etape 5 (non obligatoire) : ces 2 champs permettent de saisir les dates et heures de début\npuis de fin de l’événement.\nEtape 6 (non obligatoire) : Sélectionner le lieu où se déroule l’événement dans la liste\ndéroulante.\nEtape 7 : il est impossible de valider la création de l’article sans avoir saisi un\nminimum de contenu. Il est donc nécessaire de cliquer sur l’onglet “Article” et de saisir\nquelques mots avant de valider :\n10\n"
+        },
+        {
+          "number": 11,
+          "label": "page",
+          "content": "3.2.\nSaisir du texte et le mettre en forme\nSaisir le texte au kilomètre, sans aucune mise en forme si ce n’est les retours à la ligne.\nSi le texte est copié depuis Word, penser à le coller sans formatage (en passant par un\nbloc-note).\nPour mettre le texte en forme, positionner le curseur sur la ligne à modifier (Etape 1) puis\nsélectionner le style à appliquer (Etape 2) :\nExemple de mise en forme :\n11\n"
+        },
+        {
+          "number": 12,
+          "label": "page",
+          "content": "3.3.\nAfficher l’article en pleine page\nCliquer sur le bouton représentant 4 flèches :\nPour revenir à l’affichage initial et valider l’article, cliquer de nouveau sur le même bouton.\n12\n"
+        },
+        {
+          "number": 13,
+          "label": "page",
+          "content": "3.4.\nInsérer une image\nPositionner le curseur, dans l’article, à l’endroit où l’image devra apparaître. Cliquer sur le\nbouton situé à droite du drapeau :\nDans la fenêtre suivante, cliquer sur “Explorer le serveur” :\nCréer un nouveau dossier [1] ou sélectionner un dossier existant [2] afin de stocker l’image :\nLes noms des dossiers et des images doivent être saisis sans caractère spécial, sans\naccent, sans espace (exemple : mon_image_14_decembre_2020).\n13\n"
+        },
+        {
+          "number": 14,
+          "label": "page",
+          "content": "Pour ajouter l’image, cliquer sur “Téléverser” puis récupérer l’image dans l’ordinateur grâce\nau bouton “Parcourir” :\nUne fois l’image récupérée sur l’ordinateur, cliquer sur “Valider et fermer” :\nCliquer sur “Sélectionner” :\n14\n"
+        },
+        {
+          "number": 15,
+          "label": "page",
+          "content": "Etape 1 : si la taille de l’image doit être diminuée, le cadenas doit être en position fermé.\nEtape 2 : pour diminuer la taille de l’image, modifier la hauteur OU la largeur.\nEtape 3 : pour mettre de l’espace entre l’image et le texte ou le bord de la page, saisir un\nespacement horizontal et / ou un espacement vertical (10 à 15 pixels).\nEtape 4 : définir l’emplacement de l’image par rapport au texte si nécessaire :\nPour insérer l’image dans l’article, cliquer sur le bouton vert “OK”.\nPour modifier l’image, double-cliquer dessus.\nPour centrer l’image, poser le curseur à côté de l’image sans la sélectionner puis la\ncentrer.\n15\n"
+        },
+        {
+          "number": 16,
+          "label": "page",
+          "content": "3.5.\nCréer un lien\nDans un article, sélectionner du texte ou une image et cliquer sur le bouton “Lien” :\nDans la fenêtre suivante, saisir l’URL de la cible du lien [1] ou cliquer sur “Explorer le\nserveur” [2] si le lien doit ouvrir un PDF ou une image :\nDans le cas d’un lien vers le portail Bokeh, supprimer le début de l’URL qui contient le nom\nde domaine (exemple : sur le portail du Grand Dole,\nhttps://mediatheques.grand-dole.fr/agenda doit être remplacé par /agenda).\nCliquer ensuite sur l’onglet Cible [3] et sélectionner le comportement du lien :\n●\nsi la cible du lien est dans le portail Bokeh, choisir “Même fenêtre”,\n●\ndans tous les autres cas, choisir “Nouvelle fenêtre”.\n16\n"
+        },
+        {
+          "number": 17,
+          "label": "page",
+          "content": "3.6.\nInsérer un kiosque de notices\nDans un article, positionner le curseur là où le kiosque doit être ajouté. Cliquer sur l’icône\nnoire en accordéon :\nSaisir le titre de la boîte [1] et sélectionner un panier ou un domaine [2] :\nDans l’onglet Affichage [3], paramétrer le rendu d’un document (couverture / titre, auteur…),\nla disposition de la liste (mur, carrousel…), le nombre de documents à afficher.\nDans l’onglet Dissémination [4], cocher “Proposer le lien vers tous les documents” pour\nafficher le lien permettant de visualiser la totalité du panier ou du domaine.\nValider en cliquant sur OK.\n17\n"
+        },
+        {
+          "number": 18,
+          "label": "page",
+          "content": "3.7.\nInsérer une vidéo\nDans un article, cliquer sur l’icône avec une note de musique :\nColler l’URL de la page où se trouve la vidéo (YouTube par exemple), sélectionner\nResponsive Resize et choisir le type d’alignement (gauche, droite, centré) :\nValider en cliquant sur OK.\n18\n"
+        },
+        {
+          "number": 19,
+          "label": "page",
+          "content": "3.8.\nInsérer un iframe (vidéo, GoogleMap, player)\nDans un article, cliquer sur le bouton “Source”. Coller le code iframe tout en bas de l’article :\nCliquer de nouveau sur “Source”.\nL’iframe s’affiche en bas de l’article sous la forme d’un cadre blanc avec “IFRAME” écrit en\nrouge au centre.\nPour centrer l’iframe, poser le curseur à côté du cadre sans le sélectionner puis le centrer.\nPour le déplacer dans l’article, cliquer dessus une fois et appuyer sur CTRL X (couper).\nPoser le curseur à l’endroit où le cadre doit être affiché et appuyer sur CTRL V (coller).\n3.9.\nSélectionner les champs personnalisés\nDans le cas où des champs personnalisés ont été mis en place par les administrateurs, les\nsélectionner dans l’onglet “Champs personnalisés” :\n19\n"
+        },
+        {
+          "number": 20,
+          "label": "page",
+          "content": "3.10.\nVisualiser l’article\nDans un article, cliquer sur l’oeil :\n3.11.\nModération : demander la validation de l’article\nDans le cas où l’article doit être validé par les administrateurs, modifier le statut en cochant\n“A valider” :\n20\n"
+        },
+        {
+          "number": 21,
+          "label": "page",
+          "content": "3.12.\nDupliquer un article\nDans le gestionnaire d’articles, cliquer sur l’icône de duplication de l’article à dupliquer :\nL’article est dupliqué. Modifier tous les champs nécessaires (titre, dossier d’appartenance,\ndates, localisation, contenu, champs personnalisés…).\n4.\nDomaines\n4.1.\nCréer un domaine\nDans le gestionnaire de domaines, cliquer sur le bouton “Ajouter un domaine” :\nEtape 1 : saisir le nom du domaine.\nEtape 2 : si le domaine ne doit afficher que des nouveautés, cocher la case.\nEtape 3 : dans les onglets Critères, Autorités et Localisations, sélectionner les valeurs\nsouhaitées.\nEtape 4 : pour remplacer l’image par défaut du domaine, charger la nouvelle image dans\nl’onglet Autres en cliquant sur “Explorer le serveur”.\n21\n"
+        },
+        {
+          "number": 22,
+          "label": "page",
+          "content": "5.\nParamétrer une boîte de notices\n5.1.\nChoisir un domaine ou un panier\nCliquer sur la clé plate permettant d’accéder au paramétrage de la boîte de notices :\nSi nécessaire, modifier le titre de la boîte et sélectionner le nouveau panier ou domaine à\nafficher :\n22\n"
+        },
+        {
+          "number": 23,
+          "label": "page",
+          "content": "5.2.\nModifier l’affichage\nDans l’onglet Affichage, paramétrer le rendu d’un document (couverture / titre, auteur…), la\ndisposition de la liste (mur, carrousel…), le nombre de documents à afficher :\nDans l’onglet Dissémination, cocher “Proposer le lien vers tous les documents” pour afficher\nle lien permettant de visualiser la totalité du panier ou du domaine :\n23\n"
+        },
+        {
+          "number": 24,
+          "label": "page",
+          "content": "6.\nAvis (critiques / coups de coeur)\n6.1.\nRédaction\nSur la notice du document choisi, cliquer sur “Avis” :\nSélectionner le nombre d’étoiles, donner un titre au coup de coeur et rédiger la critique :\n24\n"
+        },
+        {
+          "number": 25,
+          "label": "page",
+          "content": "6.2.\nModération\nDans l’administration (Back office), cliquer sur Modération [1], puis sur Notices [2] :\nPour chaque avis, cliquer sur l’icône en V pour le valider [3] ou le crayon pour le modifier ou\nencore la poubelle pour le supprimer. La dernière icône (celle de droite) permet de masquer\n(archiver) l’avis sur la notice.\nLes avis de bibliothécaires apparaissent dans le premier bloc. Les avis des abonnés sont\ndans le bloc du dessous.\nPour consulter les avis déjà modérés, cliquer sur “Afficher tous les avis modérés”.\n7.\nLettres d’information\n7.1.\nMettre à jour le contenu d’une lettre d’information\nDans l’administration (Back office), cliquer sur Lettres d’information puis sur le crayon\ncorrespondant à la lettre à modifier :\n25\n"
+        },
+        {
+          "number": 26,
+          "label": "page",
+          "content": "Dans l’onglet Contenu HTML, modifier le texte :\nDans l’onglet Articles, sélectionner si nécessaire les articles à intégrer à la lettre\nd’informations :\n7.2.\nTester la lettre d’information\nL’icône ronde permet d’envoyer la lettre à une seule adresse afin de vérifier la mise en page,\nle contenu… :\n26\n"
+        },
+        {
+          "number": 27,
+          "label": "page",
+          "content": "7.3.\nEnvoyer la lettre d’information\nPour envoyer la lettre d’information à toutes les personnes abonnées, cliquer sur la petite\nenveloppe :\n8.\nEt du côté d’un lecteur ?\n8.1.\nSe connecter\nLe lecteur se connecte via le compte lecteur avec son identifiant (numéro de carte) et son\nmot de passe :\n8.2.\nRechercher un document\nLa recherche dans le catalogue se fait via la boîte de recherche, en saisissant un ou\nplusieurs mots (titre, auteur, sujet…) :\n27\n"
+        },
+        {
+          "number": 28,
+          "label": "page",
+          "content": "8.3.\nRéserver un document\nDepuis un résultat de recherche ou une notice, cliquer sur le bouton “Réserver” :\nS’identifier et sélectionner l’exemplaire à réserver en cliquant de nouveau sur “Réserver”\npuis choisir le site de retrait du document.\n8.4.\nConsulter son compte\nUne fois connecté, depuis le compte lecteur, cliquer sur “Mon compte :\n8.5.\nFaire une suggestion d’achat\nDepuis le compte lecteur, cliquer sur “Mes suggestions” puis “Commencer maintenant !” :\n28\n"
+        }
+      ]
+    },
+    {
+      "id": "charte",
+      "title": "Charte des bonnes pratiques éditoriales",
+      "description": "Règles éditoriales, validation et accessibilité. Certains passages restent à compléter.",
+      "software": "BOKEH",
+      "categories": [
+        "Chartes et gouvernance"
+      ],
+      "author": null,
+      "producer": null,
+      "sourceCreated": null,
+      "sourceModified": "2025-07-29 08:06:00+00:00",
+      "metadataNote": "Les dates techniques du fichier ne valent pas date de publication. Auteur non confirmé quand la propriété indique un logiciel.",
+      "version": "Import initial — version source non renseignée",
+      "language": "fr",
+      "keywords": [
+        "article",
+        "actualité",
+        "domaine",
+        "panier",
+        "carrousel",
+        "publication"
+      ],
+      "courses": [
+        "administrer-bokeh",
+        "contribuer"
+      ],
+      "audience": "Contributeurs éditoriaux",
+      "publication": "published",
+      "validation": "review",
+      "access": "members",
+      "download": true,
+      "allowHistory": false,
+      "classification": "C1 Données internes",
+      "filename": "Charte_contributeurs_portail-V2(1).docx",
+      "format": "DOCX",
+      "size": 892974,
+      "sha256": "b13142c0a44b11620fb1bec50055ab7a3ac922360f62cacdff0ede793064ca2d",
+      "previewFile": "corpus/previews/Charte_contributeurs_portail-V2(1).pdf",
+      "pages": [
+        {
+          "number": 1,
+          "label": "page",
+          "content": "C1 Données Internes\nCharte des bonnes pratiques \néditoriales pour les contributeurs \ndu portail documentaire\n1. OBJECTIFS DE LA CHARTE\nGarantir la qualité, la cohérence et la fiabilité des contenus publiés sur le portail.\nEncadrer les contributions éditoriales selon des règles partagées.\nValoriser les ressources documentaires et les actions des bibliothèques et centres de \ndocumentation de manière harmonisée.\n2. RÈGLES GÉNÉRALES DE CONTRIBUTION\nChaque contenu publié engage l'image du réseau documentaire : il doit être rigoureux, \npertinent et respectueux du lectorat.\nLes contributeurs s’engagent à respecter la ligne éditoriale définie par le groupe projet \nBOKEH.\nToute publication est datée et comporte le nom de la structure.\n3. STRUCTURE DES CONTENUS\n \n●Actualités\n- Informations récentes et vérifiées (événements, partenariats, nouveautés du réseau).\n- Titre accrocheur (mots clés pour un meilleur référencement), texte concis (300 à 500 mots \nrecommandés).\n- Ajouter une image libre de droits ou dont nous avons la propriété. Et ajouter les crédits \nphotos\n"
+        },
+        {
+          "number": 2,
+          "label": "page",
+          "content": "C1 Données Internes\n-\nle nombre d’actualités publiées sur le portail, le nombre d’actualités publiées sur le \nportail par contributeur, durée d’affichage d’une actualité et le nombre d’actualités \n« archivées » dépendront de chaque entité.\n-\nExemple d’actualité : \n \n            \n       \n \n●Nouveautés\n- Mise en valeur d'acquisitions récentes (livres, ressources numériques, bases de données).\nUne nouveauté est un ouvrage récemment acquis (achat) ou nouvellement catalogué\nLa durée du statut Nouveautés est régi par une règle dans KOHA (60 jours)\n Sélections dans nos collections\n●\n- Proposer une sélection cohérente (5 à 20 documents max) avec un fil conducteur.\n- Intégrer les notices (carrousel de notices).\n- Rédiger un court texte introductif (100 à 150 mots) pour contextualiser.\nExemple de sélections \nChiffres clés, statistiques de la culture et de la communication\nLes Chiffres clés, statistiques de la culture et de la communication répondent aux besoins \nd’information chiffrée des acteurs de la culture et constituent un outil essentiel pour penser \n"
+        },
+        {
+          "number": 3,
+          "label": "page",
+          "content": "C1 Données Internes\nles enjeux qui traversent le secteur. Cette analyse transversale du champ culturel s’appuie \nsur de nombreuses données issues de sources statistiques et administratives.\n Sélections thématiques\n●\n- Proposer un éclairage documentaire sur une thématique (actualité, problématiques \nprofessionnelles, etc.).\n- Intégrer les notices (carrousel de notices).\n- Vérifier la transversalité ou la complémentarité avec d’autres bibliothèques du réseau.\nExemple \n"
+        },
+        {
+          "number": 4,
+          "label": "page",
+          "content": "C1 Données Internes\nDans le contexte d’un portail mutualisé entre plusieurs bibliothèques, la différence entre « \nSélections dans nos collections » et « Sélections thématiques » peut être précisée ainsi :\nSélections dans nos collections\nMettre en valeur les ressources disponibles dans une ou plusieurs bibliothèques du \nréseau, en partant du fonds existant.\nCentrée sur les collections possédées, souvent liées à une bibliothèque particulière.\nSélections thématiques\nProposer un parcours documentaire transversal autour d’un sujet ou d’une actualité, en \ncroisant les ressources issues de plusieurs bibliothèques.\nCentrée sur une problématique, un événement, une thématique commune.\n"
+        },
+        {
+          "number": 5,
+          "label": "page",
+          "content": "C1 Données Internes\n4. RECOMMANDATIONS ÉDITORIALES\nAdopter un ton neutre, clair, professionnel, adapté à un public varié.\nÉviter le jargon technique non expliqué.\nRelire systématiquement pour corriger fautes d’orthographe ou erreurs de fond.\nCiter ses sources et mentionner les crédits iconographiques.\n- donner des exemples \n-\nTexte respectant les consignes\n-\nTexte ne respectant pas les consignes\n-\n5. ASPECTS TECHNIQUES\nRenseigner tous les champs nécessaires dans BOKEH.\nUtiliser les modèles ou gabarits fournis (titres, intertitres, paragraphes).\nRespecter la charte graphique et les règles de mise en page du portail.\nOptimiser les images (poids, légendes, crédits, droits).\n- faire un court tuto \n6. PROCESSUS DE VALIDATION\nLes contenus sont soumis à relecture/modération par l’administrateur du portail avant \npublication.\nDes retours peuvent être faits pour correction ou amélioration.\nLes contributeurs sont invités à respecter le calendrier éditorial s’il existe.\n"
+        },
+        {
+          "number": 6,
+          "label": "page",
+          "content": "C1 Données Internes\nSont administrateurs du portail : \nPour les AN : Sylvie Treille \nPour la MPP : Angélique Voisin\nPour les ANOM, CH, ICA, IGAC, MPDOC : Didier Thébault\n7. BONNES PRATIQUES COLLABORATIVES\nCoordonner les publications entre contributeurs pour éviter doublons ou chevauchements.\nSignaler toute mise à jour ou suppression nécessaire.\nParticiper aux réunions ou échanges éditoriaux proposés par l’administration du portail.\n8. ÉTHIQUE ET RESPONSABILITÉS\nNe pas publier de contenu à caractère confidentiel, discriminatoire, diffamatoire ou \ncontraire à la déontologie professionnelle.\nRespecter le droit d’auteur et les licences de diffusion (Creative Commons, etc.).\nEn cas de doute, consulter l’administrateur du portail.\n9. RÈGLES D’ACCESSIBILITÉ\nDans le cadre de la publication de contenus sur le portail, les contributeurs s’engagent à \nrespecter les principes d’accessibilité numérique, conformément au RGAA (Référentiel \ngénéral d'amélioration de l'accessibilité). Cela permet à tous les usagers, y compris en \nsituation de handicap, d’accéder équitablement aux contenus.\n"
+        },
+        {
+          "number": 7,
+          "label": "page",
+          "content": "C1 Données Internes\n1. Utilisation des images\n\nNe jamais utiliser une image purement décorative sans en indiquer le caractère \ndécoratif dans BOKEH (balise alt=\"\").\n\nPréférer des visuels signifiants et explicites, en lien avec le contenu de l’article.\n\nToujours respecter les droits d’auteur ou privilégier des images sous licence libre \n(CC, domaine public, etc.).\n2. Rédaction des textes alternatifs (attribut alt)\n\nFournir un texte alternatif concis qui décrit l'information essentielle véhiculée par \nl’image.\n\nÉviter de commencer par \"Image de...\" ou \"Photo de...\" sauf si cette information est \npertinente.\n\nAdapter la description à la fonction de l’image dans le contexte :\no\nSi l’image illustre une information importante : le texte alternatif doit \nrestituer cette information.\no\nSi l’image est un lien cliquable : le texte alternatif doit indiquer la destination \nou l'action.\n3. Bonnes pratiques complémentaires\n\nNe pas insérer de texte important dans les images : tout texte doit rester lisible en \nHTML.\n\nPrévoir des contrastes suffisants et des couleurs accessibles pour les éventuels \nvisuels d’infographie.\n\nTester l’article avec un lecteur d’écran (NVDA, VoiceOver…) si possible.\nVoici une copie d’écran d’une image insérée dans les actualités avec un texte de \nremplacement RGAA\n"
+        },
+        {
+          "number": 8,
+          "label": "page",
+          "content": "C1 Données Internes\n10. RÈGLE D’ANIMATION / FONCTIONNEMENT DU COMITÉ ÉDITORIALE\n1 réunion par trimestre / semestre ?\n"
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "cataloguer",
+      "title": "Cataloguer dans KOHA",
+      "software": "KOHA",
+      "audience": "Catalogueurs et documentalistes",
+      "duration": "2 jours",
+      "description": "Produire une notice fiable dans le catalogue mutualisé, puis enrichir les données et contrôler leur qualité.",
+      "level": "Prise en main et pratique professionnelle",
+      "prerequisites": "Connaître les missions documentaires de sa structure. Disposer d’un accès à une base de test pour les exercices. Proposition pédagogique à valider.",
+      "objectives": [
+        "Distinguer notice bibliographique partagée et exemplaire local.",
+        "Rechercher avant de créer et privilégier la dérivation.",
+        "Contrôler les notices, les autorités et les données d’exemplaire."
+      ],
+      "modules": [
+        {
+          "id": "catalogueurs-1",
+          "title": "Découvrir le catalogue mutualisé",
+          "resourceId": "catalogueurs",
+          "start": 1,
+          "end": 8,
+          "scope": "Commun au réseau"
+        },
+        {
+          "id": "catalogueurs-2",
+          "title": "Lire les champs UNIMARC",
+          "resourceId": "catalogueurs",
+          "start": 9,
+          "end": 11,
+          "scope": "Commun au réseau"
+        },
+        {
+          "id": "catalogueurs-3",
+          "title": "Rechercher avant de cataloguer",
+          "resourceId": "catalogueurs",
+          "start": 12,
+          "end": 13,
+          "scope": "Commun au réseau"
+        },
+        {
+          "id": "catalogueurs-4",
+          "title": "Dériver et contrôler une notice",
+          "resourceId": "catalogueurs",
+          "start": 14,
+          "end": 17,
+          "scope": "Commun au réseau"
+        },
+        {
+          "id": "catalogueurs-5",
+          "title": "Décrire le document : 200, 214 et 215",
+          "resourceId": "catalogueurs",
+          "start": 18,
+          "end": 20,
+          "scope": "Points à vérifier"
+        },
+        {
+          "id": "catalogueurs-6",
+          "title": "Notes, identifiants, indexation et responsabilités",
+          "resourceId": "catalogueurs",
+          "start": 21,
+          "end": 26,
+          "scope": "Commun au réseau"
+        },
+        {
+          "id": "catalogueurs-7",
+          "title": "Ressources en ligne et données codées",
+          "resourceId": "catalogueurs",
+          "start": 27,
+          "end": 29,
+          "scope": "Commun au réseau"
+        },
+        {
+          "id": "catalogueurs-8",
+          "title": "Créer les exemplaires et pratiquer",
+          "resourceId": "catalogueurs",
+          "start": 30,
+          "end": 33,
+          "scope": "Données locales"
+        },
+        {
+          "id": "catalogueurs-9",
+          "title": "Approfondir les autorités et créer sans dérivation",
+          "resourceId": "catalogueurs",
+          "start": 34,
+          "end": 40,
+          "scope": "Commun au réseau"
+        },
+        {
+          "id": "catalogueurs-10",
+          "title": "Collections et ressources continues",
+          "resourceId": "catalogueurs",
+          "start": 41,
+          "end": 42,
+          "scope": "Commun au réseau"
+        },
+        {
+          "id": "catalogueurs-11",
+          "title": "Contrôle qualité et fiche réflexe",
+          "resourceId": "catalogueurs",
+          "start": 43,
+          "end": 46,
+          "scope": "Points à vérifier"
+        },
+        {
+          "id": "catalogueurs-12",
+          "title": "Atelier final et synthèse",
+          "resourceId": "catalogueurs",
+          "start": 47,
+          "end": 52,
+          "scope": "Exercices"
+        }
+      ],
+      "resources": [
+        "catalogueurs",
+        "guide-publications",
+        "guide-unimarc"
+      ],
+      "publication": "published",
+      "validation": "review",
+      "status": "Parcours structuré à partir du support",
+      "updated": "2026-10-28",
+      "exerciseNote": "Exercices présents dans le support ; pas de correction automatique ni de simulation connectée."
+    },
+    {
+      "id": "administrer-koha",
+      "title": "Administrer KOHA",
+      "software": "KOHA",
+      "audience": "Administrateurs fonctionnels locaux",
+      "duration": "1 jour",
+      "description": "Accompagner les agents de sa structure et intervenir dans le respect du périmètre de l’administration centrale.",
+      "level": "Prise en main et pratique professionnelle",
+      "prerequisites": "Connaître les missions documentaires de sa structure. Disposer d’un accès à une base de test pour les exercices. Proposition pédagogique à valider.",
+      "objectives": [
+        "Distinguer autonomie locale, coordination et administration centrale.",
+        "Exploiter les rapports et sécuriser les traitements par lot.",
+        "Qualifier une anomalie et attribuer les droits nécessaires."
+      ],
+      "modules": [
+        {
+          "id": "admin-koha-1",
+          "title": "Rôle du référent et niveaux d’intervention",
+          "resourceId": "admin-koha",
+          "start": 1,
+          "end": 5,
+          "scope": "Local / coordination / central"
+        },
+        {
+          "id": "admin-koha-2",
+          "title": "Paramètres de base et grilles MARC",
+          "resourceId": "admin-koha",
+          "start": 6,
+          "end": 8,
+          "scope": "Administration centrale"
+        },
+        {
+          "id": "admin-koha-3",
+          "title": "Bibliothèques, types et valeurs autorisées",
+          "resourceId": "admin-koha",
+          "start": 9,
+          "end": 12,
+          "scope": "Coordination nécessaire"
+        },
+        {
+          "id": "admin-koha-4",
+          "title": "Rapports guidés et SQL",
+          "resourceId": "admin-koha",
+          "start": 13,
+          "end": 19,
+          "scope": "Selon habilitation"
+        },
+        {
+          "id": "admin-koha-5",
+          "title": "Statistiques",
+          "resourceId": "admin-koha",
+          "start": 20,
+          "end": 22,
+          "scope": "Rapports autorisés"
+        },
+        {
+          "id": "admin-koha-6",
+          "title": "Dédoublonnage des notices",
+          "resourceId": "admin-koha",
+          "start": 23,
+          "end": 26,
+          "scope": "Selon habilitation"
+        },
+        {
+          "id": "admin-koha-7",
+          "title": "Modifications par lot et modèles MARC",
+          "resourceId": "admin-koha",
+          "start": 27,
+          "end": 32,
+          "scope": "Test et coordination"
+        },
+        {
+          "id": "admin-koha-8",
+          "title": "Importer des données",
+          "resourceId": "admin-koha",
+          "start": 33,
+          "end": 34,
+          "scope": "Test et validation"
+        },
+        {
+          "id": "admin-koha-9",
+          "title": "Diagnostic de premier niveau",
+          "resourceId": "admin-koha",
+          "start": 35,
+          "end": 35,
+          "scope": "Autonomie locale"
+        },
+        {
+          "id": "admin-koha-10",
+          "title": "Préférences système",
+          "resourceId": "admin-koha",
+          "start": 36,
+          "end": 36,
+          "scope": "Administration centrale"
+        },
+        {
+          "id": "admin-koha-11",
+          "title": "Utilisateurs et permissions",
+          "resourceId": "admin-koha",
+          "start": 37,
+          "end": 37,
+          "scope": "Selon habilitation"
+        },
+        {
+          "id": "admin-koha-12",
+          "title": "Exercices pratiques",
+          "resourceId": "admin-koha",
+          "start": 38,
+          "end": 39,
+          "scope": "Exercices"
+        }
+      ],
+      "resources": [
+        "admin-koha",
+        "catalogueurs"
+      ],
+      "publication": "published",
+      "validation": "review",
+      "status": "Parcours structuré à partir du support",
+      "updated": "2026-10-28",
+      "exerciseNote": "Exercices présents dans le support ; pas de correction automatique ni de simulation connectée."
+    },
+    {
+      "id": "administrer-bokeh",
+      "title": "Administrer BOKEH et BIBDOC",
+      "software": "BOKEH",
+      "audience": "Référents BIBDOC et administrateurs locaux",
+      "duration": "2 jours",
+      "description": "Organiser les contenus et valoriser les collections dans le portail documentaire mutualisé.",
+      "level": "Prise en main et pratique professionnelle",
+      "prerequisites": "Connaître les missions documentaires de sa structure. Disposer d’un accès à une base de test pour les exercices. Proposition pédagogique à valider.",
+      "objectives": [
+        "Naviguer entre portail public et administration.",
+        "Créer des articles, domaines et paniers de notices.",
+        "Organiser la validation et la publication dans un environnement mutualisé."
+      ],
+      "modules": [
+        {
+          "id": "admin-bokeh-1",
+          "title": "Comprendre BIBDOC et accéder à l’administration",
+          "resourceId": "admin-bokeh",
+          "start": 1,
+          "end": 13,
+          "scope": "Portail mutualisé"
+        },
+        {
+          "id": "admin-bokeh-2",
+          "title": "Créer et localiser un article",
+          "resourceId": "admin-bokeh",
+          "start": 14,
+          "end": 23,
+          "scope": "Périmètre attribué"
+        },
+        {
+          "id": "admin-bokeh-3",
+          "title": "Utiliser l’éditeur, les images et les liens",
+          "resourceId": "admin-bokeh",
+          "start": 24,
+          "end": 26,
+          "scope": "Accessibilité"
+        },
+        {
+          "id": "admin-bokeh-4",
+          "title": "Atelier : créer une actualité",
+          "resourceId": "admin-bokeh",
+          "start": 27,
+          "end": 27,
+          "scope": "Exercices"
+        },
+        {
+          "id": "admin-bokeh-5",
+          "title": "Comprendre et créer les domaines",
+          "resourceId": "admin-bokeh",
+          "start": 28,
+          "end": 34,
+          "scope": "Selon habilitation"
+        },
+        {
+          "id": "admin-bokeh-6",
+          "title": "Créer et alimenter un panier",
+          "resourceId": "admin-bokeh",
+          "start": 35,
+          "end": 39,
+          "scope": "Périmètre attribué"
+        },
+        {
+          "id": "admin-bokeh-7",
+          "title": "Afficher des boîtes et des carrousels",
+          "resourceId": "admin-bokeh",
+          "start": 40,
+          "end": 44,
+          "scope": "Périmètre attribué"
+        },
+        {
+          "id": "admin-bokeh-8",
+          "title": "Gouvernance éditoriale",
+          "resourceId": "admin-bokeh",
+          "start": 45,
+          "end": 46,
+          "scope": "Validation et coordination"
+        }
+      ],
+      "resources": [
+        "admin-bokeh",
+        "guide-bokeh",
+        "charte"
+      ],
+      "publication": "published",
+      "validation": "review",
+      "status": "Parcours structuré à partir du support",
+      "updated": "2026-10-28",
+      "exerciseNote": "Exercices présents dans le support ; pas de correction automatique ni de simulation connectée."
+    },
+    {
+      "id": "contribuer",
+      "title": "Contribuer au portail BIBDOC",
+      "software": "BOKEH",
+      "audience": "Contributeurs d’actualités et de sélections",
+      "duration": "À définir",
+      "description": "Parcours complémentaire proposé à partir de la charte et des séquences pertinentes de BOKEH.",
+      "level": "Initiation — proposition",
+      "prerequisites": "Connaître les missions documentaires de sa structure. Disposer d’un accès à une base de test pour les exercices. Proposition pédagogique à valider.",
+      "objectives": [
+        "Structurer une contribution claire et accessible.",
+        "Choisir des visuels autorisés et indiquer les crédits.",
+        "Soumettre un contenu à validation."
+      ],
+      "modules": [
+        {
+          "id": "charte-intro",
+          "title": "Ligne éditoriale, validation et accessibilité",
+          "resourceId": "charte",
+          "start": 1,
+          "end": null,
+          "scope": "Proposition à valider"
+        },
+        {
+          "id": "admin-bokeh-1",
+          "title": "Rédiger une actualité",
+          "resourceId": "admin-bokeh",
+          "start": 14,
+          "end": 27,
+          "scope": "Proposition à valider"
+        },
+        {
+          "id": "admin-bokeh-2",
+          "title": "Valoriser une sélection",
+          "resourceId": "admin-bokeh",
+          "start": 35,
+          "end": 44,
+          "scope": "Proposition à valider"
+        }
+      ],
+      "resources": [
+        "charte",
+        "guide-bokeh",
+        "admin-bokeh"
+      ],
+      "publication": "published",
+      "validation": "review",
+      "status": "Parcours proposé — à valider",
+      "updated": "2026-10-28",
+      "exerciseNote": "Aucun exercice spécifique validé pour ce parcours."
+    }
+  ],
+  "issues": [
+    {
+      "id": "C01",
+      "severity": "Élevée",
+      "title": "Sous-zones de description matérielle — 215",
+      "detail": "Le support catalogueurs associe 215$c aux illustrations et 215$d aux dimensions (diapositives 10 et 40). Le guide UNIMARC associe $b aux caractéristiques, $c aux dimensions et $d au matériel d’accompagnement ; ses exemples ne sont pas tous cohérents entre eux. Le guide des publications indique deux fois $a pour l’importance et les autres caractéristiques (page 9). Arbitrage documentaire requis avant réutilisation pédagogique.",
+      "refs": [
+        {
+          "id": "catalogueurs",
+          "page": 10
+        },
+        {
+          "id": "guide-unimarc",
+          "page": 2
+        },
+        {
+          "id": "guide-publications",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "severity": "Élevée",
+      "title": "Confusion entre indexation et responsabilités — 600 / 7XX",
+      "detail": "Le guide UNIMARC présente 600 comme collectivité auteur. Le support catalogueurs distingue 6XX (indexation) et 7XX (responsabilités), diapositives 23–26. Le guide des publications présente en page 18 les zones 600 (personne) et 601 (collectivité) comme des accès matière. Ces prescriptions ne peuvent être présentées comme équivalentes.",
+      "refs": [
+        {
+          "id": "guide-unimarc",
+          "page": 3
+        },
+        {
+          "id": "catalogueurs",
+          "page": 23
+        },
+        {
+          "id": "guide-publications",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "severity": "À arbitrer",
+      "title": "Nombre d’auteurs dans la mention de responsabilité",
+      "detail": "Le guide UNIMARC préconise le premier auteur suivi de [et al.] au-delà de trois auteurs. Le guide local des publications prévoit jusqu’à trois auteurs puis une note 314 pour les autres (pages 10–12). Le support catalogueurs emploie une formulation conditionnelle en diapositive 18. Distinguer politique locale et recommandation générale ; aucune harmonisation automatique.",
+      "refs": [
+        {
+          "id": "guide-unimarc",
+          "page": 3
+        },
+        {
+          "id": "guide-publications",
+          "page": 10
+        },
+        {
+          "id": "catalogueurs",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "severity": "À vérifier",
+      "title": "Formulation sur le titre uniforme en zone 200",
+      "detail": "La diapositive 18 du support catalogueurs indique que la zone 200 serait souvent réservée au titre uniforme. Le même support décrit ailleurs 200 comme titre et mention de responsabilité. La formulation doit être vérifiée par le responsable documentaire avant validation ; aucune règle de remplacement n’est proposée ici.",
+      "refs": [
+        {
+          "id": "catalogueurs",
+          "page": 18
+        },
+        {
+          "id": "catalogueurs",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "severity": "À compléter",
+      "title": "Charte éditoriale encore en travail",
+      "detail": "La charte contient des indications à compléter (« donner des exemples », « faire un court tuto ») et une périodicité de comité non arbitrée. Les personnes citées comme administrateurs sont des données présentes dans le document, non une confirmation de leurs fonctions actuelles.",
+      "refs": [
+        {
+          "id": "charte",
+          "page": 5
+        },
+        {
+          "id": "charte",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "severity": "À contextualiser",
+      "title": "Portée locale et paramétrage de BOKEH",
+      "detail": "Le guide AFI décrit des fonctions génériques, tandis que la formation et la charte encadrent les usages de BIBDOC. Le guide évoque une validation conditionnelle (page 20) ; la charte prévoit la relecture avant publication. Conserver la règle locale identifiable, et vérifier les fonctionnalités selon la version installée. La diapositive 46 BOKEH ne contient qu’un intitulé.",
+      "refs": [
+        {
+          "id": "guide-bokeh",
+          "page": 20
+        },
+        {
+          "id": "charte",
+          "page": 5
+        },
+        {
+          "id": "admin-bokeh",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "severity": "À vérifier",
+      "title": "Exercice de traitement par lot : notices ou exemplaires ?",
+      "detail": "L’exercice 3 de la diapositive 38 KOHA administrateurs annonce des notices exemplaires, puis évoque 30 notices et une donnée MARC, avec l’ajout en 995$8. Le périmètre et l’outil attendu doivent être explicités avant réalisation en production.",
+      "refs": [
+        {
+          "id": "admin-koha",
+          "page": 38
+        }
+      ]
+    }
+  ],
+  "auditDate": "2026-10-28"
+}

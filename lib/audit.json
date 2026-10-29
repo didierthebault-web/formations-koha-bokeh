@@ -1,1 +1,224 @@
-{"issues":[]}
+{
+  "issues": [
+    {
+      "id": "C01",
+      "severity": "Élevée",
+      "title": "Sous-zones de description matérielle — 215",
+      "detail": "Le support catalogueurs associe 215$c aux illustrations et 215$d aux dimensions (diapositives 10 et 40). Le guide UNIMARC associe $b aux caractéristiques, $c aux dimensions et $d au matériel d’accompagnement ; ses exemples ne sont pas tous cohérents entre eux. Le guide des publications indique deux fois $a pour l’importance et les autres caractéristiques (page 9). Arbitrage documentaire requis avant réutilisation pédagogique.",
+      "refs": [
+        {
+          "id": "catalogueurs",
+          "page": 10
+        },
+        {
+          "id": "guide-unimarc",
+          "page": 2
+        },
+        {
+          "id": "guide-publications",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "severity": "Élevée",
+      "title": "Confusion entre indexation et responsabilités — 600 / 7XX",
+      "detail": "Le guide UNIMARC présente 600 comme collectivité auteur. Le support catalogueurs distingue 6XX (indexation) et 7XX (responsabilités), diapositives 23–26. Le guide des publications présente en page 18 les zones 600 (personne) et 601 (collectivité) comme des accès matière. Ces prescriptions ne peuvent être présentées comme équivalentes.",
+      "refs": [
+        {
+          "id": "guide-unimarc",
+          "page": 3
+        },
+        {
+          "id": "catalogueurs",
+          "page": 23
+        },
+        {
+          "id": "guide-publications",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "severity": "À arbitrer",
+      "title": "Nombre d’auteurs dans la mention de responsabilité",
+      "detail": "Le guide UNIMARC préconise le premier auteur suivi de [et al.] au-delà de trois auteurs. Le guide local des publications prévoit jusqu’à trois auteurs puis une note 314 pour les autres (pages 10–12). Le support catalogueurs emploie une formulation conditionnelle en diapositive 18. Distinguer politique locale et recommandation générale ; aucune harmonisation automatique.",
+      "refs": [
+        {
+          "id": "guide-unimarc",
+          "page": 3
+        },
+        {
+          "id": "guide-publications",
+          "page": 10
+        },
+        {
+          "id": "catalogueurs",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "severity": "À vérifier",
+      "title": "Formulation sur le titre uniforme en zone 200",
+      "detail": "La diapositive 18 du support catalogueurs indique que la zone 200 serait souvent réservée au titre uniforme. Le même support décrit ailleurs 200 comme titre et mention de responsabilité. La formulation doit être vérifiée par le responsable documentaire avant validation ; aucune règle de remplacement n’est proposée ici.",
+      "refs": [
+        {
+          "id": "catalogueurs",
+          "page": 18
+        },
+        {
+          "id": "catalogueurs",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "severity": "À compléter",
+      "title": "Charte éditoriale encore en travail",
+      "detail": "La charte contient des indications à compléter (« donner des exemples », « faire un court tuto ») et une périodicité de comité non arbitrée. Les personnes citées comme administrateurs sont des données présentes dans le document, non une confirmation de leurs fonctions actuelles.",
+      "refs": [
+        {
+          "id": "charte",
+          "page": 5
+        },
+        {
+          "id": "charte",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "severity": "À contextualiser",
+      "title": "Portée locale et paramétrage de BOKEH",
+      "detail": "Le guide AFI décrit des fonctions génériques, tandis que la formation et la charte encadrent les usages de BIBDOC. Le guide évoque une validation conditionnelle (page 20) ; la charte prévoit la relecture avant publication. Conserver la règle locale identifiable, et vérifier les fonctionnalités selon la version installée. La diapositive 46 BOKEH ne contient qu’un intitulé.",
+      "refs": [
+        {
+          "id": "guide-bokeh",
+          "page": 20
+        },
+        {
+          "id": "charte",
+          "page": 5
+        },
+        {
+          "id": "admin-bokeh",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "severity": "À vérifier",
+      "title": "Exercice de traitement par lot : notices ou exemplaires ?",
+      "detail": "L’exercice 3 de la diapositive 38 KOHA administrateurs annonce des notices exemplaires, puis évoque 30 notices et une donnée MARC, avec l’ajout en 995$8. Le périmètre et l’outil attendu doivent être explicités avant réalisation en production.",
+      "refs": [
+        {
+          "id": "admin-koha",
+          "page": 38
+        }
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "catalogueurs",
+      "title": "Cataloguer dans le catalogue mutualisé",
+      "format": "PPTX",
+      "pages": 52,
+      "categories": [
+        "Supports de formation"
+      ],
+      "courses": [
+        "cataloguer"
+      ],
+      "author": "THEBAULT Didier"
+    },
+    {
+      "id": "admin-koha",
+      "title": "Administrer le SIGB KOHA",
+      "format": "PPTX",
+      "pages": 39,
+      "categories": [
+        "Supports de formation"
+      ],
+      "courses": [
+        "administrer-koha"
+      ],
+      "author": "THEBAULT Didier"
+    },
+    {
+      "id": "admin-bokeh",
+      "title": "Administrer le portail BIBDOC",
+      "format": "PPTX",
+      "pages": 46,
+      "categories": [
+        "Supports de formation"
+      ],
+      "courses": [
+        "administrer-bokeh"
+      ],
+      "author": "THEBAULT Didier"
+    },
+    {
+      "id": "guide-publications",
+      "title": "Guide de catalogage des publications du ministère",
+      "format": "PDF",
+      "pages": 47,
+      "categories": [
+        "Guides de catalogage"
+      ],
+      "courses": [
+        "cataloguer"
+      ],
+      "author": "DAUBER Clara"
+    },
+    {
+      "id": "guide-unimarc",
+      "title": "Guide des bonnes pratiques de catalogage — UNIMARC",
+      "format": "DOCX",
+      "pages": 4,
+      "categories": [
+        "Bonnes pratiques UNIMARC",
+        "Guides de catalogage"
+      ],
+      "courses": [
+        "cataloguer"
+      ],
+      "author": null
+    },
+    {
+      "id": "guide-bokeh",
+      "title": "Bokeh — Guide de prise en main rapide",
+      "format": "PDF",
+      "pages": 28,
+      "categories": [
+        "Guides BOKEH"
+      ],
+      "courses": [
+        "administrer-bokeh",
+        "contribuer"
+      ],
+      "author": null
+    },
+    {
+      "id": "charte",
+      "title": "Charte des bonnes pratiques éditoriales",
+      "format": "DOCX",
+      "pages": 8,
+      "categories": [
+        "Chartes et gouvernance"
+      ],
+      "courses": [
+        "administrer-bokeh",
+        "contribuer"
+      ],
+      "author": null
+    }
+  ]
+}

@@ -1,10 +1,985 @@
 {
   "courseId": "administrer-bokeh",
   "title": "Administrer BOKEH et organiser BIBDOC",
-  "description": "Les données pédagogiques détaillées ne sont pas incluses dans cette exportation publique.",
-  "status": "Corpus non inclus",
-  "duration": "",
+  "description": "Organiser les articles, construire les sélections documentaires et coordonner leur publication dans le portail mutualisé.",
+  "status": "Adaptation pédagogique — à valider",
+  "revision": "2026-10-28.1",
+  "duration": "2 jours",
   "software": "BOKEH",
-  "requiredResources": [],
-  "modules": []
+  "symbol": "B",
+  "tagline": "LE PORTAIL DOCUMENTAIRE MUTUALISÉ",
+  "requiredResources": [
+    "admin-bokeh",
+    "guide-bokeh",
+    "charte"
+  ],
+  "sourceVersions": {
+    "admin-bokeh": "initial-admin-bokeh",
+    "guide-bokeh": "initial-guide-bokeh",
+    "charte": "initial-charte"
+  },
+  "modules": [
+    {
+      "id": "decouvrir-bibdoc",
+      "title": "Comprendre BIBDOC",
+      "description": "Identifier les contenus du portail mutualisé et leur rôle pour les usagers.",
+      "part": "Repères du réseau",
+      "scope": "Repères du réseau",
+      "lessons": [
+        {
+          "id": "portail-mutualise",
+          "title": "BIBDOC, un portail commun au réseau",
+          "objective": "Distinguer le portail documentaire de son outil d’administration.",
+          "paragraphs": [
+            "BIBDOC rassemble et valorise les collections et les contributions de plusieurs structures du ministère. BOKEH est l’outil utilisé pour organiser les pages, les articles et les présentations de notices du portail.",
+            "Le référent local doit comprendre cet environnement partagé, contribuer dans son périmètre et accompagner les agents de sa structure. La plateforme de formation reste un espace distinct : consulter une leçon ne donne aucun droit supplémentaire dans BOKEH."
+          ],
+          "steps": [
+            "Identifier la structure et le public concernés par votre contribution.",
+            "Distinguer la consultation publique du portail de la gestion des contenus.",
+            "Repérer les actions relevant de votre périmètre et les interlocuteurs de coordination."
+          ],
+          "takeaway": "Un portail mutualisé associe autonomie des structures et cohérence d’ensemble.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 2
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 45
+            }
+          ],
+          "scope": "Organisation partagée",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        },
+        {
+          "id": "rubriques-portail",
+          "title": "Se repérer dans les rubriques publiques",
+          "objective": "Reconnaître les différentes façons de valoriser l’information et les collections.",
+          "paragraphs": [
+            "Le support montre la recherche, les filtres, le menu, les actualités, les nouveautés, le focus et les sélections thématiques. Ces écrans permettent de comprendre la façon dont les contenus apparaissent aux usagers.",
+            "La charte distingue également les sélections dans les collections, centrées sur les fonds, et les sélections thématiques, organisées autour d’un sujet transversal. Une capture décrit le portail à la date du support ; les intitulés et contenus peuvent évoluer."
+          ],
+          "steps": [
+            "Parcourir la recherche et les entrées de navigation présentées.",
+            "Identifier la place des actualités et des sélections documentaires.",
+            "Choisir le type de contenu correspondant au besoin éditorial.",
+            "Vérifier le résultat du point de vue d’un visiteur du portail."
+          ],
+          "takeaway": "La rubrique doit correspondre à la fonction du contenu, pas seulement à son apparence.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 3
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 4
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 5
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 6
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 7
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 8
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 9
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 10
+            },
+            {
+              "resourceId": "charte",
+              "page": 1
+            },
+            {
+              "resourceId": "charte",
+              "page": 2
+            },
+            {
+              "resourceId": "charte",
+              "page": 3
+            },
+            {
+              "resourceId": "charte",
+              "page": 4
+            }
+          ],
+          "scope": "Ligne éditoriale locale",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "administration-bokeh",
+      "title": "Se repérer dans l’administration",
+      "description": "Retrouver les modules et distinguer les droits techniques du rôle éditorial.",
+      "part": "Selon habilitation",
+      "scope": "Selon habilitation",
+      "lessons": [
+        {
+          "id": "public-administration",
+          "title": "Passer du portail public à l’administration",
+          "objective": "Se repérer dans les accès décrits par les supports.",
+          "paragraphs": [
+            "Le support de formation présente l’accès à l’administration de BIBDOC et les modules disponibles. Le guide AFI décrit un volet Administration depuis le portail, un accès professionnel et le retour au site public.",
+            "Les accès et menus visibles dépendent des permissions et de la version installée. Un compte de formation sur cette plateforme est indépendant du compte utilisé sur le portail ; aucun accès BOKEH n’est créé par la lecture de ce cours."
+          ],
+          "steps": [
+            "Utiliser le compte et l’accès professionnel prévus dans l’environnement de formation.",
+            "Repérer le volet ou la page d’administration disponible.",
+            "Identifier le retour vers l’interface publique.",
+            "Si une fonction manque, vérifier les habilitations avec le référent plutôt que contourner les accès."
+          ],
+          "takeaway": "Interface publique et administration sont deux vues du portail, avec des fonctions et des droits distincts.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 11
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 12
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 13
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 4
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 6
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 8
+            }
+          ],
+          "scope": "Accès professionnel habilité",
+          "warning": "",
+          "figure": "modules",
+          "exercise": null,
+          "table": null
+        },
+        {
+          "id": "retrouver-contenus",
+          "title": "Retrouver les articles et les domaines",
+          "objective": "Identifier le bon espace avant de modifier un contenu.",
+          "paragraphs": [
+            "Le guide décrit la navigation dans le gestionnaire d’articles par dossiers, puis l’ouverture d’un article avec l’outil de modification. Les domaines disposent de leur propre gestionnaire.",
+            "Un article rédactionnel, un domaine de notices et une boîte d’affichage sont des objets différents. Savoir quel objet porte l’information évite de modifier l’affichage lorsque le besoin concerne la sélection, ou l’inverse."
+          ],
+          "steps": [
+            "Identifier si le besoin porte sur un article, une sélection ou son affichage.",
+            "Ouvrir le gestionnaire approprié.",
+            "Retrouver le dossier et l’objet correspondant.",
+            "Contrôler le périmètre de structure avant toute modification."
+          ],
+          "takeaway": "Identifier l’objet à modifier précède le choix de l’outil.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 13
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 14
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 28
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 35
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 7
+            }
+          ],
+          "scope": "Périmètre attribué",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "articles",
+      "title": "Organiser et rédiger les articles",
+      "description": "Préparer l’emplacement, les propriétés et la mise en forme du contenu.",
+      "part": "Contribution dans son périmètre",
+      "scope": "Contribution dans son périmètre",
+      "lessons": [
+        {
+          "id": "localiser-article",
+          "title": "Choisir le dossier et la localisation",
+          "objective": "Ranger l’article au bon endroit dans l’organisation éditoriale.",
+          "paragraphs": [
+            "Un article est un contenu rédactionnel : actualité, information pratique, présentation de service, événement ou valorisation documentaire. Le support recommande de se placer dans le dossier approprié avant sa création.",
+            "La localisation correspond à la place de l’article dans l’arborescence. Dans BIBDOC, le choix doit tenir compte du type de contenu et de la structure qui contribue, afin de pouvoir retrouver et organiser les publications."
+          ],
+          "steps": [
+            "Identifier le type de contribution et la structure concernée.",
+            "Naviguer jusqu’au dossier prévu dans le gestionnaire.",
+            "Créer l’article dans cet emplacement.",
+            "Vérifier le titre et, si nécessaire, le dossier de rattachement."
+          ],
+          "takeaway": "Le bon dossier facilite la gestion du contenu et son intégration dans l’espace éditorial.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 14
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 15
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 16
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 17
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 9
+            }
+          ],
+          "scope": "Organisation éditoriale locale",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        },
+        {
+          "id": "proprietes-article",
+          "title": "Renseigner les propriétés et les dates",
+          "objective": "Distinguer les données de gestion du contenu rédactionnel.",
+          "paragraphs": [
+            "Le support décrit les onglets de propriétés, de contenu, de version courte, d’indexation et de champs complémentaires. Le titre, la catégorie, les dates et le statut participent à la gestion et à l’affichage de l’article.",
+            "Le guide AFI présente des dates facultatives d’événement et de fin d’affichage, ainsi que la nécessité d’un contenu minimal avant enregistrement. Ces options doivent être rapprochées des champs effectivement disponibles dans l’installation."
+          ],
+          "steps": [
+            "Renseigner un titre explicite et le rattachement attendu.",
+            "Contrôler la catégorie et les propriétés nécessaires.",
+            "Renseigner les dates utiles en distinguant événement et affichage.",
+            "Ajouter le contenu puis vérifier les champs avant enregistrement."
+          ],
+          "takeaway": "Une date d’événement et une date de retrait d’affichage ne décrivent pas la même chose.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 19
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 21
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 23
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 9
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 10
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 19
+            }
+          ],
+          "scope": "Selon configuration locale",
+          "warning": "",
+          "figure": "onglets",
+          "exercise": null,
+          "table": null
+        },
+        {
+          "id": "editeur-texte",
+          "title": "Structurer le texte avec l’éditeur",
+          "objective": "Utiliser les styles plutôt que multiplier les mises en forme manuelles.",
+          "paragraphs": [
+            "Le support présente l’éditeur comme un outil de rédaction sans maîtrise préalable du HTML. Il recommande d’utiliser les titres, paragraphes, listes et styles prédéfinis pour structurer le contenu.",
+            "Pour un texte venant de Word, les sources recommandent de supprimer la mise en forme préalable. La charte demande un ton clair et professionnel, une relecture et l’emploi des gabarits du portail. Un tableau doit présenter des données tabulaires et non servir seulement à la mise en page."
+          ],
+          "steps": [
+            "Saisir ou coller un texte sans formatage parasite.",
+            "Organiser les informations avec les styles de titres et les paragraphes.",
+            "Utiliser les listes et l’emphase lorsqu’elles servent la lecture.",
+            "Relire le contenu et prévisualiser sa présentation."
+          ],
+          "takeaway": "Une structure de texte cohérente sert la lisibilité, l’accessibilité et la maintenance.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 24
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 25
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 26
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 11
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 12
+            },
+            {
+              "resourceId": "charte",
+              "page": 5
+            }
+          ],
+          "scope": "Styles et gabarits du portail",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "medias",
+      "title": "Insérer des images, liens et médias",
+      "description": "Enrichir un article en respectant les droits et l’accessibilité.",
+      "part": "Qualité de publication",
+      "scope": "Qualité de publication",
+      "lessons": [
+        {
+          "id": "images-accessibles",
+          "title": "Préparer une image et son alternative",
+          "objective": "Faire comprendre la fonction du visuel sans dépendre uniquement de l’image.",
+          "paragraphs": [
+            "Le guide décrit le choix du dossier, le téléversement et l’insertion d’une image. Il recommande une nomenclature sans accent, espace ou caractère spécial pour les noms des dossiers et fichiers, ainsi que la conservation des proportions lors du redimensionnement.",
+            "La charte demande de vérifier les droits et les crédits. Elle distingue l’image informative, dont l’alternative restitue l’information essentielle, l’image servant de lien, dont l’alternative indique la destination ou l’action, et l’image décorative signalée comme telle. Le texte important ne doit pas être uniquement intégré dans une image."
+          ],
+          "steps": [
+            "Vérifier les droits de diffusion et préparer les crédits du visuel.",
+            "Ranger puis téléverser le fichier dans le dossier approprié.",
+            "Adapter les dimensions en conservant les proportions.",
+            "Renseigner une alternative adaptée à la fonction de l’image ou son caractère décoratif.",
+            "Contrôler l’affichage et la présence des informations utiles en texte."
+          ],
+          "takeaway": "Le choix du texte alternatif dépend de ce que l’image apporte dans le contexte.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 26
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 13
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 14
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 15
+            },
+            {
+              "resourceId": "charte",
+              "page": 1
+            },
+            {
+              "resourceId": "charte",
+              "page": 5
+            },
+            {
+              "resourceId": "charte",
+              "page": 7
+            }
+          ],
+          "scope": "Charte locale et accessibilité",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        },
+        {
+          "id": "liens",
+          "title": "Créer un lien explicite et le vérifier",
+          "objective": "Choisir une destination et un comportement cohérents.",
+          "paragraphs": [
+            "Le support recommande des intitulés de liens explicites et une vérification de la destination. Le guide décrit l’insertion d’une URL ou le choix d’un fichier via l’explorateur du serveur.",
+            "Le guide AFI recommande des chemins relatifs pour les liens internes et distingue les comportements de fenêtre pour les liens internes et externes. Ces indications sont celles du guide : elles doivent être rapprochées des règles locales d’accessibilité et du contexte du lien, sans présenter toute ouverture externe dans une nouvelle fenêtre comme une obligation universelle."
+          ],
+          "steps": [
+            "Choisir un texte de lien indiquant la destination ou l’action.",
+            "Renseigner l’adresse ou sélectionner le fichier prévu.",
+            "Vérifier le comportement du lien dans le contexte éditorial.",
+            "Tester la destination avec les droits du public visé."
+          ],
+          "takeaway": "Un lien utile est compréhensible avant son activation et mène à la bonne ressource.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 26
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 16
+            },
+            {
+              "resourceId": "charte",
+              "page": 7
+            }
+          ],
+          "scope": "Vérification éditoriale",
+          "warning": "La recommandation de nouvelle fenêtre du guide AFI est une prescription de ce guide, à contextualiser ; elle n’est pas présentée comme une exigence générale du RGAA.",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        },
+        {
+          "id": "medias-integres",
+          "title": "Examiner l’intégration d’une vidéo ou d’un média",
+          "objective": "Reconnaître une fonction générique et les contrôles à prévoir avant son usage.",
+          "paragraphs": [
+            "Le guide AFI décrit l’insertion d’une vidéo via l’outil média et l’utilisation d’un iframe dans le mode Source. Ces exemples décrivent des possibilités génériques du logiciel, pas une autorisation de les déployer sans contrôle dans BIBDOC.",
+            "Avant d’utiliser un contenu intégré, il faut examiner sa pertinence, les droits de diffusion et les conditions d’accessibilité applicables avec l’équipe responsable. Les supports ne fournissent pas une liste complète de services autorisés ni une procédure locale exhaustive pour tous les médias."
+          ],
+          "steps": [
+            "Vérifier le besoin et l’autorisation d’utiliser le média dans le portail.",
+            "Identifier les fonctions disponibles dans l’installation.",
+            "Prévisualiser le rendu et vérifier les alternatives nécessaires avec les responsables concernés.",
+            "Faire valider le contenu selon le circuit local avant publication."
+          ],
+          "takeaway": "Une fonction décrite dans un guide générique n’est pas automatiquement un usage validé pour le portail mutualisé.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 24
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 18
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 19
+            },
+            {
+              "resourceId": "charte",
+              "page": 6
+            },
+            {
+              "resourceId": "charte",
+              "page": 7
+            }
+          ],
+          "scope": "À coordonner selon le média",
+          "warning": "Aucun média externe ni iframe n’est chargé dans cette leçon. Les conditions d’usage locales et les contrôles d’accessibilité restent à préciser si cette fonction est retenue.",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "domaines",
+      "title": "Comprendre et créer les domaines",
+      "description": "Construire une sélection dynamique à partir des données du catalogue.",
+      "part": "Selon habilitation",
+      "scope": "Selon habilitation",
+      "lessons": [
+        {
+          "id": "domaine-ou-panier",
+          "title": "Choisir entre domaine et panier",
+          "objective": "Distinguer une sélection par critères d’un choix de notices individuelles.",
+          "paragraphs": [
+            "Un domaine regroupe des notices à partir de critères définis : type de document, sujets, autorités, bibliothèque ou localisation, selon la configuration disponible. Le support distingue ce mécanisme d’un panier constitué de notices choisies individuellement.",
+            "La pertinence d’un domaine dépend de la qualité des données et du choix des critères. Un ensemble issu d’une recherche ne sera pas nécessairement identique à une sélection éditoriale faite document par document."
+          ],
+          "steps": [
+            "Définir le besoin de sélection documentaire.",
+            "Identifier si le besoin relève de critères ou d’un choix individuel.",
+            "Choisir domaine ou panier selon cette différence.",
+            "Contrôler les notices obtenues par rapport au besoin."
+          ],
+          "takeaway": "Le domaine exprime une règle de sélection ; le panier rassemble un choix de notices.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 28
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 34
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 35
+            }
+          ],
+          "scope": "Choix documentaire",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": {
+            "headers": [
+              "Domaine",
+              "Panier"
+            ],
+            "rows": [
+              [
+                "Sélection par critères définis",
+                "Sélection de notices individuelles"
+              ],
+              [
+                "Dépend des données et du paramétrage",
+                "Dépend des documents choisis"
+              ],
+              [
+                "Peut alimenter une boîte de notices",
+                "Peut aussi alimenter une boîte de notices"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "creer-domaine",
+          "title": "Définir les critères et le périmètre du domaine",
+          "objective": "Préparer une sélection ciblée et en vérifier le résultat.",
+          "paragraphs": [
+            "Le support illustre un domaine « Fonction publique » créé à partir d’un critère matière et d’un périmètre d’exemplaires. Il présente les onglets Critères, Autorités et Localisations et un domaine parent correspondant à l’organisation des sélections.",
+            "Le guide décrit le nom du domaine, une option de nouveautés et le choix des critères. L’exemple de localisation et le thème du support sont des exemples de formation, pas des valeurs à appliquer à tous les domaines."
+          ],
+          "steps": [
+            "Nommer le domaine et choisir l’emplacement prévu dans l’organisation.",
+            "Sélectionner les critères disponibles correspondant au besoin.",
+            "Contrôler les autorités et le périmètre des bibliothèques ou localisations.",
+            "Vérifier si l’option de nouveautés est pertinente et applicable.",
+            "Visualiser le domaine et examiner les notices obtenues."
+          ],
+          "takeaway": "Le titre du domaine, ses critères et les notices affichées doivent décrire le même ensemble.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 29
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 30
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 31
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 32
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 33
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 34
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 21
+            }
+          ],
+          "scope": "Périmètre attribué",
+          "warning": "",
+          "figure": "domaine",
+          "exercise": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "paniers",
+      "title": "Créer et alimenter les paniers",
+      "description": "Préparer des sélections éditoriales de notices identifiées.",
+      "part": "Périmètre attribué",
+      "scope": "Périmètre attribué",
+      "lessons": [
+        {
+          "id": "constituer-panier",
+          "title": "Sélectionner les notices du panier",
+          "objective": "Constituer une sélection documentaire choisie.",
+          "paragraphs": [
+            "Le panier regroupe des notices sélectionnées individuellement dans le catalogue. Le support le présente comme un outil adapté aux bibliographies, sélections thématiques et valorisations choisies par les documentalistes.",
+            "La procédure illustrée passe par une recherche dans BOKEH puis le menu « Plus d’actions » et la commande d’ajout. Le choix des documents doit rester cohérent avec l’objectif de la sélection."
+          ],
+          "steps": [
+            "Rechercher les notices correspondant au sujet ou à l’objectif.",
+            "Examiner les documents avant de les retenir.",
+            "Utiliser la fonction d’ajout au panier présentée dans le support.",
+            "Contrôler les notices qui composent la sélection."
+          ],
+          "takeaway": "Un panier éditorial est un ensemble choisi dont la cohérence doit pouvoir être expliquée.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 35
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 36
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 37
+            }
+          ],
+          "scope": "Choix éditorial local",
+          "warning": "",
+          "figure": "panier",
+          "exercise": null,
+          "table": null
+        },
+        {
+          "id": "nommer-ranger-panier",
+          "title": "Nommer, ranger et retrouver le panier",
+          "objective": "Préparer une sélection réutilisable dans les contenus du portail.",
+          "paragraphs": [
+            "Le support présente la saisie du titre, le choix de la position ou de l’emplacement du panier et son accès ultérieur. Ces informations sont importantes pour retrouver la sélection lors de la création d’une boîte de notices.",
+            "La charte distingue les sélections dans les collections et les sélections thématiques. Elle donne des repères de composition et de texte introductif qui doivent être reliés au type de sélection préparé et à la coordination du réseau."
+          ],
+          "steps": [
+            "Choisir un titre qui identifie clairement la sélection.",
+            "Ranger le panier à l’emplacement prévu pour la structure ou le projet.",
+            "Vérifier que le panier est retrouvable dans l’interface.",
+            "Contrôler la sélection avant de l’utiliser dans un article ou une boîte."
+          ],
+          "takeaway": "Un panier bien identifié peut être retrouvé et réutilisé sans recréer la sélection.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 38
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 39
+            },
+            {
+              "resourceId": "charte",
+              "page": 2
+            },
+            {
+              "resourceId": "charte",
+              "page": 3
+            },
+            {
+              "resourceId": "charte",
+              "page": 4
+            },
+            {
+              "resourceId": "charte",
+              "page": 6
+            }
+          ],
+          "scope": "Organisation éditoriale locale",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "boites",
+      "title": "Afficher les boîtes et carrousels de notices",
+      "description": "Relier une sélection à sa présentation sur le portail.",
+      "part": "Affichage dans son périmètre",
+      "scope": "Affichage dans son périmètre",
+      "lessons": [
+        {
+          "id": "inserer-kiosque",
+          "title": "Insérer un kiosque alimenté par un panier ou un domaine",
+          "objective": "Distinguer la source de notices du composant qui les affiche.",
+          "paragraphs": [
+            "Une boîte ou un kiosque de notices affiche une sélection sur le portail. Le support décrit l’insertion dans un article et le choix d’un panier ; le guide précise que la source peut être un panier ou un domaine.",
+            "Le composant d’affichage et la sélection sont deux objets distincts. Si le résultat n’est pas celui attendu, il faut vérifier à la fois le choix de la source et son contenu avant de modifier les seuls réglages visuels."
+          ],
+          "steps": [
+            "Positionner le point d’insertion dans l’article.",
+            "Ouvrir la fonction de kiosque ou de boîte disponible.",
+            "Choisir le panier ou le domaine correspondant à la sélection.",
+            "Renseigner le titre et contrôler les notices affichées."
+          ],
+          "takeaway": "La boîte présente les notices ; le panier ou le domaine détermine la sélection.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 35
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 40
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 41
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 17
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 22
+            }
+          ],
+          "scope": "Selon habilitation",
+          "warning": "",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        },
+        {
+          "id": "regler-affichage",
+          "title": "Régler la présentation et vérifier le rendu",
+          "objective": "Adapter les informations affichées et l’accès à la sélection complète.",
+          "paragraphs": [
+            "Le guide décrit le choix des informations visibles, de la disposition et du nombre de documents. L’onglet de dissémination peut proposer un lien vers tous les documents de la sélection.",
+            "Le support montre plusieurs présentations et décrit un carrousel à cinq colonnes comme le choix illustré dans BIBDOC. Ce choix est celui du support, pas une obligation générale ni une garantie de rendu sur tous les écrans. La prévisualisation reste nécessaire."
+          ],
+          "steps": [
+            "Choisir les informations bibliographiques utiles à afficher.",
+            "Paramétrer la disposition et le nombre de notices selon le besoin.",
+            "Si pertinent, proposer l’accès à l’ensemble de la sélection.",
+            "Prévisualiser l’article et contrôler la lisibilité, les liens et le comportement d’affichage."
+          ],
+          "takeaway": "Le bon réglage est celui qui rend la sélection compréhensible et accessible dans son contexte.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 42
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 43
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 44
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 17
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 22
+            },
+            {
+              "resourceId": "guide-bokeh",
+              "page": 23
+            }
+          ],
+          "scope": "Charte graphique et contrôle du rendu",
+          "warning": "",
+          "figure": "kiosque",
+          "exercise": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "gouvernance-editoriale",
+      "title": "Organiser la validation et la publication",
+      "description": "Coordonner les responsabilités et appliquer la relecture prévue dans BIBDOC.",
+      "part": "Gouvernance du portail",
+      "scope": "Gouvernance du portail",
+      "lessons": [
+        {
+          "id": "responsabilites-editoriales",
+          "title": "Répartir les responsabilités dans le réseau",
+          "objective": "Distinguer contribution locale, coordination et administration du portail.",
+          "paragraphs": [
+            "Le support décrit des contributeurs locaux qui rédigent et valorisent leurs collections, des référents qui accompagnent et coordonnent, et une administration centrale qui garantit la cohérence et gère les fonctionnalités partagées.",
+            "La charte précise le processus de validation et cite des personnes dans sa version fournie. Cette leçon reprend les fonctions et demande de vérifier les interlocuteurs actuels ; elle ne présente pas les noms du document comme une confirmation de leurs fonctions à ce jour."
+          ],
+          "steps": [
+            "Identifier le contributeur et la structure responsables du contenu.",
+            "Déterminer le référent et le circuit de validation applicables.",
+            "Coordonner les contributions pour éviter doublons et chevauchements.",
+            "Transmettre les besoins touchant aux éléments partagés à l’administration du portail."
+          ],
+          "takeaway": "La contribution locale s’inscrit dans une organisation éditoriale commune.",
+          "sources": [
+            {
+              "resourceId": "admin-bokeh",
+              "page": 2
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 45
+            },
+            {
+              "resourceId": "charte",
+              "page": 5
+            },
+            {
+              "resourceId": "charte",
+              "page": 6
+            }
+          ],
+          "scope": "Contribution · coordination · administration",
+          "warning": "La périodicité du comité éditorial reste une question ouverte dans la charte. Aucun rythme de réunion ni annuaire actuel des responsables n’est inventé.",
+          "figure": null,
+          "exercise": null,
+          "table": {
+            "headers": [
+              "Rôle décrit",
+              "Responsabilités"
+            ],
+            "rows": [
+              [
+                "Contributeurs locaux",
+                "Rédaction, sélections et exactitude des informations"
+              ],
+              [
+                "Référents locaux",
+                "Accompagnement, coordination et lien avec l’équipe centrale"
+              ],
+              [
+                "Administration du portail",
+                "Règles communes, fonctionnalités partagées et validation selon le circuit local"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "previsualiser-valider",
+          "title": "Prévisualiser puis demander la validation",
+          "objective": "Appliquer le circuit de relecture local avant la publication.",
+          "paragraphs": [
+            "Le guide AFI présente la prévisualisation et le statut « À valider » dans les cas où une modération est configurée. La charte de BIBDOC prévoit la relecture ou modération par l’administrateur du portail avant publication.",
+            "Ces deux niveaux doivent rester distincts : le guide décrit une possibilité technique générale, la charte décrit le fonctionnement éditorial local. La publication effective dépend des droits et du circuit retenu ; la plateforme de formation ne publie rien dans BIBDOC."
+          ],
+          "steps": [
+            "Prévisualiser le contenu et vérifier titre, structure et informations.",
+            "Contrôler les liens, images, crédits et alternatives.",
+            "Soumettre le contenu à la relecture prévue, avec le statut adapté lorsqu’il est disponible.",
+            "Prendre en compte les retours et faire confirmer la validation avant la publication habilitée."
+          ],
+          "takeaway": "L’enregistrement d’un article ne remplace pas sa validation éditoriale.",
+          "sources": [
+            {
+              "resourceId": "guide-bokeh",
+              "page": 20
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 27
+            },
+            {
+              "resourceId": "admin-bokeh",
+              "page": 45
+            },
+            {
+              "resourceId": "charte",
+              "page": 5
+            },
+            {
+              "resourceId": "charte",
+              "page": 7
+            }
+          ],
+          "scope": "Validation avant publication",
+          "warning": "La validation conditionnelle du guide AFI ne supprime pas la relecture prévue par la charte locale. Vérifier le paramétrage et le circuit effectif de BIBDOC.",
+          "figure": null,
+          "exercise": {
+            "label": "Atelier du support — créer une actualité BIBDOC",
+            "task": "Dans l’environnement de formation prévu, créer un article dans la bonne catégorie, rédiger un titre et deux paragraphes, appliquer les styles, insérer une image et un lien, puis prévisualiser et demander la validation.",
+            "source": {
+              "resourceId": "admin-bokeh",
+              "page": 27
+            },
+            "check": "Faire vérifier le contenu par le formateur. Aucun article n’est créé ni publié dans BIBDOC depuis cette plateforme."
+          },
+          "table": null
+        },
+        {
+          "id": "maintenir-contenus",
+          "title": "Relire, actualiser et coordonner les contenus",
+          "objective": "Faire vivre les publications sans perdre leur cohérence éditoriale.",
+          "paragraphs": [
+            "La charte demande la relecture, la citation des sources, les crédits, la qualité de l’information et la coordination des mises à jour ou suppressions. Elle prévoit que les contributeurs respectent le calendrier éditorial lorsqu’il existe.",
+            "Le guide explique la duplication d’un article en rappelant de modifier les champs nécessaires. Une duplication ne dispense donc pas de revoir titre, localisation, dates, contenu et informations complémentaires. Plusieurs passages de la charte restent à compléter ; ils ne deviennent pas des consignes achevées dans ce cours."
+          ],
+          "steps": [
+            "Relire les informations et vérifier les sources et crédits.",
+            "Contrôler dates, rattachements, liens et accessibilité lors d’une mise à jour.",
+            "En cas de duplication, revoir les propriétés et le contenu de la copie.",
+            "Coordonner la mise à jour ou le retrait avec les responsables concernés.",
+            "Signaler les consignes encore incomplètes pour arbitrage."
+          ],
+          "takeaway": "La qualité éditoriale se maintient aussi après la première publication.",
+          "sources": [
+            {
+              "resourceId": "guide-bokeh",
+              "page": 21
+            },
+            {
+              "resourceId": "charte",
+              "page": 5
+            },
+            {
+              "resourceId": "charte",
+              "page": 6
+            },
+            {
+              "resourceId": "charte",
+              "page": 7
+            },
+            {
+              "resourceId": "charte",
+              "page": 8
+            }
+          ],
+          "scope": "Coordination et qualité documentaire",
+          "warning": "La charte contient encore des demandes d’exemples et de tutoriel, ainsi qu’une périodicité non arrêtée. Le support BOKEH se termine aussi par une diapositive 46 peu renseignée ; aucun contenu manquant n’a été inventé.",
+          "figure": null,
+          "exercise": null,
+          "table": null
+        }
+      ]
+    }
+  ],
+  "complements": "Les chapitres génériques du guide AFI consacrés aux avis, aux lettres d’information et au compte lecteur restent consultables dans le document. Ils ne sont pas présentés comme des usages retenus pour BIBDOC. Le parcours complémentaire Contribuer au portail BIBDOC conserve son statut proposé, à valider."
 }
