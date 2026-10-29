@@ -1,0 +1,248 @@
+[
+  {
+    "id": "terme-1",
+    "term": "Agent",
+    "definition": "Personne ou groupe intervenant dans l’existence d’une ressource.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-2",
+    "term": "Alignement des données",
+    "definition": "Rapprochement de notices entre catalogues pour enrichir leur description.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-3",
+    "term": "Anglo-American Cataloguing Rules (AACR)",
+    "definition": "Anciennes règles anglo-américaines auxquelles RDA a succédé.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-4",
+    "term": "Archival Resource Key (ARK)",
+    "definition": "Identifiant conçu pour désigner durablement un objet.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-5",
+    "term": "Attribut",
+    "definition": "Caractéristique décrivant une entité, par exemple sa langue.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-6",
+    "term": "Code de catalogage",
+    "definition": "Ensemble organisé de consignes pour décrire et identifier les ressources.",
+    "source": "rda"
+  },
+  {
+    "id": "terme-7",
+    "term": "Comité stratégique bibliographique (CSB)",
+    "definition": "Instance d’arbitrage de la politique bibliographique nationale.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-8",
+    "term": "Committee of Principals (CoP)",
+    "definition": "Ancienne gouvernance stratégique des AACR, remplacée par le RDA Board.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-9",
+    "term": "Entité",
+    "definition": "Catégorie d’objets retenue pour représenter un domaine.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-10",
+    "term": "European RDA Interest Group (EURIG)",
+    "definition": "Groupe européen d’échange sur l’application de RDA.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-11",
+    "term": "Expression",
+    "definition": "Réalisation particulière d’une création : une traduction, par exemple.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-12",
+    "term": "Format",
+    "definition": "Organisation des données permettant leur traitement et leur échange informatiques.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-13",
+    "term": "FRBR orienté objet (FRBRoo)",
+    "definition": "Reformulation orientée objet de FRBR, articulée au CIDOC CRM.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-14",
+    "term": "FRBRisation",
+    "definition": "Transformation des données d’un catalogue selon la logique FRBR.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-15",
+    "term": "Functional Requirements for Authority Data (FRAD)",
+    "definition": "Ancien modèle des données d’autorité, intégré ensuite à IFLA LRM.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-16",
+    "term": "Functional Requirements for Bibliographic Records (FRBR)",
+    "definition": "Ancien modèle bibliographique distinguant notamment œuvre, expression, manifestation et item.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-17",
+    "term": "Functional Requirements for Subject Authority Data (FRSAD)",
+    "definition": "Ancien modèle de l’autorité matière, remplacé par IFLA LRM.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-18",
+    "term": "IFLA Library Reference Model (IFLA LRM)",
+    "definition": "Modèle bibliographique unifiant FRBR, FRAD et FRSAD, publié en 2017.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-19",
+    "term": "International Standard Bibliographic Description (ISBD)",
+    "definition": "Référentiel international fixant les éléments, l’ordre et la ponctuation d’une description bibliographique.",
+    "source": "isbd"
+  },
+  {
+    "id": "terme-20",
+    "term": "ISBD intégré",
+    "definition": "Texte commun réunissant les anciens ISBD spécialisés par catégorie de ressources.",
+    "source": "isbd"
+  },
+  {
+    "id": "terme-21",
+    "term": "Item",
+    "definition": "Exemplaire individuel correspondant à une manifestation.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-22",
+    "term": "LRMisation",
+    "definition": "Réorganisation automatisée de données existantes selon IFLA LRM.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-23",
+    "term": "Manifestation",
+    "definition": "Matérialisation éditoriale ou matérielle d’une ou plusieurs expressions.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-24",
+    "term": "Métadonnées",
+    "definition": "Informations structurées permettant de décrire une ressource.",
+    "source": "rdf"
+  },
+  {
+    "id": "terme-25",
+    "term": "Modèle conceptuel",
+    "definition": "Représentation abstraite des objets, propriétés et liens d’un domaine.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-26",
+    "term": "Norme",
+    "definition": "Référence collective validée par un organisme compétent.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-27",
+    "term": "Œuvre",
+    "definition": "Création considérée indépendamment de ses réalisations et éditions.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-28",
+    "term": "Œuvre, Expression, Manifestation, Item (OEMI)",
+    "definition": "Acronyme français des quatre niveaux de description œuvre–expression–manifestation–item.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-29",
+    "term": "Ontologie RDA-FR",
+    "definition": "Formalisation du code RDA-FR en classes, propriétés et vocabulaires du web sémantique.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-30",
+    "term": "Permanent Unimarc Committee (PUC)",
+    "definition": "Comité chargé de maintenir et faire évoluer UNIMARC.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-31",
+    "term": "Principes internationaux de catalogage (PIC)",
+    "definition": "Principes IFLA orientant le catalogage vers les besoins de recherche des usagers.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-32",
+    "term": "RDA Board",
+    "definition": "Instance chargée de l’orientation stratégique de RDA.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-33",
+    "term": "RDA Steering Committee (RSC)",
+    "definition": "Comité assurant la maintenance et le développement de RDA.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-34",
+    "term": "RDA-FR",
+    "definition": "Transposition française de RDA pour le signalement des ressources des bibliothèques.",
+    "source": "rda"
+  },
+  {
+    "id": "terme-35",
+    "term": "Relation",
+    "definition": "Lien défini entre deux entités ou leurs occurrences.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-36",
+    "term": "Resource Description and Access (RDA)",
+    "definition": "Code de description et d’accès aux ressources, successeur des AACR2.",
+    "source": "tb"
+  },
+  {
+    "id": "terme-37",
+    "term": "Resource Description Framework (RDF)",
+    "definition": "Modèle représentant des informations par des triplets sujet–prédicat–objet.",
+    "source": "rdf"
+  },
+  {
+    "id": "terme-38",
+    "term": "Ressource",
+    "definition": "Objet documentaire décrit et identifié dans un catalogue.",
+    "source": "lrm"
+  },
+  {
+    "id": "terme-39",
+    "term": "Web de données",
+    "definition": "Données publiées avec des identifiants et reliées pour être exploitées par les machines.",
+    "source": "rdf"
+  },
+  {
+    "id": "terme-40",
+    "term": "Web sémantique",
+    "definition": "Technologies décrivant explicitement les données et leurs relations sur le web.",
+    "source": "rdf"
+  },
+  {
+    "id": "terme-41",
+    "term": "Work, Expression, Manifestation, Item (WEMI)",
+    "definition": "Désignation anglaise des quatre niveaux OEMI.",
+    "source": "lrm"
+  }
+]

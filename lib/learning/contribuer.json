@@ -1,0 +1,10 @@
+{
+  "courseId": "contribuer",
+  "title": "Contribuer au portail BIBDOC",
+  "description": "Les données pédagogiques détaillées ne sont pas incluses dans cette exportation publique.",
+  "status": "Corpus non inclus",
+  "duration": "",
+  "software": "BOKEH",
+  "requiredResources": [],
+  "modules": []
+}
