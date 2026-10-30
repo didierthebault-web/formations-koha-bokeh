@@ -1,0 +1,1 @@
+export default function TourProgress({current,total}:{current:number;total:number}){return <div className="tour-progress"><span>Étape {current} sur {total}</span><progress max={total} value={current} aria-label="Progression de la visite"/>{current===total&&<span>Visite parcourue</span>}</div>;}

@@ -19,5 +19,5 @@
     },
     "types": []
   },
-  "include": ["../app/glossary.tsx", "../app/glossary-entry.tsx", "../app/cataloguer.tsx", "../lib/glossary.ts"]
+  "include": ["../app/glossary.tsx", "../app/glossary-entry.tsx", "../app/cataloguer.tsx", "../lib/glossary.ts", "../app/tours.tsx"]
 }

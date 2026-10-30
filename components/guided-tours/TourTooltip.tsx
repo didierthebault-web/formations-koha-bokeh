@@ -1,0 +1,3 @@
+import {useEffect,useRef,type ReactNode} from 'react';
+import type {TourStep} from './model';
+export default function TourTooltip({step,number,focusKey,children}:{step:TourStep;number:number;focusKey:string;children:ReactNode}){const title=useRef<HTMLHeadingElement>(null);useEffect(()=>{title.current?.focus({preventScroll:true});},[focusKey]);return <section className="tour-tooltip" aria-labelledby="tour-step-title"><div className="eyebrow">ÉTAPE {number}</div><h2 id="tour-step-title" ref={title} tabIndex={-1}>{step.title}</h2><div className="tour-step-text">{step.paragraphs.map((text,i)=><p key={i}>{text}</p>)}</div>{step.instruction&&<p className="tour-instruction">{step.instruction}</p>}{children}</section>;}
