@@ -1,0 +1,387 @@
+{
+  "cataloguer/mutualisation/catalogue-partage": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Comprendre le catalogue mutualisé",
+    "title": "Un catalogue, plusieurs structures"
+  },
+  "cataloguer/mutualisation/notice-exemplaire": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Comprendre le catalogue mutualisé",
+    "title": "Notice bibliographique ou exemplaire ?"
+  },
+  "cataloguer/unimarc/champs-sous-champs": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Se repérer dans l’UNIMARC",
+    "title": "Lire un champ et ses sous-champs"
+  },
+  "cataloguer/unimarc/donnees-codees": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Se repérer dans l’UNIMARC",
+    "title": "Données codées et valeurs autorisées"
+  },
+  "cataloguer/rechercher/recherche-prealable": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Rechercher avant de créer",
+    "title": "Vérifier la présence du document"
+  },
+  "cataloguer/rechercher/choisir-workflow": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Rechercher avant de créer",
+    "title": "Choisir la suite du traitement"
+  },
+  "cataloguer/derivation/interroger-reservoirs": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Cataloguer par dérivation",
+    "title": "Interroger les réservoirs Z39.50 / SRU"
+  },
+  "cataloguer/derivation/controler-import": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Cataloguer par dérivation",
+    "title": "Contrôler la notice récupérée"
+  },
+  "cataloguer/decrire/titre-responsabilites": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Décrire le document",
+    "title": "Titre et mentions de responsabilité — 200"
+  },
+  "cataloguer/decrire/publication": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Décrire le document",
+    "title": "Lieu, éditeur et date — 214"
+  },
+  "cataloguer/decrire/description-materielle": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Décrire le document",
+    "title": "Décrire la matérialité — 215"
+  },
+  "cataloguer/decrire/notes-identifiants": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Décrire le document",
+    "title": "Notes, résumé et identifiants"
+  },
+  "cataloguer/autorites/matiere-responsabilite": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Indexer et gérer les responsabilités",
+    "title": "Distinguer sujet et responsabilité"
+  },
+  "cataloguer/autorites/rechercher-autorite": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Indexer et gérer les responsabilités",
+    "title": "Rechercher et lier une autorité"
+  },
+  "cataloguer/autorites/importer-autorite": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Indexer et gérer les responsabilités",
+    "title": "Importer une autorité et examiner les subdivisions"
+  },
+  "cataloguer/numerique/acces-en-ligne": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Donner accès aux ressources numériques",
+    "title": "Renseigner et vérifier l’accès en ligne — 856"
+  },
+  "cataloguer/exemplaires/donnees-exemplaire": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Créer les exemplaires",
+    "title": "Renseigner les données de son exemplaire"
+  },
+  "cataloguer/exemplaires/verifier-exemplaire": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Créer les exemplaires",
+    "title": "Vérifier le résultat dans Koha et le portail"
+  },
+  "cataloguer/cas-particuliers/creation-manuelle": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Créer sans dérivation et traiter les cas particuliers",
+    "title": "Construire une notice sans dérivation"
+  },
+  "cataloguer/cas-particuliers/collections-continues": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Créer sans dérivation et traiter les cas particuliers",
+    "title": "Collections, volumes et ressources continues"
+  },
+  "cataloguer/qualite/controle-final": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Contrôler et pratiquer",
+    "title": "La vérification finale du catalogueur"
+  },
+  "cataloguer/qualite/paniers-listes": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Contrôler et pratiquer",
+    "title": "Utiliser paniers et listes pour préparer un contrôle"
+  },
+  "cataloguer/qualite/atelier-final": {
+    "courseTitle": "Cataloguer avec KOHA",
+    "moduleTitle": "Contrôler et pratiquer",
+    "title": "Réaliser le parcours complet"
+  },
+  "administrer-koha/role-referent/referent-fonctionnel": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Comprendre son rôle de référent",
+    "title": "Accompagner les utilisateurs de sa structure"
+  },
+  "administrer-koha/role-referent/niveaux-intervention": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Comprendre son rôle de référent",
+    "title": "Choisir le bon niveau d’intervention"
+  },
+  "administrer-koha/parametres/parametres-grilles": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Comprendre les paramètres communs",
+    "title": "Paramètres de base et grilles MARC"
+  },
+  "administrer-koha/parametres/bibliotheques-types": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Comprendre les paramètres communs",
+    "title": "Bibliothèques et types de documents"
+  },
+  "administrer-koha/parametres/valeurs-autorisees": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Comprendre les paramètres communs",
+    "title": "Reconnaître une valeur autorisée manquante"
+  },
+  "administrer-koha/rapports/besoin-rapport": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Produire des rapports guidés et SQL",
+    "title": "Définir le besoin avant de créer un rapport"
+  },
+  "administrer-koha/rapports/assistant-rapports": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Produire des rapports guidés et SQL",
+    "title": "Utiliser l’assistant de rapports guidés"
+  },
+  "administrer-koha/rapports/rapport-sql": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Produire des rapports guidés et SQL",
+    "title": "Créer un rapport SQL paramétré"
+  },
+  "administrer-koha/statistiques/assistant-statistiques": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Exploiter les statistiques",
+    "title": "Construire une analyse avec l’assistant statistiques"
+  },
+  "administrer-koha/doublons/comparer-doublons": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Dédoublonner les notices",
+    "title": "Identifier et comparer un doublon"
+  },
+  "administrer-koha/doublons/fusionner-notices": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Dédoublonner les notices",
+    "title": "Préparer et contrôler une fusion"
+  },
+  "administrer-koha/lots/constituer-lot": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Traiter les données par lots",
+    "title": "Constituer et contrôler le lot"
+  },
+  "administrer-koha/lots/modele-marc": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Traiter les données par lots",
+    "title": "Préparer un modèle de transformation MARC"
+  },
+  "administrer-koha/lots/securiser-lot": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Traiter les données par lots",
+    "title": "Valider un traitement avant la production"
+  },
+  "administrer-koha/imports/preparer-import": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Importer des données",
+    "title": "Préparer l’import de notices"
+  },
+  "administrer-koha/imports/controler-import-admin": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Importer des données",
+    "title": "Contrôler puis faire valider l’import"
+  },
+  "administrer-koha/diagnostic/qualifier-anomalie": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Diagnostiquer et transmettre une anomalie",
+    "title": "Qualifier une anomalie"
+  },
+  "administrer-koha/diagnostic/transmettre-anomalie": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Diagnostiquer et transmettre une anomalie",
+    "title": "Transmettre une demande déjà qualifiée"
+  },
+  "administrer-koha/preferences/preferences-globales": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Comprendre les préférences système",
+    "title": "Identifier une préférence et sa portée"
+  },
+  "administrer-koha/utilisateurs/compte-professionnel": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Gérer les utilisateurs et les permissions",
+    "title": "Préparer le compte d’un agent"
+  },
+  "administrer-koha/utilisateurs/permissions-minimales": {
+    "courseTitle": "Administrer KOHA",
+    "moduleTitle": "Gérer les utilisateurs et les permissions",
+    "title": "Attribuer les permissions nécessaires"
+  },
+  "administrer-bokeh/decouvrir-bibdoc/portail-mutualise": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Comprendre BIBDOC",
+    "title": "BIBDOC, un portail commun au réseau"
+  },
+  "administrer-bokeh/decouvrir-bibdoc/rubriques-portail": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Comprendre BIBDOC",
+    "title": "Se repérer dans les rubriques publiques"
+  },
+  "administrer-bokeh/administration-bokeh/public-administration": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Se repérer dans l’administration",
+    "title": "Passer du portail public à l’administration"
+  },
+  "administrer-bokeh/administration-bokeh/retrouver-contenus": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Se repérer dans l’administration",
+    "title": "Retrouver les articles et les domaines"
+  },
+  "administrer-bokeh/articles/localiser-article": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Organiser et rédiger les articles",
+    "title": "Choisir le dossier et la localisation"
+  },
+  "administrer-bokeh/articles/proprietes-article": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Organiser et rédiger les articles",
+    "title": "Renseigner les propriétés et les dates"
+  },
+  "administrer-bokeh/articles/editeur-texte": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Organiser et rédiger les articles",
+    "title": "Structurer le texte avec l’éditeur"
+  },
+  "administrer-bokeh/medias/images-accessibles": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Insérer des images, liens et médias",
+    "title": "Préparer une image et son alternative"
+  },
+  "administrer-bokeh/medias/liens": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Insérer des images, liens et médias",
+    "title": "Créer un lien explicite et le vérifier"
+  },
+  "administrer-bokeh/medias/medias-integres": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Insérer des images, liens et médias",
+    "title": "Examiner l’intégration d’une vidéo ou d’un média"
+  },
+  "administrer-bokeh/domaines/domaine-ou-panier": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Comprendre et créer les domaines",
+    "title": "Choisir entre domaine et panier"
+  },
+  "administrer-bokeh/domaines/creer-domaine": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Comprendre et créer les domaines",
+    "title": "Définir les critères et le périmètre du domaine"
+  },
+  "administrer-bokeh/paniers/constituer-panier": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Créer et alimenter les paniers",
+    "title": "Sélectionner les notices du panier"
+  },
+  "administrer-bokeh/paniers/nommer-ranger-panier": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Créer et alimenter les paniers",
+    "title": "Nommer, ranger et retrouver le panier"
+  },
+  "administrer-bokeh/boites/inserer-kiosque": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Afficher les boîtes et carrousels de notices",
+    "title": "Insérer un kiosque alimenté par un panier ou un domaine"
+  },
+  "administrer-bokeh/boites/regler-affichage": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Afficher les boîtes et carrousels de notices",
+    "title": "Régler la présentation et vérifier le rendu"
+  },
+  "administrer-bokeh/gouvernance-editoriale/responsabilites-editoriales": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Organiser la validation et la publication",
+    "title": "Répartir les responsabilités dans le réseau"
+  },
+  "administrer-bokeh/gouvernance-editoriale/previsualiser-valider": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Organiser la validation et la publication",
+    "title": "Prévisualiser puis demander la validation"
+  },
+  "administrer-bokeh/gouvernance-editoriale/maintenir-contenus": {
+    "courseTitle": "Administrer BOKEH et organiser BIBDOC",
+    "moduleTitle": "Organiser la validation et la publication",
+    "title": "Relire, actualiser et coordonner les contenus"
+  },
+  "contribuer/preparer-contribution/choisir-contribution": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Préparer sa contribution",
+    "title": "Choisir entre actualité, nouveauté et sélection"
+  },
+  "contribuer/preparer-contribution/rediger-actualite": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Préparer sa contribution",
+    "title": "Préparer un titre et un texte concis"
+  },
+  "contribuer/preparer-contribution/coordonner-contribution": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Préparer sa contribution",
+    "title": "Vérifier les sources et coordonner la contribution"
+  },
+  "contribuer/creer-actualite/localiser-article": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Créer et mettre en forme un article",
+    "title": "Choisir le dossier et la localisation"
+  },
+  "contribuer/creer-actualite/proprietes-article": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Créer et mettre en forme un article",
+    "title": "Renseigner les propriétés et les dates"
+  },
+  "contribuer/creer-actualite/editeur-texte": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Créer et mettre en forme un article",
+    "title": "Structurer le texte avec l’éditeur"
+  },
+  "contribuer/illustrer-contribution/images-accessibles": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Ajouter des images et des liens accessibles",
+    "title": "Préparer une image et son alternative"
+  },
+  "contribuer/illustrer-contribution/liens": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Ajouter des images et des liens accessibles",
+    "title": "Créer un lien explicite et le vérifier"
+  },
+  "contribuer/selection-documentaire/introduire-selection": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Présenter une sélection documentaire",
+    "title": "Donner un fil conducteur à la sélection"
+  },
+  "contribuer/selection-documentaire/constituer-panier": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Présenter une sélection documentaire",
+    "title": "Sélectionner les notices du panier"
+  },
+  "contribuer/selection-documentaire/inserer-kiosque": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Présenter une sélection documentaire",
+    "title": "Insérer un kiosque alimenté par un panier ou un domaine"
+  },
+  "contribuer/relire-soumettre/previsualiser-valider": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Relire et demander la validation",
+    "title": "Prévisualiser puis demander la validation"
+  },
+  "contribuer/relire-soumettre/maintenir-contenus": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Relire et demander la validation",
+    "title": "Relire, actualiser et coordonner les contenus"
+  },
+  "contribuer/atelier-contribution/atelier-contributeur": {
+    "courseTitle": "Contribuer au portail BIBDOC",
+    "moduleTitle": "Réaliser une contribution complète",
+    "title": "Préparer une actualité puis la soumettre à relecture"
+  }
+}

@@ -3,246 +3,3285 @@
     "id": "terme-1",
     "term": "Agent",
     "definition": "Personne ou groupe intervenant dans l’existence d’une ressource.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Identifier la personne et la collectivité responsables d’une publication.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-2",
     "term": "Alignement des données",
     "definition": "Rapprochement de notices entre catalogues pour enrichir leur description.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [],
+    "example": "Comparer des notices locales avec celles d’une agence bibliographique.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-3",
     "term": "Anglo-American Cataloguing Rules (AACR)",
     "definition": "Anciennes règles anglo-américaines auxquelles RDA a succédé.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [
+      "AACR",
+      "AACR2"
+    ],
+    "example": "Reconnaître l’origine d’une notice ancienne avant de la réutiliser.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-4",
     "term": "Archival Resource Key (ARK)",
     "definition": "Identifiant conçu pour désigner durablement un objet.",
-    "source": "tb"
+    "source": "tb",
+    "category": "donnees",
+    "aliases": [
+      "ARK"
+    ],
+    "example": "Conserver un identifiant ARK pour renvoyer à une notice de référence.",
+    "sources": [
+      {
+        "sourceId": "ark"
+      }
+    ],
+    "related": [
+      "metier-isni",
+      "metier-isbn"
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "numerique",
+        "lessonId": "acces-en-ligne"
+      }
+    ],
+    "software": "Conserver l’identifiant pérenne de la ressource ou de la notice ; vérifier l’objet auquel il renvoie."
   },
   {
     "id": "terme-5",
     "term": "Attribut",
     "definition": "Caractéristique décrivant une entité, par exemple sa langue.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Relever la langue d’une expression dans les données de description.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-6",
     "term": "Code de catalogage",
     "definition": "Ensemble organisé de consignes pour décrire et identifier les ressources.",
-    "source": "rda"
+    "source": "rda",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Consulter les instructions du code avant de décrire une ressource.",
+    "sources": [
+      {
+        "sourceId": "rda"
+      }
+    ],
+    "related": [
+      "metier-catalogage",
+      "metier-description-bibliographique",
+      "metier-unimarc"
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "cas-particuliers",
+        "lessonId": "creation-manuelle"
+      }
+    ],
+    "software": "Dans Koha, appliquer les règles du code retenu ; la grille MARC ne remplace pas les consignes de description."
   },
   {
     "id": "terme-7",
     "term": "Comité stratégique bibliographique (CSB)",
     "definition": "Instance d’arbitrage de la politique bibliographique nationale.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [
+      "CSB"
+    ],
+    "example": "Situer une décision stratégique dans l’organisation du programme bibliographique.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-8",
     "term": "Committee of Principals (CoP)",
     "definition": "Ancienne gouvernance stratégique des AACR, remplacée par le RDA Board.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [
+      "CoP"
+    ],
+    "example": "Lire un document ancien sans confondre CoP et gouvernance actuelle de RDA.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-9",
     "term": "Entité",
     "definition": "Catégorie d’objets retenue pour représenter un domaine.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Distinguer les catégories Œuvre, Expression, Manifestation et Item.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-10",
     "term": "European RDA Interest Group (EURIG)",
     "definition": "Groupe européen d’échange sur l’application de RDA.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [
+      "EURIG"
+    ],
+    "example": "Identifier le rôle d’un groupe européen dans un document sur RDA.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-11",
     "term": "Expression",
     "definition": "Réalisation particulière d’une création : une traduction, par exemple.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Distinguer une traduction française de la version originale d’un texte.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-12",
     "term": "Format",
     "definition": "Organisation des données permettant leur traitement et leur échange informatiques.",
-    "source": "tb"
+    "source": "tb",
+    "category": "donnees",
+    "aliases": [],
+    "example": "Distinguer les règles de description du format UNIMARC qui les transporte.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "metier-unimarc"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-13",
     "term": "FRBR orienté objet (FRBRoo)",
     "definition": "Reformulation orientée objet de FRBR, articulée au CIDOC CRM.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [
+      "FRBRoo"
+    ],
+    "example": "Situer une référence à FRBRoo dans un projet reliant bibliothèques et musées.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-14",
     "term": "FRBRisation",
     "definition": "Transformation des données d’un catalogue selon la logique FRBR.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [],
+    "example": "Analyser le regroupement d’éditions autour d’une œuvre dans un ancien projet.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-15",
     "term": "Functional Requirements for Authority Data (FRAD)",
     "definition": "Ancien modèle des données d’autorité, intégré ensuite à IFLA LRM.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [
+      "FRAD"
+    ],
+    "example": "Comprendre une référence à FRAD dans un support sur les autorités.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-16",
     "term": "Functional Requirements for Bibliographic Records (FRBR)",
     "definition": "Ancien modèle bibliographique distinguant notamment œuvre, expression, manifestation et item.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [
+      "FRBR"
+    ],
+    "example": "Reconnaître les quatre niveaux bibliographiques dans un support historique.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-17",
     "term": "Functional Requirements for Subject Authority Data (FRSAD)",
     "definition": "Ancien modèle de l’autorité matière, remplacé par IFLA LRM.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [
+      "FRSAD"
+    ],
+    "example": "Lire une présentation historique de la modélisation des sujets.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-18",
     "term": "IFLA Library Reference Model (IFLA LRM)",
     "definition": "Modèle bibliographique unifiant FRBR, FRAD et FRSAD, publié en 2017.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [
+      "IFLA LRM"
+    ],
+    "example": "Distinguer une œuvre de ses réalisations et exemplaires dans IFLA LRM.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-27",
+      "terme-11",
+      "terme-23",
+      "terme-21"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-19",
     "term": "International Standard Bibliographic Description (ISBD)",
     "definition": "Référentiel international fixant les éléments, l’ordre et la ponctuation d’une description bibliographique.",
-    "source": "isbd"
+    "source": "isbd",
+    "category": "catalogage",
+    "aliases": [
+      "ISBD"
+    ],
+    "example": "Repérer la description matérielle dans une notice rédigée selon l’ISBD.",
+    "sources": [
+      {
+        "sourceId": "isbd"
+      }
+    ],
+    "related": [
+      "metier-collation",
+      "metier-description-bibliographique",
+      "metier-unimarc"
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "decrire",
+        "lessonId": "description-materielle"
+      }
+    ]
   },
   {
     "id": "terme-20",
     "term": "ISBD intégré",
     "definition": "Texte commun réunissant les anciens ISBD spécialisés par catégorie de ressources.",
-    "source": "isbd"
+    "source": "isbd",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Comprendre qu’un texte intégré traite plusieurs catégories de ressources.",
+    "sources": [
+      {
+        "sourceId": "isbd"
+      }
+    ],
+    "related": [
+      "metier-unimarc"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-21",
     "term": "Item",
     "definition": "Exemplaire individuel correspondant à une manifestation.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "collections",
+    "aliases": [],
+    "example": "Distinguer deux copies individuelles d’une même manifestation.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "metier-exemplaire",
+      "terme-23",
+      "metier-notice-d-exemplaire"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-22",
     "term": "LRMisation",
     "definition": "Réorganisation automatisée de données existantes selon IFLA LRM.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [],
+    "example": "Examiner comment un catalogue rapproche les données selon les entités LRM.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-23",
     "term": "Manifestation",
     "definition": "Matérialisation éditoriale ou matérielle d’une ou plusieurs expressions.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Distinguer deux éditions matérialisant une expression du même texte.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-24",
     "term": "Métadonnées",
     "definition": "Informations structurées permettant de décrire une ressource.",
-    "source": "rdf"
+    "source": "rdf",
+    "category": "donnees",
+    "aliases": [
+      "Métadonnée"
+    ],
+    "example": "Décrire une ressource avec un titre, un identifiant et des informations de publication.",
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd",
+        "page": 13
+      }
+    ],
+    "related": [
+      "metier-notice-bibliographique",
+      "metier-oai-pmh",
+      "metier-editorialisation"
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "mutualisation",
+        "lessonId": "notice-exemplaire"
+      },
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "articles",
+        "lessonId": "proprietes-article"
+      }
+    ],
+    "software": "Koha et BOKEH exploitent les métadonnées pour rechercher, décrire et présenter les ressources."
   },
   {
     "id": "terme-25",
     "term": "Modèle conceptuel",
     "definition": "Représentation abstraite des objets, propriétés et liens d’un domaine.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Préparer un schéma distinguant objets, attributs et relations.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-26",
     "term": "Norme",
     "definition": "Référence collective validée par un organisme compétent.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [],
+    "example": "Identifier le statut d’un texte avant d’en faire une règle de travail.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-27",
     "term": "Œuvre",
     "definition": "Création considérée indépendamment de ses réalisations et éditions.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Relier plusieurs traductions à la création intellectuelle qu’elles réalisent.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-28",
     "term": "Œuvre, Expression, Manifestation, Item (OEMI)",
     "definition": "Acronyme français des quatre niveaux de description œuvre–expression–manifestation–item.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [
+      "OEMI"
+    ],
+    "example": "Expliquer le passage de l’œuvre à la copie détenue par une bibliothèque.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-41",
+      "terme-27",
+      "terme-11",
+      "terme-23",
+      "terme-21"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-29",
     "term": "Ontologie RDA-FR",
     "definition": "Formalisation du code RDA-FR en classes, propriétés et vocabulaires du web sémantique.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [],
+    "example": "Examiner une classe ou une propriété lors d’un projet de données liées.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-30",
     "term": "Permanent Unimarc Committee (PUC)",
     "definition": "Comité chargé de maintenir et faire évoluer UNIMARC.",
-    "source": "tb"
+    "source": "tb",
+    "category": "catalogage",
+    "aliases": [
+      "PUC"
+    ],
+    "example": "Repérer l’organisme de maintenance d’une évolution du format UNIMARC.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "metier-unimarc"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-31",
     "term": "Principes internationaux de catalogage (PIC)",
     "definition": "Principes IFLA orientant le catalogage vers les besoins de recherche des usagers.",
-    "source": "tb"
+    "source": "tb",
+    "category": "catalogage",
+    "aliases": [
+      "PIC"
+    ],
+    "example": "Relier un choix de catalogage aux tâches de recherche d’un usager.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "metier-unimarc"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-32",
     "term": "RDA Board",
     "definition": "Instance chargée de l’orientation stratégique de RDA.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [],
+    "example": "Distinguer orientation stratégique et maintenance technique de RDA.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-33",
     "term": "RDA Steering Committee (RSC)",
     "definition": "Comité assurant la maintenance et le développement de RDA.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [
+      "RSC"
+    ],
+    "example": "Identifier l’instance responsable de l’évolution des instructions RDA.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-34",
     "term": "RDA-FR",
     "definition": "Transposition française de RDA pour le signalement des ressources des bibliothèques.",
-    "source": "rda"
+    "source": "rda",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Consulter la partie Manifestation du code pour décrire une publication.",
+    "sources": [
+      {
+        "sourceId": "rda"
+      }
+    ],
+    "related": [
+      "metier-unimarc"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-35",
     "term": "Relation",
     "definition": "Lien défini entre deux entités ou leurs occurrences.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Relier une personne à une œuvre par une responsabilité identifiée.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-36",
     "term": "Resource Description and Access (RDA)",
     "definition": "Code de description et d’accès aux ressources, successeur des AACR2.",
-    "source": "tb"
+    "source": "tb",
+    "category": "transition",
+    "aliases": [
+      "RDA"
+    ],
+    "example": "Comparer le rôle d’un code de catalogage et celui d’un format de données.",
+    "sources": [
+      {
+        "sourceId": "tb"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-37",
     "term": "Resource Description Framework (RDF)",
     "definition": "Modèle représentant des informations par des triplets sujet–prédicat–objet.",
-    "source": "rdf"
+    "source": "rdf",
+    "category": "transition",
+    "aliases": [
+      "RDF"
+    ],
+    "example": "Exprimer un lien entre deux ressources sous forme de triplet.",
+    "sources": [
+      {
+        "sourceId": "rdf"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-38",
     "term": "Ressource",
     "definition": "Objet documentaire décrit et identifié dans un catalogue.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [],
+    "example": "Déterminer l’objet documentaire que l’on souhaite décrire dans le catalogue.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-39",
     "term": "Web de données",
     "definition": "Données publiées avec des identifiants et reliées pour être exploitées par les machines.",
-    "source": "rdf"
+    "source": "rdf",
+    "category": "transition",
+    "aliases": [],
+    "example": "Relier des notices à des identifiants d’autorités publiés sur le web.",
+    "sources": [
+      {
+        "sourceId": "rdf"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-40",
     "term": "Web sémantique",
     "definition": "Technologies décrivant explicitement les données et leurs relations sur le web.",
-    "source": "rdf"
+    "source": "rdf",
+    "category": "transition",
+    "aliases": [],
+    "example": "Comprendre la fonction d’un vocabulaire formel dans l’interprétation des données.",
+    "sources": [
+      {
+        "sourceId": "rdf"
+      }
+    ],
+    "related": [
+      "terme-18",
+      "terme-6"
+    ],
+    "lessonRefs": []
   },
   {
     "id": "terme-41",
     "term": "Work, Expression, Manifestation, Item (WEMI)",
     "definition": "Désignation anglaise des quatre niveaux OEMI.",
-    "source": "lrm"
+    "source": "lrm",
+    "category": "transition",
+    "aliases": [
+      "WEMI"
+    ],
+    "example": "Reconnaître WEMI comme la formulation anglaise de la suite OEMI.",
+    "sources": [
+      {
+        "sourceId": "lrm"
+      }
+    ],
+    "related": [
+      "terme-28"
+    ],
+    "lessonRefs": []
+  },
+  {
+    "id": "metier-catalogage",
+    "term": "Catalogage",
+    "definition": "Ensemble des opérations qui identifient et décrivent une ressource, organisent ses points d’accès et la rendent repérable dans un catalogue. Il associe des règles de description, un format de données et des pratiques de contrôle ; il ne se limite pas à saisir un titre.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Décrire une brochure puis vérifier ses auteurs et son exemplaire.",
+    "software": "Dans Koha, rechercher d’abord le document, puis créer ou enrichir la notice selon les règles du réseau.",
+    "related": [
+      "metier-description-bibliographique",
+      "metier-notice-bibliographique",
+      "metier-catalogage-par-derivation"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd",
+        "page": 1
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "mutualisation",
+        "lessonId": "notice-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-notice-bibliographique",
+    "term": "Notice bibliographique",
+    "definition": "Enregistrement structuré qui identifie une ressource par des informations telles que son titre, ses responsabilités, sa publication et ses accès. Dans un catalogue mutualisé, cette description peut servir à plusieurs structures ; les informations propres à chaque copie relèvent des données d’exemplaire.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Une même notice décrit l’édition détenue dans deux bibliothèques.",
+    "software": "La notice partagée dans Koha est distincte des exemplaires qui lui sont rattachés.",
+    "unimarc": "200 : titre et mention de responsabilité",
+    "related": [
+      "metier-notice-d-exemplaire",
+      "metier-exemplaire",
+      "metier-catalogage"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 2
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "mutualisation",
+        "lessonId": "notice-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-notice-d-exemplaire",
+    "term": "Notice d’exemplaire",
+    "definition": "Enregistrement des informations locales attachées à une copie d’une ressource : bibliothèque, code-barres, cote, localisation ou statut. Il complète la description bibliographique commune. Deux exemplaires de la même édition peuvent donc partager une notice bibliographique tout en ayant des données de gestion différentes.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Deux copies d’un livre portent des codes-barres et des cotes différents.",
+    "software": "Dans Koha, consulter et modifier les exemplaires rattachés à la notice bibliographique.",
+    "related": [
+      "metier-exemplaire",
+      "metier-exemplarisation",
+      "metier-code-barres",
+      "metier-notice-bibliographique"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 30
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "donnees-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-catalogage-par-derivation",
+    "term": "Catalogage par dérivation",
+    "definition": "Création d’une notice locale à partir d’une description récupérée dans un catalogue ou un réservoir externe. La notice obtenue doit être comparée au document, contrôlée et adaptée au format ainsi qu’aux pratiques du réseau avant l’ajout des données d’exemplaire.",
+    "category": "catalogage",
+    "aliases": [
+      "Dérivation",
+      "Catalogage dérivé"
+    ],
+    "example": "Récupérer une notice depuis un réservoir puis vérifier l’édition.",
+    "software": "Dans Koha, interroger les sources Z39.50 ou SRU configurées et contrôler le résultat avant enregistrement.",
+    "related": [
+      "metier-z39-50",
+      "metier-sru",
+      "metier-catalogage-original",
+      "metier-import-de-notices"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 2
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "derivation",
+        "lessonId": "interroger-reservoirs"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-catalogage-original",
+    "term": "Catalogage original",
+    "definition": "Production d’une nouvelle description bibliographique à partir de la ressource elle-même, lorsqu’aucune notice récupérable ne convient. Le catalogueur identifie les informations à transcrire, applique les règles retenues et crée les accès nécessaires. La recherche préalable reste indispensable pour éviter les doublons.",
+    "category": "catalogage",
+    "aliases": [
+      "Catalogage sans dérivation"
+    ],
+    "example": "Créer une notice pour une brochure locale absente des réservoirs.",
+    "software": "Choisir dans Koha la grille adaptée, puis contrôler la nouvelle notice avant d’y rattacher l’exemplaire.",
+    "related": [
+      "metier-catalogage-par-derivation",
+      "metier-grille-de-catalogage",
+      "metier-description-bibliographique"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 3
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "cas-particuliers",
+        "lessonId": "creation-manuelle"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-unimarc",
+    "term": "UNIMARC",
+    "definition": "Famille de formats qui organise les données bibliographiques et les données d’autorité en zones, indicateurs et sous-zones. Le format bibliographique décrit notamment des ressources ; le format d’autorité traite des points d’accès contrôlés. Un format de données ne remplace pas un code de catalogage.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Lire le titre dans la zone 200 d’une notice bibliographique.",
+    "software": "Dans une installation Koha configurée en UNIMARC, les grilles exposent les zones prévues par le réseau.",
+    "related": [
+      "metier-champ",
+      "metier-sous-champ",
+      "metier-indicateur",
+      "terme-6"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 2
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "unimarc",
+        "lessonId": "champs-sous-champs"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-champ",
+    "term": "Champ",
+    "definition": "Élément structurant d’une notice MARC, repéré par une étiquette numérique. Selon son type, il contient une donnée de contrôle ou des sous-champs accompagnés d’indicateurs. En UNIMARC, on parle aussi de zone ; sa fonction et sa répétabilité sont définies par le format.",
+    "category": "catalogage",
+    "aliases": [
+      "Zone UNIMARC",
+      "Zone"
+    ],
+    "example": "Le champ 200 porte le titre et les mentions de responsabilité.",
+    "software": "Dans l’éditeur Koha, consulter la signification de la zone avant de modifier son contenu.",
+    "unimarc": "200 : titre et mention de responsabilité",
+    "related": [
+      "metier-sous-champ",
+      "metier-indicateur",
+      "metier-unimarc"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 10
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "unimarc",
+        "lessonId": "champs-sous-champs"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-sous-champ",
+    "term": "Sous-champ",
+    "definition": "Subdivision d’un champ de données MARC, identifiée par un code, qui distingue des informations de nature différente. Son sens dépend du champ auquel il appartient. Il faut donc lire ensemble l’étiquette de zone et le code de sous-champ, et vérifier leur répétabilité.",
+    "category": "catalogage",
+    "aliases": [
+      "Sous-zone"
+    ],
+    "example": "Dans 200, le sous-champ $a contient le titre propre.",
+    "software": "Les sous-champs visibles et obligatoires dépendent de la grille Koha choisie.",
+    "unimarc": "200$a : titre propre",
+    "related": [
+      "metier-champ",
+      "metier-indicateur",
+      "metier-grille-de-catalogage"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 10
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "unimarc",
+        "lessonId": "champs-sous-champs"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-indicateur",
+    "term": "Indicateur",
+    "definition": "Caractère placé à l’une des positions d’indicateur d’un champ de données MARC, dont la valeur précise le traitement ou l’interprétation du champ. Toutes les positions ne sont pas définies. La signification doit être vérifiée pour la zone et le format concernés.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Vérifier les indicateurs d’une zone avant de valider la notice.",
+    "software": "Koha affiche les positions d’indicateur dans l’éditeur MARC ; leur emploi reste régi par le format.",
+    "related": [
+      "metier-champ",
+      "metier-sous-champ",
+      "metier-unimarc"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "unimarc",
+        "lessonId": "champs-sous-champs"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-grille-de-catalogage",
+    "term": "Grille de catalogage",
+    "definition": "Paramétrage qui détermine la présentation et les propriétés des champs et sous-champs proposés à la saisie. Une grille facilite le travail pour un type de ressource ou un usage. Ses valeurs par défaut et contraintes n’ont pas, à elles seules, valeur de règle normative.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Une grille facilite la description d’une monographie courante.",
+    "software": "Dans Koha, les grilles MARC se paramètrent en administration ; les modifications partagées demandent une coordination.",
+    "related": [
+      "metier-valeur-autorisee",
+      "metier-champ",
+      "metier-catalogage-original"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "parametres",
+        "lessonId": "parametres-grilles"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-isbn",
+    "term": "ISBN",
+    "definition": "Identifiant international attribué à une publication monographique pour distinguer notamment une édition et une présentation commerciale. Les ISBN actuels comportent treize chiffres. Il aide à rechercher et rapprocher des notices, mais une correspondance d’ISBN ne dispense pas de vérifier le document et son édition.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Comparer l’ISBN imprimé sur un livre avec celui de la notice.",
+    "software": "Utiliser l’ISBN pour rechercher dans Koha, puis contrôler titre, édition et publication.",
+    "unimarc": "010$a : ISBN",
+    "related": [
+      "metier-dedoublonnage",
+      "metier-notice-bibliographique",
+      "metier-import-de-notices"
+    ],
+    "sources": [
+      {
+        "sourceId": "isbn"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "decrire",
+        "lessonId": "notes-identifiants"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-dedoublonnage",
+    "term": "Dédoublonnage",
+    "definition": "Travail de repérage, de comparaison et de traitement d’enregistrements qui semblent décrire la même ressource. Il vise à limiter les descriptions redondantes sans confondre des éditions ou supports différents. La fusion n’est qu’une des opérations possibles et suppose une décision documentée.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Comparer deux notices proches avant de décider si elles sont réellement en doublon.",
+    "software": "Dans Koha, examiner aussi les exemplaires et les liens avant toute suppression ou fusion.",
+    "related": [
+      "metier-fusion-de-notices",
+      "metier-controle-qualite",
+      "metier-isbn"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha",
+        "page": 23
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "doublons",
+        "lessonId": "comparer-doublons"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-fusion-de-notices",
+    "term": "Fusion de notices",
+    "definition": "Opération réunissant des informations provenant de plusieurs notices considérées comme des doublons dans une notice conservée. Elle nécessite de choisir les données utiles, de préserver les liens et de vérifier les conséquences sur les exemplaires. Elle ne doit pas réunir des éditions distinctes par simple ressemblance.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Conserver une notice complète et y rattacher les exemplaires d’un doublon confirmé.",
+    "software": "La fusion dans Koha dépend des permissions ; préparer la comparaison et contrôler le résultat.",
+    "related": [
+      "metier-dedoublonnage",
+      "metier-notice-bibliographique",
+      "metier-controle-qualite"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "doublons",
+        "lessonId": "fusionner-notices"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-controle-qualite",
+    "term": "Contrôle qualité",
+    "definition": "Vérification de la cohérence, de la complétude et de l’utilité des données au regard de règles explicites. Il porte sur la description, les accès, les identifiants et les liens locaux. Il combine des contrôles automatisables et l’examen du document par un professionnel.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Repérer un titre incomplet, un lien brisé ou une cote incohérente.",
+    "software": "Dans Koha, contrôler la notice et ses exemplaires, puis vérifier l’affichage dans le portail.",
+    "related": [
+      "metier-dedoublonnage",
+      "metier-normalisation-des-donnees",
+      "metier-notice-bibliographique"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 3
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "qualite",
+        "lessonId": "controle-final"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-adresse-bibliographique",
+    "term": "Adresse bibliographique",
+    "definition": "Expression traditionnelle désignant les indications de publication d’une ressource, notamment le lieu, l’éditeur et la date. Selon le contexte, des informations de fabrication s’y ajoutent. Les règles actuelles distinguent les fonctions de publication, production, diffusion et fabrication plutôt que de les confondre.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Identifier le lieu de publication, l’éditeur et la date d’une brochure.",
+    "software": "Le parcours Koha du réseau explique la saisie des mentions de publication dans la zone 214.",
+    "unimarc": "214 : mention de publication, production, distribution/diffusion, fabrication",
+    "related": [
+      "metier-description-bibliographique",
+      "metier-collation",
+      "terme-6"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "decrire",
+        "lessonId": "publication"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-collation",
+    "term": "Collation",
+    "definition": "Terme traditionnel employé en catalogage pour la description matérielle d’un document, notamment son étendue, ses illustrations et ses dimensions. Il peut aussi désigner la vérification de sa complétude matérielle. Dans ce glossaire, l’acception retenue est celle de la description bibliographique.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Décrire un volume de 120 pages, illustré et mesurant 24 cm.",
+    "software": "Le parcours Koha traite ces données dans la leçon consacrée à la matérialité.",
+    "unimarc": "215 : description matérielle",
+    "related": [
+      "metier-description-bibliographique",
+      "metier-exemplaire"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd",
+        "page": 5
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "decrire",
+        "lessonId": "description-materielle"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-description-bibliographique",
+    "term": "Description bibliographique",
+    "definition": "Présentation organisée des caractéristiques d’une ressource permettant de l’identifier et de la distinguer d’autres ressources. Elle mobilise notamment titre, responsabilités, édition, publication et description matérielle. Elle constitue une partie du catalogage, lequel comprend aussi l’organisation des accès et les contrôles nécessaires.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Distinguer une réédition d’un ouvrage de sa première édition.",
+    "software": "Dans Koha, la description alimente les champs bibliographiques selon la grille et les règles choisies.",
+    "related": [
+      "metier-catalogage",
+      "metier-notice-bibliographique",
+      "metier-adresse-bibliographique",
+      "metier-collation"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd",
+        "page": 4
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "decrire",
+        "lessonId": "titre-responsabilites"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-depouillement",
+    "term": "Dépouillement",
+    "definition": "Description analytique d’une partie de ressource, par exemple un article de revue ou un chapitre d’ouvrage, pour la rendre repérable séparément. Le signalement conserve le lien avec la ressource qui la contient. La précision du traitement dépend de la politique documentaire adoptée.",
+    "category": "catalogage",
+    "aliases": [],
+    "example": "Créer un accès à un article consacré aux musées dans une revue.",
+    "software": "Le traitement dans Koha doit suivre la politique de dépouillement et les liens bibliographiques retenus par le réseau.",
+    "related": [
+      "metier-periodique",
+      "metier-notice-bibliographique",
+      "metier-indexation"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-notice-d-autorite",
+    "term": "Notice d’autorité",
+    "definition": "Enregistrement qui identifie une entité ou un point d’accès contrôlé et rassemble les formes de nom, renvois et informations permettant de le distinguer. Il aide à maintenir la cohérence des accès bibliographiques. Une notice d’autorité ne décrit pas l’exemplaire d’un document.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Rassembler sous un même accès les variantes du nom d’une personne.",
+    "software": "Dans Koha, rechercher l’autorité existante et lier la notice bibliographique plutôt que multiplier les saisies isolées.",
+    "related": [
+      "metier-autorite-personne",
+      "metier-autorite-collectivite",
+      "metier-forme-retenue",
+      "metier-lien-d-autorite"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "rechercher-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-autorite-personne",
+    "term": "Autorité personne",
+    "definition": "Notice ou ensemble de données d’autorité permettant d’identifier une personne et de distinguer son nom de ceux d’homonymes. Les formes de nom et les éléments d’identification servent à contrôler les accès. Être auteur ou sujet d’une ressource correspond à des relations différentes.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Distinguer deux personnes portant le même nom grâce à leurs dates ou activités.",
+    "software": "Dans Koha, vérifier l’identité dans la notice d’autorité avant d’utiliser l’accès dans la notice bibliographique.",
+    "related": [
+      "metier-notice-d-autorite",
+      "metier-isni",
+      "metier-forme-retenue"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications",
+        "page": 18
+      },
+      {
+        "sourceId": "codes-fonction"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "rechercher-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-autorite-collectivite",
+    "term": "Autorité collectivité",
+    "definition": "Données d’autorité identifiant un organisme ou un groupe agissant comme une unité, avec les formes de nom et les informations utiles à sa distinction. Elles permettent de ne pas confondre services, organismes homonymes ou changements d’identité. Le choix de l’accès dépend du référentiel utilisé.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Vérifier le nom d’un organisme éditeur avant de lier son autorité.",
+    "software": "Dans Koha, rechercher une autorité collectivité et contrôler sa correspondance avec l’organisme du document.",
+    "related": [
+      "metier-notice-d-autorite",
+      "metier-forme-retenue",
+      "metier-lien-d-autorite"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications"
+      },
+      {
+        "sourceId": "codes-fonction"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "rechercher-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-rameau",
+    "term": "RAMEAU",
+    "definition": "Langage d’indexation matière encyclopédique utilisé pour représenter les sujets des documents à l’aide d’un vocabulaire contrôlé et de règles de construction. Les notices d’autorité précisent les formes retenues et les relations. Son usage demande de consulter les consignes d’indexation, et non seulement une liste de mots.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Choisir un accès sujet dans le référentiel RAMEAU et vérifier les subdivisions admises.",
+    "software": "Dans Koha, rechercher et lier les autorités matière configurées pour le réseau.",
+    "related": [
+      "metier-vedette-matiere",
+      "metier-subdivision",
+      "metier-indexation-matiere"
+    ],
+    "sources": [
+      {
+        "sourceId": "bnf"
+      },
+      {
+        "sourceId": "rameau"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "importer-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-vedette-matiere",
+    "term": "Vedette-matière",
+    "definition": "Formulation contrôlée d’un sujet utilisée comme point d’accès dans un catalogue. Elle peut associer une tête de vedette et des subdivisions selon les règles du langage d’indexation. Elle se distingue d’un simple mot libre ajouté sans contrôle terminologique ni règle de construction.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Associer un sujet et une subdivision géographique lorsque le référentiel l’autorise.",
+    "software": "Le parcours Koha invite à vérifier l’autorité matière et ses subdivisions avant validation.",
+    "related": [
+      "metier-rameau",
+      "metier-subdivision",
+      "metier-indexation-libre"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "matiere-responsabilite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-forme-retenue",
+    "term": "Forme retenue",
+    "definition": "Forme de nom ou de terme choisie par un référentiel pour représenter un point d’accès de façon cohérente. Elle sert à regrouper la recherche malgré les variantes d’usage. Ce choix est lié à un référentiel donné et ne rend pas les autres formes linguistiquement incorrectes.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Choisir la forme autorisée d’un nom après consultation de sa notice d’autorité.",
+    "software": "Dans Koha, utiliser l’autorité correspondante plutôt que créer une variante non contrôlée.",
+    "related": [
+      "metier-forme-rejetee",
+      "metier-notice-d-autorite",
+      "metier-lien-d-autorite"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "rechercher-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-forme-rejetee",
+    "term": "Forme rejetée",
+    "definition": "Variante de nom ou de terme enregistrée pour orienter vers une forme retenue dans un référentiel. Elle permet de retrouver une entité à partir d’autres appellations. Le mot rejetée décrit sa fonction dans le contrôle des accès, sans signifier que cette variante doit disparaître des documents.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Un ancien nom d’organisme renvoie vers la forme retenue de l’autorité.",
+    "software": "Vérifier les renvois de la notice d’autorité lors d’une recherche dans Koha.",
+    "related": [
+      "metier-forme-retenue",
+      "metier-notice-d-autorite"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "rechercher-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-indexation-matiere",
+    "term": "Indexation matière",
+    "definition": "Analyse du contenu d’une ressource visant à exprimer ses sujets par des points d’accès. Elle peut employer un langage contrôlé et ses règles de construction. Elle se distingue de la transcription du titre et de l’identification des personnes responsables de la ressource.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Décrire le sujet d’un rapport sur les bibliothèques plutôt que son seul organisme auteur.",
+    "software": "Dans Koha, distinguer les accès matière des responsabilités et vérifier le référentiel du réseau.",
+    "related": [
+      "metier-indexation",
+      "metier-rameau",
+      "metier-vedette-matiere",
+      "metier-autorite-personne"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "matiere-responsabilite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-indexation-libre",
+    "term": "Indexation libre",
+    "definition": "Attribution de mots ou d’expressions sans obligation de les choisir dans un vocabulaire contrôlé. Elle facilite un signalement adapté à certains besoins locaux, mais demande une attention aux variantes, synonymes et ambiguïtés. Elle ne doit pas être présentée comme une indexation RAMEAU sans validation correspondante.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Ajouter un mot-clé local pour retrouver une activité propre à la structure.",
+    "software": "Dans Koha, respecter les zones et les conventions définies pour les mots-clés du réseau.",
+    "related": [
+      "metier-indexation-matiere",
+      "metier-descripteur",
+      "metier-thesaurus"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "matiere-responsabilite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-subdivision",
+    "term": "Subdivision",
+    "definition": "Élément qui précise une vedette-matière, par exemple sous un angle thématique, géographique, chronologique ou de forme. Son emploi et son ordre dépendent du langage d’indexation. On ne construit donc pas une chaîne de sujets en assemblant librement tous les termes trouvés dans les autorités.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Vérifier qu’une précision géographique est autorisée pour le sujet choisi.",
+    "software": "La leçon Koha sur l’import d’autorités rappelle le contrôle des subdivisions.",
+    "related": [
+      "metier-vedette-matiere",
+      "metier-rameau",
+      "metier-indexation-matiere"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications",
+        "page": 17
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "importer-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-lien-d-autorite",
+    "term": "Lien d’autorité",
+    "definition": "Relation explicite entre un accès d’une notice bibliographique et l’enregistrement d’autorité qui l’identifie ou le contrôle. Elle relie les données au-delà d’une simple égalité de libellé. Sa conservation facilite le regroupement, les vérifications et la maintenance des accès dans le catalogue.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Rattacher un auteur à son autorité plutôt que saisir uniquement son nom.",
+    "software": "Utiliser les mécanismes de liaison d’autorités de Koha puis vérifier le lien obtenu.",
+    "related": [
+      "metier-notice-d-autorite",
+      "metier-forme-retenue",
+      "metier-notice-bibliographique"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "rechercher-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-thesaurus",
+    "term": "Thésaurus",
+    "definition": "Vocabulaire organisé de concepts, de termes préférés et de variantes, avec des relations notamment hiérarchiques et associatives. Il accompagne l’indexation et la recherche en explicitant les rapprochements entre notions. Tous les vocabulaires contrôlés ne possèdent pas nécessairement la même structure ni les mêmes règles.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Choisir un descripteur et examiner ses termes plus généraux ou associés.",
+    "software": "L’usage dans le catalogue dépend des vocabulaires et des points d’accès configurés par le réseau.",
+    "related": [
+      "metier-descripteur",
+      "metier-indexation",
+      "metier-forme-retenue"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-indexation",
+    "term": "Indexation",
+    "definition": "Opération de représentation du contenu d’une ressource à l’aide de termes, codes ou autres points d’accès pour faciliter sa recherche. L’indexation matière porte plus précisément sur les sujets. En informatique, indexation peut aussi désigner la préparation technique des données pour un moteur de recherche.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Attribuer des accès permettant de retrouver des documents sur un même thème.",
+    "software": "Dans la plateforme, distinguer l’analyse documentaire de l’indexation technique du texte extrait des supports.",
+    "related": [
+      "metier-indexation-matiere",
+      "metier-indexation-libre",
+      "metier-thesaurus"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd",
+        "page": 11
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "matiere-responsabilite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-descripteur",
+    "term": "Descripteur",
+    "definition": "Terme choisi dans un langage documentaire pour représenter un concept lors de l’indexation et de la recherche. Son emploi suppose de connaître le vocabulaire auquel il appartient et ses relations. Il se distingue d’un mot du titre ou d’une étiquette libre choisie sans référentiel.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Employer le descripteur prévu par le vocabulaire de la bibliothèque.",
+    "software": "Dans Koha, utiliser le vocabulaire contrôlé retenu pour le point d’accès concerné.",
+    "related": [
+      "metier-thesaurus",
+      "metier-indexation",
+      "metier-forme-retenue"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd",
+        "page": 29
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-catalogue-collectif",
+    "term": "Catalogue collectif",
+    "definition": "Catalogue qui réunit le signalement des ressources de plusieurs bibliothèques ou organismes et permet d’identifier leurs localisations. Son organisation peut reposer sur des données partagées ou sur des contributions rapprochées. La présence d’une notice commune ne signifie pas qu’un exemplaire est disponible dans chaque établissement.",
+    "category": "autorites",
+    "aliases": [],
+    "example": "Repérer quelles structures détiennent une édition à partir d’un catalogue commun.",
+    "software": "Le réseau mutualisé Koha partage des notices bibliographiques tout en distinguant les exemplaires locaux.",
+    "related": [
+      "metier-notice-bibliographique",
+      "metier-bibliotheque-de-rattachement",
+      "metier-pret-entre-bibliotheques"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "mutualisation",
+        "lessonId": "catalogue-partage"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-sigb",
+    "term": "SIGB",
+    "definition": "Système intégré de gestion de bibliothèque : logiciel réunissant plusieurs fonctions de gestion documentaire autour de données communes. Selon les modules activés, il peut couvrir catalogage, exemplaires, circulation, acquisitions et périodiques. Il ne se confond pas avec la seule interface publique de recherche.",
+    "category": "administration",
+    "aliases": [
+      "Système intégré de gestion de bibliothèque"
+    ],
+    "example": "Utiliser le même système pour cataloguer et gérer les exemplaires.",
+    "software": "Koha est un SIGB ; le portail BOKEH met en valeur les ressources et leurs accès.",
+    "related": [
+      "metier-opac",
+      "metier-portail-documentaire",
+      "metier-notice-d-exemplaire"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha",
+        "page": 1
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "role-referent",
+        "lessonId": "referent-fonctionnel"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-opac",
+    "term": "OPAC",
+    "definition": "Catalogue public en ligne permettant aux usagers de rechercher des ressources et de consulter les informations ouvertes au public. Certaines fonctions, telles que les services du compte lecteur, dépendent du paramétrage et de l’identification. L’OPAC se distingue de l’interface professionnelle utilisée pour administrer et cataloguer.",
+    "category": "administration",
+    "aliases": [
+      "Online Public Access Catalogue",
+      "Catalogue public en ligne"
+    ],
+    "example": "Un lecteur recherche un titre et consulte ses localisations.",
+    "software": "Koha propose un OPAC ; l’organisation du réseau peut aussi exposer le catalogue dans BOKEH.",
+    "related": [
+      "metier-sigb",
+      "metier-portail-documentaire",
+      "metier-reservation"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "verifier-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-preference-systeme",
+    "term": "Préférence système",
+    "definition": "Paramètre logiciel qui influe sur le comportement d’une fonctionnalité ou de l’ensemble d’une instance Koha. Sa portée peut concerner plusieurs structures. Avant modification, il faut vérifier la documentation de la version installée, les dépendances et le niveau d’habilitation nécessaire.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Examiner une préférence avant de demander une évolution commune au réseau.",
+    "software": "Dans Koha, les préférences système sont distinctes des valeurs autorisées et des grilles de catalogage.",
+    "related": [
+      "metier-valeur-autorisee",
+      "metier-permission",
+      "metier-sigb"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "preferences",
+        "lessonId": "preferences-globales"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-valeur-autorisee",
+    "term": "Valeur autorisée",
+    "definition": "Valeur issue d’une liste contrôlée utilisée pour guider et homogénéiser la saisie de certaines informations dans Koha. Les catégories et libellés sont paramétrés selon les besoins. Modifier une liste partagée peut avoir des effets sur la saisie, les traitements et les affichages du réseau.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Sélectionner une localisation dans une liste plutôt que la saisir librement.",
+    "software": "Koha : Administration, paramètres de base, valeurs autorisées, selon les permissions.",
+    "related": [
+      "metier-localisation",
+      "metier-grille-de-catalogage",
+      "metier-preference-systeme"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha",
+        "page": 5
+      },
+      {
+        "sourceId": "koha-admin"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "parametres",
+        "lessonId": "valeurs-autorisees"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-type-de-document",
+    "term": "Type de document",
+    "definition": "Catégorie de gestion attribuée à une ressource ou à un exemplaire selon les choix de paramétrage du SIGB. Elle peut participer aux règles de circulation ou aux regroupements de recherche. Il faut la distinguer des notions bibliographiques de type de contenu, de média ou de support.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Utiliser un type de document adapté aux règles de prêt d’une bibliothèque.",
+    "software": "Dans Koha, l’emploi du type au niveau bibliographique ou exemplaire dépend du paramétrage retenu.",
+    "related": [
+      "metier-valeur-autorisee",
+      "metier-exemplaire",
+      "metier-preference-systeme"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "parametres",
+        "lessonId": "bibliotheques-types"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-bibliotheque-de-rattachement",
+    "term": "Bibliothèque de rattachement",
+    "definition": "Bibliothèque à laquelle un exemplaire appartient administrativement dans le système de gestion. Elle peut différer du lieu où il est actuellement déposé. Sa saisie doit suivre la convention du réseau, car elle intervient dans l’interprétation des localisations et de certaines règles de gestion.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Une copie appartient au site A tout en étant déposée temporairement au site B.",
+    "software": "Dans Koha, cette information correspond à la bibliothèque propriétaire ou homebranch ; vérifier les libellés locaux.",
+    "related": [
+      "metier-bibliotheque-depositaire",
+      "metier-localisation",
+      "metier-exemplaire"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 50
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "donnees-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-bibliotheque-depositaire",
+    "term": "Bibliothèque dépositaire",
+    "definition": "Bibliothèque où un exemplaire est actuellement placé ou pris en charge dans la gestion du réseau. Elle peut être distincte de sa bibliothèque propriétaire, notamment lors d’un dépôt ou d’un transfert. La terminologie affichée doit être interprétée avec les règles locales de localisation.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Signaler qu’un exemplaire du site A est actuellement au site B.",
+    "software": "Dans Koha, distinguer holdingbranch, bibliothèque actuelle, de homebranch, bibliothèque propriétaire.",
+    "related": [
+      "metier-bibliotheque-de-rattachement",
+      "metier-localisation",
+      "metier-exemplaire"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-schema"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "donnees-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-permission",
+    "term": "Permission",
+    "definition": "Autorisation technique permettant à un utilisateur d’effectuer une action ou d’accéder à une fonction du logiciel. Les permissions se combinent avec les rôles et le périmètre d’intervention défini par le réseau. Attribuer un accès ne dispense pas de former l’agent aux opérations concernées.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Donner les droits nécessaires au catalogage sans ouvrir toute l’administration.",
+    "software": "Dans Koha, attribuer les permissions requises au compte professionnel et vérifier leur portée.",
+    "related": [
+      "metier-profil-utilisateur",
+      "metier-preference-systeme",
+      "metier-traitement-par-lot"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha",
+        "page": 35
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "utilisateurs",
+        "lessonId": "permissions-minimales"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-profil-utilisateur",
+    "term": "Profil utilisateur",
+    "definition": "Ensemble de caractéristiques et de droits décrivant les usages attendus d’un utilisateur dans un système. Dans cette plateforme, le terme est employé au sens fonctionnel. Il ne désigne pas nécessairement un objet technique unique dans Koha, dont catégories d’adhérents et permissions sont distinctes.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Définir les besoins d’un agent chargé de cataloguer dans sa structure.",
+    "software": "Dans Koha, examiner séparément catégorie d’adhérent, paramètres du compte et permissions professionnelles.",
+    "related": [
+      "metier-permission",
+      "metier-sigb"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "utilisateurs",
+        "lessonId": "compte-professionnel"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-rapport-sql",
+    "term": "Rapport SQL",
+    "definition": "Rapport qui sélectionne et organise des données à l’aide d’une requête SQL dans la base du SIGB. Il répond à un besoin explicite et repose sur la connaissance des tables et relations. La fiabilité du résultat dépend des jointures, filtres et données effectivement enregistrées.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Lister des exemplaires répondant à des critères vérifiés sur une base de test.",
+    "software": "Dans Koha, utiliser les rapports autorisés et vérifier le schéma correspondant à la version installée.",
+    "related": [
+      "metier-api",
+      "metier-traitement-par-lot",
+      "metier-controle-qualite"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha",
+        "page": 18
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "rapports",
+        "lessonId": "rapport-sql"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-traitement-par-lot",
+    "term": "Traitement par lot",
+    "definition": "Opération appliquée à un ensemble d’enregistrements sélectionnés selon un périmètre défini. Elle peut concerner des notices ou des exemplaires et amplifier une erreur de sélection. Préparer le lot, tester la transformation et vérifier le résultat sont des étapes distinctes du traitement.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Corriger une donnée commune sur une liste d’exemplaires préalablement contrôlée.",
+    "software": "Dans Koha, utiliser les outils et permissions adaptés après test et coordination selon la portée.",
+    "related": [
+      "metier-modele-de-transformation-marc",
+      "metier-controle-qualite",
+      "metier-import-de-notices"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha",
+        "page": 2
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "lots",
+        "lessonId": "constituer-lot"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-modele-de-transformation-marc",
+    "term": "Modèle de transformation MARC",
+    "definition": "Jeu d’actions décrivant comment ajouter, modifier, copier ou supprimer certaines données MARC lors d’un traitement. Un modèle agit sur la structure des notices et demande donc une vérification attentive de ses conditions. Il se distingue d’une grille de saisie et d’une requête de recherche.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Tester une transformation sur quelques notices avant de l’appliquer au lot complet.",
+    "software": "Le parcours Koha présente les modèles MARC et la validation préalable des traitements.",
+    "related": [
+      "metier-traitement-par-lot",
+      "metier-mapping",
+      "metier-grille-de-catalogage"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha",
+        "page": 28
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "lots",
+        "lessonId": "modele-marc"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-import-de-notices",
+    "term": "Import de notices",
+    "definition": "Introduction de notices provenant d’un fichier ou d’un service externe dans un catalogue. L’opération implique de contrôler le format, l’encodage, les correspondances de données et les règles de rapprochement. Importer n’assure pas automatiquement la conformité aux pratiques locales ni l’absence de doublons.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Préparer un fichier de notices puis examiner les rapprochements avant validation.",
+    "software": "Dans Koha, vérifier le lot préparé et les règles appliquées avant l’intégration finale.",
+    "related": [
+      "metier-export-de-notices",
+      "metier-catalogage-par-derivation",
+      "metier-iso-2709",
+      "metier-marcxml"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "imports",
+        "lessonId": "preparer-import"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-export-de-notices",
+    "term": "Export de notices",
+    "definition": "Production d’un fichier ou d’un flux contenant des notices issues d’un catalogue pour un usage externe. La sélection des enregistrements, le format et l’encodage doivent correspondre au besoin du destinataire. Exporter des notices ne constitue pas une sauvegarde complète de l’application et de ses fichiers.",
+    "category": "administration",
+    "aliases": [],
+    "example": "Fournir un ensemble de notices à un partenaire dans le format convenu.",
+    "software": "Vérifier les outils d’export et les autorisations de l’installation Koha utilisée.",
+    "related": [
+      "metier-import-de-notices",
+      "metier-marcxml",
+      "metier-iso-2709",
+      "metier-migration-de-donnees"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-acquisition",
+    "term": "Acquisition",
+    "definition": "Ensemble des opérations par lesquelles une bibliothèque fait entrer des ressources dans ses collections, par achat, don ou autre mode d’entrée retenu. La sélection documentaire précède ou accompagne les opérations administratives. L’acquisition d’un document ne doit pas être confondue avec son catalogage.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Commander une publication puis enregistrer sa réception.",
+    "software": "Le module Acquisitions de Koha gère notamment fournisseurs, commandes et budgets selon son paramétrage.",
+    "related": [
+      "metier-fonds-documentaire",
+      "metier-exemplarisation",
+      "metier-catalogage"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-acq"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-cotation",
+    "term": "Cotation",
+    "definition": "Opération qui attribue une cote à un document ou à un exemplaire selon le plan de classement et les règles de rangement de la bibliothèque. Elle traduit une organisation matérielle ou documentaire. La cotation se distingue de l’indexation matière, même lorsqu’une classification contribue à construire la cote.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Choisir une cote cohérente avec le rangement des ouvrages voisins.",
+    "software": "Dans Koha, renseigner la cote de l’exemplaire suivant les conventions de la structure.",
+    "related": [
+      "metier-cote",
+      "metier-localisation",
+      "metier-indexation-matiere"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-publications"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "donnees-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-cote",
+    "term": "Cote",
+    "definition": "Identifiant de classement qui aide à situer et retrouver un document dans une collection. Elle peut combiner des éléments de classification et des marques locales. La cote n’est pas nécessairement unique dans tout le réseau et ne remplace pas le code-barres de l’exemplaire.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Retrouver un livre sur son rayon à partir de sa cote.",
+    "software": "Dans Koha, distinguer la cote d’exemplaire de l’identifiant de la notice et du code-barres.",
+    "related": [
+      "metier-cotation",
+      "metier-code-barres",
+      "metier-localisation"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 6
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "donnees-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-code-barres",
+    "term": "Code-barres",
+    "definition": "Représentation lisible par un lecteur optique d’un identifiant utilisé pour reconnaître un objet ou une personne. En gestion des exemplaires, il sert à identifier une copie déterminée. Il ne faut pas le confondre avec l’ISBN, qui identifie une publication ou une présentation éditoriale.",
+    "category": "collections",
+    "aliases": [
+      "Code-barre"
+    ],
+    "example": "Deux copies du même ouvrage reçoivent des identifiants d’exemplaire différents.",
+    "software": "Dans Koha, le code-barres d’exemplaire permet notamment de retrouver la copie lors des opérations de circulation.",
+    "related": [
+      "metier-exemplaire",
+      "metier-isbn",
+      "metier-cote"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 6
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "donnees-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-localisation",
+    "term": "Localisation",
+    "definition": "Information précisant où une ressource ou un exemplaire peut être trouvé dans l’organisation documentaire : établissement, salle, espace ou emplacement selon le contexte. Les différents niveaux doivent être distingués. Une localisation ne renseigne pas, à elle seule, sur la disponibilité actuelle du document.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Identifier le rayon ou l’espace où se trouve un exemplaire.",
+    "software": "Dans Koha, la localisation peut utiliser des valeurs autorisées ; elle est distincte des bibliothèques propriétaire et actuelle.",
+    "related": [
+      "metier-bibliotheque-depositaire",
+      "metier-bibliotheque-de-rattachement",
+      "metier-cote",
+      "metier-valeur-autorisee"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 6
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "donnees-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-fonds-documentaire",
+    "term": "Fonds documentaire",
+    "definition": "Ensemble de ressources constitué et organisé par une bibliothèque ou un service documentaire pour répondre à des missions et à des publics. Il peut comprendre différents supports et modes d’accès. Le mot fonds peut aussi désigner un ensemble particulier identifié par son origine ou sa spécialité.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Constituer un ensemble de documents consacré au patrimoine d’un territoire.",
+    "software": "Koha signale les collections ; BOKEH peut valoriser une partie du fonds par des sélections.",
+    "related": [
+      "metier-acquisition",
+      "metier-desherbage",
+      "metier-portail-documentaire"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogage-isbd"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-pret",
+    "term": "Prêt",
+    "definition": "Mise à disposition temporaire d’un exemplaire au bénéfice d’un usager selon les conditions de la bibliothèque. L’enregistrement précise les éléments nécessaires au suivi de cette transaction. Il se distingue de la consultation sur place et de la réservation d’un document pour un usage ultérieur.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Enregistrer la sortie d’un ouvrage avec une date de restitution.",
+    "software": "Dans Koha, la circulation applique les règles correspondant à l’usager, à l’exemplaire et au contexte.",
+    "related": [
+      "metier-retour",
+      "metier-renouvellement",
+      "metier-reservation"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-circ"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-retour",
+    "term": "Retour",
+    "definition": "Opération qui constate la restitution d’un exemplaire précédemment prêté et met à jour sa situation de circulation. Elle permet de vérifier la suite à donner à l’exemplaire. Le retour informatique et la remise effective à disposition sur les rayons peuvent être deux étapes différentes.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Enregistrer une restitution puis acheminer le document vers son lieu de rangement.",
+    "software": "Dans Koha, vérifier les messages de retour liés aux réservations ou aux transferts.",
+    "related": [
+      "metier-pret",
+      "metier-reservation",
+      "metier-bibliotheque-depositaire"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-circ"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-reservation",
+    "term": "Réservation",
+    "definition": "Demande permettant à un usager de solliciter la mise à disposition d’une ressource selon les règles du service. Elle ne constitue pas encore un prêt. Son traitement dépend notamment du périmètre de la demande et des exemplaires susceptibles d’y répondre.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Demander un ouvrage actuellement emprunté.",
+    "software": "Dans Koha, les conditions et priorités de réservation dépendent des règles configurées.",
+    "related": [
+      "metier-pret",
+      "metier-retour",
+      "metier-exemplaire"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-circ-prefs"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-renouvellement",
+    "term": "Renouvellement",
+    "definition": "Prolongation d’un prêt déjà enregistré, lorsque les conditions du service le permettent. Il modifie l’échéance de la transaction sans correspondre à l’emprunt d’une autre copie. Une bibliothèque peut limiter le nombre de prolongations ou les empêcher lorsqu’une autre demande doit être satisfaite.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Prolonger un prêt avant sa date d’échéance.",
+    "software": "Dans Koha, vérifier le résultat et les conditions de renouvellement appliquées au prêt.",
+    "related": [
+      "metier-pret",
+      "metier-reservation",
+      "metier-systeme-de-pret"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-circ-prefs"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-recolement",
+    "term": "Récolement",
+    "definition": "Contrôle comparant les documents effectivement présents ou repérés avec les données du catalogue et les inventaires de la bibliothèque. Il sert à identifier manquants, erreurs de rangement et écarts de signalement. Il ne doit pas être confondu avec le désherbage ou une suppression automatique de notices.",
+    "category": "collections",
+    "aliases": [
+      "Inventaire des collections"
+    ],
+    "example": "Comparer les codes-barres relevés en rayon avec les exemplaires attendus.",
+    "software": "L’outil d’inventaire de Koha peut accompagner cette comparaison selon les critères choisis.",
+    "related": [
+      "metier-exemplaire",
+      "metier-code-barres",
+      "metier-controle-qualite",
+      "metier-desherbage"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-tools"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-desherbage",
+    "term": "Désherbage",
+    "definition": "Démarche d’évaluation des collections qui conduit à retirer, déplacer, remplacer ou réorienter des documents selon une politique explicite. L’état matériel, l’usage et l’adéquation aux missions peuvent entrer dans la décision. Le retrait physique et la mise à jour du signalement doivent être coordonnés.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Retirer un document obsolète après examen de son intérêt pour le fonds.",
+    "software": "Dans Koha, répercuter la décision sur les exemplaires selon les procédures autorisées du réseau.",
+    "related": [
+      "metier-fonds-documentaire",
+      "metier-recolement",
+      "metier-exemplaire"
+    ],
+    "sources": [
+      {
+        "sourceId": "bbf-desherbage"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-periodique",
+    "term": "Périodique",
+    "definition": "Publication en série paraissant en livraisons successives, généralement numérotées ou datées, selon une périodicité annoncée. Le titre de la publication et chacun de ses fascicules ne se gèrent pas au même niveau. Le signalement peut aussi distinguer les articles dépouillés dans ces fascicules.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Suivre la réception des numéros d’une revue.",
+    "software": "Dans Koha, le module Périodiques permet de gérer les abonnements et la réception des fascicules.",
+    "related": [
+      "metier-bulletinage",
+      "metier-depouillement",
+      "metier-notice-bibliographique"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-serials"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "cas-particuliers",
+        "lessonId": "collections-continues"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-bulletinage",
+    "term": "Bulletinage",
+    "definition": "Enregistrement de la réception des livraisons d’une publication en série au regard de ce qui est attendu. Il permet de suivre numéros reçus, retards et anomalies. Cette opération de gestion n’équivaut ni au catalogage du titre de la revue ni au dépouillement de ses articles.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Signaler qu’un numéro de revue est arrivé et qu’un autre manque.",
+    "software": "Dans Koha, recevoir les fascicules dans le suivi de l’abonnement selon les droits attribués.",
+    "related": [
+      "metier-periodique",
+      "metier-acquisition",
+      "metier-depouillement"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-serials"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-exemplaire",
+    "term": "Exemplaire",
+    "definition": "Copie individuelle d’une ressource détenue ou gérée par une structure. Des copies d’une même édition peuvent avoir des localisations, états matériels et conditions de circulation différents. L’objet ou l’accès géré se distingue de sa notice d’exemplaire, qui en est la représentation dans le système.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Deux bibliothèques détiennent chacune une copie de la même édition.",
+    "software": "Dans Koha, chaque copie peut être décrite par des données locales rattachées à la notice bibliographique.",
+    "related": [
+      "metier-notice-d-exemplaire",
+      "metier-exemplarisation",
+      "terme-21"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs",
+        "page": 2
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "mutualisation",
+        "lessonId": "notice-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-exemplarisation",
+    "term": "Exemplarisation",
+    "definition": "Opération qui crée ou complète les données de gestion d’un exemplaire et le rattache à la description bibliographique correspondante. Elle précise notamment son identification et sa localisation. Elle se distingue de la création d’une nouvelle notice bibliographique lorsque l’édition est déjà correctement signalée.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Ajouter la copie d’un site à une notice bibliographique déjà présente.",
+    "software": "Dans Koha, créer l’exemplaire local après avoir choisi la notice correspondant exactement au document.",
+    "related": [
+      "metier-exemplaire",
+      "metier-notice-d-exemplaire",
+      "metier-notice-bibliographique"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "exemplaires",
+        "lessonId": "donnees-exemplaire"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-acces-au-document",
+    "term": "Accès au document",
+    "definition": "Possibilité pour un usager de consulter ou d’obtenir une ressource, sur place ou à distance. Elle dépend des localisations, modalités de communication, droits et services proposés. Le repérage d’une notice dans un catalogue ne garantit donc pas l’accès immédiat au document lui-même.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Passer d’une notice à un document en rayon ou à une ressource en ligne.",
+    "software": "Dans Koha et BOKEH, vérifier les informations de localisation et les liens proposés aux lecteurs.",
+    "unimarc": "856$u : URI d’accès à une ressource électronique",
+    "related": [
+      "metier-opac",
+      "metier-pret",
+      "metier-reserve"
+    ],
+    "sources": [
+      {
+        "sourceId": "catalogueurs"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "numerique",
+        "lessonId": "acces-en-ligne"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-pret-automatise",
+    "term": "Prêt automatisé",
+    "definition": "Gestion des transactions de prêt à l’aide d’un système informatique qui identifie usager et exemplaire et applique les règles paramétrées. Le terme peut aussi évoquer un automate en libre-service, mais ces deux acceptions ne sont pas équivalentes. La fonction exacte doit être précisée dans le contexte.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Enregistrer un prêt par lecture des identifiants dans le logiciel.",
+    "software": "Koha peut gérer la circulation ; un automate de prêt suppose un équipement et une intégration supplémentaires.",
+    "related": [
+      "metier-systeme-de-pret",
+      "metier-code-barres",
+      "metier-pret"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-setup"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-pret-entre-bibliotheques",
+    "term": "Prêt entre bibliothèques",
+    "definition": "Service de coopération par lequel une bibliothèque sollicite auprès d’une autre un document ou une reproduction pour répondre au besoin d’un usager. Les conditions de fourniture, circulation et restitution sont convenues entre établissements. Il se distingue d’un simple transfert entre sites d’une même instance.",
+    "category": "collections",
+    "aliases": [
+      "PEB"
+    ],
+    "example": "Demander à un autre établissement un ouvrage absent du fonds local.",
+    "software": "La disponibilité d’un module ou connecteur de PEB dans Koha doit être vérifiée pour l’installation utilisée.",
+    "related": [
+      "metier-catalogue-collectif",
+      "metier-pret",
+      "metier-acces-au-document"
+    ],
+    "sources": [
+      {
+        "sourceId": "abes-peb"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-systeme-de-pret",
+    "term": "Système de prêt",
+    "definition": "Organisation des règles, outils et opérations qui permettent de suivre la circulation des documents auprès des usagers. Elle associe identification, conditions d’emprunt, enregistrement des transactions et suivi des restitutions. Elle peut être informatisée sans nécessairement utiliser un automate de prêt en libre-service.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Définir ensemble les catégories d’usagers et les conditions d’emprunt.",
+    "software": "Dans Koha, la circulation s’appuie sur plusieurs paramètres ; leur cohérence doit être vérifiée à l’échelle du réseau.",
+    "related": [
+      "metier-pret-automatise",
+      "metier-pret",
+      "metier-permission"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-setup"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-reserve",
+    "term": "Réserve",
+    "definition": "Espace ou ensemble documentaire soumis à des conditions particulières de conservation et de communication, notamment pour des documents précieux, fragiles ou rares. Dans ce sens bibliothéconomique, le terme ne signifie pas réservation. La nature de la réserve et ses règles d’accès dépendent de l’établissement.",
+    "category": "collections",
+    "aliases": [],
+    "example": "Consulter un document patrimonial après une demande de communication.",
+    "software": "Dans le catalogue, distinguer la localisation en réserve d’une demande de réservation faite par un lecteur.",
+    "related": [
+      "metier-reservation",
+      "metier-localisation",
+      "metier-acces-au-document"
+    ],
+    "sources": [
+      {
+        "sourceId": "bnf-reserve"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-z39-50",
+    "term": "Z39.50",
+    "definition": "Protocole permettant à un client d’interroger un serveur documentaire et de récupérer des enregistrements selon des conventions communes. Il facilite notamment la recherche dans des réservoirs bibliographiques. L’accès, les attributs de recherche et les formats effectivement disponibles dépendent du serveur et de sa configuration.",
+    "category": "donnees",
+    "aliases": [],
+    "example": "Interroger un réservoir bibliographique externe depuis l’outil de dérivation.",
+    "software": "Koha utilise les cibles Z39.50 configurées ; vérifier l’édition récupérée avant enregistrement.",
+    "related": [
+      "metier-sru",
+      "metier-catalogage-par-derivation",
+      "metier-import-de-notices"
+    ],
+    "sources": [
+      {
+        "sourceId": "z3950"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "derivation",
+        "lessonId": "interroger-reservoirs"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-sru",
+    "term": "SRU",
+    "definition": "Protocole de recherche et de récupération de données via des requêtes web, qui utilise notamment le langage CQL et des réponses structurées en XML. Il permet d’interroger des services documentaires selon leur profil. Il ne faut pas supposer que tous les serveurs acceptent les mêmes index.",
+    "category": "donnees",
+    "aliases": [
+      "Search/Retrieve via URL"
+    ],
+    "example": "Lancer une recherche CQL vers un service bibliographique compatible.",
+    "software": "Les réservoirs SRU de Koha doivent être configurés avec les paramètres prévus par leur fournisseur.",
+    "related": [
+      "metier-z39-50",
+      "metier-api",
+      "metier-catalogage-par-derivation"
+    ],
+    "sources": [
+      {
+        "sourceId": "sru"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "derivation",
+        "lessonId": "interroger-reservoirs"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-oai-pmh",
+    "term": "OAI-PMH",
+    "definition": "Protocole permettant de collecter des métadonnées exposées par un entrepôt, notamment par ensembles et par dates de modification. Il sert au moissonnage de descriptions, plutôt qu’à une recherche interactive comparable à un catalogue. Le contenu complet des documents n’est pas nécessairement fourni avec les métadonnées.",
+    "category": "donnees",
+    "aliases": [
+      "Open Archives Initiative Protocol for Metadata Harvesting"
+    ],
+    "example": "Récupérer les descriptions nouvelles ou modifiées d’un entrepôt documentaire.",
+    "software": "L’exposition ou l’utilisation d’OAI-PMH doit être vérifiée dans les services et paramètres de l’installation.",
+    "related": [
+      "metier-moissonnage",
+      "terme-24",
+      "metier-api"
+    ],
+    "sources": [
+      {
+        "sourceId": "oai"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-iso-2709",
+    "term": "ISO 2709",
+    "definition": "Norme définissant une structure générale d’échange de notices avec notamment un guide et un répertoire de zones. Elle organise le transport des données sans fixer la signification bibliographique de chaque étiquette. Cette signification relève d’un format d’application, tel qu’UNIMARC, et non de la seule structure d’échange.",
+    "category": "donnees",
+    "aliases": [],
+    "example": "Transférer un fichier de notices MARC entre deux systèmes compatibles.",
+    "software": "Avant un import Koha, vérifier format d’application, encodage et compatibilité du fichier.",
+    "related": [
+      "metier-unimarc",
+      "metier-marcxml",
+      "metier-import-de-notices"
+    ],
+    "sources": [
+      {
+        "sourceId": "iso2709"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "imports",
+        "lessonId": "preparer-import"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-marcxml",
+    "term": "MARCXML",
+    "definition": "Représentation de données MARC dans une syntaxe XML. Le schéma MARCXML de la Library of Congress décrit la structure MARC 21 en XML ; son emploi ne remplace pas les règles du format documentaire. Il faut vérifier le format et le schéma réellement attendus avant un échange UNIMARC.",
+    "category": "donnees",
+    "aliases": [],
+    "example": "Examiner un fichier XML de notices avant de choisir le traitement d’import.",
+    "software": "Dans Koha, contrôler le format MARC et les conversions attendues par l’outil utilisé.",
+    "related": [
+      "metier-iso-2709",
+      "metier-unimarc",
+      "metier-export-de-notices"
+    ],
+    "sources": [
+      {
+        "sourceId": "marcxml"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "imports",
+        "lessonId": "preparer-import"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-isni",
+    "term": "ISNI",
+    "definition": "Identifiant international destiné à distinguer durablement les identités publiques de personnes et d’organismes impliqués dans des activités de création ou de production. Il aide à relier des données entre systèmes. Il se distingue du libellé d’un nom et des identifiants locaux d’une base d’autorités.",
+    "category": "donnees",
+    "aliases": [
+      "International Standard Name Identifier"
+    ],
+    "example": "Relier des informations concernant une même identité publique dans plusieurs catalogues.",
+    "software": "L’utilisation d’un ISNI dans les données Koha dépend des autorités et des zones retenues par le réseau.",
+    "related": [
+      "metier-autorite-personne",
+      "metier-autorite-collectivite",
+      "metier-notice-d-autorite"
+    ],
+    "sources": [
+      {
+        "sourceId": "identifiants"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "cataloguer",
+        "moduleId": "autorites",
+        "lessonId": "rechercher-autorite"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-api",
+    "term": "API",
+    "definition": "Interface décrivant les opérations et données qu’un logiciel met à disposition d’autres programmes. Elle précise des modalités de requête, de réponse et, selon les services, d’authentification. Une API n’accorde pas par elle-même un droit d’accès à toutes les données de l’application.",
+    "category": "donnees",
+    "aliases": [
+      "Interface de programmation applicative"
+    ],
+    "example": "Un service demande des données documentaires selon une interface publiée.",
+    "software": "Koha dispose d’API ; consulter la documentation de la version et les permissions avant intégration.",
+    "related": [
+      "metier-sru",
+      "terme-24",
+      "metier-rapport-sql"
+    ],
+    "sources": [
+      {
+        "sourceId": "koha-api"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-moissonnage",
+    "term": "Moissonnage",
+    "definition": "Collecte organisée et souvent répétée de métadonnées depuis une ou plusieurs sources pour alimenter un service. Elle implique de gérer le périmètre, les mises à jour et les éventuelles suppressions. Elle ne signifie ni copie libre de tous les documents ni récupération de fichiers sans conditions.",
+    "category": "donnees",
+    "aliases": [],
+    "example": "Mettre à jour un index à partir de notices exposées par un entrepôt.",
+    "software": "OAI-PMH peut servir à moissonner des métadonnées si le service et ses conditions le permettent.",
+    "related": [
+      "metier-oai-pmh",
+      "terme-24",
+      "metier-migration-de-donnees"
+    ],
+    "sources": [
+      {
+        "sourceId": "oai"
+      }
+    ],
+    "lessonRefs": [],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-mapping",
+    "term": "Mapping",
+    "definition": "Table ou ensemble de règles de correspondance entre deux organisations de données. Il indique comment des champs, codes ou valeurs d’un système alimentent ceux d’un autre. Une correspondance demande parfois transformation ou perte d’information ; elle ne se réduit pas toujours à un remplacement de nom.",
+    "category": "donnees",
+    "aliases": [
+      "Correspondance de données"
+    ],
+    "example": "Préparer la correspondance entre des colonnes source et les données attendues dans Koha.",
+    "software": "Lors d’une reprise, tester les transformations sur un échantillon et documenter les écarts.",
+    "related": [
+      "metier-migration-de-donnees",
+      "metier-modele-de-transformation-marc",
+      "terme-12"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "imports",
+        "lessonId": "preparer-import"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-migration-de-donnees",
+    "term": "Migration de données",
+    "definition": "Transfert organisé de données d’un système ou d’une structure vers un autre, avec préparation, conversion, chargement et vérifications. Elle peut concerner notices, exemplaires et autres objets de gestion. La réussite se mesure à la préservation du sens et des liens, pas seulement au nombre de lignes chargées.",
+    "category": "donnees",
+    "aliases": [],
+    "example": "Reprendre les notices et exemplaires d’un ancien catalogue après tests de correspondance.",
+    "software": "Une migration vers Koha doit distinguer les objets repris, leurs identifiants et les contrôles à effectuer.",
+    "related": [
+      "metier-mapping",
+      "metier-import-de-notices",
+      "metier-controle-qualite"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "imports",
+        "lessonId": "controler-import-admin"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-normalisation-des-donnees",
+    "term": "Normalisation des données",
+    "definition": "Mise en cohérence des formes, structures et valeurs de données selon des conventions explicites pour faciliter leur exploitation. Elle peut concerner encodage, formats de date, identifiants ou vocabulaires. Elle doit préserver le sens des informations et être distinguée d’un arbitrage documentaire non validé.",
+    "category": "donnees",
+    "aliases": [],
+    "example": "Uniformiser des codes locaux après vérification d’une table de correspondance.",
+    "software": "Les valeurs autorisées et les contrôles de notice aident Koha à maintenir des saisies cohérentes.",
+    "related": [
+      "metier-valeur-autorisee",
+      "metier-mapping",
+      "metier-controle-qualite"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-koha"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-koha",
+        "moduleId": "parametres",
+        "lessonId": "valeurs-autorisees"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-portail-documentaire",
+    "term": "Portail documentaire",
+    "definition": "Point d’accès web qui organise la découverte et la valorisation de ressources et de services documentaires. Il peut associer recherche dans le catalogue, contenus éditoriaux, sélections et informations pratiques. Il se distingue du SIGB qui gère les données et les opérations professionnelles en arrière-plan.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Accéder à une sélection thématique puis consulter les notices des documents.",
+    "software": "BOKEH permet au réseau de présenter BIBDOC et ses contenus documentaires.",
+    "related": [
+      "metier-opac",
+      "metier-sigb",
+      "metier-editorialisation"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-bokeh"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "decouvrir-bibdoc",
+        "lessonId": "portail-mutualise"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-domaine",
+    "term": "Domaine",
+    "definition": "Dans le contexte BOKEH de cette plateforme, ensemble de notices défini par des critères documentaires et un périmètre. Il sert à organiser ou alimenter des présentations du catalogue. Cette acception ne désigne ni un nom de domaine internet ni une simple liste manuellement figée.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Définir un ensemble de notices sur un thème au moyen de critères.",
+    "software": "Dans BOKEH, distinguer domaine fondé sur des critères et panier de sélection explicite.",
+    "related": [
+      "metier-panier-de-notices",
+      "metier-boite-de-notices",
+      "metier-kiosque"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-bokeh",
+        "page": 2
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "domaines",
+        "lessonId": "domaine-ou-panier"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-panier-de-notices",
+    "term": "Panier de notices",
+    "definition": "Sélection explicite de notices regroupées pour un besoin documentaire ou éditorial. Dans BOKEH, le panier peut alimenter une présentation de ressources. Son contenu et son classement demandent un entretien ; il se distingue d’un domaine alimenté par des critères et d’un panier de commandes d’acquisition.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Choisir manuellement les notices d’une sélection de nouveautés.",
+    "software": "BOKEH : constituer et nommer le panier avant de l’utiliser dans une boîte ou un kiosque.",
+    "related": [
+      "metier-domaine",
+      "metier-kiosque",
+      "metier-editorialisation"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-bokeh",
+        "page": 35
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "paniers",
+        "lessonId": "constituer-panier"
+      },
+      {
+        "courseId": "contribuer",
+        "moduleId": "selection-documentaire",
+        "lessonId": "constituer-panier"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-boite-de-notices",
+    "term": "Boîte de notices",
+    "definition": "Élément de présentation d’un portail qui affiche des notices à partir d’une source sélectionnée et de réglages d’affichage. Le choix des données d’alimentation et celui de leur rendu sont deux opérations distinctes. Le vocabulaire exact des composants dépend de la version et du paramétrage BOKEH.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Afficher sur une page une sélection alimentée par un panier de notices.",
+    "software": "Dans BOKEH, choisir l’alimentation de la boîte puis vérifier son rendu sur le portail.",
+    "related": [
+      "metier-panier-de-notices",
+      "metier-domaine",
+      "metier-kiosque",
+      "metier-carrousel"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-bokeh",
+        "page": 35
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "boites",
+        "lessonId": "inserer-kiosque"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-kiosque",
+    "term": "Kiosque",
+    "definition": "Dans les supports BOKEH du réseau, dispositif de mise en avant de notices alimenté par une sélection ou des critères. Il permet de proposer une entrée visuelle dans le catalogue. Il ne constitue pas un nouveau catalogue et doit être contrôlé dans son contexte d’affichage public.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Présenter une sélection de documents sur la page d’accueil du portail.",
+    "software": "Dans BOKEH, vérifier le panier ou le domaine d’alimentation et la présentation retenue.",
+    "related": [
+      "metier-boite-de-notices",
+      "metier-carrousel",
+      "metier-panier-de-notices"
+    ],
+    "sources": [
+      {
+        "sourceId": "guide-bokeh",
+        "page": 2
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "boites",
+        "lessonId": "inserer-kiosque"
+      },
+      {
+        "courseId": "contribuer",
+        "moduleId": "selection-documentaire",
+        "lessonId": "inserer-kiosque"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-article",
+    "term": "Article",
+    "definition": "Contenu éditorial rédigé pour être publié dans le portail : actualité, présentation ou information pratique selon le circuit du réseau. Il possède des propriétés de publication et peut contenir texte, images et liens. Il ne doit pas être confondu avec un article de périodique décrit bibliographiquement.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Rédiger une actualité annonçant une nouvelle sélection documentaire.",
+    "software": "Dans BOKEH, renseigner les propriétés de l’article, structurer son texte et demander la validation prévue.",
+    "related": [
+      "metier-validation-editoriale",
+      "metier-editorialisation",
+      "metier-accessibilite-numerique"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-bokeh",
+        "page": 2
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "articles",
+        "lessonId": "proprietes-article"
+      },
+      {
+        "courseId": "contribuer",
+        "moduleId": "creer-actualite",
+        "lessonId": "proprietes-article"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-carrousel",
+    "term": "Carrousel",
+    "definition": "Mode de présentation qui fait défiler successivement des éléments, par exemple des couvertures de documents. Il relève de la mise en page et de l’interaction, non du choix documentaire lui-même. Son intérêt doit être évalué avec la lisibilité, le contrôle du défilement et l’accessibilité.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Présenter plusieurs notices dans un composant défilant sans masquer les commandes.",
+    "software": "Dans BOKEH, vérifier les réglages et le rendu public de la présentation choisie.",
+    "related": [
+      "metier-kiosque",
+      "metier-boite-de-notices",
+      "metier-accessibilite-numerique"
+    ],
+    "sources": [
+      {
+        "sourceId": "admin-bokeh",
+        "page": 24
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "boites",
+        "lessonId": "regler-affichage"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-editorialisation",
+    "term": "Éditorialisation",
+    "definition": "Travail qui sélectionne, organise et met en contexte des contenus pour leur donner du sens auprès d’un public. Il associe choix documentaire, hiérarchie et présentation. Publier une liste de notices ne suffit pas toujours à expliciter le propos ou à guider la consultation.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Introduire une sélection avec un titre, un angle et des critères de choix.",
+    "software": "Dans BOKEH, articuler article de présentation et sélection de notices selon le circuit éditorial.",
+    "related": [
+      "metier-article",
+      "metier-panier-de-notices",
+      "metier-validation-editoriale"
+    ],
+    "sources": [
+      {
+        "sourceId": "charte"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "contribuer",
+        "moduleId": "selection-documentaire",
+        "lessonId": "introduire-selection"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-validation-editoriale",
+    "term": "Validation éditoriale",
+    "definition": "Étape de relecture et de décision précédant la publication d’un contenu selon un circuit défini. Elle porte notamment sur exactitude, clarté, cohérence documentaire, droits et accessibilité. Elle se distingue de la simple prévisualisation technique et suppose de connaître la responsabilité de chaque intervenant.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Soumettre une actualité relue à la personne habilitée à autoriser sa publication.",
+    "software": "Dans BOKEH et BIBDOC, respecter les habilitations et le circuit du réseau.",
+    "related": [
+      "metier-article",
+      "metier-accessibilite-numerique",
+      "metier-editorialisation"
+    ],
+    "sources": [
+      {
+        "sourceId": "charte"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "gouvernance-editoriale",
+        "lessonId": "previsualiser-valider"
+      },
+      {
+        "courseId": "contribuer",
+        "moduleId": "relire-soumettre",
+        "lessonId": "previsualiser-valider"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-accessibilite-numerique",
+    "term": "Accessibilité numérique",
+    "definition": "Possibilité pour les personnes en situation de handicap de percevoir, comprendre, utiliser et parcourir des contenus et services numériques. Elle concerne la conception technique comme la rédaction. Alternatives d’images, titres structurés, liens explicites et usage au clavier contribuent à la consultation, sans suffire à attester une conformité complète.",
+    "category": "portail",
+    "aliases": [],
+    "example": "Donner à une image informative une alternative adaptée à sa fonction.",
+    "software": "Dans BOKEH, vérifier texte, images et liens dans le rendu public, au-delà de l’éditeur.",
+    "related": [
+      "metier-rgaa",
+      "metier-article",
+      "metier-carrousel"
+    ],
+    "sources": [
+      {
+        "sourceId": "wai"
+      },
+      {
+        "sourceId": "charte",
+        "page": 6
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "medias",
+        "lessonId": "images-accessibles"
+      },
+      {
+        "courseId": "contribuer",
+        "moduleId": "illustrer-contribution",
+        "lessonId": "images-accessibles"
+      }
+    ],
+    "reviewed": "2026-10-30"
+  },
+  {
+    "id": "metier-rgaa",
+    "term": "RGAA",
+    "definition": "Référentiel général d’amélioration de l’accessibilité utilisé en France pour évaluer l’accessibilité de services numériques au moyen de critères et d’une méthode de contrôle. Il permet de structurer une évaluation documentée. Un test automatique isolé ou une bonne pratique rédactionnelle ne démontre pas une conformité globale.",
+    "category": "portail",
+    "aliases": [
+      "Référentiel général d’amélioration de l’accessibilité"
+    ],
+    "example": "Contrôler un échantillon de pages selon la méthode du référentiel.",
+    "software": "Pour les contenus BOKEH, appliquer les pratiques éditoriales accessibles et faire évaluer le service dans son ensemble.",
+    "related": [
+      "metier-accessibilite-numerique",
+      "metier-validation-editoriale"
+    ],
+    "sources": [
+      {
+        "sourceId": "rgaa"
+      }
+    ],
+    "lessonRefs": [
+      {
+        "courseId": "administrer-bokeh",
+        "moduleId": "medias",
+        "lessonId": "images-accessibles"
+      }
+    ],
+    "reviewed": "2026-10-30"
   }
 ]

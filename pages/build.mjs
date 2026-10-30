@@ -3,6 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {build} from 'esbuild';
+import {checkGlossary} from './check-glossary.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..');
@@ -33,6 +34,14 @@ for (const [id, entry] of Object.entries(refs)) {
 }
 const names = {cataloguer:'cataloguer','administrer-koha':'admin-koha','administrer-bokeh':'bokeh',contribuer:'contribuer'};
 const definitions = Object.fromEntries(Object.entries(names).map(([id, file])=>[id, read('lib/learning/' + file + '.json')]));
+// Shared glossary labels are derived from the existing courses, never authored twice.
+const glossaryLessons = Object.fromEntries(Object.entries(definitions).flatMap(([courseId,course])=>course.modules.flatMap(module=>module.lessons.map(lesson=>{
+  const origin=lesson.sharedFrom?definitions[lesson.sharedFrom.courseId].modules.flatMap(m=>m.lessons).find(l=>l.id===lesson.sharedFrom.lessonId):lesson;
+  return [[courseId,module.id,lesson.id].join('/'),{courseTitle:course.title,moduleTitle:module.title,title:origin.title}];
+}))));
+fs.writeFileSync(path.join(root,'lib/glossary-lessons.json'),JSON.stringify(glossaryLessons,null,2)+'\n');
+write('glossaire.json',JSON.stringify(read('lib/glossary.json'),null,2)+'\n');
+console.log('Glossary:',JSON.stringify(checkGlossary()));
 const figureFiles = {cataloguer:'figures','administrer-koha':'admin-figures','administrer-bokeh':'bokeh-figures',contribuer:'bokeh-figures'};
 const learning = {};
 let figureCount = 0;

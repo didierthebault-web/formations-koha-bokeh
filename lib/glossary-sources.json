@@ -1,0 +1,176 @@
+{
+  "tb": {
+    "label": "Transition bibliographique — Vocabulaire du site",
+    "url": "https://www.transition-bibliographique.fr/vocabulaire-du-site/"
+  },
+  "lrm": {
+    "label": "IFLA — Library Reference Model",
+    "url": "https://www.ifla.org/files/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf"
+  },
+  "rda": {
+    "label": "Code RDA-FR",
+    "url": "https://code.rdafr.fr/"
+  },
+  "isbd": {
+    "label": "IFLA — ISBD",
+    "url": "https://www.ifla.org/g/isbd-rg/isbd-editions/"
+  },
+  "rdf": {
+    "label": "W3C — RDF : concepts",
+    "url": "https://www.w3.org/TR/rdf10-concepts/"
+  },
+  "koha-admin": {
+    "label": "Manuel Koha — Administration",
+    "url": "https://koha-community.org/manual/latest/fr_CA/html/administration.html"
+  },
+  "koha-cat": {
+    "label": "Manuel Koha — Catalogage",
+    "url": "https://koha-community.org/manual/latest/fr_CA/html/cataloging.html"
+  },
+  "koha-circ": {
+    "label": "Manuel Koha — Circulation",
+    "url": "https://koha-community.org/manual/latest/fr_CA/html/circulation.html"
+  },
+  "koha-acq": {
+    "label": "Manuel Koha — Acquisitions",
+    "url": "https://koha-community.org/manual/latest/fr_CA/html/acquisitions.html"
+  },
+  "koha-serials": {
+    "label": "Manuel Koha — Périodiques",
+    "url": "https://koha-community.org/manual/latest/fr_CA/html/serials.html"
+  },
+  "koha-tools": {
+    "label": "Manuel Koha — Outils",
+    "url": "https://koha-community.org/manual/latest/fr_CA/html/tools.html"
+  },
+  "koha-schema": {
+    "label": "Schéma Koha 25.11",
+    "url": "https://schema.koha-community.org/25_11/tables/items.html"
+  },
+  "koha-api": {
+    "label": "Communauté Koha — API REST",
+    "url": "https://api.koha-community.org/"
+  },
+  "bnf": {
+    "label": "BnF — Référentiels d’indexation sujet",
+    "url": "https://www.bnf.fr/fr/indexation-sujet-les-referentiels-utilises-par-la-bnf"
+  },
+  "rameau": {
+    "label": "BnF — RAMEAU",
+    "url": "https://rameau.bnf.fr/"
+  },
+  "unimarc": {
+    "label": "Comité français UNIMARC — Manuel bibliographique",
+    "url": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "callisto": {
+    "label": "Réseau des CRFCB — Callisto (référence de consultation)",
+    "url": "https://callisto-formation.fr/mod/glossary/view.php?id=16441",
+    "note": "CC BY-NC-ND ; aucune définition n’est reproduite ou adaptée de ce glossaire."
+  },
+  "sru": {
+    "label": "Library of Congress — SRU/CQL",
+    "url": "https://www.loc.gov/standards/sru/"
+  },
+  "z3950": {
+    "label": "Library of Congress — Z39.50",
+    "url": "https://www.loc.gov/standards/z3950/agency/"
+  },
+  "oai": {
+    "label": "Open Archives Initiative — OAI-PMH 2.0",
+    "url": "https://www.openarchives.org/OAI/openarchivesprotocol.html"
+  },
+  "marcxml": {
+    "label": "Library of Congress — MARCXML",
+    "url": "https://www.loc.gov/standards/marcxml/"
+  },
+  "iso2709": {
+    "label": "ISO — 2709:2008, présentation du format d’échange",
+    "url": "https://www.iso.org/standard/41319.html"
+  },
+  "ark": {
+    "label": "ARK Alliance — About ARKs",
+    "url": "https://arks.org/about/"
+  },
+  "identifiants": {
+    "label": "BnF — Identifiants internationaux",
+    "url": "https://www.bnf.fr/fr/identifiants-internationaux"
+  },
+  "isbn": {
+    "label": "International ISBN Agency — What is an ISBN?",
+    "url": "https://www.isbn-international.org/index.php/content/what-isbn/10"
+  },
+  "wai": {
+    "label": "W3C WAI — Introduction à l’accessibilité",
+    "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+  },
+  "rgaa": {
+    "label": "DINUM — Référentiel général d’amélioration de l’accessibilité",
+    "url": "https://www.numerique.gouv.fr/offre-accompagnement/reference-accessibilite-rgaa/"
+  },
+  "catalogueurs": {
+    "label": "Cataloguer dans le catalogue mutualisé",
+    "resourceId": "catalogueurs",
+    "url": "?view=document&id=catalogueurs"
+  },
+  "admin-koha": {
+    "label": "Administrer le SIGB KOHA",
+    "resourceId": "admin-koha",
+    "url": "?view=document&id=admin-koha"
+  },
+  "admin-bokeh": {
+    "label": "Administrer le portail BIBDOC",
+    "resourceId": "admin-bokeh",
+    "url": "?view=document&id=admin-bokeh"
+  },
+  "guide-publications": {
+    "label": "Guide de catalogage des publications du ministère",
+    "resourceId": "guide-publications",
+    "url": "?view=document&id=guide-publications"
+  },
+  "guide-unimarc": {
+    "label": "Guide des bonnes pratiques de catalogage — UNIMARC",
+    "resourceId": "guide-unimarc",
+    "url": "?view=document&id=guide-unimarc"
+  },
+  "guide-bokeh": {
+    "label": "Bokeh — Guide de prise en main rapide",
+    "resourceId": "guide-bokeh",
+    "url": "?view=document&id=guide-bokeh"
+  },
+  "charte": {
+    "label": "Charte des bonnes pratiques éditoriales",
+    "resourceId": "charte",
+    "url": "?view=document&id=charte"
+  },
+  "catalogage-isbd": {
+    "label": "Catalogage ISBD et UNIMARC — Apports théoriques",
+    "resourceId": "catalogage-isbd",
+    "url": "?view=document&id=catalogage-isbd"
+  },
+  "codes-fonction": {
+    "label": "UNIMARC — Codes de fonction (annexe C)",
+    "resourceId": "codes-fonction",
+    "url": "?view=document&id=codes-fonction"
+  },
+  "koha-setup": {
+    "label": "Manuel Koha — Liste de contrôle de mise en œuvre",
+    "url": "https://koha-community.org/manual/latest/fr_CA/html/implementation_checklist.html"
+  },
+  "abes-peb": {
+    "label": "Abes — Service de prêt entre bibliothèques",
+    "url": "https://abes.fr/reseau-sudoc/sudoc-outils-et-services/peb/"
+  },
+  "bnf-reserve": {
+    "label": "BnF — Réserve des livres rares",
+    "url": "https://www.bnf.fr/fr/reserve-des-livres-rares"
+  },
+  "bbf-desherbage": {
+    "label": "BBF / Enssib — Désherbage, refoulement et retrait",
+    "url": "https://bbf.enssib.fr/consulter/bbf-1988-05-0394-006"
+  },
+  "koha-circ-prefs": {
+    "label": "Manuel Koha — Préférences de circulation",
+    "url": "https://koha-community.org/manual/latest/fr_CA/html/circulationpreferences.html"
+  }
+}
