@@ -14,8 +14,8 @@ const executablePath = process.env.PLAYWRIGHT_EXECUTABLE;
  const go = query => page.goto(new URL(query,origin).href);
  await go('');await page.locator('.course-card').first().waitFor();
  assert.equal(await page.locator('.course-card').count(),4);
- assert.ok(await page.locator('.koha-kiwi').evaluate(e=>e.complete&&e.naturalWidth>0));
- assert.ok(await page.locator('.koha-wordmark').evaluate(e=>e.complete&&e.naturalWidth>0));
+ await page.waitForFunction(()=>{const e=document.querySelector('.koha-kiwi');return e&&e.complete&&e.naturalWidth>0});
+ await page.waitForFunction(()=>{const e=document.querySelector('.koha-wordmark');return e&&e.complete&&e.naturalWidth>0});
  await page.screenshot({path:path.join(__dirname,'../../tmp/koha-complete-home.png'),fullPage:true});
  await page.getByRole('button',{name:'Formations KOHA',exact:true}).click();
  assert.equal(await page.locator('.course-card').count(),2);
@@ -58,4 +58,5 @@ const executablePath = process.env.PLAYWRIGHT_EXECUTABLE;
  console.log(JSON.stringify({result:'PASS',courses:4,modules:34,lessons,documents:9,originalsAndPdfPreviews:'OK',kiwiAndLogo:'OK',glossary:41,search:'OK',mobile:'OK',errors,failed}));
  await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});
+
 
