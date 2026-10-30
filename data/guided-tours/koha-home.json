@@ -1,0 +1,363 @@
+{
+  "id": "koha-first-visit",
+  "title": "Première découverte de Koha",
+  "heading": "Première découverte de l’interface Koha",
+  "description": "Explorez l'interface professionnelle de Koha en français. Découvrez les principaux menus et modules grâce à une visite guidée interactive.",
+  "software": "KOHA",
+  "version": "26.05.05",
+  "level": "Débutant",
+  "duration": "5 à 10 minutes",
+  "image": "./guided-tours/koha/accueil-koha-26-05-05.png",
+  "imageWidth": 3823,
+  "imageHeight": 1275,
+  "coordinateWidth": 2047,
+  "coordinateHeight": 683,
+  "imageSha256": "58ee9e5d29df3cd56b60031cc08fb07ebc3abf37658ca9b47b98f24902a9cca2",
+  "imageAlt": "Écran d’accueil de l’interface professionnelle Koha 26.05.05 en français : menus supérieurs, recherche rapide des adhérents et deux colonnes de modules métier. Les zones peuvent être explorées aussi dans la liste textuelle.",
+  "nextLesson": {
+    "courseId": "cataloguer",
+    "moduleId": "rechercher",
+    "lessonId": "recherche-prealable"
+  },
+  "zones": [
+    {
+      "id": "screen",
+      "title": "Ensemble de l’écran",
+      "x": 0,
+      "y": 0,
+      "width": 2047,
+      "height": 683,
+      "type": "highlight",
+      "text": "Vue d’ensemble de l’interface professionnelle de Koha."
+    },
+    {
+      "id": "navigation",
+      "title": "Menus supérieurs",
+      "x": 0,
+      "y": 0,
+      "width": 425,
+      "height": 30,
+      "type": "highlight",
+      "text": "Les menus supérieurs donnent accès aux fonctions de circulation, de gestion des adhérents et de recherche."
+    },
+    {
+      "id": "quick",
+      "title": "Recherche rapide",
+      "x": 153,
+      "y": 31,
+      "width": 826,
+      "height": 29,
+      "type": "tooltip",
+      "text": "Ce champ retrouve un adhérent par numéro de carte ou partie du nom, notamment pour commencer un prêt. Il ne recherche pas les notices bibliographiques."
+    },
+    {
+      "id": "actions",
+      "title": "Actions de circulation",
+      "x": 1020,
+      "y": 31,
+      "width": 276,
+      "height": 29,
+      "type": "highlight",
+      "text": "Prêter, Retourner et Renouveler sont des raccourcis vers les opérations de circulation."
+    },
+    {
+      "id": "catalogue",
+      "title": "Recherche catalogue",
+      "x": 1455,
+      "y": 31,
+      "width": 174,
+      "height": 29,
+      "type": "highlight",
+      "text": "Cette recherche porte sur les notices bibliographiques du catalogue."
+    },
+    {
+      "id": "circulation",
+      "title": "Circulation",
+      "x": 533,
+      "y": 97,
+      "width": 738,
+      "height": 47,
+      "type": "tooltip",
+      "text": "Enregistrer et suivre les prêts, retours et renouvellements des exemplaires, selon les règles et permissions de la bibliothèque."
+    },
+    {
+      "id": "patrons",
+      "title": "Adhérents",
+      "x": 533,
+      "y": 156,
+      "width": 738,
+      "height": 48,
+      "type": "tooltip",
+      "text": "Rechercher et gérer les comptes des usagers selon les autorisations attribuées au professionnel."
+    },
+    {
+      "id": "advanced",
+      "title": "Recherche avancée",
+      "x": 533,
+      "y": 216,
+      "width": 738,
+      "height": 47,
+      "type": "tooltip",
+      "text": "Combiner plusieurs critères pour affiner une recherche documentaire dans le catalogue."
+    },
+    {
+      "id": "items",
+      "title": "Recherche d’exemplaires",
+      "x": 533,
+      "y": 275,
+      "width": 738,
+      "height": 48,
+      "type": "tooltip",
+      "text": "Rechercher dans les informations locales des exemplaires, par exemple leur bibliothèque ou leur localisation."
+    },
+    {
+      "id": "lists",
+      "title": "Listes",
+      "x": 533,
+      "y": 334,
+      "width": 738,
+      "height": 47,
+      "type": "tooltip",
+      "text": "Regrouper des notices dans des sélections pour préparer une consultation ou un travail documentaire."
+    },
+    {
+      "id": "authorities",
+      "title": "Autorités",
+      "x": 533,
+      "y": 452,
+      "width": 738,
+      "height": 48,
+      "type": "tooltip",
+      "text": "Rechercher et gérer les points d’accès contrôlés qui identifient notamment les personnes, collectivités et sujets."
+    },
+    {
+      "id": "cataloging",
+      "title": "Catalogage",
+      "x": 1289,
+      "y": 156,
+      "width": 739,
+      "height": 48,
+      "type": "tooltip",
+      "text": "Rechercher, créer et modifier les notices bibliographiques et leurs exemplaires. Une description bibliographique partagée reste distincte des données locales d’exemplaire."
+    },
+    {
+      "id": "serials",
+      "title": "Périodiques",
+      "x": 1289,
+      "y": 216,
+      "width": 739,
+      "height": 47,
+      "type": "tooltip",
+      "text": "Suivre les abonnements et la réception des fascicules de publications en série."
+    },
+    {
+      "id": "acquisitions",
+      "title": "Acquisitions",
+      "x": 1289,
+      "y": 275,
+      "width": 739,
+      "height": 48,
+      "type": "tooltip",
+      "text": "Gérer les fournisseurs, commandes et budgets documentaires si ces fonctions sont utilisées dans l’installation."
+    },
+    {
+      "id": "reports",
+      "title": "Rapports",
+      "x": 1289,
+      "y": 334,
+      "width": 739,
+      "height": 47,
+      "type": "tooltip",
+      "text": "Produire des extractions et statistiques à partir des données autorisées, avec des rapports guidés ou SQL."
+    },
+    {
+      "id": "tools",
+      "title": "Outils",
+      "x": 1289,
+      "y": 452,
+      "width": 739,
+      "height": 48,
+      "type": "tooltip",
+      "text": "Accéder aux outils de traitement et de contrôle, notamment aux opérations par lots, selon les permissions attribuées."
+    },
+    {
+      "id": "administration",
+      "title": "Administration",
+      "x": 1289,
+      "y": 511,
+      "width": 739,
+      "height": 48,
+      "type": "tooltip",
+      "text": "Configurer les paramètres du SIGB. Les changements partagés nécessitent une habilitation et une coordination adaptées."
+    }
+  ],
+  "exploreZones": [
+    "circulation",
+    "patrons",
+    "quick",
+    "advanced",
+    "items",
+    "lists",
+    "authorities",
+    "cataloging",
+    "serials",
+    "acquisitions",
+    "reports",
+    "tools",
+    "administration"
+  ],
+  "steps": [
+    {
+      "id": "welcome",
+      "title": "Bienvenue dans Koha",
+      "paragraphs": [
+        "Bienvenue dans l'interface professionnelle de Koha, le système intégré de gestion de bibliothèque (SIGB).",
+        "Cet écran d'accueil donne accès aux principales fonctionnalités de gestion documentaire.",
+        "Nous allons découvrir ensemble son organisation et les modules utiles à votre travail."
+      ],
+      "targets": [
+        {
+          "zoneId": "screen",
+          "type": "highlight"
+        }
+      ],
+      "action": "next",
+      "nextLabel": "Commencer la visite"
+    },
+    {
+      "id": "menus",
+      "title": "Les menus de navigation",
+      "paragraphs": [
+        "La barre supérieure permet d'accéder rapidement aux principales fonctions : circulation des documents, gestion des adhérents et recherche dans le catalogue.",
+        "Le menu « Voir plus » donne accès à d'autres fonctionnalités."
+      ],
+      "targets": [
+        {
+          "zoneId": "navigation",
+          "type": "highlight"
+        }
+      ],
+      "action": "next"
+    },
+    {
+      "id": "patron-search",
+      "title": "La recherche rapide des adhérents",
+      "paragraphs": [
+        "Ce champ permet de retrouver un adhérent à partir de son numéro de carte ou d'une partie de son nom.",
+        "Il est notamment utilisé pour commencer une opération de prêt.",
+        "Attention : ce champ concerne les adhérents et non la recherche de notices bibliographiques."
+      ],
+      "targets": [
+        {
+          "zoneId": "quick",
+          "type": "highlight"
+        }
+      ],
+      "action": "next"
+    },
+    {
+      "id": "circulation-actions",
+      "title": "Les opérations de circulation",
+      "paragraphs": [
+        "Les raccourcis « Prêter », « Retourner » et « Renouveler » permettent d'accéder rapidement aux principales opérations de circulation des documents.",
+        "Leur utilisation dépend des droits accordés à votre compte."
+      ],
+      "targets": [
+        {
+          "zoneId": "actions",
+          "type": "highlight"
+        }
+      ],
+      "action": "next"
+    },
+    {
+      "id": "document-search",
+      "title": "Rechercher dans le catalogue",
+      "paragraphs": [
+        "Koha propose plusieurs outils de recherche documentaire.",
+        "« Recherche catalogue » permet de rechercher des notices bibliographiques.",
+        "« Recherche avancée » propose des critères supplémentaires pour affiner les résultats.",
+        "« Recherche d'exemplaires » permet de cibler les données des exemplaires gérés dans Koha."
+      ],
+      "targets": [
+        {
+          "zoneId": "catalogue",
+          "type": "highlight"
+        },
+        {
+          "zoneId": "advanced",
+          "type": "highlight"
+        },
+        {
+          "zoneId": "items",
+          "type": "highlight"
+        }
+      ],
+      "action": "next"
+    },
+    {
+      "id": "cataloging",
+      "title": "Le module Catalogage",
+      "paragraphs": [
+        "Le module Catalogage permet de rechercher, créer et modifier les notices bibliographiques.",
+        "Dans notre catalogue mutualisé, une notice bibliographique peut être partagée entre plusieurs structures, tandis que les exemplaires possèdent leurs propres informations locales.",
+        "C'est le module central du parcours de formation des catalogueurs."
+      ],
+      "instruction": "Cliquez sur le bloc « Catalogage » pour poursuivre la visite.",
+      "targets": [
+        {
+          "zoneId": "cataloging",
+          "type": "click"
+        }
+      ],
+      "action": "next"
+    },
+    {
+      "id": "other-modules",
+      "title": "Les autres modules professionnels",
+      "paragraphs": [
+        "Koha comprend également plusieurs modules spécialisés.",
+        "« Autorités » permet de gérer les points d'accès contrôlés.",
+        "« Acquisitions » concerne les commandes et les budgets documentaires.",
+        "« Rapports » permet de produire des extractions et des statistiques.",
+        "« Administration » regroupe les paramètres du SIGB.",
+        "L'accès à ces fonctions dépend de votre profil et de vos permissions."
+      ],
+      "targets": [
+        {
+          "zoneId": "authorities",
+          "type": "highlight"
+        },
+        {
+          "zoneId": "acquisitions",
+          "type": "highlight"
+        },
+        {
+          "zoneId": "reports",
+          "type": "highlight"
+        },
+        {
+          "zoneId": "administration",
+          "type": "highlight"
+        }
+      ],
+      "action": "next"
+    },
+    {
+      "id": "conclusion",
+      "title": "Vous êtes prêt à poursuivre !",
+      "paragraphs": [
+        "Vous connaissez maintenant les principales zones de l'écran d'accueil de Koha.",
+        "Vous pouvez poursuivre avec la découverte du module Catalogage, où nous apprendrons à rechercher, créer et contrôler une notice bibliographique."
+      ],
+      "targets": [
+        {
+          "zoneId": "cataloging",
+          "type": "navigation"
+        }
+      ],
+      "action": "complete"
+    }
+  ],
+  "nextActionLabel": "Découvrir le module Catalogage"
+}

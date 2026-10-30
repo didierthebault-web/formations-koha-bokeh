@@ -5,7 +5,9 @@
   "scripts": {
     "build": "node build.mjs",
     "check:glossary": "node check-glossary.mjs",
-    "typecheck:glossary": "tsc -p tsconfig.glossary.json"
+    "typecheck:glossary": "tsc -p tsconfig.glossary.json",
+    "check:tours": "node check-tours.mjs",
+    "test:tour": "node test-tour.cjs"
   },
   "dependencies": {
     "lucide-react": "1.31.0",
