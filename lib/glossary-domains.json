@@ -1,0 +1,37 @@
+[
+  {
+    "code": "A",
+    "id": "catalogage",
+    "label": "Catalogage et description bibliographique"
+  },
+  {
+    "code": "B",
+    "id": "autorites",
+    "label": "Autorités et indexation"
+  },
+  {
+    "code": "C",
+    "id": "administration",
+    "label": "Administration KOHA"
+  },
+  {
+    "code": "D",
+    "id": "collections",
+    "label": "Collections, acquisitions et circulation"
+  },
+  {
+    "code": "E",
+    "id": "donnees",
+    "label": "Interopérabilité et données"
+  },
+  {
+    "code": "F",
+    "id": "portail",
+    "label": "Portail BOKEH et valorisation"
+  },
+  {
+    "code": "T",
+    "id": "transition",
+    "label": "Transition bibliographique"
+  }
+]

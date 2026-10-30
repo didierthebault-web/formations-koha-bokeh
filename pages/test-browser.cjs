@@ -3,6 +3,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
 const snapshot = JSON.parse(fs.readFileSync(path.join(__dirname,'snapshot.json')));
+const glossary = JSON.parse(fs.readFileSync(path.join(__dirname,'../lib/glossary.json')));
+const domains = JSON.parse(fs.readFileSync(path.join(__dirname,'../lib/glossary-domains.json')));
 const origin = process.argv[2] || 'http://127.0.0.1:8776/';
 const executablePath = process.env.PLAYWRIGHT_EXECUTABLE;
 (async()=>{
@@ -51,12 +53,65 @@ const executablePath = process.env.PLAYWRIGHT_EXECUTABLE;
    assert.ok((await page.locator('.text-page pre').textContent()).length>0);
  }
  await go('?view=search');await page.locator('#query').fill('214');await page.locator('form.filter-bar .button').click();await page.locator('.result').first().waitFor();assert.ok(await page.locator('.hit').count()>0);
- await page.getByRole('button',{name:'Glossaire',exact:true}).click();assert.equal(await page.locator('.glossary-grid .resource-card').count(),41);
- await page.locator('#glossary-query').fill('catalogage');assert.ok(await page.locator('.glossary-grid .resource-card').count()>0);
+ await page.getByRole('button',{name:'Glossaire',exact:true}).click();assert.equal(await page.locator('.glossary-grid .resource-card').count(),glossary.length);
+ const query=page.locator('#glossary-query');
+ for(const [text,expected] of [['DERIVATION','Catalogage par dérivation'],['code barre','Code-barres'],['inventaire des collections','Récolement'],['AUTORITES ET INDEXATION','Notice d’autorité'],['deux copies','Exemplaire']]){
+  await query.fill(text);await page.getByRole('heading',{name:expected,exact:true}).waitFor();
+ }
+ await query.fill('zzzintrouvable');assert.equal(await page.locator('.glossary-grid .resource-card').count(),0);
+ await page.getByRole('button',{name:'Réinitialiser',exact:true}).click();
+ assert.equal(await page.locator('.glossary-grid .resource-card').count(),glossary.length);
+ for(const domain of domains){
+  await page.getByRole('navigation',{name:'Filtrer le glossaire par domaine'}).getByRole('button').filter({hasText:domain.label}).click();
+  assert.equal(await page.locator('.glossary-grid .resource-card').count(),glossary.filter(e=>e.category===domain.id).length);
+ }
+ await page.getByRole('button',{name:'Réinitialiser',exact:true}).click();
+ assert.equal(await page.getByRole('navigation',{name:'Filtrer le glossaire par initiale'}).getByRole('button').count(),27);
+ assert.ok(await page.getByRole('button',{name:'Initiale Q',exact:true}).isDisabled());
+ await page.getByRole('button',{name:'Initiale W',exact:true}).click();assert.equal(await page.locator('.glossary-grid .resource-card').count(),glossary.filter(e=>e.term.startsWith('W')).length);
+ await page.getByRole('button',{name:'Réinitialiser',exact:true}).click();
+ await page.screenshot({path:path.join(__dirname,'../reports/glossaire-desktop.png'),fullPage:false});
+ await query.fill('valeur autorisee');
+ const trigger=page.getByRole('button',{name:'Voir la fiche complète : Valeur autorisée',exact:true});
+ await trigger.focus();await page.keyboard.press('Enter');await page.getByRole('dialog').waitFor();
+ assert.equal(await page.locator('#glossary-entry-title').textContent(),'Valeur autorisée');
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'glossary-entry-title');
+ await page.keyboard.press('Tab');assert.equal(await page.evaluate(()=>document.activeElement.getAttribute('aria-label')),'Fermer la fiche du glossaire');
+ await page.keyboard.press('Shift+Tab');assert.equal(await page.evaluate(()=>!!document.activeElement.closest('dialog')),true);
+ await page.screenshot({path:path.join(__dirname,'../reports/glossaire-fiche.png'),fullPage:false});
+ await page.getByRole('dialog').getByRole('button',{name:'Localisation',exact:true}).click();
+ assert.equal(await page.locator('#glossary-entry-title').textContent(),'Localisation');
+ await page.keyboard.press('Escape');assert.equal(await page.getByRole('dialog').count(),0);
+ assert.equal(await trigger.evaluate(e=>e===document.activeElement),true);
+ // Every historic id and every requested concept has an openable fiche.
+ for(const entry of glossary){
+  await go('?view=glossary&term='+entry.id);await page.getByRole('dialog').waitFor();
+  assert.equal(await page.locator('#glossary-entry-title').textContent(),entry.term);
+  assert.ok((await page.getByRole('dialog').textContent()).includes(entry.example));
+  assert.equal(await page.getByRole('dialog').locator('.glossary-lesson-links a').count(),entry.lessonRefs.length);
+  await page.getByRole('button',{name:'Fermer la fiche du glossaire',exact:true}).click();
+ }
+ // Explicit course context opens definitions without altering lesson text or URL.
+ await go('?view=course&id=cataloguer&module=unimarc&lesson=champs-sous-champs');await page.locator('.lesson-glossary').waitFor();
+ const lessonText=await page.locator('.lesson-body').textContent(),lessonUrl=page.url();
+ await page.locator('.lesson-glossary').getByRole('button',{name:'Champ',exact:true}).click();
+ await page.getByRole('dialog').waitFor();assert.equal(await page.locator('#glossary-entry-title').textContent(),'Champ');
+ assert.equal(page.url(),lessonUrl);await page.keyboard.press('Escape');assert.equal(await page.locator('.lesson-body').textContent(),lessonText);
+ // Follow a real lesson target from a definition in the fourth pathway.
+ await go('?view=glossary&term=metier-editorialisation');await page.getByRole('dialog').waitFor();
+ await page.getByRole('dialog').locator('.glossary-lesson-links a').first().click();await page.locator('.native-lesson h1').waitFor();
+ assert.ok(page.url().includes('id=contribuer'));
+ await page.setViewportSize({width:390,height:844});await go('?view=glossary');await query.waitFor();
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.screenshot({path:path.join(__dirname,'../reports/glossaire-mobile.png'),fullPage:false});
+ await query.fill('valeur autorisee');await page.getByRole('button',{name:'Voir la fiche complète : Valeur autorisée',exact:true}).click();await page.getByRole('dialog').waitFor();
+ assert.ok(await page.getByRole('dialog').evaluate(e=>e.scrollWidth<=e.clientWidth));
+ await page.getByRole('button',{name:'Fermer la fiche du glossaire',exact:true}).click();
  await page.setViewportSize({width:390,height:844});await go('');await page.locator('.course-card').first().waitFor();await page.getByRole('button',{name:'Ouvrir le menu'}).click();await page.locator('.sidebar.open').waitFor();await page.getByRole('button',{name:'Formations BOKEH',exact:true}).click();assert.equal(await page.locator('.sidebar.open').count(),0);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
- console.log(JSON.stringify({result:'PASS',courses:4,modules:34,lessons,documents:9,originalsAndPdfPreviews:'OK',kiwiAndLogo:'OK',glossary:41,search:'OK',mobile:'OK',errors,failed}));
+ console.log(JSON.stringify({result:'PASS',courses:4,modules:34,lessons,documents:9,originalsAndPdfPreviews:'OK',kiwiAndLogo:'OK',glossary:glossary.length,glossaryDialogs:'all checked',glossaryKeyboard:'OK',glossaryContext:'OK',search:'OK',mobile:'OK',errors,failed}));
  await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});
+
 
 
