@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
     "strict": true,
     "skipLibCheck": true,
     "noEmit": true,
@@ -12,12 +16,28 @@
     "jsx": "react-jsx",
     "baseUrl": "..",
     "paths": {
-      "@/*": ["./*"],
-      "react": ["pages/node_modules/@types/react"],
-      "react/jsx-runtime": ["pages/node_modules/@types/react/jsx-runtime.d.ts"],
-      "lucide-react": ["pages/node_modules/lucide-react"]
+      "@/*": [
+        "./*"
+      ],
+      "react": [
+        "pages/node_modules/@types/react"
+      ],
+      "react/jsx-runtime": [
+        "pages/node_modules/@types/react/jsx-runtime.d.ts"
+      ],
+      "lucide-react": [
+        "pages/node_modules/lucide-react"
+      ]
     },
     "types": []
   },
-  "include": ["../app/glossary.tsx", "../app/glossary-entry.tsx", "../app/cataloguer.tsx", "../lib/glossary.ts", "../app/tours.tsx"]
+  "include": [
+    "../app/glossary.tsx",
+    "../app/glossary-entry.tsx",
+    "../app/cataloguer.tsx",
+    "../lib/glossary.ts",
+    "../app/tours.tsx",
+    "../components/model-notices/**/*.tsx",
+    "../lib/model-notices/*.ts"
+  ]
 }

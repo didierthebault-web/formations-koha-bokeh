@@ -1,0 +1,2 @@
+# ISO 2709 offsets and lengths are byte-based; never normalize newlines.
+*.UM_2709.UTF8 binary

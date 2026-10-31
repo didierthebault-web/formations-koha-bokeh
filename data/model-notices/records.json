@@ -1,0 +1,3162 @@
+[
+  {
+    "id": "cb42534131r",
+    "ark": "ark:/12148/cb42534131r",
+    "leader": "01492cam  2200349   450 ",
+    "sourceFile": "export_Bibliographique_20261031093308.UM_2709.UTF8",
+    "sourceSha256": "d1f11272f22048b18de6ce70cc8a618180a995d42ad331f5760a876a2a6cdd7c",
+    "byteLength": 1492,
+    "fields": [
+      {
+        "tag": "001",
+        "raw": "FRBNF425341310000002",
+        "value": "FRBNF425341310000002"
+      },
+      {
+        "tag": "003",
+        "raw": "http://catalogue.bnf.fr/ark:/12148/cb42534131r",
+        "value": "http://catalogue.bnf.fr/ark:/12148/cb42534131r"
+      },
+      {
+        "tag": "010",
+        "raw": "  \u001fa978-2-08-123786-5\u001fbrel.\u001fd40 EUR",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "978-2-08-123786-5"
+          },
+          {
+            "code": "b",
+            "value": "rel."
+          },
+          {
+            "code": "d",
+            "value": "40 EUR"
+          }
+        ]
+      },
+      {
+        "tag": "020",
+        "raw": "  \u001faFR\u001fb01161542",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "01161542"
+          }
+        ]
+      },
+      {
+        "tag": "073",
+        "raw": " 0\u001fa9782081237865",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "9782081237865"
+          }
+        ]
+      },
+      {
+        "tag": "100",
+        "raw": "  \u001fa20111019d2011    m  y0frey50      ba",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "20111019d2011    m  y0frey50      ba"
+          }
+        ]
+      },
+      {
+        "tag": "101",
+        "raw": "0 \u001fafre",
+        "indicators": [
+          "0",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "fre"
+          }
+        ]
+      },
+      {
+        "tag": "102",
+        "raw": "  \u001faFR",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          }
+        ]
+      },
+      {
+        "tag": "105",
+        "raw": "  \u001fa||||z   00|y|",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "||||z   00|y|"
+          }
+        ]
+      },
+      {
+        "tag": "106",
+        "raw": "  \u001far",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "r"
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": " 0\u001f601\u001fai \u001fbxxxe  ",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "i "
+          },
+          {
+            "code": "b",
+            "value": "xxxe  "
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": "  \u001f602\u001fctxt\u001f2rdacontent",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "txt"
+          },
+          {
+            "code": "2",
+            "value": "rdacontent"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": " 0\u001f601\u001fan",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "n"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": "  \u001f602\u001fcn\u001f2rdamedia",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "n"
+          },
+          {
+            "code": "2",
+            "value": "rdamedia"
+          }
+        ]
+      },
+      {
+        "tag": "200",
+        "raw": "1 \u001faMuses\u001fbTexte imprimé\u001feelles ont conquis les coeurs\u001ffFarid Abdelouahab",
+        "indicators": [
+          "1",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Muses"
+          },
+          {
+            "code": "b",
+            "value": "Texte imprimé"
+          },
+          {
+            "code": "e",
+            "value": "elles ont conquis les coeurs"
+          },
+          {
+            "code": "f",
+            "value": "Farid Abdelouahab"
+          }
+        ]
+      },
+      {
+        "tag": "210",
+        "raw": "  \u001faParis\u001fcArthaud\u001fdimpr. 2011\u001feimpr. en Slovénie",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Paris"
+          },
+          {
+            "code": "c",
+            "value": "Arthaud"
+          },
+          {
+            "code": "d",
+            "value": "impr. 2011"
+          },
+          {
+            "code": "e",
+            "value": "impr. en Slovénie"
+          }
+        ]
+      },
+      {
+        "tag": "215",
+        "raw": "  \u001fa1 vol. (231 p.)\u001fcnombreuses ill., couv. ill.\u001fd32 cm",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "1 vol. (231 p.)"
+          },
+          {
+            "code": "c",
+            "value": "nombreuses ill., couv. ill."
+          },
+          {
+            "code": "d",
+            "value": "32 cm"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f312301580\u001faÉgéries\u001f311975999\u001fzXIXe siècle\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "12301580"
+          },
+          {
+            "code": "a",
+            "value": "Égéries"
+          },
+          {
+            "code": "3",
+            "value": "11975999"
+          },
+          {
+            "code": "z",
+            "value": "XIXe siècle"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f312301580\u001faÉgéries\u001f311975995\u001fzXXe siècle\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "12301580"
+          },
+          {
+            "code": "a",
+            "value": "Égéries"
+          },
+          {
+            "code": "3",
+            "value": "11975995"
+          },
+          {
+            "code": "z",
+            "value": "XXe siècle"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "608",
+        "raw": "  \u001f311935764\u001faBiographie\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "11935764"
+          },
+          {
+            "code": "a",
+            "value": "Biographie"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "676",
+        "raw": "  \u001fa920.72\u001fv23",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "920.72"
+          },
+          {
+            "code": "v",
+            "value": "23"
+          }
+        ]
+      },
+      {
+        "tag": "686",
+        "raw": "  \u001fa920\u001f2Cadre de classement de la Bibliographie nationale française",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "920"
+          },
+          {
+            "code": "2",
+            "value": "Cadre de classement de la Bibliographie nationale française"
+          }
+        ]
+      },
+      {
+        "tag": "700",
+        "raw": " |\u001f314413590\u001foISNI0000000121411552\u001faAbdelouahab\u001fbFarid\u001ff1965-....\u001f4070",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "14413590"
+          },
+          {
+            "code": "o",
+            "value": "ISNI0000000121411552"
+          },
+          {
+            "code": "a",
+            "value": "Abdelouahab"
+          },
+          {
+            "code": "b",
+            "value": "Farid"
+          },
+          {
+            "code": "f",
+            "value": "1965-...."
+          },
+          {
+            "code": "4",
+            "value": "070"
+          }
+        ]
+      },
+      {
+        "tag": "801",
+        "raw": " 0\u001faFR\u001fbFR-751131015\u001fc20111019\u001fgAFNOR\u001fhFRBNF425341310000002\u001f2intermrc",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "FR-751131015"
+          },
+          {
+            "code": "c",
+            "value": "20111019"
+          },
+          {
+            "code": "g",
+            "value": "AFNOR"
+          },
+          {
+            "code": "h",
+            "value": "FRBNF425341310000002"
+          },
+          {
+            "code": "2",
+            "value": "intermrc"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751131010:42534131001001\u001fa2011-268606\u001fb759999999\u001fcTolbiac - Rez de Jardin - Littérature et art - Magasin\u001fdO",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751131010:42534131001001"
+          },
+          {
+            "code": "a",
+            "value": "2011-268606"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Tolbiac - Rez de Jardin - Littérature et art - Magasin"
+          },
+          {
+            "code": "d",
+            "value": "O"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751021001:42534131002001\u001faYZ-2144-4\u001fb759999999\u001fcRichelieu - Estampes et photographie - Magasin\u001fdN",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751021001:42534131002001"
+          },
+          {
+            "code": "a",
+            "value": "YZ-2144-4"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Richelieu - Estampes et photographie - Magasin"
+          },
+          {
+            "code": "d",
+            "value": "N"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751041002:42534131003001\u001faFOL-Z-3860\u001fb759999999\u001fcArsenal - Magasin\u001fdN",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751041002:42534131003001"
+          },
+          {
+            "code": "a",
+            "value": "FOL-Z-3860"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Arsenal - Magasin"
+          },
+          {
+            "code": "d",
+            "value": "N"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb44446096v",
+    "ark": "ark:/12148/cb44446096v",
+    "leader": "01655cam  2200361   450 ",
+    "sourceFile": "export_Bibliographique_20261031093816.UM_2709.UTF8",
+    "sourceSha256": "16ed18946844dfa41c7b0626fe9b3797caac2901c0327b5fe9ef87229e85c6f2",
+    "byteLength": 1655,
+    "fields": [
+      {
+        "tag": "001",
+        "raw": "FRBNF444460960000005",
+        "value": "FRBNF444460960000005"
+      },
+      {
+        "tag": "003",
+        "raw": "http://catalogue.bnf.fr/ark:/12148/cb44446096v",
+        "value": "http://catalogue.bnf.fr/ark:/12148/cb44446096v"
+      },
+      {
+        "tag": "010",
+        "raw": "  \u001fa978-2-900177-42-6\u001fbbr.\u001fd30 EUR",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "978-2-900177-42-6"
+          },
+          {
+            "code": "b",
+            "value": "br."
+          },
+          {
+            "code": "d",
+            "value": "30 EUR"
+          }
+        ]
+      },
+      {
+        "tag": "020",
+        "raw": "  \u001faFR\u001fb01563091",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "01563091"
+          }
+        ]
+      },
+      {
+        "tag": "073",
+        "raw": " 0\u001fa9782900177426",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "9782900177426"
+          }
+        ]
+      },
+      {
+        "tag": "100",
+        "raw": "  \u001fa20151105d2015    m  y0frey50      ba",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "20151105d2015    m  y0frey50      ba"
+          }
+        ]
+      },
+      {
+        "tag": "101",
+        "raw": "0 \u001fafre",
+        "indicators": [
+          "0",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "fre"
+          }
+        ]
+      },
+      {
+        "tag": "102",
+        "raw": "  \u001faFR",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          }
+        ]
+      },
+      {
+        "tag": "105",
+        "raw": "  \u001fa||||z   00|y|",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "||||z   00|y|"
+          }
+        ]
+      },
+      {
+        "tag": "106",
+        "raw": "  \u001far",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "r"
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": " 0\u001f601\u001fai \u001fbxxxe  ",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "i "
+          },
+          {
+            "code": "b",
+            "value": "xxxe  "
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": "  \u001f602\u001fctxt\u001f2rdacontent",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "txt"
+          },
+          {
+            "code": "2",
+            "value": "rdacontent"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": " 0\u001f601\u001fan",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "n"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": "  \u001f602\u001fcn\u001f2rdamedia",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "n"
+          },
+          {
+            "code": "2",
+            "value": "rdamedia"
+          }
+        ]
+      },
+      {
+        "tag": "200",
+        "raw": "1 \u001faLa bibliothèque\u001fbTexte imprimé\u001feune fenêtre en prison\u001ffsous la direction de Marianne Terrusse",
+        "indicators": [
+          "1",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "La bibliothèque"
+          },
+          {
+            "code": "b",
+            "value": "Texte imprimé"
+          },
+          {
+            "code": "e",
+            "value": "une fenêtre en prison"
+          },
+          {
+            "code": "f",
+            "value": "sous la direction de Marianne Terrusse"
+          }
+        ]
+      },
+      {
+        "tag": "210",
+        "raw": "  \u001faParis\u001fcAssociation des bibliothécaires de France\u001fd2015\u001fe92-Nanterre\u001fgImpr. Soregraph",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Paris"
+          },
+          {
+            "code": "c",
+            "value": "Association des bibliothécaires de France"
+          },
+          {
+            "code": "d",
+            "value": "2015"
+          },
+          {
+            "code": "e",
+            "value": "92-Nanterre"
+          },
+          {
+            "code": "g",
+            "value": "Impr. Soregraph"
+          }
+        ]
+      },
+      {
+        "tag": "215",
+        "raw": "  \u001fa1 vol. (190 p.)\u001fd24 cm",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "1 vol. (190 p.)"
+          },
+          {
+            "code": "d",
+            "value": "24 cm"
+          }
+        ]
+      },
+      {
+        "tag": "225",
+        "raw": "| \u001faCollection Médiathèmes\u001fv15",
+        "indicators": [
+          "|",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Collection Médiathèmes"
+          },
+          {
+            "code": "v",
+            "value": "15"
+          }
+        ]
+      },
+      {
+        "tag": "300",
+        "raw": "  \u001faBibliogr. p. 185-188",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Bibliogr. p. 185-188"
+          }
+        ]
+      },
+      {
+        "tag": "410",
+        "raw": " 0\u001f038882607\u001ftCollection Médiathèmes\u001fx1635-8619\u001fv15",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "0",
+            "value": "38882607"
+          },
+          {
+            "code": "t",
+            "value": "Collection Médiathèmes"
+          },
+          {
+            "code": "x",
+            "value": "1635-8619"
+          },
+          {
+            "code": "v",
+            "value": "15"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f311965525\u001faBibliothèques de prisons\u001f311931476\u001fyFrance\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "11965525"
+          },
+          {
+            "code": "a",
+            "value": "Bibliothèques de prisons"
+          },
+          {
+            "code": "3",
+            "value": "11931476"
+          },
+          {
+            "code": "y",
+            "value": "France"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "676",
+        "raw": "  \u001fa027.665 0944\u001fv23",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "027.665 0944"
+          },
+          {
+            "code": "v",
+            "value": "23"
+          }
+        ]
+      },
+      {
+        "tag": "686",
+        "raw": "  \u001fa020\u001f2Cadre de classement de la Bibliographie nationale française",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "020"
+          },
+          {
+            "code": "2",
+            "value": "Cadre de classement de la Bibliographie nationale française"
+          }
+        ]
+      },
+      {
+        "tag": "702",
+        "raw": " |\u001f317004444\u001foISNI0000000452902540\u001faTerrusse\u001fbMarianne\u001f4651",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "17004444"
+          },
+          {
+            "code": "o",
+            "value": "ISNI0000000452902540"
+          },
+          {
+            "code": "a",
+            "value": "Terrusse"
+          },
+          {
+            "code": "b",
+            "value": "Marianne"
+          },
+          {
+            "code": "4",
+            "value": "651"
+          }
+        ]
+      },
+      {
+        "tag": "801",
+        "raw": " 0\u001faFR\u001fbFR-751131015\u001fc20151105\u001fgAFNOR\u001fhFRBNF444460960000005\u001f2intermrc",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "FR-751131015"
+          },
+          {
+            "code": "c",
+            "value": "20151105"
+          },
+          {
+            "code": "g",
+            "value": "AFNOR"
+          },
+          {
+            "code": "h",
+            "value": "FRBNF444460960000005"
+          },
+          {
+            "code": "2",
+            "value": "intermrc"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751131010:44446096001001\u001fa2015-279689\u001fb759999999\u001fcTolbiac - Rez de Jardin - Littérature et art - Magasin\u001fdO",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751131010:44446096001001"
+          },
+          {
+            "code": "a",
+            "value": "2015-279689"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Tolbiac - Rez de Jardin - Littérature et art - Magasin"
+          },
+          {
+            "code": "d",
+            "value": "O"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751131010:44446096002001\u001fa027.6 TERR b\u001fb759999999\u001fcTolbiac - Haut de Jardin - Littérature et art - Salle E - Libre accès\u001fdN",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751131010:44446096002001"
+          },
+          {
+            "code": "a",
+            "value": "027.6 TERR b"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Tolbiac - Haut de Jardin - Littérature et art - Salle E - Libre accès"
+          },
+          {
+            "code": "d",
+            "value": "N"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751131010:44446096004001\u001fa027.6 TERR b\u001fb759999999\u001fcTolbiac - Rez de Jardin - Littérature et art - Salle T - Libre accès\u001fdN",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751131010:44446096004001"
+          },
+          {
+            "code": "a",
+            "value": "027.6 TERR b"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Tolbiac - Rez de Jardin - Littérature et art - Salle T - Libre accès"
+          },
+          {
+            "code": "d",
+            "value": "N"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb48709772r",
+    "ark": "ark:/12148/cb48709772r",
+    "leader": "03822a    2200433   450 ",
+    "sourceFile": "export_Bibliographique_20261031093910.UM_2709.UTF8",
+    "sourceSha256": "4ffd6ab859192ea82a54927061fa62c530bc8d4634dc798da1e91e107e0cd47a",
+    "byteLength": 3822,
+    "fields": [
+      {
+        "tag": "001",
+        "raw": "FRBNF487097720000006",
+        "value": "FRBNF487097720000006"
+      },
+      {
+        "tag": "003",
+        "raw": "http://catalogue.bnf.fr/ark:/12148/cb48709772r",
+        "value": "http://catalogue.bnf.fr/ark:/12148/cb48709772r"
+      },
+      {
+        "tag": "010",
+        "raw": "  \u001fa979-10-413-0947-4\u001fbbr",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "979-10-413-0947-4"
+          },
+          {
+            "code": "b",
+            "value": "br"
+          }
+        ]
+      },
+      {
+        "tag": "039",
+        "raw": "  \u001foOPP\u001fa48750574 ; 000 ; 000\u001fd20260801",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "o",
+            "value": "OPP"
+          },
+          {
+            "code": "a",
+            "value": "48750574 ; 000 ; 000"
+          },
+          {
+            "code": "d",
+            "value": "20260801"
+          }
+        ]
+      },
+      {
+        "tag": "039",
+        "raw": "  \u001foNOE\u001fa48750574\u001faark:/12148/cb48750574r\u001fd20260801",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "o",
+            "value": "NOE"
+          },
+          {
+            "code": "a",
+            "value": "48750574"
+          },
+          {
+            "code": "a",
+            "value": "ark:/12148/cb48750574r"
+          },
+          {
+            "code": "d",
+            "value": "20260801"
+          }
+        ]
+      },
+      {
+        "tag": "073",
+        "raw": " 0\u001fa9791041309474",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "9791041309474"
+          }
+        ]
+      },
+      {
+        "tag": "100",
+        "raw": "  \u001fa20260801u2026    m  y0frey50      ba",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "20260801u2026    m  y0frey50      ba"
+          }
+        ]
+      },
+      {
+        "tag": "101",
+        "raw": "0 \u001fafre",
+        "indicators": [
+          "0",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "fre"
+          }
+        ]
+      },
+      {
+        "tag": "102",
+        "raw": "  \u001faZZ",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "ZZ"
+          }
+        ]
+      },
+      {
+        "tag": "105",
+        "raw": "  \u001fa||||z   00|y|",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "||||z   00|y|"
+          }
+        ]
+      },
+      {
+        "tag": "106",
+        "raw": "  \u001far",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "r"
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": " 0\u001f601\u001fai \u001fbxxxe  ",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "i "
+          },
+          {
+            "code": "b",
+            "value": "xxxe  "
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": "  \u001f602\u001fctxt\u001f2rdacontent",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "txt"
+          },
+          {
+            "code": "2",
+            "value": "rdacontent"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": " 0\u001f601\u001fan",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "n"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": "  \u001f602\u001fcn\u001f2rdamedia",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "n"
+          },
+          {
+            "code": "2",
+            "value": "rdamedia"
+          }
+        ]
+      },
+      {
+        "tag": "200",
+        "raw": "1 \u001faEncyclopédie des patrimoines de l'Amérique française\u001ffdirigé par Laurier Turgeon, Yves Bergeron et Martin Fournier",
+        "indicators": [
+          "1",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Encyclopédie des patrimoines de l'Amérique française"
+          },
+          {
+            "code": "f",
+            "value": "dirigé par Laurier Turgeon, Yves Bergeron et Martin Fournier"
+          }
+        ]
+      },
+      {
+        "tag": "214",
+        "raw": " 0\u001faRennes\u001fcPresses universitaires de Rennes\u001fdDL 2026",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Rennes"
+          },
+          {
+            "code": "c",
+            "value": "Presses universitaires de Rennes"
+          },
+          {
+            "code": "d",
+            "value": "DL 2026"
+          }
+        ]
+      },
+      {
+        "tag": "215",
+        "raw": "  \u001fa1 volume XVI 505 p\u001fd31 cm",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "1 volume XVI 505 p"
+          },
+          {
+            "code": "d",
+            "value": "31 cm"
+          }
+        ]
+      },
+      {
+        "tag": "300",
+        "raw": "  \u001faBibliographie pages [483]-505",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Bibliographie pages [483]-505"
+          }
+        ]
+      },
+      {
+        "tag": "300",
+        "raw": "  \u001faBibliographie",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Bibliographie"
+          }
+        ]
+      },
+      {
+        "tag": "330",
+        "raw": "  \u001faLes patrimoines de l Amérique française prennent leur source dans les ports de France d où sont partis les pionniers et pionnières qui ont peuplé le continent nord-américain, du Québec aux Prairies, de l Acadie à la Louisiane. Leurs descendants et descendantes ont progressivement construit leurs propres patrimoines, à la suite d adaptations au territoire et à son climat, au fil de contacts et d échanges avec les peuples autochtones et avec les autres groupes européens, de même que par la mise en valeur d éléments phares de leur passé, pour affirmer leur identité. Cet ouvrage rassemble un florilège de ces patrimoines, dont les lecteurs et lectrices pourront aussi faire l expérience à plusieurs endroits du continent, en visitant un site naturel, un bâtiment historique ou en participant à un festival. La France a hérité à son tour de nombreux éléments des patrimoines de l Amérique française qui se trouvent aujourd hui sur son sol. Les lecteurs et lectrices pourront également faire connaissance avec ce riche héritage. Les articles illustrent toutes les formes de ces patrimoines, qu ils soient naturels, matériels ou immatériels. En plus de décrire leurs différentes formes et fonctions, ils explorent les manières dont ils se constituent. Au lieu d insister sur le seul caractère permanent d un patrimoine, comme on le fait souvent, l Encyclopédie présente chacun comme un phénomène dynamique et pluriel, toujours en construction, modelé et remodelé par des acteurs sociaux. Cet ouvrage offre une sélection de 88 articles actualisés issus de l encyclopédie en ligne qui en compte quelque 330. Par l entremise de ces exemples éloquents, nous vous invitons à découvrir la richesse, la diversité et la vitalité de ces patrimoines situés au Canada, aux États-Unis et en France.\u001f2éditeur",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Les patrimoines de l Amérique française prennent leur source dans les ports de France d où sont partis les pionniers et pionnières qui ont peuplé le continent nord-américain, du Québec aux Prairies, de l Acadie à la Louisiane. Leurs descendants et descendantes ont progressivement construit leurs propres patrimoines, à la suite d adaptations au territoire et à son climat, au fil de contacts et d échanges avec les peuples autochtones et avec les autres groupes européens, de même que par la mise en valeur d éléments phares de leur passé, pour affirmer leur identité. Cet ouvrage rassemble un florilège de ces patrimoines, dont les lecteurs et lectrices pourront aussi faire l expérience à plusieurs endroits du continent, en visitant un site naturel, un bâtiment historique ou en participant à un festival. La France a hérité à son tour de nombreux éléments des patrimoines de l Amérique française qui se trouvent aujourd hui sur son sol. Les lecteurs et lectrices pourront également faire connaissance avec ce riche héritage. Les articles illustrent toutes les formes de ces patrimoines, qu ils soient naturels, matériels ou immatériels. En plus de décrire leurs différentes formes et fonctions, ils explorent les manières dont ils se constituent. Au lieu d insister sur le seul caractère permanent d un patrimoine, comme on le fait souvent, l Encyclopédie présente chacun comme un phénomène dynamique et pluriel, toujours en construction, modelé et remodelé par des acteurs sociaux. Cet ouvrage offre une sélection de 88 articles actualisés issus de l encyclopédie en ligne qui en compte quelque 330. Par l entremise de ces exemples éloquents, nous vous invitons à découvrir la richesse, la diversité et la vitalité de ces patrimoines situés au Canada, aux États-Unis et en France."
+          },
+          {
+            "code": "2",
+            "value": "éditeur"
+          }
+        ]
+      },
+      {
+        "tag": "500",
+        "raw": "11\u001f320424205\u001faEncyclopédie des patrimoines de l'Amérique française\u001fmfrançais",
+        "indicators": [
+          "1",
+          "1"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "20424205"
+          },
+          {
+            "code": "a",
+            "value": "Encyclopédie des patrimoines de l'Amérique française"
+          },
+          {
+            "code": "m",
+            "value": "français"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f313319071\u001faPatrimoine culturel\u001f313602493\u001fyAmérique du Nord francophone\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "13319071"
+          },
+          {
+            "code": "a",
+            "value": "Patrimoine culturel"
+          },
+          {
+            "code": "3",
+            "value": "13602493"
+          },
+          {
+            "code": "y",
+            "value": "Amérique du Nord francophone"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "607",
+        "raw": "  \u001f313602493\u001faAmérique du Nord francophone\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "13602493"
+          },
+          {
+            "code": "a",
+            "value": "Amérique du Nord francophone"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "676",
+        "raw": "  \u001fa970.003\u001fv23",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "970.003"
+          },
+          {
+            "code": "v",
+            "value": "23"
+          }
+        ]
+      },
+      {
+        "tag": "702",
+        "raw": " |\u001f311927258\u001foISNI0000000121214364\u001faTurgeon\u001fbLaurier\u001ff1954-....\u001f4651",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "11927258"
+          },
+          {
+            "code": "o",
+            "value": "ISNI0000000121214364"
+          },
+          {
+            "code": "a",
+            "value": "Turgeon"
+          },
+          {
+            "code": "b",
+            "value": "Laurier"
+          },
+          {
+            "code": "f",
+            "value": "1954-...."
+          },
+          {
+            "code": "4",
+            "value": "651"
+          }
+        ]
+      },
+      {
+        "tag": "702",
+        "raw": " |\u001f316680458\u001foISNI0000000076014303\u001faBergeron\u001fbYves\u001ff1958-....\u001f4651",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "16680458"
+          },
+          {
+            "code": "o",
+            "value": "ISNI0000000076014303"
+          },
+          {
+            "code": "a",
+            "value": "Bergeron"
+          },
+          {
+            "code": "b",
+            "value": "Yves"
+          },
+          {
+            "code": "f",
+            "value": "1958-...."
+          },
+          {
+            "code": "4",
+            "value": "651"
+          }
+        ]
+      },
+      {
+        "tag": "702",
+        "raw": " |\u001f313631081\u001foISNI0000000073665231\u001faFournier\u001fbMartin\u001ff1954-....\u001f4651",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "13631081"
+          },
+          {
+            "code": "o",
+            "value": "ISNI0000000073665231"
+          },
+          {
+            "code": "a",
+            "value": "Fournier"
+          },
+          {
+            "code": "b",
+            "value": "Martin"
+          },
+          {
+            "code": "f",
+            "value": "1954-...."
+          },
+          {
+            "code": "4",
+            "value": "651"
+          }
+        ]
+      },
+      {
+        "tag": "801",
+        "raw": " 0\u001faFR\u001fbFR-751131015\u001fc20260801\u001fgAFNOR\u001fhFRBNF487097720000006\u001f2intermrc",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "FR-751131015"
+          },
+          {
+            "code": "c",
+            "value": "20260801"
+          },
+          {
+            "code": "g",
+            "value": "AFNOR"
+          },
+          {
+            "code": "h",
+            "value": "FRBNF487097720000006"
+          },
+          {
+            "code": "2",
+            "value": "intermrc"
+          }
+        ]
+      },
+      {
+        "tag": "801",
+        "raw": " 0\u001faFR\u001fbFR-751131015",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "FR-751131015"
+          }
+        ]
+      },
+      {
+        "tag": "856",
+        "raw": " 2\u001fu1223729\u001fbPremière de couverture",
+        "indicators": [
+          " ",
+          "2"
+        ],
+        "subfields": [
+          {
+            "code": "u",
+            "value": "1223729"
+          },
+          {
+            "code": "b",
+            "value": "Première de couverture"
+          }
+        ]
+      },
+      {
+        "tag": "856",
+        "raw": " 2\u001fu1223731\u001fbQuatrième de couverture",
+        "indicators": [
+          " ",
+          "2"
+        ],
+        "subfields": [
+          {
+            "code": "u",
+            "value": "1223731"
+          },
+          {
+            "code": "b",
+            "value": "Quatrième de couverture"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751131007:48709772002001\u001fa971.003 TURG e\u001fb759999999\u001fcTolbiac - Rez de Jardin - Philosophie, histoire, sciences de l'homme - Salle L - Libre accès\u001fdN",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751131007:48709772002001"
+          },
+          {
+            "code": "a",
+            "value": "971.003 TURG e"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Tolbiac - Rez de Jardin - Philosophie, histoire, sciences de l'homme - Salle L - Libre accès"
+          },
+          {
+            "code": "d",
+            "value": "N"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751131007:48709772003001\u001fa971.003 TURG e\u001fb759999999\u001fcTolbiac - Haut de Jardin - Philosophie, histoire, sciences de l'homme - Salle J - Libre accès\u001fdN",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751131007:48709772003001"
+          },
+          {
+            "code": "a",
+            "value": "971.003 TURG e"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Tolbiac - Haut de Jardin - Philosophie, histoire, sciences de l'homme - Salle J - Libre accès"
+          },
+          {
+            "code": "d",
+            "value": "N"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb487308160",
+    "ark": "ark:/12148/cb487308160",
+    "leader": "02330a    2200397   450 ",
+    "sourceFile": "export_Bibliographique_20261031094102.UM_2709.UTF8",
+    "sourceSha256": "18024912c86d2e030cc444856b2b2a1a9166e8efcedaf6f770bc401e85e4e25d",
+    "byteLength": 2330,
+    "fields": [
+      {
+        "tag": "001",
+        "raw": "FRBNF487308160000002",
+        "value": "FRBNF487308160000002"
+      },
+      {
+        "tag": "003",
+        "raw": "http://catalogue.bnf.fr/ark:/12148/cb487308160",
+        "value": "http://catalogue.bnf.fr/ark:/12148/cb487308160"
+      },
+      {
+        "tag": "010",
+        "raw": "  \u001fa979-10-96137-28-2\u001fd15 EUR\u001fbbr",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "979-10-96137-28-2"
+          },
+          {
+            "code": "d",
+            "value": "15 EUR"
+          },
+          {
+            "code": "b",
+            "value": "br"
+          }
+        ]
+      },
+      {
+        "tag": "073",
+        "raw": " 0\u001fa9791096137282",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "9791096137282"
+          }
+        ]
+      },
+      {
+        "tag": "100",
+        "raw": "  \u001fa20261016u2025    m  y0frey50      ba",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "20261016u2025    m  y0frey50      ba"
+          }
+        ]
+      },
+      {
+        "tag": "101",
+        "raw": "1 \u001fafre\u001faeng",
+        "indicators": [
+          "1",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "fre"
+          },
+          {
+            "code": "a",
+            "value": "eng"
+          }
+        ]
+      },
+      {
+        "tag": "102",
+        "raw": "  \u001faFR",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          }
+        ]
+      },
+      {
+        "tag": "105",
+        "raw": "  \u001faa   z   00|y|",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "a   z   00|y|"
+          }
+        ]
+      },
+      {
+        "tag": "106",
+        "raw": "  \u001far",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "r"
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": " 0\u001f601\u001fai \u001fbxxxe  ",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "i "
+          },
+          {
+            "code": "b",
+            "value": "xxxe  "
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": "  \u001f602\u001fctxt\u001f2rdacontent",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "txt"
+          },
+          {
+            "code": "2",
+            "value": "rdacontent"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": " 0\u001f601\u001fan",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "n"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": "  \u001f602\u001fcn\u001f2rdamedia",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "n"
+          },
+          {
+            "code": "2",
+            "value": "rdamedia"
+          }
+        ]
+      },
+      {
+        "tag": "200",
+        "raw": "1 \u001faDe la trace à l'outil\u001ffThierry Gregor, Bertrand Riba",
+        "indicators": [
+          "1",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "De la trace à l'outil"
+          },
+          {
+            "code": "f",
+            "value": "Thierry Gregor, Bertrand Riba"
+          }
+        ]
+      },
+      {
+        "tag": "205",
+        "raw": "  \u001faÉdition bilingue",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Édition bilingue"
+          }
+        ]
+      },
+      {
+        "tag": "214",
+        "raw": " 0\u001faTalence\u001fcÉditions Fedora\u001fd2025",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Talence"
+          },
+          {
+            "code": "c",
+            "value": "Éditions Fedora"
+          },
+          {
+            "code": "d",
+            "value": "2025"
+          }
+        ]
+      },
+      {
+        "tag": "214",
+        "raw": " 3\u001faimpr. en Turquie",
+        "indicators": [
+          " ",
+          "3"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "impr. en Turquie"
+          }
+        ]
+      },
+      {
+        "tag": "215",
+        "raw": "  \u001fa1 volume 183 p\u001fd15 cm",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "1 volume 183 p"
+          },
+          {
+            "code": "d",
+            "value": "15 cm"
+          }
+        ]
+      },
+      {
+        "tag": "225",
+        "raw": "| \u001faCollection Thesaurus",
+        "indicators": [
+          "|",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Collection Thesaurus"
+          }
+        ]
+      },
+      {
+        "tag": "330",
+        "raw": "  \u001faLes pierres des monuments racontent à leur manière les techniques de construction du passé. Encore faut-il savoir déchiffrer les marques laissées, il y a des siècles, par des artisans restés anonymes. Ce manuel vous invite à lire ces empreintes du passé et à les relier aux outils qui les ont façonnées. Retrouver l outil, c est retrouver le geste, comprendre la chaîne opératoire qui a permis d élever aussi bien les édifices les plus modestes que les constructions les plus imposants. Proposé en version bilingue français-anglais pour en faciliter l accès, cet ouvrage présente les principaux outils employés durant l Antiquité et le Moyen Âge. Richement illustré de photographies, il s adresse autant aux spécialistes qu aux passionnés d histoire et d archéologie, curieux de découvrir le savoir-faire et l ingéniosité des bâtisseurs d autrefois.\u001f2éditeur",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Les pierres des monuments racontent à leur manière les techniques de construction du passé. Encore faut-il savoir déchiffrer les marques laissées, il y a des siècles, par des artisans restés anonymes. Ce manuel vous invite à lire ces empreintes du passé et à les relier aux outils qui les ont façonnées. Retrouver l outil, c est retrouver le geste, comprendre la chaîne opératoire qui a permis d élever aussi bien les édifices les plus modestes que les constructions les plus imposants. Proposé en version bilingue français-anglais pour en faciliter l accès, cet ouvrage présente les principaux outils employés durant l Antiquité et le Moyen Âge. Richement illustré de photographies, il s adresse autant aux spécialistes qu aux passionnés d histoire et d archéologie, curieux de découvrir le savoir-faire et l ingéniosité des bâtisseurs d autrefois."
+          },
+          {
+            "code": "2",
+            "value": "éditeur"
+          }
+        ]
+      },
+      {
+        "tag": "410",
+        "raw": " 0\u001f045193399\u001ftCollection Thésaurus\u001fd2025",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "0",
+            "value": "45193399"
+          },
+          {
+            "code": "t",
+            "value": "Collection Thésaurus"
+          },
+          {
+            "code": "d",
+            "value": "2025"
+          }
+        ]
+      },
+      {
+        "tag": "500",
+        "raw": "11\u001f322220989\u001faDe la trace à l'outil\u001fmfrançais",
+        "indicators": [
+          "1",
+          "1"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "22220989"
+          },
+          {
+            "code": "a",
+            "value": "De la trace à l'outil"
+          },
+          {
+            "code": "m",
+            "value": "français"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f314430654\u001faTracéologie\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "14430654"
+          },
+          {
+            "code": "a",
+            "value": "Tracéologie"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "676",
+        "raw": "  \u001fa930.102 8\u001fv23",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "930.102 8"
+          },
+          {
+            "code": "v",
+            "value": "23"
+          }
+        ]
+      },
+      {
+        "tag": "700",
+        "raw": " |\u001f387479708\u001faGregor\u001fbThierry\u001f4070",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "87479708"
+          },
+          {
+            "code": "a",
+            "value": "Gregor"
+          },
+          {
+            "code": "b",
+            "value": "Thierry"
+          },
+          {
+            "code": "4",
+            "value": "070"
+          }
+        ]
+      },
+      {
+        "tag": "701",
+        "raw": " |\u001f317822034\u001foISNI0000000445690930\u001faRiba\u001fbBertrand\u001ff1980-....\u001f4070",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "17822034"
+          },
+          {
+            "code": "o",
+            "value": "ISNI0000000445690930"
+          },
+          {
+            "code": "a",
+            "value": "Riba"
+          },
+          {
+            "code": "b",
+            "value": "Bertrand"
+          },
+          {
+            "code": "f",
+            "value": "1980-...."
+          },
+          {
+            "code": "4",
+            "value": "070"
+          }
+        ]
+      },
+      {
+        "tag": "801",
+        "raw": " 0\u001faFR\u001fbFR-751131015\u001fc20261016\u001fgAFNOR\u001fhFRBNF487308160000002\u001f2intermrc",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "FR-751131015"
+          },
+          {
+            "code": "c",
+            "value": "20261016"
+          },
+          {
+            "code": "g",
+            "value": "AFNOR"
+          },
+          {
+            "code": "h",
+            "value": "FRBNF487308160000002"
+          },
+          {
+            "code": "2",
+            "value": "intermrc"
+          }
+        ]
+      },
+      {
+        "tag": "801",
+        "raw": " 0\u001faFR\u001fbFR-751131015",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "FR-751131015"
+          }
+        ]
+      },
+      {
+        "tag": "856",
+        "raw": " 2\u001fu1197254\u001fbPremière de couverture",
+        "indicators": [
+          " ",
+          "2"
+        ],
+        "subfields": [
+          {
+            "code": "u",
+            "value": "1197254"
+          },
+          {
+            "code": "b",
+            "value": "Première de couverture"
+          }
+        ]
+      },
+      {
+        "tag": "856",
+        "raw": " 2\u001fu1197255\u001fbQuatrième de couverture",
+        "indicators": [
+          " ",
+          "2"
+        ],
+        "subfields": [
+          {
+            "code": "u",
+            "value": "1197255"
+          },
+          {
+            "code": "b",
+            "value": "Quatrième de couverture"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751131007:48730816002001\u001fa930.402 8 GREG d\u001fb759999999\u001fcTolbiac - Haut de Jardin - Philosophie, histoire, sciences de l'homme - Salle J - Libre accès\u001fdN",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751131007:48730816002001"
+          },
+          {
+            "code": "a",
+            "value": "930.402 8 GREG d"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Tolbiac - Haut de Jardin - Philosophie, histoire, sciences de l'homme - Salle J - Libre accès"
+          },
+          {
+            "code": "d",
+            "value": "N"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb48722337v",
+    "ark": "ark:/12148/cb48722337v",
+    "leader": "01983a    2200433   450 ",
+    "sourceFile": "export_Bibliographique_20261031094157.UM_2709.UTF8",
+    "sourceSha256": "0bef84f984da9f51552cdd3895df9e46f8451b6988ef8abc638c299c8c8878a9",
+    "byteLength": 1983,
+    "fields": [
+      {
+        "tag": "001",
+        "raw": "FRBNF487223370000000",
+        "value": "FRBNF487223370000000"
+      },
+      {
+        "tag": "003",
+        "raw": "http://catalogue.bnf.fr/ark:/12148/cb48722337v",
+        "value": "http://catalogue.bnf.fr/ark:/12148/cb48722337v"
+      },
+      {
+        "tag": "010",
+        "raw": "  \u001fa979-10-353-3124-5\u001fd30 EUR\u001fbbr",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "979-10-353-3124-5"
+          },
+          {
+            "code": "d",
+            "value": "30 EUR"
+          },
+          {
+            "code": "b",
+            "value": "br"
+          }
+        ]
+      },
+      {
+        "tag": "073",
+        "raw": " 0\u001fa9791035331245",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "9791035331245"
+          }
+        ]
+      },
+      {
+        "tag": "100",
+        "raw": "  \u001fa20260918u2025    k  y0frey50      ba",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "20260918u2025    k  y0frey50      ba"
+          }
+        ]
+      },
+      {
+        "tag": "101",
+        "raw": "0 \u001fafre",
+        "indicators": [
+          "0",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "fre"
+          }
+        ]
+      },
+      {
+        "tag": "102",
+        "raw": "  \u001faFR",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          }
+        ]
+      },
+      {
+        "tag": "105",
+        "raw": "  \u001fa||||||||10|y|",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "||||||||10|y|"
+          }
+        ]
+      },
+      {
+        "tag": "106",
+        "raw": "  \u001far",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "r"
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": " 0\u001f601\u001fai \u001fbxxxe  ",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "i "
+          },
+          {
+            "code": "b",
+            "value": "xxxe  "
+          }
+        ]
+      },
+      {
+        "tag": "181",
+        "raw": "  \u001f602\u001fctxt\u001f2rdacontent",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "txt"
+          },
+          {
+            "code": "2",
+            "value": "rdacontent"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": " 0\u001f601\u001fan",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "01"
+          },
+          {
+            "code": "a",
+            "value": "n"
+          }
+        ]
+      },
+      {
+        "tag": "182",
+        "raw": "  \u001f602\u001fcn\u001f2rdamedia",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "6",
+            "value": "02"
+          },
+          {
+            "code": "c",
+            "value": "n"
+          },
+          {
+            "code": "2",
+            "value": "rdamedia"
+          }
+        ]
+      },
+      {
+        "tag": "200",
+        "raw": "1 \u001faDu port au monde, une histoire globale des ports indochinois\u001ffsous la direction de Sunny Le Galloudec et Jean-François Klein\u001fgavec la collaboration de Nguyễn Thị Hạnh, Jean de Préneuf et Thomas Vaisset",
+        "indicators": [
+          "1",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Du port au monde, une histoire globale des ports indochinois"
+          },
+          {
+            "code": "f",
+            "value": "sous la direction de Sunny Le Galloudec et Jean-François Klein"
+          },
+          {
+            "code": "g",
+            "value": "avec la collaboration de Nguyễn Thị Hạnh, Jean de Préneuf et Thomas Vaisset"
+          }
+        ]
+      },
+      {
+        "tag": "214",
+        "raw": " 0\u001faLa Crèche\u001fcLa geste\u001fdDL 2025",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "La Crèche"
+          },
+          {
+            "code": "c",
+            "value": "La geste"
+          },
+          {
+            "code": "d",
+            "value": "DL 2025"
+          }
+        ]
+      },
+      {
+        "tag": "214",
+        "raw": " 3\u001faimprimé en Union européenne",
+        "indicators": [
+          " ",
+          "3"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "imprimé en Union européenne"
+          }
+        ]
+      },
+      {
+        "tag": "215",
+        "raw": "  \u001fa1 volume 486 p\u001fd27 cm",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "1 volume 486 p"
+          },
+          {
+            "code": "d",
+            "value": "27 cm"
+          }
+        ]
+      },
+      {
+        "tag": "225",
+        "raw": "| \u001faPresses universitaires de Nouvelle-Aquitaine",
+        "indicators": [
+          "|",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Presses universitaires de Nouvelle-Aquitaine"
+          }
+        ]
+      },
+      {
+        "tag": "300",
+        "raw": "  \u001faIndex",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Index"
+          }
+        ]
+      },
+      {
+        "tag": "410",
+        "raw": " 0\u001f042655939\u001ftCollection dirigée par Thierry Lucas\u001fd2025",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "0",
+            "value": "42655939"
+          },
+          {
+            "code": "t",
+            "value": "Collection dirigée par Thierry Lucas"
+          },
+          {
+            "code": "d",
+            "value": "2025"
+          }
+        ]
+      },
+      {
+        "tag": "500",
+        "raw": "11\u001faDu port au monde, une histoire globale des ports indochinois\u001fmFrançais",
+        "indicators": [
+          "1",
+          "1"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "Du port au monde, une histoire globale des ports indochinois"
+          },
+          {
+            "code": "m",
+            "value": "Français"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f313318424\u001faPorts\u001f311934240\u001fyIndochine française\u001f311934444\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "13318424"
+          },
+          {
+            "code": "a",
+            "value": "Ports"
+          },
+          {
+            "code": "3",
+            "value": "11934240"
+          },
+          {
+            "code": "y",
+            "value": "Indochine française"
+          },
+          {
+            "code": "3",
+            "value": "11934444"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f316546485\u001faCommerce maritime\u001f311934240\u001fyIndochine française\u001f311934444\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "16546485"
+          },
+          {
+            "code": "a",
+            "value": "Commerce maritime"
+          },
+          {
+            "code": "3",
+            "value": "11934240"
+          },
+          {
+            "code": "y",
+            "value": "Indochine française"
+          },
+          {
+            "code": "3",
+            "value": "11934444"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f313318424\u001faPorts\u001f311945456\u001fyIndochine\u001f311934444\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "13318424"
+          },
+          {
+            "code": "a",
+            "value": "Ports"
+          },
+          {
+            "code": "3",
+            "value": "11945456"
+          },
+          {
+            "code": "y",
+            "value": "Indochine"
+          },
+          {
+            "code": "3",
+            "value": "11934444"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "606",
+        "raw": "  \u001f316546485\u001faCommerce maritime\u001f311945456\u001fyIndochine\u001f311934444\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "16546485"
+          },
+          {
+            "code": "a",
+            "value": "Commerce maritime"
+          },
+          {
+            "code": "3",
+            "value": "11945456"
+          },
+          {
+            "code": "y",
+            "value": "Indochine"
+          },
+          {
+            "code": "3",
+            "value": "11934444"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "608",
+        "raw": "  \u001f312061148\u001faActes de congrès\u001f2rameau",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "12061148"
+          },
+          {
+            "code": "a",
+            "value": "Actes de congrès"
+          },
+          {
+            "code": "2",
+            "value": "rameau"
+          }
+        ]
+      },
+      {
+        "tag": "676",
+        "raw": "  \u001fa387.109 59\u001fv23",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "387.109 59"
+          },
+          {
+            "code": "v",
+            "value": "23"
+          }
+        ]
+      },
+      {
+        "tag": "686",
+        "raw": "  \u001fa380\u001f2Cadre de classement de la Bibliographie nationale française",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "380"
+          },
+          {
+            "code": "2",
+            "value": "Cadre de classement de la Bibliographie nationale française"
+          }
+        ]
+      },
+      {
+        "tag": "702",
+        "raw": " |\u001f387429847\u001faLe Galloudec\u001fbSunny\u001f4651",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "87429847"
+          },
+          {
+            "code": "a",
+            "value": "Le Galloudec"
+          },
+          {
+            "code": "b",
+            "value": "Sunny"
+          },
+          {
+            "code": "4",
+            "value": "651"
+          }
+        ]
+      },
+      {
+        "tag": "702",
+        "raw": " |\u001f313000180\u001foISNI0000000055126218\u001faKlein\u001fbJean-François\u001ff1969-....\u001f4651",
+        "indicators": [
+          " ",
+          "|"
+        ],
+        "subfields": [
+          {
+            "code": "3",
+            "value": "13000180"
+          },
+          {
+            "code": "o",
+            "value": "ISNI0000000055126218"
+          },
+          {
+            "code": "a",
+            "value": "Klein"
+          },
+          {
+            "code": "b",
+            "value": "Jean-François"
+          },
+          {
+            "code": "f",
+            "value": "1969-...."
+          },
+          {
+            "code": "4",
+            "value": "651"
+          }
+        ]
+      },
+      {
+        "tag": "801",
+        "raw": " 0\u001faFR\u001fbFR-751131015\u001fc20260918\u001fgAFNOR\u001fhFRBNF487223370000000\u001f2intermrc",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "FR-751131015"
+          },
+          {
+            "code": "c",
+            "value": "20260918"
+          },
+          {
+            "code": "g",
+            "value": "AFNOR"
+          },
+          {
+            "code": "h",
+            "value": "FRBNF487223370000000"
+          },
+          {
+            "code": "2",
+            "value": "intermrc"
+          }
+        ]
+      },
+      {
+        "tag": "801",
+        "raw": " 0\u001faFR\u001fbFR-751131015",
+        "indicators": [
+          " ",
+          "0"
+        ],
+        "subfields": [
+          {
+            "code": "a",
+            "value": "FR"
+          },
+          {
+            "code": "b",
+            "value": "FR-751131015"
+          }
+        ]
+      },
+      {
+        "tag": "856",
+        "raw": " 2\u001fu1172466\u001fbPremière de couverture",
+        "indicators": [
+          " ",
+          "2"
+        ],
+        "subfields": [
+          {
+            "code": "u",
+            "value": "1172466"
+          },
+          {
+            "code": "b",
+            "value": "Première de couverture"
+          }
+        ]
+      },
+      {
+        "tag": "930",
+        "raw": "  \u001f5FR-751131008:48722337001001\u001fa2026-47379\u001fb759999999\u001fcTolbiac - Rez de Jardin - Droit, économie, politique - Magasin\u001fdO",
+        "indicators": [
+          " ",
+          " "
+        ],
+        "subfields": [
+          {
+            "code": "5",
+            "value": "FR-751131008:48722337001001"
+          },
+          {
+            "code": "a",
+            "value": "2026-47379"
+          },
+          {
+            "code": "b",
+            "value": "759999999"
+          },
+          {
+            "code": "c",
+            "value": "Tolbiac - Rez de Jardin - Droit, économie, politique - Magasin"
+          },
+          {
+            "code": "d",
+            "value": "O"
+          }
+        ]
+      }
+    ]
+  }
+]
