@@ -1,0 +1,567 @@
+{
+  "100": {
+    "title": "Données générales de traitement",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "101": {
+    "title": "Langue de la ressource",
+    "role": "Consigne les langues sous forme de codes ; plusieurs langues du texte peuvent figurer dans des $a successifs.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable ; $a répétable.",
+    "indicators": [
+      {
+        "0": "Langue(s) originale(s)",
+        "1": "Traduction",
+        "2": "Contient des traductions"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "a": "Langue du texte"
+    },
+    "source": "https://www.transition-bibliographique.fr/B101_fre"
+  },
+  "102": {
+    "title": "Pays de publication ou de production",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "105": {
+    "title": "Données codées — ressources textuelles, monographies",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "106": {
+    "title": "Forme de la ressource",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "181": {
+    "title": "Forme du contenu",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "182": {
+    "title": "Type de médiation",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "200": {
+    "title": "Titre et mention de responsabilité",
+    "role": "Transcrit le titre et les responsabilités ; ces mentions se distinguent des accès normalisés du bloc 7XX.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable. $a, $b, $e, $f et $g répétables selon les situations prévues par le manuel.",
+    "indicators": [
+      {
+        "0": "Titre non significatif pour un accès",
+        "1": "Titre significatif pour un accès"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "a": "Titre propre",
+      "b": "Indication générale du type de ressource",
+      "e": "Complément du titre",
+      "f": "Première mention de responsabilité",
+      "g": "Mention de responsabilité suivante"
+    },
+    "source": "https://www.transition-bibliographique.fr/B200_fre",
+    "note": "Le $b figure dans des notices anciennes ; la traduction française recommande désormais les zones 181 et 182 à sa place."
+  },
+  "205": {
+    "title": "Mention d’édition",
+    "role": "Précise l’édition décrite, séparément de son éditeur et de sa date de publication.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a non répétable.",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "a": "Mention d’édition"
+    },
+    "source": "https://www.transition-bibliographique.fr/B205_fre"
+  },
+  "210": {
+    "title": "Publication, production, diffusion, etc.",
+    "role": "Réunit des informations d’adresse bibliographique et, le cas échéant, de fabrication.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable pour décrire des changements d’adresse bibliographique. $a, $c et $e répétables ; $d répétable dans les cas précisés au manuel.",
+    "indicators": [
+      {
+        "0": "Adresse intermédiaire",
+        "1": "Adresse courante ou dernière connue",
+        " ": "Première adresse connue ou non applicable"
+      },
+      {
+        "1": "Ressource non publiée ni diffusée publiquement",
+        " ": "Édition ou diffusion publique"
+      }
+    ],
+    "subfields": {
+      "a": "Lieu de publication ou diffusion",
+      "c": "Éditeur ou diffuseur",
+      "d": "Date de publication ou diffusion",
+      "e": "Lieu de fabrication",
+      "g": "Fabricant"
+    },
+    "source": "https://www.transition-bibliographique.fr/B210_fre",
+    "note": "Conserver la structuration de l’export. Ne pas convertir automatiquement 210 en 214."
+  },
+  "214": {
+    "title": "Publication, production, distribution/diffusion, fabrication",
+    "role": "Sépare les fonctions de publication et de fabrication au moyen du deuxième indicateur.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a et $c répétables, $d non répétable (hors données parallèles).",
+    "indicators": [
+      {
+        "0": "Mention intermédiaire",
+        "1": "Mention courante",
+        " ": "Première mention connue ou non applicable"
+      },
+      {
+        "0": "Publication",
+        "1": "Production",
+        "2": "Distribution ou diffusion",
+        "3": "Fabrication",
+        "4": "Copyright ou protection",
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "a": "Lieu associé à la fonction",
+      "c": "Agent associé à la fonction",
+      "d": "Date associée à la fonction"
+    },
+    "source": "https://www.transition-bibliographique.fr/B214_fre",
+    "note": "210 et 214 ne doivent pas coexister dans une même notice selon la recommandation CfU consultée."
+  },
+  "215": {
+    "title": "Description matérielle",
+    "role": "Décrit le volume matériel, les illustrations et les dimensions de la ressource.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable pour décrire séparément des éléments multisupports ; $a répétable, $c non répétable, $d répétable avec $a.",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "a": "Importance matérielle et présentation",
+      "c": "Autres caractéristiques matérielles",
+      "d": "Dimensions"
+    },
+    "source": "https://www.transition-bibliographique.fr/B215_fre"
+  },
+  "225": {
+    "title": "Collection",
+    "role": "Transcrit la mention de collection figurant sur la ressource ; le lien à la collection relève de 410.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a non répétable ; $v répétable.",
+    "indicators": [
+      {
+        "0": "Forme différente de la référence",
+        "1": "Pas de forme de référence",
+        "2": "Forme identique à la référence"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "a": "Titre de collection",
+      "v": "Numérotation dans la collection"
+    },
+    "source": "https://www.transition-bibliographique.fr/B225_fre"
+  },
+  "300": {
+    "title": "Note générale",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "330": {
+    "title": "Résumé ou extrait",
+    "role": "Donne un aperçu du contenu. Le résumé reste distinct du titre et de l’indexation.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a non répétable dans la traduction CfU consultée.",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "a": "Texte du résumé ou de l’extrait"
+    },
+    "source": "https://www.transition-bibliographique.fr/B330_fre",
+    "note": "Le $2 rencontré dans les exports est conservé. Son interprétation normative est à vérifier : il n’est pas défini dans cette traduction CfU de 2010."
+  },
+  "410": {
+    "title": "Appartient à la collection",
+    "role": "Relie la ressource à sa collection sous une forme utilisable comme accès.",
+    "status": "À vérifier",
+    "repeatability": "Zone répétable ; détails des sous-zones à vérifier avec le bloc 4XX.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/B410_fre",
+    "note": "Le rôle et la répétabilité sont confirmés ; les sous-zones classiques et les indicateurs doivent être documentés à partir des règles générales 4XX."
+  },
+  "500": {
+    "title": "Titre uniforme",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "606": {
+    "title": "Point d’accès sujet — Nom commun",
+    "role": "Décrit un sujet par un terme, éventuellement précisé par des subdivisions.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a et $2 non répétables ; $x, $y, $z et $3 répétables.",
+    "indicators": [
+      {
+        "0": "Niveau non spécifié",
+        "1": "Terme primaire",
+        "2": "Terme secondaire",
+        " ": "Niveau non disponible"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "2": "Système d’indexation",
+      "3": "Identifiant de notice d’autorité",
+      "a": "Élément d’entrée",
+      "x": "Subdivision de sujet",
+      "y": "Subdivision géographique",
+      "z": "Subdivision chronologique"
+    },
+    "source": "https://www.transition-bibliographique.fr/B606_fre"
+  },
+  "607": {
+    "title": "Point d’accès sujet — Nom géographique",
+    "role": "Utilise un lieu comme point d’accès sujet, à distinguer d’un lieu ajouté en subdivision d’un autre sujet.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a et $2 non répétables ; $3 et subdivisions répétables.",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "2": "Système d’indexation",
+      "3": "Identifiant de notice d’autorité",
+      "a": "Élément d’entrée géographique",
+      "y": "Subdivision géographique",
+      "z": "Subdivision chronologique",
+      "x": "Subdivision de sujet"
+    },
+    "source": "https://www.transition-bibliographique.fr/B607_fre"
+  },
+  "608": {
+    "title": "Forme, genre ou caractéristiques matérielles",
+    "role": "Indique ce qu’est la ressource du point de vue de sa forme ou de son genre.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a et $2 non répétables ; $3 et subdivisions répétables.",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "2": "Système d’indexation",
+      "3": "Identifiant de notice d’autorité",
+      "a": "Élément d’entrée de forme ou genre"
+    },
+    "source": "https://www.transition-bibliographique.fr/B608_fre"
+  },
+  "676": {
+    "title": "Classification décimale Dewey",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "686": {
+    "title": "Autres classifications",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "700": {
+    "title": "Nom de personne — Responsabilité principale",
+    "role": "Fournit un accès de responsabilité principale selon les règles du catalogue source.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable ; $a, $b, $f non répétables, $4 répétable.",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        "0": "Entrée au prénom ou en ordre direct",
+        "1": "Entrée au nom de famille"
+      }
+    ],
+    "subfields": {
+      "3": "Identifiant d’autorité",
+      "4": "Code de fonction",
+      "a": "Élément d’entrée du nom",
+      "b": "Autre partie du nom",
+      "f": "Dates associées au nom"
+    },
+    "source": "https://www.transition-bibliographique.fr/B700_fre",
+    "note": "Les caractères | sont conservés comme caractères de remplissage. Les $o observés ne sont pas interprétés sans vérification complémentaire."
+  },
+  "701": {
+    "title": "Nom de personne — Autre responsabilité principale",
+    "role": "Fournit un autre accès de responsabilité principale. Le choix dépend des règles de catalogage appliquées.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; sous-zones et indicateurs comme en 700.",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        "0": "Entrée au prénom ou en ordre direct",
+        "1": "Entrée au nom de famille"
+      }
+    ],
+    "subfields": {
+      "3": "Identifiant d’autorité",
+      "4": "Code de fonction",
+      "a": "Élément d’entrée du nom",
+      "b": "Autre partie du nom",
+      "f": "Dates associées au nom"
+    },
+    "source": "https://www.transition-bibliographique.fr/B701_fre"
+  },
+  "702": {
+    "title": "Nom de personne — Responsabilité secondaire",
+    "role": "Fournit un accès de responsabilité secondaire ; cette zone peut exister sans responsabilité principale en 700.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; sous-zones et indicateurs comme en 700 (avec spécificité du $5).",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        "0": "Entrée au prénom ou en ordre direct",
+        "1": "Entrée au nom de famille"
+      }
+    ],
+    "subfields": {
+      "3": "Identifiant d’autorité",
+      "4": "Code de fonction",
+      "a": "Élément d’entrée du nom",
+      "b": "Autre partie du nom",
+      "f": "Dates associées au nom"
+    },
+    "source": "https://www.transition-bibliographique.fr/B702_fre"
+  },
+  "801": {
+    "title": "Source de catalogage",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "856": {
+    "title": "Adresse électronique et mode d’accès",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "930": {
+    "title": "Localisation et cote — Données BnF",
+    "role": "Conserve les informations locales de l’export BnF. Elles ne décrivent pas les exemplaires du réseau Koha.",
+    "status": "Règle locale",
+    "repeatability": "Plusieurs occurrences sont présentes ; les modalités locales restent à vérifier.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/",
+    "note": "Ne pas importer ces localisations comme exemplaires du réseau sans traitement et validation du responsable du catalogue."
+  },
+  "010": {
+    "title": "ISBN",
+    "role": "Identifie une édition par son numéro normalisé et peut préciser sa présentation ou son prix.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable. $a non répétable ; $b répétable ; $d non répétable.",
+    "indicators": [
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
+    ],
+    "subfields": {
+      "a": "ISBN",
+      "b": "Qualificatif",
+      "d": "Disponibilité ou prix"
+    },
+    "source": "https://www.transition-bibliographique.fr/B010_fre"
+  },
+  "001": {
+    "title": "Identifiant de notice",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "003": {
+    "title": "Identifiant pérenne de la notice",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "020": {
+    "title": "Numéro de bibliographie nationale",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "039": {
+    "title": "Historique de la notice — données BnF",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "Règle locale",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  },
+  "073": {
+    "title": "EAN",
+    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "status": "À vérifier",
+    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "indicators": [
+      {},
+      {}
+    ],
+    "subfields": {},
+    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+  }
+}

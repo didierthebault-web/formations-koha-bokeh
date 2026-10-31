@@ -7,7 +7,9 @@
     "check:glossary": "node check-glossary.mjs",
     "typecheck:glossary": "tsc -p tsconfig.glossary.json",
     "check:tours": "node check-tours.mjs",
-    "test:tour": "node test-tour.cjs"
+    "test:tour": "node test-tour.cjs",
+    "check:notices": "node test-notices-data.mjs",
+    "test:notices": "node test-notices.cjs"
   },
   "dependencies": {
     "lucide-react": "1.31.0",

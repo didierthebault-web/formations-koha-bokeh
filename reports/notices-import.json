@@ -1,0 +1,64 @@
+{
+  "records": 5,
+  "errors": [],
+  "files": [
+    {
+      "file": "export_Bibliographique_20261031093308.UM_2709.UTF8",
+      "ark": "ark:/12148/cb42534131r",
+      "bytes": 1492,
+      "sha256": "d1f11272f22048b18de6ce70cc8a618180a995d42ad331f5760a876a2a6cdd7c",
+      "fields": 27,
+      "roundTrip": "identique",
+      "warnings": []
+    },
+    {
+      "file": "export_Bibliographique_20261031093816.UM_2709.UTF8",
+      "ark": "ark:/12148/cb44446096v",
+      "bytes": 1655,
+      "sha256": "16ed18946844dfa41c7b0626fe9b3797caac2901c0327b5fe9ef87229e85c6f2",
+      "fields": 28,
+      "roundTrip": "identique",
+      "warnings": [
+        "Caractères de non-classement conservés ; visualisation explicite dans les données brutes."
+      ]
+    },
+    {
+      "file": "export_Bibliographique_20261031093910.UM_2709.UTF8",
+      "ark": "ark:/12148/cb48709772r",
+      "bytes": 3822,
+      "sha256": "4ffd6ab859192ea82a54927061fa62c530bc8d4634dc798da1e91e107e0cd47a",
+      "fields": 34,
+      "roundTrip": "identique",
+      "warnings": [
+        "Identifiants 856$u non absolus : conservés, sans lien ni récupération de couverture.",
+        "Niveau bibliographique blanc dans le label source : conservé sans correction.",
+        "330$2 présent : extension non décrite dans la traduction CfU 2010 ; définition à vérifier."
+      ]
+    },
+    {
+      "file": "export_Bibliographique_20261031094102.UM_2709.UTF8",
+      "ark": "ark:/12148/cb487308160",
+      "bytes": 2330,
+      "sha256": "18024912c86d2e030cc444856b2b2a1a9166e8efcedaf6f770bc401e85e4e25d",
+      "fields": 31,
+      "roundTrip": "identique",
+      "warnings": [
+        "Identifiants 856$u non absolus : conservés, sans lien ni récupération de couverture.",
+        "Niveau bibliographique blanc dans le label source : conservé sans correction.",
+        "330$2 présent : extension non décrite dans la traduction CfU 2010 ; définition à vérifier."
+      ]
+    },
+    {
+      "file": "export_Bibliographique_20261031094157.UM_2709.UTF8",
+      "ark": "ark:/12148/cb48722337v",
+      "bytes": 1983,
+      "sha256": "0bef84f984da9f51552cdd3895df9e46f8451b6988ef8abc638c299c8c8878a9",
+      "fields": 34,
+      "roundTrip": "identique",
+      "warnings": [
+        "Identifiants 856$u non absolus : conservés, sans lien ni récupération de couverture.",
+        "Niveau bibliographique blanc dans le label source : conservé sans correction."
+      ]
+    }
+  ]
+}
