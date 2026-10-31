@@ -17,6 +17,13 @@ assert.ok(records.find(r=>r.id==='cb44446096v').fields.some(f=>f.raw.includes('\
 assert.deepEqual(values(field(records.find(r=>r.id==='cb487308160'),'101')[0],'a'),['fre','eng']);
 for(const r of records){const bytes=fs.readFileSync(path.join(root,'public/model-notices/sources',r.sourceFile));assert.deepEqual(encodeISO2709(r),bytes);assert.deepEqual(parseISO2709(bytes,r.sourceFile)[0],r);for(const rule of teaching[r.id]){assert.ok(field(r,rule.tag).length);assert.ok(rule.source.startsWith('https://'));}assert.ok(field(r,'200').length);}
 for(const a of Object.values(annotations)){assert.ok(['Vérifié','À vérifier','Règle locale'].includes(a.status));assert.equal(a.indicators.length,2);assert.ok(a.role&&a.repeatability&&a.source);}
+assert.match(annotations['330'].subfields['2'],/Source du résumé/);
+assert.ok(annotations['330'].sources.some(s=>s.url.includes('bnf.fr')&&s.url.endsWith('#page=36')));
+for(const tag of ['700','701','702']){assert.match(annotations[tag].subfields.o,/ISNI/);assert.ok(annotations[tag].sources.some(s=>s.url.includes('bnf.fr')));}
+assert.equal(annotations['410'].status,'Vérifié');assert.match(annotations['410'].subfields['0'],/bibliographique/);
+assert.equal(annotations['856'].status,'À vérifier');assert.equal(annotations['856'].subfields.b,undefined);
+// Do not silently assign the general 930 localization levels to unexplained BnF codes.
+assert.equal(annotations['930'].status,'Règle locale');assert.equal(annotations['930'].subfields.d,undefined);
 const original=encodeISO2709(muses);
 assert.throws(()=>parseISO2709(original.subarray(0,-1)));
 const badEnd=Buffer.from(original);badEnd[badEnd.length-1]=0;assert.throws(()=>parseISO2709(badEnd));

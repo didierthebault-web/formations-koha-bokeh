@@ -1,15 +1,22 @@
 {
   "100": {
     "title": "Données générales de traitement",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Réunit des données de traitement codées à des positions fixes. Les espaces ne doivent pas être supprimés.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable ; $a non répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "a": "Données générales de traitement (positions 0–35)"
+    },
+    "source": "https://www.transition-bibliographique.fr/B100_fre",
+    "note": "Positions 0–7 : création ; 8 : type de date ; 9–12 et 13–16 : dates ; 22–24 : langue de catalogage. Cette langue ne remplace pas la langue du texte en 101. Les autres positions se lisent dans le manuel."
   },
   "101": {
     "title": "Langue de la ressource",
@@ -33,63 +40,105 @@
   },
   "102": {
     "title": "Pays de publication ou de production",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Code le pays de publication ou de production ; cette information diffère de la langue du texte.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable ; $a répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "a": "Code du pays de publication ou de production"
+    },
+    "source": "https://www.transition-bibliographique.fr/B102_fre"
   },
   "105": {
     "title": "Données codées — ressources textuelles, monographies",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Décrit les caractéristiques d’une monographie textuelle à l’aide d’une chaîne positionnelle.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable ; $a non répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "a": "Données codées de la monographie (positions 0–12)"
+    },
+    "source": "https://www.transition-bibliographique.fr/B105_fre",
+    "note": "0–3 : illustrations ; 4–7 : nature du contenu ; 8 : congrès ; 9 : mélanges ; 10 : index ; 11 : genre littéraire ; 12 : biographie. Un | indique une donnée non renseignée, sans autoriser à inventer une valeur."
   },
   "106": {
     "title": "Forme de la ressource",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Code la présentation matérielle ; le code r observé correspond à une impression normale.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable ; $a non répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "a": "Présentation matérielle codée"
+    },
+    "source": "https://www.transition-bibliographique.fr/B106_fre"
   },
   "181": {
     "title": "Forme du contenu",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Code la forme du contenu ; les codes ISBD et ceux d’autres référentiels sont identifiés séparément.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a, $b, $c et $6 répétables ; $2 non répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        "0": "Ne pas générer la zone 0 de l’ISBD",
+        "1": "Générer la zone 0 de l’ISBD",
+        " ": "Affichage ISBD non précisé"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "2": "Référentiel du code en $c",
+      "6": "Lien entre zones",
+      "a": "Forme du contenu codée selon l’ISBD",
+      "b": "Qualificatifs du contenu codés selon l’ISBD",
+      "c": "Code de contenu dans un autre référentiel"
+    },
+    "source": "https://www.transition-bibliographique.fr/B181_fre"
   },
   "182": {
     "title": "Type de médiation",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Code le type de médiation nécessaire pour utiliser la ressource, séparément de son contenu.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a et $2 non répétables ; $c et $6 répétables.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        "0": "Ne pas générer la zone 0 de l’ISBD",
+        "1": "Générer la zone 0 de l’ISBD",
+        " ": "Affichage ISBD non précisé"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "2": "Référentiel du code en $c",
+      "6": "Lien entre zones",
+      "a": "Type de médiation codé selon l’ISBD",
+      "c": "Code de médiation dans un autre référentiel"
+    },
+    "source": "https://www.transition-bibliographique.fr/B182_fre"
   },
   "200": {
     "title": "Titre et mention de responsabilité",
@@ -230,15 +279,21 @@
   },
   "300": {
     "title": "Note générale",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Donne une note générale en texte libre. Une zone de note plus spécifique peut être préférable selon le contenu.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a non répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "a": "Texte de la note"
+    },
+    "source": "https://www.transition-bibliographique.fr/B300_fre"
   },
   "330": {
     "title": "Résumé ou extrait",
@@ -254,35 +309,69 @@
       }
     ],
     "subfields": {
+      "2": "Source du résumé — Profil BnF",
       "a": "Texte du résumé ou de l’extrait"
     },
     "source": "https://www.transition-bibliographique.fr/B330_fre",
-    "note": "Le $2 rencontré dans les exports est conservé. Son interprétation normative est à vérifier : il n’est pas défini dans cette traduction CfU de 2010."
+    "note": "Le profil de diffusion BnF 2023 documente $2 comme source. Cet usage, absent de la traduction CfU 2010, est expliqué dans le contexte de ces exports.",
+    "sources": [
+      {
+        "label": "BnF — résumé ou extrait, p. 36",
+        "url": "https://www.bnf.fr/sites/default/files/2023-10/UNIMARC_B.pdf#page=36"
+      }
+    ]
   },
   "410": {
     "title": "Appartient à la collection",
-    "role": "Relie la ressource à sa collection sous une forme utilisable comme accès.",
-    "status": "À vérifier",
-    "repeatability": "Zone répétable ; détails des sous-zones à vérifier avec le bloc 4XX.",
+    "role": "Lie la ressource à sa collection ; la mention transcrite en 225 et ce lien remplissent des fonctions distinctes.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable. En sous-zones classiques : $t et $x répétables ; $0, $d et $v non répétables.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        "0": "Ne pas générer de note",
+        "1": "Générer une note"
+      }
     ],
-    "subfields": {},
+    "subfields": {
+      "0": "Identifiant de la notice bibliographique liée",
+      "t": "Titre de la ressource liée",
+      "x": "ISSN de la ressource liée",
+      "v": "Numéro du volume lié",
+      "d": "Date de publication de la ressource liée"
+    },
     "source": "https://www.transition-bibliographique.fr/B410_fre",
-    "note": "Le rôle et la répétabilité sont confirmés ; les sous-zones classiques et les indicateurs doivent être documentés à partir des règles générales 4XX."
+    "note": "Le corpus utilise les sous-zones classiques. La technique des zones imbriquées emploie $1 et doit être lue selon les règles générales 4XX.",
+    "sources": [
+      {
+        "label": "CfU — structure commune des zones 4XX",
+        "url": "https://www.transition-bibliographique.fr/B4XX_fre"
+      }
+    ]
   },
   "500": {
     "title": "Titre uniforme",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Donne un titre retenu pour identifier une œuvre, à distinguer du titre transcrit en 200.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a, $m et $3 non répétables.",
     "indicators": [
-      {},
-      {}
+      {
+        "0": "Pas d’accès titre indépendant",
+        "1": "Accès titre indépendant"
+      },
+      {
+        "0": "Titre non utilisé en entrée principale",
+        "1": "Titre utilisé en entrée principale"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "3": "Identifiant de la notice d’autorité",
+      "a": "Titre uniforme",
+      "m": "Langue lorsqu’elle fait partie du point d’accès"
+    },
+    "source": "https://www.transition-bibliographique.fr/B500_fre"
   },
   "606": {
     "title": "Point d’accès sujet — Nom commun",
@@ -355,27 +444,41 @@
   },
   "676": {
     "title": "Classification décimale Dewey",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Attribue un indice Dewey et indique l’édition des tables utilisée ; ce n’est pas une cote d’exemplaire.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a et $v non répétables.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "a": "Indice Dewey",
+      "v": "Édition des tables Dewey"
+    },
+    "source": "https://www.transition-bibliographique.fr/B676_fre"
   },
   "686": {
     "title": "Autres classifications",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Enregistre un indice provenant d’un autre système de classification et identifie ce système.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a répétable ; $2 non répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "2": "Code du système de classification",
+      "a": "Indice de classification"
+    },
+    "source": "https://www.transition-bibliographique.fr/B686_fre"
   },
   "700": {
     "title": "Nom de personne — Responsabilité principale",
@@ -396,10 +499,17 @@
       "4": "Code de fonction",
       "a": "Élément d’entrée du nom",
       "b": "Autre partie du nom",
-      "f": "Dates associées au nom"
+      "f": "Dates associées au nom",
+      "o": "Identifiant international normalisé pour les noms (ISNI)"
     },
     "source": "https://www.transition-bibliographique.fr/B700_fre",
-    "note": "Les caractères | sont conservés comme caractères de remplissage. Les $o observés ne sont pas interprétés sans vérification complémentaire."
+    "note": "Le profil BnF confirme $o pour l’ISNI et | comme caractère de remplissage du deuxième indicateur. L’ISNI ne remplace pas l’identifiant d’autorité en $3.",
+    "sources": [
+      {
+        "label": "BnF — accès de personnes, p. 55–56",
+        "url": "https://www.bnf.fr/sites/default/files/2023-10/UNIMARC_B.pdf#page=55"
+      }
+    ]
   },
   "701": {
     "title": "Nom de personne — Autre responsabilité principale",
@@ -420,9 +530,17 @@
       "4": "Code de fonction",
       "a": "Élément d’entrée du nom",
       "b": "Autre partie du nom",
-      "f": "Dates associées au nom"
+      "f": "Dates associées au nom",
+      "o": "Identifiant international normalisé pour les noms (ISNI)"
     },
-    "source": "https://www.transition-bibliographique.fr/B701_fre"
+    "source": "https://www.transition-bibliographique.fr/B701_fre",
+    "sources": [
+      {
+        "label": "BnF — accès de personnes, p. 55–56",
+        "url": "https://www.bnf.fr/sites/default/files/2023-10/UNIMARC_B.pdf#page=55"
+      }
+    ],
+    "note": "Le profil BnF confirme $o pour l’ISNI et | comme caractère de remplissage du deuxième indicateur. L’ISNI ne remplace pas l’identifiant d’autorité en $3."
   },
   "702": {
     "title": "Nom de personne — Responsabilité secondaire",
@@ -443,46 +561,98 @@
       "4": "Code de fonction",
       "a": "Élément d’entrée du nom",
       "b": "Autre partie du nom",
-      "f": "Dates associées au nom"
+      "f": "Dates associées au nom",
+      "o": "Identifiant international normalisé pour les noms (ISNI)"
     },
-    "source": "https://www.transition-bibliographique.fr/B702_fre"
+    "source": "https://www.transition-bibliographique.fr/B702_fre",
+    "sources": [
+      {
+        "label": "BnF — accès de personnes, p. 55–56",
+        "url": "https://www.bnf.fr/sites/default/files/2023-10/UNIMARC_B.pdf#page=55"
+      }
+    ],
+    "note": "Le profil BnF confirme $o pour l’ISNI et | comme caractère de remplissage du deuxième indicateur. L’ISNI ne remplace pas l’identifiant d’autorité en $3."
   },
   "801": {
     "title": "Source de catalogage",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Décrit l’origine et les interventions des agences sur la notice, séparément de l’éditeur de la publication.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a, $b, $c, $h et $2 non répétables ; $g répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        "0": "Catalogage original",
+        "1": "Saisie",
+        "2": "Modification",
+        "3": "Diffusion"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "2": "Format utilisé",
+      "a": "Pays de l’agence",
+      "b": "Agence",
+      "c": "Date de la transaction",
+      "g": "Règles de catalogage",
+      "h": "Identifiant d’origine"
+    },
+    "source": "https://www.transition-bibliographique.fr/B801_fre"
   },
   "856": {
     "title": "Adresse électronique et mode d’accès",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "role": "Décrit une localisation électronique ou un accès. Les valeurs non absolues du corpus sont conservées sans être transformées en URL.",
     "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "repeatability": "Zone répétable ; $u non répétable dans le manuel CfU consulté.",
     "indicators": [
-      {},
-      {}
+      {
+        "0": "Messagerie",
+        "1": "FTP",
+        "2": "Telnet",
+        "3": "Téléphone",
+        "4": "HTTP",
+        "7": "Autre mode précisé en $y",
+        " ": "Mode non renseigné"
+      },
+      {
+        "0": "Ressource décrite",
+        "1": "Vignette",
+        "2": "Page de titre, sommaire ou autres éléments liminaires",
+        " ": "Complétude non renseignée"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "u": "URI — valeur d’origine conservée"
+    },
+    "source": "https://www.transition-bibliographique.fr/B856_fre",
+    "note": "La définition générale, les indicateurs et $u sont documentés. Le $b contient ici des libellés de couverture : cet emploi n’est confirmé ni par la définition CfU de $b (numéro d’accès), ni par le profil BnF 2023 consulté. Sa signification reste à vérifier. Aucune couverture n’est chargée.",
+    "sources": [
+      {
+        "label": "BnF — profil de diffusion, p. 59–60",
+        "url": "https://www.bnf.fr/sites/default/files/2023-10/UNIMARC_B.pdf#page=59"
+      }
+    ]
   },
   "930": {
     "title": "Localisation et cote — Données BnF",
     "role": "Conserve les informations locales de l’export BnF. Elles ne décrivent pas les exemplaires du réseau Koha.",
     "status": "Règle locale",
-    "repeatability": "Plusieurs occurrences sont présentes ; les modalités locales restent à vérifier.",
+    "repeatability": "Zone répétable ; $5 et $a non répétables selon la recommandation nationale.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/",
-    "note": "Ne pas importer ces localisations comme exemplaires du réseau sans traitement et validation du responsable du catalogue."
+    "subfields": {
+      "5": "Identifiant de l’exemplaire",
+      "a": "Cote complète"
+    },
+    "source": "https://www.transition-bibliographique.fr/Description_FormatUnimarcEchange_Exemplaire#page=29",
+    "note": "La structure générale de 930 est documentée. Dans ce corpus BnF, les valeurs des $b, $c et $d ne sont pas automatiquement assimilées aux niveaux de localisation de la recommandation nationale. Le code O/N reste à documenter. Ne pas les importer comme exemplaires Koha du réseau.",
+    "sourceLabel": "CfU — données d’exemplaire, zone 930"
   },
   "010": {
     "title": "ISBN",
@@ -506,62 +676,103 @@
   },
   "001": {
     "title": "Identifiant de notice",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Identifie la notice dans le système qui l’a produite ; ne pas le confondre avec l’ISBN du document.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable, sans indicateurs ni sous-champs.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
     "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "source": "https://www.transition-bibliographique.fr/B001_fre"
   },
   "003": {
     "title": "Identifiant pérenne de la notice",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Porte l’identifiant pérenne de la notice bibliographique, et non celui du document décrit.",
+    "status": "Vérifié",
+    "repeatability": "Zone non répétable, sans indicateurs ni sous-champs.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
     "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "source": "https://www.transition-bibliographique.fr/B003_fre"
   },
   "020": {
     "title": "Numéro de bibliographie nationale",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Identifie l’enregistrement dans une bibliographie nationale.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable selon le tableau du format IFLA ; les modalités détaillées des sous-champs restent à consulter.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "a": "Code du pays",
+      "b": "Numéro dans la bibliographie nationale"
+    },
+    "source": "https://www.bnf.fr/sites/default/files/2023-10/UNIMARC_B.pdf#page=11",
+    "sourceLabel": "BnF — format de diffusion, p. 11",
+    "sources": [
+      {
+        "label": "IFLA — tableau du format bibliographique (2025)",
+        "url": "https://repository.ifla.org/bitstreams/8ce7b1f2-90ce-40c4-8c03-66f3249d4cd9/download"
+      }
+    ],
+    "note": "La description BnF confirme les sous-champs rencontrés. Le PDF CfU de 020 n’a pas pu être consulté pendant cette revue ; la répétabilité est confirmée par l’extrait indexé du tableau IFLA, sans prétendre à une lecture intégrale de ce PDF."
   },
   "039": {
-    "title": "Historique de la notice — données BnF",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
+    "title": "Référence de notice récupérée — Profil BnF",
+    "role": "Conserve une référence issue d’un ancien système BnF.",
     "status": "Règle locale",
     "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        " ": "Non défini"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "o": "Source",
+      "a": "Numéro de contrôle",
+      "d": "Date de fusion ou mise à jour"
+    },
+    "source": "https://www.bnf.fr/sites/default/files/2023-10/UNIMARC_B.pdf#page=12",
+    "sourceLabel": "BnF — format de diffusion, p. 12",
+    "note": "Le profil BnF décrit ces sous-champs. La signification détaillée des codes OPP et NOE ainsi que la répétabilité ne sont pas extrapolées à partir des seuls exemples."
   },
   "073": {
     "title": "EAN",
-    "role": "Cette zone est conservée intégralement dans l’export. Utilisez la source de référence pour en vérifier les règles détaillées.",
-    "status": "À vérifier",
-    "repeatability": "À vérifier dans la documentation de la zone ; les occurrences présentes sont affichées séparément.",
+    "role": "Enregistre le numéro international d’article, distinct de la mise en forme de l’ISBN en 010.",
+    "status": "Vérifié",
+    "repeatability": "Zone répétable ; $a non répétable.",
     "indicators": [
-      {},
-      {}
+      {
+        " ": "Non défini"
+      },
+      {
+        "0": "Comparaison non renseignée",
+        "1": "Pas de différence entre forme lue et scannée",
+        "2": "Différence entre les deux formes"
+      }
     ],
-    "subfields": {},
-    "source": "https://www.transition-bibliographique.fr/unimarc/manuel-unimarc-format-bibliographique/"
+    "subfields": {
+      "a": "Numéro normalisé"
+    },
+    "source": "https://www.transition-bibliographique.fr/B073_fre"
   }
 }

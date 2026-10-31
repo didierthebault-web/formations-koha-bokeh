@@ -1,5 +1,7 @@
 # Première vérification visuelle — 31 octobre 2026
 
+Ce rapport décrit l’étape initiale (commit `98de889`). La [revue documentaire complémentaire](notices-revue-documentaire.md) présente les définitions ajoutées ensuite et l’état actuel des points restant à vérifier. Les captures ont été actualisées avec ce complément.
+
 ## Résultat
 
 Les deux notices demandées ont été examinées dans Chromium, après import fidèle des cinq exports. La fiche sépare les mentions bibliographiques et l’explorateur permet de lire chaque occurrence en entier. La nouvelle bibliothèque reste dans une branche dédiée, sans fusion ni publication en production.

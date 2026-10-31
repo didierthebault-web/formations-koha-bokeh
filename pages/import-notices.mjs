@@ -18,7 +18,7 @@ export function importNotices(){
   if(/[\u0098\u009c]/.test(JSON.stringify(r)))warnings.push('Caractères de non-classement conservés ; visualisation explicite dans les données brutes.');
   if(r.fields.some(f=>f.tag==='856'&&f.subfields.some(s=>s.code==='u'&&!/^https?:\/\//.test(s.value))))warnings.push('Identifiants 856$u non absolus : conservés, sans lien ni récupération de couverture.');
   if(r.leader[7]===' ')warnings.push('Niveau bibliographique blanc dans le label source : conservé sans correction.');
-  if(r.fields.some(f=>f.tag==='330'&&f.subfields.some(s=>s.code==='2')))warnings.push('330$2 présent : extension non décrite dans la traduction CfU 2010 ; définition à vérifier.');
+  if(r.fields.some(f=>f.tag==='330'&&f.subfields.some(s=>s.code==='2')))warnings.push('330$2 présent : source du résumé documentée dans le profil BnF 2023, absente de la traduction CfU 2010.');
   records.push(r);report.push({file,ark:r.ark,bytes:bytes.length,sha256:r.sourceSha256,fields:r.fields.length,roundTrip:'identique',warnings});
  }
  assert.equal(records.length,metadata.length);records.sort((a,b)=>metadata.findIndex(m=>m.ark===a.ark)-metadata.findIndex(m=>m.ark===b.ark));
